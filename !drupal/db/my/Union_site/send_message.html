@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Union</title>
+	
+	<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+	<link rel="SHORTCUT ICON" href="favicon.ico"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+	<script type="text/javascript" src="static/js/menu-lights.js"></script>
+	<script type="text/javascript" src="mail_ajax.js"></script>
+</head>
+
+<body class="send_message">
+
+ 
+	<div class="center">
+		<div class="header">
+			<a href="index.html"><img class="logo" alt="logo" src="static/images/logo.png" /></a>
+			 <div class="nav">
+			 	<div class="clear"></div>
+					 <div class="nav_right">
+						<ul>
+							<li class="first" id="nav1"  onmouseover="light_on('nav1');" onmouseout="light_off('nav1');">
+								<a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</li>
+							<li id="nav2"  onmouseover="light_on('nav2');" onmouseout="light_off('nav2');">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li id="nav3" onmouseover="light_on('nav3');" onmouseout="light_off('nav3');">
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li id="nav4" onmouseover="light_on('nav4');" onmouseout="light_off('nav4');">
+								<a href="contacts.html">Контакты</a>
+							</li>
+							<li class="last">
+								<form action="">
+								<input onblur="if(this.value == '') { this.value='Поиск по сайту...'}" onfocus="if (this.value == 'Поиск по сайту...') {this.value=''}" class="search" type="text" value="Поиск по сайту..." />
+								<input class="search_button" type="submit" value="" />
+								</form>
+							</li>
+						</ul>
+					</div> 
+              </div> 
+		</div>
+		<div class="mainbody">
+			
+			<div class="mainbody_top">
+				<div class="shadow">
+					<div class="left">
+						<h3>Контактные телефоны:</h3>
+						<ul>
+							<li><span>vel. 8 (029) 567-05-00</span></li>
+							<li><span>mts. 8 (029) 507-15-00</span></li>
+							<li><span>life:) 8 (029) 185-15-00</span></li>
+						</ul>
+						<h3>Skype:</h3>
+						<ul>
+							<li><span><a href="skype:ilya.talovyra?add" onclick="return skypeCheck()"><img src="http://mystatus.skype.com/smallicon/ilya%2Etalovyra" style="border: none;" width="16" height="16" alt="My status" />talovyra.ilya</a></span></li>
+							<li><span><a href="skype:Pikasso1986?add" onclick="return skypeCheck()"><img src="http://mystatus.skype.com/smallicon/Pikasso1986" style="border: none;" width="16" height="16" alt="My status" />pikasso1986</a></span></li>
+						</ul>
+						<h3>Адрес:</h3>
+						<ul>
+							<li><span>ул.Нововиленская 38, эт.3</span></li>
+						</ul>
+						<!--<img alt="office" src="static/images/office_photo.jpg" />-->
+					</div>					
+					<div class="right">
+						 <form name="mail_form" action="" method="post">
+							<label for="name">Ваше имя*</label>
+							<input type="text" name="name" id="name" value="" maxlength="20" /><br />
+							<label for="email">Ваш email*</label>
+							<input type="text" name="email" id="email" value="" maxlength="50" /><br />
+							<label for="message">Ваш вопрос*</label>
+							<textarea name="message" id="message" cols="20" rows="10"></textarea><br />
+							<input class="button" type="button"  name="save" value="Отправить" onclick="sendMail()"/>
+							
+						</form>
+						<div class="clear"></div>
+						<!-- Картинка загрузки -->
+							<div id="load1" style="display:none;"><img id="preloader" src="static/images/load.gif" /></div>
+						<!-- Где будеть показана картинка загрузки и ответ от сервера-->
+							<div id="answer" class="panel" style="width:600px;"></div>
+						
+	
+							
+					</div> 
+					<div class="clear"></div>
+					
+				</div>
+			</div>
+			
+			<div class="mainbody_bottom">
+				<div class="wide">
+					<h2>О компании</h2>
+					<p>Типография «Union» предлагает вам полный спектр полиграфических услуг: печать открыток, календарей, афиш, нанесение логотипов и изображений, оперативная полиграфия. Кроме того, наша типография изготовит фирменные сувениры с логотипом Вашей фирмы.</p>
+					<p>В распоряжении нашей типографии самое современное оборудование для изготовления полиграфии, опытные специалисты и, конечно, только качественные расходные материалы. Благодаря использованию новых современных систем управления и модернизации производственной базы, внедрению эффективных средств автоматизации процесса печати и контроля, наша типография стабильно удерживает лидирующие позиции на рынке полиграфии Беларуси. Но главный секрет успеха – это индивидуальная работа с каждым клиентом.</p>
+					
+				</div>
+				
+				<div class="clear"></div>		 
+			</div>						 
+		</div>
+		
+		<div class="footer">
+		   <div class="nav">
+			 			<ul>
+							<li class="first">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li>
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li>
+								<a href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					
+              </div>  
+		</div>
+	</div>		
+
+
+
+</body>
+</html>

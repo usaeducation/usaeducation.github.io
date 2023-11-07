@@ -1,0 +1,802 @@
+# Russian translation of admin_menu (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  admin_menu.inc,v 1.1.4.18 2008/12/17 09:10:24 sun
+#  admin_menu.module,v 1.26.2.33 2008/11/02 21:36:36 sun
+#  admin_menu.inc,v 1.78 2010/11/13 22:47:52 sun
+#  admin_views.info,v 1.1.2.1 2009/08/15 18:59:25 sun
+#  admin_menu_toolbar.info,v 1.1.2.2 2009/08/16 20:55:33 sun
+#  admin_menu.info,v 1.3.6.1 2007/12/02 06:25:51 sun
+#  admin_views.info,v 1.4 2010/03/11 01:14:17 sun
+#  admin_menu_toolbar.info,v 1.2 2010/02/19 20:26:34 sun
+#  admin_devel.info,v 1.4 2010/09/15 03:41:58 sun
+#  admin_menu.info,v 1.13 2010/07/28 02:03:42 sun
+#  admin_menu.module,v 1.114 2010/09/15 03:41:58 sun
+#  views_plugin_display_system.inc,v 1.1.2.1 2010/03/11 01:10:55 sun
+#  views_plugin_display_system.inc,v 1.3 2010/03/11 02:20:14 sun
+#  admin_menu_toolbar.module,v 1.4 2010/02/19 23:19:00 sun
+#  admin_views.views.inc,v 1.1.2.1 2010/03/11 01:10:55 sun
+#  admin_views.views.inc,v 1.2 2010/03/11 01:14:17 sun
+#  admin_menu_toolbar.module,v 1.3.2.2 2009/08/16 20:55:33 sun
+#  admin_devel.module,v 1.4 2010/09/15 03:41:58 sun
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: admin_menu (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:18+0000\n"
+"PO-Revision-Date: 2010-10-26 18:18+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: admin_menu.inc:300,434,323,540,662; admin_menu.module:427
+msgid "Weight"
+msgstr "Вес"
+
+#: admin_views/admin_views.info:0,0; admin_menu_toolbar/admin_menu_toolbar.info:0,0; admin_menu.info:0,0; admin_devel/admin_devel.info:0; admin_menu.module:74
+msgid "Administration"
+msgstr "Администрирование"
+
+#: admin_views/plugins/views_plugin_display_system.inc:151,151
+msgid "Path"
+msgstr "Адрес"
+
+#: admin_menu.inc:451,391,474,634,817; admin_menu.module:318; admin_menu_toolbar/admin_menu_toolbar.module:53
+msgid "Home"
+msgstr "Главная"
+
+#: admin_views/admin_views.views.inc:28,19,28,19
+msgid "System"
+msgstr "Система"
+
+#: admin_menu.inc:133,166
+msgid "Administer"
+msgstr "Управление"
+
+#: admin_menu.inc:77,150,77,184,438
+msgid "Run cron"
+msgstr ""
+"Запустить выполнение регулярных "
+"процедур"
+
+#: admin_menu.inc:192,215,553
+msgid "Log out"
+msgstr "Выйти"
+
+#: admin_menu.inc:235,377,258,446,596
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
+#: admin_menu.module:422
+msgid "Administration Menu settings"
+msgstr "Настройки Меню Администрирования"
+
+#: admin_menu.inc:310,444,333,550,672; admin_menu.module:437
+msgid "Display all menu items"
+msgstr "Отобразить все пункты меню"
+
+#: admin_menu.module:439
+msgid ""
+"Enable this option to disable user access checks for menu items, i.e. "
+"every menu item in the visible menu tree will be displayed to every "
+"user regardless of access permissions."
+msgstr ""
+"Включите эту опцию для отключения "
+"проверки прав пользователя для "
+"пунктов меню, т.е. каждый пункт меню "
+"будет показываться любому "
+"пользователю, независимо от прав "
+"доступа."
+
+#: admin_menu.module:34,31,49,34
+msgid "access administration menu"
+msgstr "доступ к меню управления"
+
+#: admin_menu.module:20
+msgid ""
+"Renders the administer menu tree as dropdown menu at the top of the "
+"window."
+msgstr ""
+"Создает сверху страницы выпадающее "
+"меню администрирования."
+
+#: admin_views/plugins/views_plugin_display_system.inc:143,143; admin_menu.inc:300,434,323,540,662; admin_menu.module:427
+msgid "None"
+msgstr "Нет"
+
+#: admin_menu.inc:128,151,488
+msgid "Menu"
+msgstr "Меню"
+
+#: admin_menu.module:427
+msgid "Id"
+msgstr "Id"
+
+#: admin_menu_toolbar/admin_menu_toolbar.module:68,68,76
+msgid "Add content"
+msgstr "Добавить содержимое"
+
+#: admin_menu.inc:213,243
+msgid "Add !title"
+msgstr "Создать !title"
+
+#: admin_menu.info:0; admin_menu.module:65
+msgid "Administration Menu"
+msgstr "Администрирование"
+
+#: admin_menu.inc:215
+msgid "@name"
+msgstr "@name"
+
+#: admin_menu.inc:84,152,84,187,445
+msgid "Run updates"
+msgstr "Запустить обновления"
+
+#: admin_menu.inc:168,192
+msgid "Drupal.org"
+msgstr "Drupal.org"
+
+#: admin_menu.inc:169,193
+msgid "Drupal issue queue"
+msgstr "Очередь ошибок Drupal"
+
+#: admin_menu.inc:183,207
+msgid "@title issue queue"
+msgstr "@title очередь ошибок"
+
+#: admin_menu.inc:191
+msgid "Logout @name"
+msgstr "@name, выйти"
+
+#: admin_menu.inc:180,203,541; admin_menu.module:303,398,596
+msgid "Current anonymous / authenticated users"
+msgstr ""
+"Сейчас гостей / зарегистрированных "
+"пользователей"
+
+#: admin_menu.module:427
+msgid "Parent id"
+msgstr "ID родителя"
+
+#: admin_menu.module:430
+msgid "Display extra information for menu items in Drupal Administration Menu"
+msgstr ""
+"Показывать дополнительную информацию "
+"в пунктах Меню Администрирования Drupal"
+
+#: admin_menu.module:433
+msgid ""
+"If enabled, the chosen information will appear next to each menu item "
+"link."
+msgstr ""
+"Если включено, выбранная информация "
+"будет появляться рядом с каждым "
+"пунктом меню."
+
+#: admin_menu.inc:157,180,518; admin_menu.module:463,623
+msgid "Variable editor"
+msgstr "Редактор переменных"
+
+#: admin_menu.module:469,629
+msgid "Empty cache"
+msgstr "Очистить кэш"
+
+#: admin_menu.module:34,31,49,34
+msgid "display drupal links"
+msgstr "показать drupal ссылки"
+
+#: admin_menu.info:0
+msgid ""
+"Renders a menu tree for administrative purposes as dropdown menu at "
+"the top of the window."
+msgstr ""
+"Создаёт иерархическое меню для "
+"административных целей в виде "
+"выпадающего меню на верху окна."
+
+#: admin_menu.inc:130,153,491
+msgid "Theme registry"
+msgstr "Реестр функций оформления"
+
+#: admin_menu_toolbar/admin_menu_toolbar.module:72,72,80
+msgid "Find content"
+msgstr "Искать содержимое"
+
+#: admin_menu.inc:222
+msgid "Logout"
+msgstr "Выход"
+
+#: admin_menu.module:23
+msgid ""
+"The Administration Menu will appear at the top of the page for users "
+"who have been given the \"access administration menu\" permission.  "
+"Customize appearance of the dropdown menu here."
+msgstr ""
+"Меню администрирования появится "
+"вверху страницы для пользователей, "
+"имеющих право \"доступ к меню "
+"администратора\". Настройте внешность "
+"выпадающего меню ниже."
+
+#: admin_menu.module:110,41
+msgid "Apply margin-top to page body"
+msgstr ""
+"Применить отступ сверху к телу "
+"страницы"
+
+#: admin_menu.module:66
+msgid "Adjust settings for the dropdown Administration Menu."
+msgstr ""
+"Скорректировать параметры для "
+"всплывающего Меню Администрирования."
+
+#: admin_menu.inc:271,240,224,301,270,254
+msgid "Edit !name"
+msgstr "Редактировать !name"
+
+#: admin_menu.inc:144,280,160,167,314,505
+msgid "Enable developer modules"
+msgstr "Включить dev модули"
+
+#: admin_menu.inc:144,280,160,167,314,505
+msgid "Disable developer modules"
+msgstr "Отключить dev модули"
+
+#: admin_menu.module:112
+msgid ""
+"If enabled, the output of this site will be shifted for approx. 20 "
+"pixels from the top of the viewport to make room for the "
+"Administration Menu. If this setting is disabled, some absolute or "
+"fixed positioned page elements at the top of the viewport may be "
+"covered by Administration Menu."
+msgstr ""
+"Если включено, вывод этого сайта будет "
+"сдвинут вниз примерно на 20 пикселей от "
+"верха области просмотра для создания "
+"места и отображения Меню "
+"Администрирования . Если эта опция "
+"выключено, некоторые элементы "
+"страницы с фиксированным или "
+"абсолютным расположением сверху "
+"области просмотра могут быть "
+"перекрыты Меню Администрирования ."
+
+#: admin_menu.module:122
+msgid "Drupal Administration Tweaks"
+msgstr "Достижения Администрирования Drupal"
+
+#: admin_menu.inc:239,381,262,456,600; admin_menu.module:132
+msgid "Collapse fieldsets on modules page"
+msgstr "Свернуть группы на странице модулей"
+
+#: admin_menu.module:134
+msgid ""
+"If enabled, fieldsets on the <a href=\"!modules-url\">Site building "
+"&raquo; Modules</a> page will be initially collapsed."
+msgstr ""
+"Если включено, наборы полей на "
+"странице <a href=\"!modules-url\">Конструкция "
+"сайта &raquo; Модули</a> будут "
+"первоначально свернуты."
+
+#: admin_menu.module:137
+msgid ""
+"If you installed Utility module for this purpose, you can safely "
+"uninstall it now!"
+msgstr ""
+"Если вы устанавливали Сервисный "
+"модуль с этой целью, теперь вы можете "
+"благополучно его деинсталировать!"
+
+#: admin_menu.module:305
+msgid "@count-anon / @count-auth !icon"
+msgstr "@count-anon / @count-auth !icon"
+
+#: admin_menu.module:126; admin_menu.inc:450
+msgid "Collapse menus in menu administration"
+msgstr ""
+"Сворачивать меню в меню "
+"администрирования"
+
+#: admin_menu.module:128; admin_menu.inc:452
+msgid ""
+"If enabled, menu containers on the <a href=\"!menu-url\">Site building "
+"&raquo; Menus</a> page will be collapsed like fieldsets."
+msgstr ""
+"Если включено, контейнеры меню на "
+"странице <a href=\"!menu-url\">Конструкция "
+"сайта &raquo; Меню</a> будут свернуты как "
+"набор полей."
+
+#: admin_menu.module:518,527
+msgid "Re-enabled these modules: !module-list."
+msgstr "Снова включить эти модули: !module-list."
+
+#: admin_menu.inc:341,475,364,581,703; admin_menu.module:529,538
+msgid "Disabled these modules: !module-list."
+msgstr "Отключить эти модули: !module-list."
+
+#: admin_menu.inc:345,479,368,585,707; admin_menu.module:532,541
+msgid "No developer modules are enabled."
+msgstr "Модули dev не включены"
+
+#: admin_views/plugins/views_plugin_display_system.inc:183,183
+msgid "\"%\" may not be used for the first segment of a path."
+msgstr ""
+"\"%\" не может быть использован в "
+"качестве первого сегмента пути."
+
+#: admin_menu.inc:401
+msgid "Wipe and rebuild"
+msgstr "Восстановить"
+
+#: admin_menu.module:32
+msgid "Access administration menu"
+msgstr "Доступ к меню администратора"
+
+#: admin_menu.module:116
+msgid "Use fixed instead of absolute positioning"
+msgstr ""
+"Использовать фиксированное "
+"расположение вместо абсолютного"
+
+#: admin_menu.module:118
+msgid ""
+"If enabled, the administration menu will always stay at the top of the "
+"browser viewport, even if you scroll down the page."
+msgstr ""
+"Если включено, меню администрирования "
+"будет всегда оставаться наверху "
+"области просмотра браузера, даже если "
+"вы прокручиваете страницу."
+
+#: admin_menu.module:118
+msgid ""
+"<strong>Note:</strong> In some browsers this setting might cause "
+"malformed page contents, a disappearing cursor and not editable select "
+"lists in forms. If such effects occur, this setting should be "
+"disabled."
+msgstr ""
+"<strong> Отметьте:</strong> В некоторых "
+"браузерах такая настройка может бы "
+"вызвать уродливое содержание "
+"страницы, исчезающий курсор и "
+"нередактируемые списки выбора в "
+"формах. Если такие эффекты происходят, "
+"эта настройка должна быть отключена."
+
+#: admin_menu.module:141
+msgid "Move page tabs into administration menu"
+msgstr ""
+"Переместить вкладки страницы в меню "
+"администрирования"
+
+#: admin_menu.module:143
+msgid ""
+"If enabled, tabs of the current page (usually displayed next or below "
+"the page title) will be moved into the administration menu. This "
+"feature requires that the theme is using the CSS classes <code>tabs "
+"primary</code> and <code>tabs secondary</code> for tabs (like "
+"Garland)."
+msgstr ""
+"Если включено, вкладки на текущей "
+"странице (обычно отображаются рядом "
+"или ниже от заголовка страницы) будут "
+"перенесены в меню управления. Эта "
+"особенность требует, чтобы тема "
+"использовала классы CSS <code>tabs primary</code> "
+"and <code>tabs secondary</code> для вкладок (как в "
+"Garland)."
+
+#: admin_menu.inc:223,365,246,434,584
+msgid "Adjust top margin"
+msgstr "Применить верхний отступ"
+
+#: admin_menu.inc:225,367,248,436,586
+msgid ""
+"If enabled, the site output is shifted down approximately 20 pixels "
+"from the top of the viewport to display the administration menu. If "
+"disabled, some absolute- or fixed-positioned page elements may be "
+"covered by the administration menu."
+msgstr ""
+"Если включено, вывод сайта сдвинется "
+"вниз приблизительно на 20 пикселей от "
+"вершины области просмотра, чтобы "
+"отобразить меню управления. Если "
+"выключено, некоторые элементы "
+"страницы с абсолютным или "
+"фиксированным положением могут быть "
+"перекрыты этим меню."
+
+#: admin_menu.inc:229,371,252,440,590
+msgid "Keep menu at top of page"
+msgstr "Закрепить меню сверху страницы"
+
+#: admin_menu.inc:231,373,254,442,592
+msgid ""
+"If enabled, the administration menu is always displayed at the top of "
+"the browser viewport (even after the page is scrolled). <strong>Note: "
+"In some browsers, this setting results in a malformed page, an "
+"invisible cursor, non-selectable elements in forms, or other issues. "
+"Disable this option if these issues occur.</strong>"
+msgstr ""
+"Если включено, меню управления будет "
+"всегда отображаться сверху области "
+"просмотра браузера (даже после "
+"прокрутки страницы). <strong>Примечание: В "
+"некоторых браузерах эта установка "
+"приведет к искаженной странице, "
+"невидимому курсору, невыбираемым "
+"элементам форм, или другим проблемам. "
+"Отключите эту опцию, если эти проблемы "
+"происходят.</strong>"
+
+#: admin_menu.inc:241,383,264,458,602
+msgid ""
+"If enabled, fieldsets on the <a href=\"!modules-url\">modules</a> page "
+"are automatically collapsed when loading the page."
+msgstr ""
+"Если включено, группы на странице <a "
+"href=\"%21modules-url\">модули</a> автоматически "
+"свернуться при загрузке страницы."
+
+#: admin_menu.inc:244,386,267,461,605
+msgid ""
+"If the Utility module was installed for this purpose, it can be safely "
+"disabled and uninstalled."
+msgstr ""
+"Если Сервисный модуль был установлен "
+"с этой целью, он может быть безопасно "
+"отключен и удален."
+
+#: admin_menu.inc:254,390,277,465,615
+msgid "Move local tasks into menu"
+msgstr "Перенести локальные задачи в меню"
+
+#: admin_menu.inc:256,392,279,467,617
+msgid ""
+"If enabled, the tabs on the current page are moved into the "
+"administration menu. This feature is only available in themes that use "
+"the CSS classes <code>tabs primary</code> and <code>tabs "
+"secondary</code> for tabs."
+msgstr ""
+"Если включено, вкладки на текущей "
+"странице переместятся в меню "
+"управления. Эта особенность доступна "
+"только в темах, которые используют CSS "
+"классы <code>tabs primary</code> и <code>tabs secondary</code> "
+"для вкладок."
+
+#: admin_menu.inc:397
+msgid ""
+"If the administration menu displays duplicate menu items, you may need "
+"to rebuild your menu items using the <em>Wipe and rebuild</em> button."
+msgstr ""
+"Если меню управления отображает "
+"дубликаты элементов меню, вам может "
+"потребоваться восстановить ваши "
+"элементы меню, используя кнопку "
+"<em>Восстановить</em>"
+
+#: admin_menu.inc:295,429,318,535,657
+msgid "Administration menu settings"
+msgstr "Настройки меню управления"
+
+#: admin_menu.inc:300,434,323,540,662
+msgid "Menu link ID"
+msgstr "ID ссылки меню"
+
+#: admin_menu.inc:300,434,323,540,662
+msgid "Parent link ID"
+msgstr "ID дочерней ссылки"
+
+#: admin_menu.inc:303,437,326,543,665
+msgid "Display additional data for each menu item"
+msgstr ""
+"Показать дополнительные данные для "
+"каждого элемента меню"
+
+#: admin_menu.inc:306,440,329,546,668
+msgid "Display the selected items next to each menu item link."
+msgstr ""
+"Показать выбранные элементы рядом с "
+"каждой ссылкой пункта меню."
+
+#: admin_menu.inc:312,446,335,552,674
+msgid ""
+"If enabled, all menu items are displayed regardless of your site "
+"permissions. <em>Note: Do not enable on a production site.</em>"
+msgstr ""
+"Если включено, все пункты меню "
+"отобразятся независимо от разрешений "
+"сайта. <em>Примечание: не включать на "
+"рабочем сайте.</em>"
+
+#: admin_menu.inc:328,463,351,568,690
+msgid "Enabled these modules: !module-list."
+msgstr "Включить эти модули: !module-list."
+
+#: admin_menu.module:19,16,19,15
+msgid ""
+"The administration menu module provides a dropdown menu arranged for "
+"one- or two-click access to most administrative tasks and other common "
+"destinations (to users with the proper permissions). Use the settings "
+"below to customize the appearance of the menu."
+msgstr ""
+"Модуль меню управления обеспечивает, "
+"всплывающее меню, помогающее всего за "
+"один - или два щелчка обратится к "
+"большинству административных задач и "
+"другим общим адресатам (пользователям "
+"с надлежащими разрешениями). "
+"Используйте настройки ниже, чтобы "
+"настроить появление меню."
+
+#: admin_menu.module:23,20,23,19
+msgid ""
+"The administration menu module provides a dropdown menu arranged for "
+"one- or two-click access to most administrative tasks and other common "
+"destinations (to users with the proper permissions). Administration "
+"menu also displays the number of anonymous and authenticated users, "
+"and allows modules to add their own custom menu items. Integration "
+"with the menu varies from module to module; the contributed module <a "
+"href=\"@drupal\">Devel</a>, for instance, makes strong use of the "
+"administration menu module to provide quick access to development "
+"tools."
+msgstr ""
+"Модуль меню управления обеспечивает, "
+"всплывающее меню, помогающее всего за "
+"один - или два щелчка обратится к "
+"большинству административных задач и "
+"другим общим адресатам (пользователям "
+"с надлежащими разрешениями). Меню "
+"управления также отображает число "
+"анонимных и зарегистрированных "
+"пользователей, и позволяет модулям "
+"добавлять их собственные пункты меню. "
+"Интеграция с меню изменяется от "
+"модуля к модулю; например, "
+"дополнительный модуль <a "
+"href=\"@drupal\">Devel</a>, делает использование "
+"модуля меню управления мощьным, чтобы "
+"обеспечить быстрый доступ к "
+"инструментальным средствам "
+"разработки."
+
+#: admin_menu.module:24,21,24,20
+msgid ""
+"The administration menu <a href=\"@settings\">settings page</a> allows "
+"you to modify some elements of the menu's behavior and appearance. "
+"Since the appearance of the menu is dependent on your site theme, "
+"substantial customizations require modifications to your site's theme "
+"and CSS files. See the advanced module README.txt file for more "
+"information on theme and CSS customizations."
+msgstr ""
+"<a href=\"@settings\">Страница настройки</a> меню "
+"управления позволяет вам изменять "
+"некоторые элементы поведения и "
+"появления меню. Так как появление меню "
+"зависит от темы вашего сайта, "
+"существенные настройки требуют "
+"изменения темы вашего сайта и файлов "
+"CSS. Смотри файл README.txt расширенного "
+"модуля для получения дополнительной "
+"информации о теме и настройках CSS."
+
+#: admin_menu.module:25,22,25,21
+msgid ""
+"The menu items displayed in the administration menu depend upon the "
+"actual permissions of the viewer. First, the administration menu is "
+"only displayed to users in roles with the <em>Access administration "
+"menu</em> (admin_menu module) permission. Second, a user must be a "
+"member of a role with the <em>Access administration pages</em> (system "
+"module) permission to view administrative links. And, third, only "
+"currently permitted links are displayed; for example, if a user is not "
+"a member of a role with the permissions <em>Administer "
+"permissions</em> (user module) and <em>Administer users</em> (user "
+"module), the <em>User management</em> menu item is not displayed."
+msgstr ""
+"Пункты меню, показанные в меню "
+"управления зависят от фактических "
+"разрешений пользователя. Во-первых, "
+"меню управления показывается только "
+"пользователям с разрешением ролей "
+"<em>Доступ к меню управления</em> (admin_menu "
+"модуль) . Во вторых, пользователь "
+"должен быть членом роли с разрешением "
+"<em>Доступ к страницам управления</em> "
+"(модуль system), чтобы просматривать "
+"административные ссылки. И, третье, "
+"только в настоящее время разрешено, "
+"чтобы ссылки были показаны; например, "
+"если пользователь не член роли с "
+"разрешениями <em>Управление "
+"разрешениями</em> (модуль user) и <em> "
+"Управление пользователями</em> (модуль "
+"user), <em>Управление пользователями</em> "
+"пункт меню не показан."
+
+#: admin_menu.module:65,51,65,58,82; admin_menu.inc:126,149,486; admin_menu.info:0,0
+msgid "Administration menu"
+msgstr "Administration menu"
+
+#: admin_menu.module:66,52,66,59,83
+msgid "Adjust administration menu settings."
+msgstr ""
+"Приспособьте параметры настройки "
+"меню администрации."
+
+#: admin_menu.info:0,0
+msgid ""
+"Provides a dropdown menu to most administrative tasks and other common "
+"destinations (to users with the proper permissions)."
+msgstr ""
+"Добавляет всплывающее меню для "
+"большинства административных и "
+"других общих задач (для пользователей "
+"с соответствующими правами)."
+
+#: admin_menu.module:33
+msgid "Display the administration menu at the top of each page."
+msgstr ""
+"Отображать Меню Администрирования "
+"вверху каждой страницы."
+
+#: admin_menu.module:40
+msgid "Display Drupal links"
+msgstr "Отображать ссылки Drupal"
+
+#: admin_menu.module:41
+msgid "Provide Drupal.org links in the administration menu."
+msgstr ""
+"Показывать ссылки Drupal.org в Меню "
+"Администрирования."
+
+#: admin_menu.module:473,482,295,333
+msgid "@count-anon / @count-auth"
+msgstr "@count-anon / @count-auth"
+
+#: admin_menu.inc:106,128,467
+msgid "@project issue queue"
+msgstr "@project очередь ошибок"
+
+#: admin_menu.inc:116,139,477
+msgid "Flush all caches"
+msgstr "Очистить все кэши"
+
+#: admin_menu.inc:127,150,487
+msgid "Cache tables"
+msgstr "Кэш таблиц"
+
+#: admin_menu.inc:129,152,490
+msgid "Page requisites"
+msgstr "Реквизиты страницы"
+
+#: admin_menu_toolbar/admin_menu_toolbar.module:58,58,66
+msgid "Show shortcuts"
+msgstr "Показать сочетания клавиш"
+
+#: admin_menu_toolbar/admin_menu_toolbar.module:49,49,57
+msgid "Hello <strong>@username</strong>"
+msgstr "Здравствуйте, <strong>@username</strong>."
+
+#: admin_menu.inc:273,296,484,635
+msgid "Developer modules to keep enabled"
+msgstr "Держать включенными dev модули"
+
+#: admin_menu.inc:277,300,488,639
+msgid ""
+"Enabled developer modules in this list will not be disabled when the "
+"link <em>Disable developer modules</em> in the menu below the icon is "
+"invoked."
+msgstr ""
+"Разрешить dev модулям из этого списка "
+"не отключаться при вызове ссылки "
+"<em>Отключить dev модули</em> в меню под "
+"иконкой."
+
+#: admin_menu_toolbar/admin_menu_toolbar.info:0,0
+msgid "Administration menu Toolbar style"
+msgstr ""
+"Административное меню панели "
+"инструментов стиля"
+
+#: admin_menu_toolbar/admin_menu_toolbar.info:0,0
+msgid "A better Toolbar."
+msgstr "Улучшенная Панель инструментов."
+
+#: admin_views/admin_views.info:0,0
+msgid "Administration views"
+msgstr "Административное представление"
+
+#: admin_views/admin_views.info:0,0
+msgid ""
+"Replaces all system object management pages in Drupal core with real "
+"views."
+msgstr ""
+"Заменяет Drupal систему управления "
+"страницами в  ядре представлениями."
+
+#: admin_menu.module:75
+msgid "Administration tools."
+msgstr "Средства администрирования."
+
+#: admin_menu.inc:489
+msgid "Class registry"
+msgstr "Класс реестра"
+
+#: admin_menu.module:36
+msgid "Flush caches"
+msgstr "Очистить кэш"
+
+#: admin_menu.module:37
+msgid "Access links to flush caches in the administration menu."
+msgstr ""
+"Доступ к ссылкам сброса кэша в меню "
+"управления."
+
+#: admin_menu.inc:248,271,609
+msgid "Collapse modules on permissions page"
+msgstr ""
+"Конфликт модулей на странице "
+"разрешений"
+
+#: admin_menu.inc:250,273,611
+msgid ""
+"Collapses permissions by module on the <a "
+"href=\"@permissions-url\">permissions</a> page."
+msgstr ""
+"Конфликты разрешений модуля на <a "
+"href=\"@permissions-url\">странице разрешений</a>"
+
+#: admin_devel/admin_devel.info:0
+msgid "Administration Development tools"
+msgstr ""
+"Административно-отладочные "
+"инструменты"
+
+#: admin_devel/admin_devel.info:0
+msgid ""
+"Administration and debugging functionality for developers and site "
+"builders."
+msgstr ""
+"Административная и отладочная "
+"функциональность для разработчиков и "
+"сайтостроителей."
+
+#: admin_views/admin_views.views.inc:20,20
+msgid "Display the view as replacement for an existing menu path."
+msgstr ""
+"Отображает представление как замену "
+"существующему пути меню."
+
+#: admin_views/plugins/views_plugin_display_system.inc:138,138
+msgid "System path settings"
+msgstr "Настройки системного пути"
+
+#: admin_views/plugins/views_plugin_display_system.inc:164,164
+msgid "An existing menu path this view replaces"
+msgstr ""
+"Существующее меню заменяет это "
+"представление."
+
+#: admin_views/plugins/views_plugin_display_system.inc:167,167
+msgid ""
+"This view replaces this path on your site. You may use \"%\" for "
+"dynamic arguments. For example: \"node/%/feed\"."
+msgstr ""
+"Это представление заменяет этот путь "
+"на вашем сайте. Вы можете использовать "
+"\"%\" для динамических аргументов. "
+"Например: \"node/%/feed\"."
+
+#: admin_devel/admin_devel.module:22,15
+msgid "Rebuild system links"
+msgstr "Восстановить системные ссылки"
+
+#: admin_devel/admin_devel.module:38,31
+msgid "System links derived from menu router paths have been rebuilt."
+msgstr ""
+

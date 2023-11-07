@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head> 
+ <title>mobile site</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css"  href="static/mobile.css" />  
+<link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="static/images/favapple.png" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="clear type" content="on" />
+<meta name="viewport"content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<link rel="alternate" media="handheld" href="" />
+  
+ </head>
+ <body class="nmc_page">
+  <div class="header">
+   <!--<img src="static/images/logo.png" alt="logo" width="93" height="30" />-->
+   <ul>
+     					<li>
+                            <a href="account_free.html">Account</a>
+                        </li>
+                        <li>
+                            <a href="search_form.html">Search</a>
+                        </li>
+                        <li>
+                            <a href="edit_profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <a href="favorites.html">Favourites</a>
+                        </li>
+                        <li>
+                            <a href="messages.html">Messages</a>
+                        </li>
+                        <li>
+                            <a href="avatars_select.html">Avatars</a>
+                        </li>
+                        <li>
+                            <a href="support_chat.html">Support Chat Live</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+   </ul>
+  </div>
+  <div class="mainbody">
+   
+	
+	<div class="panel_edit_profile">
+	<form action=nmc.php name=register_form method=POST onsubmit="return SubmitForm()"> 
+		<dl>
+          <dt><label>Amount</label></dt>
+          <dd><p class="sum">25$</p></dd>
+	   </dl>
+	   <dl>
+          <dt><label for="name">Cardholder's Name</label></dt>
+          <dd><input  type="text" name="name" maxlength=30  value="" class="username" /></dd>
+		  </dl>
+		  <dl>
+          	<dt><label for="cc">Card Number</label></dt>
+          	<dd><input  type="text" name="cc" maxlength=16  value="" class="username"  onkeypress="return CheckInput(event, 'age')"></dd>
+		  </dl>
+		  <dl>
+          	<dt><label>Expiration Date</label></dt>
+          	<dd>
+				<select name="month" class="month" >
+					 	<option value=''></option>
+				        <option value='1'>1</option>
+						<option value='2'>2</option>
+						<option value='3'>3</option>
+						<option value='4'>4</option>
+						<option value='5'>5</option>
+						
+						<option value='6'>6</option>
+						<option value='7'>7</option>
+						<option value='8'>8</option>
+						<option value='9'>9</option>
+						<option value='10'>10</option>
+						<option value='11'>11</option>
+						<option value='12'>12</option>
+
+				  </select> 			
+			      <select name="year" class="year" >
+						<option value=''></option>
+				        <option value='2010'>2010</option>
+						<option value='2011'>2011</option>
+						<option value='2012'>2012</option>
+						<option value='2013'>2013</option>
+						<option value='2014'>2014</option>
+						<option value='2015'>2015</option>
+						<option value='2016'>2016</option>
+						<option value='2017'>2017</option>
+						<option value='2018'>2018</option>
+						<option value='2019'>2019</option>
+						<option value='2020'>2020</option>
+						<option value='2021'>2021</option>
+						<option value='2022'>2022</option>
+						<option value='2023'>2023</option>
+						<option value='2024'>2024</option>
+						<option value='2025'>2025</option>
+
+				  </select>
+			</dd>
+		  </dl>
+		  <dl>
+          	<dt><label for="cvv">CVV (<a href='/static/images/cvv.gif'>What is it?</a>)</label></dt>
+          	<dd><input  type="text" name="cvv" maxlength=4  value="" class="username"  onkeypress="return CheckInput(event, 'age')"></dd>
+		  </dl>
+		  <div class="clear"></div>
+		 <p>The CVV is a 3 or 4 digit code embossed or imprinted on the reverse side of Visa, MasterCard and Discover cards and on the front of American Card</p>
+		 
+		
+			
+		<div class="clear"></div>	
+		<input class="submit"  type="submit" value=" Checkout  " />
+		<input type=hidden name=id value='1'>  
+		<input type=hidden name=action value=''>  
+		<div class="clear"></div>
+		
+		
+		
+	</form>
+	<img class="left" alt="safe money" src="static/images/ban_safe1.png" width="48" height="54" />
+	<img alt="safe money" src="static/images/ban_safe2.png" width="110" height="55" />
+	</div>
+	
+	
+  </div>
+<div class="footer">
+      <p>
+	  	<!--<ul>
+               <li>
+                            <a href="account_free.html">Account</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="search_form.html">Search</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="edit_profile.html">Profile</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="favorites.html">Favourites</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="messages.html">Messages</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="avatars_select.html">Avatars</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="support_chat.html">Support Chat Live</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+        
+            </ul>-->
+		</p>
+</div>
+
+ </body>
+</html>

@@ -1,0 +1,7 @@
+name: usa
+recipe: drupal6
+config:
+  webroot: .
+services:
+  myservice:
+    type: phpmyadmin

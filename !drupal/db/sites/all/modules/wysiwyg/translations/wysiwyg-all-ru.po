@@ -1,0 +1,1071 @@
+# Russian translation of wysiwyg (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  wysiwyg.admin.inc,v 1.27 2010/11/13 19:44:05 sun
+#  wysiwyg.admin.inc,v 1.15.2.9 2010/02/13 23:58:41 sun
+#  wysiwyg.admin.inc,v 1.1.2.8.2.18 2010/11/13 19:44:13 sun
+#  wysiwyg.admin.inc,v 1.19 2009/11/14 03:35:29 twod
+#  wysiwyg.admin.inc,v 1.15.2.11 2010/11/13 19:44:09 sun
+#  wysiwyg.admin.inc,v 1.1.2.8.2.16 2010/02/13 23:59:17 sun
+#  tinymce.inc,v 1.45 2010/11/13 18:31:21 sun
+#  fckeditor.inc,v 1.21 2010/11/13 18:31:19 sun
+#  ckeditor.inc,v 1.9 2010/11/13 18:31:19 sun
+#  tinymce.inc,v 1.35.2.3 2010/02/10 21:16:50 twod
+#  fckeditor.inc,v 1.17.2.2 2010/01/23 00:51:32 sun
+#  ckeditor.inc,v 1.2.6.5 2010/02/14 00:03:28 sun
+#  tinymce.inc,v 1.1.2.22.2.22 2010/11/13 18:31:28 sun
+#  fckeditor.inc,v 1.1.2.9.2.11 2010/11/13 18:31:28 sun
+#  ckeditor.inc,v 1.2.4.8 2010/11/13 18:31:28 sun
+#  tinymce.inc,v 1.36 2009/08/03 22:37:12 sun
+#  fckeditor.inc,v 1.18 2009/06/22 03:00:07 sun
+#  ckeditor.inc,v 1.5 2009/11/17 15:32:09 twod
+#  tinymce.inc,v 1.35.2.10 2010/11/13 18:31:25 sun
+#  fckeditor.inc,v 1.17.2.4 2010/11/13 18:31:24 sun
+#  ckeditor.inc,v 1.2.6.8 2010/11/13 18:31:24 sun
+#  tinymce.inc,v 1.1.2.22.2.15 2010/02/10 21:16:11 twod
+#  fckeditor.inc,v 1.1.2.9.2.9 2010/01/23 00:51:40 sun
+#  ckeditor.inc,v 1.2.4.5 2010/02/14 00:03:40 sun
+#  wysiwyg.module,v 1.46 2010/10/18 21:57:48 sun
+#  wysiwyg.module,v 1.41 2009/11/14 03:35:29 twod
+#  wysiwyg.module,v 1.33.2.12 2010/11/06 17:57:36 sun
+#  wymeditor.inc,v 1.9 2010/11/13 18:31:21 sun
+#  openwysiwyg.inc,v 1.7 2010/11/13 18:31:21 sun
+#  markitup.inc,v 1.11 2010/11/13 18:31:19 sun
+#  wymeditor.inc,v 1.4.2.3 2010/02/04 17:17:30 twod
+#  openwysiwyg.inc,v 1.4 2009/06/13 02:17:10 sun
+#  markitup.inc,v 1.7.2.1 2009/08/03 22:37:15 sun
+#  wymeditor.inc,v 1.1.2.10 2010/11/13 18:31:28 sun
+#  openwysiwyg.inc,v 1.1.2.8 2010/11/13 18:31:28 sun
+#  markitup.inc,v 1.1.4.2.2.10 2010/11/13 18:31:28 sun
+#  wymeditor.inc,v 1.5 2009/08/03 22:37:12 sun
+#  markitup.inc,v 1.8 2009/08/03 22:37:12 sun
+#  wymeditor.inc,v 1.4.2.5 2010/11/13 18:31:25 sun
+#  openwysiwyg.inc,v 1.4.2.3 2010/11/13 18:31:25 sun
+#  markitup.inc,v 1.7.2.4 2010/11/13 18:31:25 sun
+#  wymeditor.inc,v 1.1.2.8 2010/02/04 17:17:26 twod
+#  openwysiwyg.inc,v 1.1.2.5 2009/06/13 02:17:14 sun
+#  markitup.inc,v 1.1.4.2.2.7 2009/08/03 22:37:22 sun
+#  whizzywig.inc,v 1.8 2010/11/13 18:31:21 sun
+#  whizzywig.inc,v 1.3.2.1 2010/02/06 17:33:58 sun
+#  whizzywig.inc,v 1.1.2.2.2.7 2010/11/13 18:31:28 sun
+#  whizzywig.inc,v 1.3 2009/06/09 00:18:12 sun
+#  whizzywig.inc,v 1.3.2.5 2010/11/13 18:31:25 sun
+#  whizzywig.inc,v 1.1.2.2.2.3 2010/02/06 17:34:08 sun
+#  yui.inc,v 1.11 2010/11/13 18:31:21 sun
+#  yui.inc,v 1.6.2.3 2010/02/06 18:17:49 sun
+#  yui.inc,v 1.1.2.2.2.10 2010/11/13 18:31:28 sun
+#  yui.inc,v 1.7 2009/10/23 03:01:04 twod
+#  yui.inc,v 1.6.2.5 2010/11/13 18:31:25 sun
+#  yui.inc,v 1.1.2.2.2.8 2010/02/06 18:17:58 sun
+#  wysiwyg.module,v 1.33.2.11 2010/02/14 01:59:47 sun
+#  wysiwyg.module,v 1.1.2.22.2.24 2010/11/06 17:57:52 sun
+#  wysiwyg.module,v 1.1.2.22.2.23 2010/02/16 00:43:22 sun
+#  nicedit.inc,v 1.8 2010/11/13 18:31:20 sun
+#  nicedit.inc,v 1.6.2.1 2009/08/03 22:37:15 sun
+#  nicedit.inc,v 1.1.2.5.2.4 2010/11/13 18:31:28 sun
+#  nicedit.inc,v 1.7 2009/08/03 22:37:12 sun
+#  nicedit.inc,v 1.6.2.2 2010/11/13 18:31:25 sun
+#  nicedit.inc,v 1.1.2.5.2.3 2009/08/03 22:37:22 sun
+#  wysiwyg.info,v 1.5 2010/10/18 20:20:29 sun
+#  wysiwyg.info,v 1.1 2008/10/14 21:45:07 sun
+#  wysiwyg.info,v 1.1.2.3 2008/10/22 05:33:30 sun
+#  wysiwyg.info,v 1.4 2009/09/26 05:37:56 sun
+#  break.inc,v 1.4 2009/06/09 00:18:12 sun
+#  break.inc,v 1.2.2.4 2009/06/09 00:18:32 sun
+#  wysiwyg.install,v 1.9 2010/10/24 22:07:09 sun
+#  wysiwyg.install,v 1.4.2.2 2010/02/13 23:58:41 sun
+#  wysiwyg.install,v 1.6 2009/09/26 05:37:56 sun
+#  wysiwyg.install,v 1.4.2.3 2010/09/10 00:39:24 sun
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wysiwyg (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:14+0000\n"
+"PO-Revision-Date: 2010-11-27 14:00+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: wysiwyg.admin.inc:475,470,472,470,470,472,476,474,476,480
+msgid "Operations"
+msgstr "Действия"
+
+#: editors/tinymce.inc:519,516,519,515,519,516,517,517,517,516,516,516; editors/fckeditor.inc:240,237,240,234,240,237,238,238,238; editors/ckeditor.inc:312,309,312,299,312,309,313,313,313,311,311,311
+msgid "Search"
+msgstr "Найти"
+
+#: wysiwyg.admin.inc:95,95,95,95,95,95
+msgid "Language"
+msgstr "Язык"
+
+#: wysiwyg.module:22,22,22
+msgid "List"
+msgstr "Список"
+
+#: wysiwyg.admin.inc:516,286,509,286,511,286,511,509,286,511,286,518,513,515,522
+msgid "Cancel"
+msgstr "Отменить"
+
+#: editors/wymeditor.inc:203,200,203,200,203,200; editors/tinymce.inc:505,502,505,501,505,502,503,503,503,502,502,502; editors/openwysiwyg.inc:163,159,163,159,163,159,164,164,164; editors/markitup.inc:178,145,175,142,178,145,175,142,178,145,175,142,150,183,150,183,150,183,181,181,181
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: wysiwyg.admin.inc:516,509,511,511,509,511,518,513,515,522
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить."
+
+#: wysiwyg.admin.inc:202,202,202,202,202,202
+msgid "Preformatted"
+msgstr "Отформатированный текст"
+
+#: editors/tinymce.inc:559,556,559,555,559,556,557,557,557,556,556,556
+msgid "Abbreviation"
+msgstr "Сокращение"
+
+#: editors/tinymce.inc:559,556,559,555,559,556,557,557,557,556,556,556
+msgid "Acronym"
+msgstr "Акроним"
+
+#: editors/wymeditor.inc:202,199,202,199,202,199; editors/whizzywig.inc:138,129,138,123,138,129,141,141,141,139,139,139; editors/tinymce.inc:533,530,533,529,533,530,531,531,531,530,530,530; editors/openwysiwyg.inc:165,161,165,161,165,161,166,166,166; editors/fckeditor.inc:239,236,239,233,239,236,237,237,237; editors/ckeditor.inc:311,308,311,298,311,308,312,312,312,310,310,310
+msgid "Table"
+msgstr "Таблица"
+
+#: editors/tinymce.inc:559,556,559,555,559,556,557,557,557,556,556,556
+msgid "Deleted"
+msgstr "Удалён"
+
+#: editors/tinymce.inc:559,556,559,555,559,556,557,557,557,556,556,556
+msgid "Inserted"
+msgstr "Вставлено"
+
+#: wysiwyg.admin.inc:475,470,472,470,470,472,476,474,476,480
+msgid "Input format"
+msgstr "Формат ввода"
+
+#: editors/yui.inc:284,281,284,281,284,281,285,285,285; editors/wymeditor.inc:196,193,196,193,196,193; editors/whizzywig.inc:132,123,132,117,132,123,135,135,135,133,133,133; editors/tinymce.inc:386,383,386,382,386,383,384,384,384,383,383,383; editors/openwysiwyg.inc:149,145,149,145,149,145,150,150,150; editors/fckeditor.inc:225,222,225,219,225,222,223,223,223; editors/ckeditor.inc:298,295,298,284,298,295,299,299,299,297,297,297
+msgid "Undo"
+msgstr "Отмена"
+
+#: wysiwyg.module:22,22
+msgid "Profiles"
+msgstr "Профили"
+
+#: wysiwyg.module:36,36,45,36,36,45; wysiwyg.admin.inc:516,509,511,511,509,511,518,513,515,522
+msgid "Remove"
+msgstr "Удалить"
+
+#: wysiwyg.admin.inc:461,282,457,282,459,282,456,282,457,282,459,282,462,461,463,466
+msgid "Save"
+msgstr "Сохранить"
+
+#: wysiwyg.admin.inc:173,157,173,157,173,157,173,157,173,157,173,157
+msgid "Top"
+msgstr "Верх"
+
+#: wysiwyg.admin.inc:173,157,173,157,173,157,173,157,173,157,173,157
+msgid "Bottom"
+msgstr "Низ"
+
+#: editors/wymeditor.inc:200,197,200,197,200,197; editors/whizzywig.inc:140,131,140,125,140,131,143,143,143,141,141,141; editors/tinymce.inc:392,389,392,388,392,389,390,390,390,389,389,389; editors/openwysiwyg.inc:155,151,155,151,155,151,156,156,156; editors/nicedit.inc:116,116,116,116,116,116,114,114,114; editors/fckeditor.inc:230,227,230,224,230,227,228,228,228; editors/ckeditor.inc:303,300,303,289,303,300,304,304,304,302,302,302
+msgid "Source code"
+msgstr "Исходный код"
+
+#: wysiwyg.admin.inc:165,165,165,165,165,165
+msgid "Right"
+msgstr "Право"
+
+#: wysiwyg.admin.inc:165,165,165,165,165,165
+msgid "Left"
+msgstr "Лево"
+
+#: editors/tinymce.inc:568,565,568,564,568,565,566,566,566,565,565,565; editors/fckeditor.inc:262,259,262,256,262,259,260,260,260
+msgid "BBCode"
+msgstr "BBCode"
+
+#: editors/yui.inc:291,288,291,288,291,288,292,292,292; editors/whizzywig.inc:127,118,127,112,127,118,130,130,130,128,128,128; editors/tinymce.inc:456,453,456,452,456,453,454,454,454,453,453,453; editors/openwysiwyg.inc:161,157,161,157,161,157,162,162,162; editors/nicedit.inc:115,115,115,115,115,115,113,113,113; editors/fckeditor.inc:238,235,238,232,238,235,236,236,236; editors/ckeditor.inc:310,307,310,297,310,307,311,311,311,309,309,309
+msgid "Font"
+msgstr "Шрифт"
+
+#: editors/yui.inc:291,288,291,288,291,288,292,292,292; editors/whizzywig.inc:127,118,127,112,127,118,130,130,130,128,128,128; editors/tinymce.inc:456,453,456,452,456,453,454,454,454,453,453,453; editors/openwysiwyg.inc:161,157,161,157,161,157,162,162,162; editors/nicedit.inc:115,115,115,115,115,115,113,113,113; editors/fckeditor.inc:238,235,238,232,238,235,236,236,236; editors/ckeditor.inc:310,307,310,297,310,307,311,311,311,309,309,309
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: editors/yui.inc:286,283,286,283,286,283,287,287,287; editors/wymeditor.inc:198,195,198,195,198,195; editors/whizzywig.inc:137,133,128,124,137,133,122,118,137,133,128,124,136,140,136,140,136,140,134,138,134,138,134,138; editors/tinymce.inc:388,385,388,384,388,385,386,386,386,385,385,385; editors/openwysiwyg.inc:151,147,151,147,151,147,152,152,152; editors/nicedit.inc:108,108,108,108,108,108,106,106,106; editors/markitup.inc:176,129,173,126,176,129,173,126,176,129,173,126,134,181,134,181,134,181,179,179,179; editors/fckeditor.inc:227,224,227,221,227,224,225,225,225; editors/ckeditor.inc:300,297,300,286,300,297,301,301,301,299,299,299
+msgid "Image"
+msgstr "Изображение"
+
+#: editors/tinymce.inc:498,495,498,494,498,495,496,496,496,495,495,495; editors/fckeditor.inc:240,237,240,234,240,237,238,238,238; editors/ckeditor.inc:312,309,312,299,312,309,313,313,313,311,311,311
+msgid "Select all"
+msgstr "Выделить все"
+
+#: editors/tinymce.inc:394,391,394,390,394,391,392,392,392,391,391,391; editors/openwysiwyg.inc:157,153,157,153,157,153,158,158,158; editors/fckeditor.inc:232,229,232,226,232,229,230,230,230; editors/ckeditor.inc:305,302,305,291,305,302,306,306,306,304,304,304
+msgid "Copy"
+msgstr "Копировать"
+
+#: wysiwyg.info:0,0,0,0,0,0
+msgid "User interface"
+msgstr "Интерфейс пользователя"
+
+#: editors/fckeditor.inc:242,239,242,236,242,239,240,240,240; editors/ckeditor.inc:313,310,313,300,313,310,314,314,314,312,312,312
+msgid "Smiley"
+msgstr "Смайл"
+
+#: wysiwyg.admin.inc:454,450,452,449,450,452,455,454,456,459
+msgid "Delete"
+msgstr "Удалить"
+
+#: wysiwyg.module:26,26,37,26,26,37; wysiwyg.admin.inc:451,447,449,446,447,449,452,451,453,456
+msgid "Edit"
+msgstr "Редактировать"
+
+#: editors/yui.inc:285,282,285,282,285,282,286,286,286; editors/wymeditor.inc:197,194,197,194,197,194; editors/whizzywig.inc:136,127,136,121,136,127,139,139,139,137,137,137; editors/tinymce.inc:387,384,387,383,387,384,385,385,385,384,384,384; editors/openwysiwyg.inc:150,146,150,146,150,146,151,151,151; editors/nicedit.inc:114,114,114,114,114,114,112,112,112; editors/markitup.inc:175,135,172,132,175,135,172,132,175,135,172,132,140,180,140,180,140,180,178,178,178; editors/fckeditor.inc:226,223,226,220,226,223,224,224,224; editors/ckeditor.inc:299,296,299,285,299,296,300,300,300,298,298,298
+msgid "Link"
+msgstr "Ссылка"
+
+#: editors/tinymce.inc:398,395,398,394,398,395,396,396,396,395,395,395; editors/openwysiwyg.inc:166,162,166,162,166,162,167,167,167
+msgid "Help"
+msgstr "Помощь"
+
+#: editors/wymeditor.inc:199,196,199,196,199,196; editors/tinymce.inc:391,388,391,387,391,388,389,389,389,388,388,388; editors/nicedit.inc:110,110,110,110,110,110,108,108,108; editors/fckeditor.inc:229,226,229,223,229,226,227,227,227; editors/ckeditor.inc:302,299,302,288,302,299,303,303,303,301,301,301
+msgid "Superscript"
+msgstr "Суперскрипт"
+
+#: wysiwyg.admin.inc:59,59,59,59,59,59
+msgid "Basic setup"
+msgstr "Основные настройки"
+
+#: wysiwyg.admin.inc:148,148,148,148,148,148
+msgid "Editor appearance"
+msgstr "Внешний вид редактора"
+
+#: wysiwyg.admin.inc:187,187,187,187,187,187
+msgid "Cleanup and output"
+msgstr "Очистка и вывод"
+
+#: wysiwyg.admin.inc:226,226,226,226,226,226
+msgid "Apply source formatting"
+msgstr "Применять исходное форматирование"
+
+#: wysiwyg.admin.inc:242,242,242,242,242,242
+msgid "CSS"
+msgstr "CSS"
+
+#: wysiwyg.admin.inc:258,258,258,258,258,258
+msgid "Editor CSS"
+msgstr "CSS редактора"
+
+#: wysiwyg.admin.inc:266,266,266,266,266,266
+msgid "CSS path"
+msgstr "Путь к CSS"
+
+#: wysiwyg.admin.inc:275,275,275,275,275,275
+msgid "CSS classes"
+msgstr "Классы CSS"
+
+#: wysiwyg.admin.inc:165,165,165,165,165,165
+msgid "Center"
+msgstr "Центр"
+
+#: editors/tinymce.inc:552,549,552,548,552,549,550,550,550,549,549,549
+msgid "Media"
+msgstr "Медиа-файлы"
+
+#: wysiwyg.admin.inc:74,74,74,74,74,74
+msgid "Allow users to choose default"
+msgstr ""
+"Позволить пользователям выбирать "
+"состояние по умолчанию"
+
+#: wysiwyg.admin.inc:103,103,103,103,103,103
+msgid "Buttons and plugins"
+msgstr "Кнопки и плагины"
+
+#: wysiwyg.admin.inc:155,155,155,155,155,155
+msgid "Toolbar location"
+msgstr "Размещение панели интсрументов"
+
+#: wysiwyg.admin.inc:171,171,171,171,171,171
+msgid "Path location"
+msgstr "Путь размещения"
+
+#: wysiwyg.admin.inc:179,179,179,179,179,179
+msgid "Enable resizing button"
+msgstr ""
+"Отобразить кнопку изменения размеров "
+"редактора"
+
+#: wysiwyg.admin.inc:249,249,249,249,249,249
+msgid "Block formats"
+msgstr "Форматы блоков"
+
+#: wysiwyg.admin.inc:194,194,194,194,194,194
+msgid "Verify HTML"
+msgstr "Проверка HTML"
+
+#: wysiwyg.admin.inc:210,210,210,210,210,210
+msgid "Convert &lt;font&gt; tags to styles"
+msgstr "Конвертирование тэгов &lt;font&gt; в styles"
+
+#: wysiwyg.admin.inc:218,218,218,218,218,218
+msgid "Remove linebreaks"
+msgstr "Удалить разрывы строк"
+
+#: editors/yui.inc:287,284,287,284,287,284,288,288,288
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: wysiwyg.admin.inc:173,173,173,173,173,173
+msgid "Hide"
+msgstr "Скрыть"
+
+#: editors/tinymce.inc:542,539,542,538,542,539,540,540,540,539,539,539; editors/fckeditor.inc:242,239,242,236,242,239,240,240,240; editors/ckeditor.inc:313,310,313,300,313,310,314,314,314,312,312,312
+msgid "Flash"
+msgstr "Flash"
+
+#: editors/tinymce.inc:387,384,387,383,387,384,385,385,385,384,384,384; editors/fckeditor.inc:226,223,226,220,226,223,224,224,224; editors/ckeditor.inc:299,296,299,285,299,296,300,300,300,298,298,298
+msgid "Anchor"
+msgstr "Якорь"
+
+#: editors/tinymce.inc:602,602,602,601,601,601
+msgid "Word count"
+msgstr "Число слов"
+
+#: editors/tinymce.inc:512,509,512,508,512,509,510,510,510,509,509,509; editors/openwysiwyg.inc:164,160,164,160,164,160,165,165,165
+msgid "Print"
+msgstr "Печать"
+
+#: editors/ckeditor.inc:315,312,315,301,315,312,316,316,316,314,314,314
+msgid "Maximize"
+msgstr "Максимизировать"
+
+#: editors/tinymce.inc:519,516,519,515,519,516,517,517,517,516,516,516; editors/fckeditor.inc:240,237,240,234,240,237,238,238,238; editors/ckeditor.inc:312,309,312,299,312,309,313,313,313,311,311,311
+msgid "Replace"
+msgstr "Заменить"
+
+#: editors/yui.inc:284,281,284,281,284,281,285,285,285; editors/wymeditor.inc:196,193,196,193,196,193; editors/whizzywig.inc:132,123,132,117,132,123,135,135,135,133,133,133; editors/tinymce.inc:386,383,386,382,386,383,384,384,384,383,383,383; editors/openwysiwyg.inc:149,145,149,145,149,145,150,150,150; editors/fckeditor.inc:225,222,225,219,225,222,223,223,223; editors/ckeditor.inc:298,295,298,284,298,295,299,299,299,297,297,297
+msgid "Redo"
+msgstr "Повторить"
+
+#: editors/yui.inc:279,276,279,276,279,276,280,280,280; editors/wymeditor.inc:193,190,193,190,193,190; editors/whizzywig.inc:128,119,128,113,128,119,131,131,131,129,129,129; editors/tinymce.inc:381,378,381,377,381,378,379,379,379,378,378,378; editors/openwysiwyg.inc:144,140,144,140,144,140,145,145,145; editors/nicedit.inc:103,103,103,103,103,103,101,101,101; editors/markitup.inc:173,108,170,105,173,108,170,105,173,108,170,105,113,178,113,178,113,178,176,176,176; editors/fckeditor.inc:220,217,220,214,220,217,218,218,218; editors/ckeditor.inc:293,290,293,279,293,290,294,294,294,292,292,292
+msgid "Bold"
+msgstr "Жирный"
+
+#: editors/yui.inc:279,276,279,276,279,276,280,280,280; editors/wymeditor.inc:193,190,193,190,193,190; editors/whizzywig.inc:128,119,128,113,128,119,131,131,131,129,129,129; editors/tinymce.inc:381,378,381,377,381,378,379,379,379,378,378,378; editors/openwysiwyg.inc:144,140,144,140,144,140,145,145,145; editors/nicedit.inc:103,103,103,103,103,103,101,101,101; editors/markitup.inc:173,115,170,112,173,115,170,112,173,115,170,112,120,178,120,178,120,178,176,176,176; editors/fckeditor.inc:220,217,220,214,220,217,218,218,218; editors/ckeditor.inc:293,290,293,279,293,290,294,294,294,292,292,292
+msgid "Italic"
+msgstr "Курсив"
+
+#: editors/yui.inc:279,276,279,276,279,276,280,280,280; editors/whizzywig.inc:128,119,128,113,128,119,131,131,131,129,129,129; editors/tinymce.inc:381,378,381,377,381,378,379,379,379,378,378,378; editors/openwysiwyg.inc:144,140,144,140,144,140,145,145,145; editors/nicedit.inc:103,103,103,103,103,103,101,101,101; editors/fckeditor.inc:220,217,220,214,220,217,218,218,218; editors/ckeditor.inc:293,290,293,279,293,290,294,294,294,292,292,292
+msgid "Underline"
+msgstr "Подчёркнутый"
+
+#: editors/wymeditor.inc:199,196,199,196,199,196; editors/tinymce.inc:391,388,391,387,391,388,389,389,389,388,388,388; editors/nicedit.inc:110,110,110,110,110,110,108,108,108; editors/fckeditor.inc:229,226,229,223,229,226,227,227,227; editors/ckeditor.inc:302,299,302,288,302,299,303,303,303,301,301,301
+msgid "Subscript"
+msgstr "Подстрочный"
+
+#: editors/fckeditor.inc:234,231,234,228,234,231,232,232,232; editors/ckeditor.inc:307,304,307,293,307,304,308,308,308,306,306,306
+msgid "Show blocks"
+msgstr "Показать блоки"
+
+#: wysiwyg.admin.inc:379,375,375,374,375,375,380,379,379,384
+msgid "Not installed."
+msgstr "Не установлен."
+
+#: wysiwyg.admin.inc:475,470,472,470,470,472,476,474,476,480
+msgid "Editor"
+msgstr "Редактор"
+
+#: editors/tinymce.inc:559,556,559,555,559,556,557,557,557,556,556,556
+msgid "Citation"
+msgstr "Цитата"
+
+#: editors/tinymce.inc:394,391,394,390,394,391,392,392,392,391,391,391; editors/openwysiwyg.inc:157,153,157,153,157,153,158,158,158; editors/fckeditor.inc:232,229,232,226,232,229,230,230,230; editors/ckeditor.inc:305,302,305,291,305,302,306,306,306,304,304,304
+msgid "Cut"
+msgstr "Вырезать"
+
+#: editors/wymeditor.inc:201,198,201,198,201,198; editors/tinymce.inc:394,391,394,390,394,391,392,392,392,391,391,391; editors/openwysiwyg.inc:157,153,157,153,157,153,158,158,158; editors/fckeditor.inc:232,229,232,226,232,229,230,230,230; editors/ckeditor.inc:305,302,305,291,305,302,306,306,306,304,304,304
+msgid "Paste"
+msgstr "Вставить"
+
+#: editors/yui.inc:283,280,283,280,283,280,284,284,284; editors/wymeditor.inc:195,192,195,192,195,192; editors/whizzywig.inc:131,122,131,116,131,122,134,134,134,132,132,132; editors/tinymce.inc:385,382,385,381,385,382,383,383,383,382,382,382; editors/openwysiwyg.inc:148,144,148,144,148,144,149,149,149; editors/nicedit.inc:107,107,107,107,107,107,105,105,105; editors/fckeditor.inc:224,221,224,218,224,221,222,222,222; editors/ckeditor.inc:297,294,297,283,297,294,298,298,298,296,296,296
+msgid "Indent"
+msgstr "Увеличить отступ"
+
+#: editors/yui.inc:283,280,283,280,283,280,284,284,284; editors/wymeditor.inc:195,192,195,192,195,192; editors/whizzywig.inc:131,122,131,116,131,122,134,134,134,132,132,132; editors/tinymce.inc:385,382,385,381,385,382,383,383,383,382,382,382; editors/openwysiwyg.inc:148,144,148,144,148,144,149,149,149; editors/nicedit.inc:107,107,107,107,107,107,105,105,105; editors/fckeditor.inc:224,221,224,218,224,221,222,222,222; editors/ckeditor.inc:297,294,297,283,297,294,298,298,298,296,296,296
+msgid "Outdent"
+msgstr "Уменьшить отступ"
+
+#: wysiwyg.module:617,627,607,609,627,607,621,636,616
+msgid "Wysiwyg Editor settings"
+msgstr "Настройки редактора Wysiwyg"
+
+#: wysiwyg.info:0,0,0,0,0,0
+msgid "Allows users to edit contents with client-side editors."
+msgstr ""
+"Разрешить пользователям "
+"редактировать содержание со стороны "
+"клиента в редакторе."
+
+#: editors/wymeditor.inc:197,194,197,194,197,194; editors/tinymce.inc:387,384,387,383,387,384,385,385,385,384,384,384; editors/nicedit.inc:114,114,114,114,114,114,112,112,112; editors/fckeditor.inc:226,223,226,220,226,223,224,224,224; editors/ckeditor.inc:299,296,299,285,299,296,300,300,300,298,298,298
+msgid "Unlink"
+msgstr "Отвязать"
+
+#: wysiwyg.admin.inc:260,260,260,260,260,260
+msgid "Use theme CSS"
+msgstr "Использовать CSS темы"
+
+#: wysiwyg.admin.inc:260,260,260,260,260,260
+msgid "Define CSS"
+msgstr "Определить CSS"
+
+#: wysiwyg.module:304,320,304,300,320,304,321,305
+msgid "Enable rich-text"
+msgstr ""
+"Включить расширенный редактор "
+"содержимого"
+
+#: wysiwyg.module:303,319,303,299,319,303,320,304
+msgid "Disable rich-text"
+msgstr ""
+"Выключить расширенный редактор "
+"содержимого"
+
+#: editors/yui.inc:280,277,280,277,280,277,281,281,281; editors/tinymce.inc:382,379,382,378,382,379,380,380,380,379,379,379; editors/openwysiwyg.inc:145,141,145,141,145,141,146,146,146; editors/nicedit.inc:104,104,104,104,104,104,102,102,102; editors/markitup.inc:174,122,171,119,174,122,171,119,174,122,171,119,127,179,127,179,127,179,177,177,177; editors/fckeditor.inc:221,218,221,215,221,218,219,219,219; editors/ckeditor.inc:294,291,294,280,294,291,295,295,295,293,293,293
+msgid "Strike-through"
+msgstr "Зачёркнутый"
+
+#: editors/yui.inc:282,279,282,279,282,279,283,283,283; editors/wymeditor.inc:194,191,194,191,194,191; editors/whizzywig.inc:130,121,130,115,130,121,133,133,133,131,131,131; editors/tinymce.inc:384,381,384,380,384,381,382,382,382,381,381,381; editors/openwysiwyg.inc:147,143,147,143,147,143,148,148,148; editors/nicedit.inc:106,106,106,106,106,106,104,104,104; editors/fckeditor.inc:223,220,223,217,223,220,221,221,221; editors/ckeditor.inc:296,293,296,282,296,293,297,297,297,295,295,295
+msgid "Bullet list"
+msgstr "Маркированный список"
+
+#: editors/yui.inc:282,279,282,279,282,279,283,283,283; editors/wymeditor.inc:194,191,194,191,194,191; editors/whizzywig.inc:130,121,130,115,130,121,133,133,133,131,131,131; editors/tinymce.inc:384,381,384,380,384,381,382,382,382,381,381,381; editors/openwysiwyg.inc:147,143,147,143,147,143,148,148,148; editors/nicedit.inc:106,106,106,106,106,106,104,104,104; editors/fckeditor.inc:223,220,223,217,223,220,221,221,221; editors/ckeditor.inc:296,293,296,282,296,293,297,297,297,295,295,295
+msgid "Numbered list"
+msgstr "Нумерованный список"
+
+#: editors/whizzywig.inc:139,130,139,124,139,130,142,142,142,140,140,140; editors/tinymce.inc:389,386,389,385,389,386,387,387,387,386,386,386; editors/openwysiwyg.inc:152,148,152,148,152,148,153,153,153
+msgid "Clean-up"
+msgstr "Очистить"
+
+#: editors/whizzywig.inc:134,125,134,119,134,125,137,137,137,135,135,135; editors/tinymce.inc:390,387,390,386,390,387,388,388,388,387,387,387; editors/openwysiwyg.inc:153,149,153,149,153,149,154,154,154; editors/nicedit.inc:109,109,109,109,109,109,107,107,107; editors/fckeditor.inc:228,225,228,222,228,225,226,226,226; editors/ckeditor.inc:301,298,301,287,301,298,302,302,302,300,300,300
+msgid "Forecolor"
+msgstr "Цвет текста"
+
+#: editors/whizzywig.inc:134,125,134,119,134,125,137,137,137,135,135,135; editors/tinymce.inc:390,387,390,386,390,387,388,388,388,387,387,387; editors/openwysiwyg.inc:153,149,153,149,153,149,154,154,154; editors/nicedit.inc:109,109,109,109,109,109,107,107,107; editors/fckeditor.inc:228,225,228,222,228,225,226,226,226; editors/ckeditor.inc:301,298,301,287,301,298,302,302,302,300,300,300
+msgid "Backcolor"
+msgstr "Цвет фона"
+
+#: editors/yui.inc:288,285,288,285,288,285,289,289,289; editors/openwysiwyg.inc:154,150,154,150,154,150,155,155,155
+msgid "Sup"
+msgstr "Верхний индекс"
+
+#: editors/yui.inc:288,285,288,285,288,285,289,289,289; editors/openwysiwyg.inc:154,150,154,150,154,150,155,155,155
+msgid "Sub"
+msgstr "Нижний индекс"
+
+#: editors/whizzywig.inc:135,126,135,120,135,126,138,138,138,136,136,136; editors/tinymce.inc:393,390,393,389,393,390,391,391,391,390,390,390; editors/openwysiwyg.inc:156,152,156,152,156,152,157,157,157; editors/nicedit.inc:111,111,111,111,111,111,109,109,109; editors/fckeditor.inc:231,228,231,225,231,228,229,229,229; editors/ckeditor.inc:304,301,304,290,304,301,305,305,305,303,303,303
+msgid "Horizontal rule"
+msgstr "Горизонтальная черта"
+
+#: editors/tinymce.inc:395,392,395,391,395,392,393,393,393,392,392,392; editors/openwysiwyg.inc:158,154,158,154,158,154,159,159,159
+msgid "Visual aid"
+msgstr "Визуальная помощь"
+
+#: editors/yui.inc:290,287,290,287,290,287,291,291,291; editors/tinymce.inc:396,393,396,392,396,393,394,394,394,393,393,393; editors/openwysiwyg.inc:159,155,159,155,159,155,160,160,160; editors/fckeditor.inc:235,232,235,229,235,232,233,233,233; editors/ckeditor.inc:308,305,308,294,308,305,309,309,309,307,307,307
+msgid "Remove format"
+msgstr "Удалить форматирование"
+
+#: editors/tinymce.inc:404,401,404,400,404,401,402,402,402,401,401,401
+msgid "Advanced horizontal rule"
+msgstr ""
+"Улучшенный горизонтальный "
+"разделитель"
+
+#: editors/tinymce.inc:412,409,412,408,412,409,410,410,410,409,409,409
+msgid "Advanced image"
+msgstr "Улучшенное изображение"
+
+#: editors/tinymce.inc:420,417,420,416,420,417,418,418,418,417,417,417
+msgid "Advanced link"
+msgstr "Улучшенная ссылка"
+
+#: editors/tinymce.inc:428,425,428,424,428,425,426,426,426,425,425,425
+msgid "Auto save"
+msgstr "Автосохранение"
+
+#: editors/tinymce.inc:435,432,435,431,435,432,433,433,433,432,432,432
+msgid "Context menu"
+msgstr "Контекстное меню"
+
+#: editors/tinymce.inc:442,439,442,438,442,439,440,440,440,439,439,439
+msgid "Left-to-right"
+msgstr "Слева на право"
+
+#: editors/tinymce.inc:442,439,442,438,442,439,440,440,440,439,439,439
+msgid "Right-to-left"
+msgstr "Справа на лево"
+
+#: editors/tinymce.inc:449,446,449,445,449,446,447,447,447,446,446,446
+msgid "Emotions"
+msgstr "Эмоции"
+
+#: editors/tinymce.inc:456,453,456,452,456,453,454,454,454,453,453,453; editors/fckeditor.inc:238,235,238,232,238,235,236,236,236; editors/ckeditor.inc:310,307,310,297,310,307,311,311,311,309,309,309
+msgid "Font style"
+msgstr "Формат текста"
+
+#: editors/tinymce.inc:463,460,463,459,463,460,461,461,461,460,460,460; editors/openwysiwyg.inc:162,158,162,158,162,158,163,163,163
+msgid "Fullscreen"
+msgstr "Во весь экран"
+
+#: editors/tinymce.inc:470,467,470,466,470,467,468,468,468,467,467,467
+msgid "Inline popups"
+msgstr "Строковые всплывающие окна"
+
+#: editors/tinymce.inc:480,477,480,476,480,477,478,478,478,477,477,477
+msgid "Insert date"
+msgstr "Вставить дату"
+
+#: editors/tinymce.inc:480,477,480,476,480,477,478,478,478,477,477,477
+msgid "Insert time"
+msgstr "Вставить время"
+
+#: editors/tinymce.inc:491,488,491,487,491,488,489,489,489,488,488,488
+msgid "Insert layer"
+msgstr "Вставить слой"
+
+#: editors/tinymce.inc:491,488,491,487,491,488,489,489,489,488,488,488
+msgid "Move forward"
+msgstr "Переместить вперед"
+
+#: editors/tinymce.inc:491,488,491,487,491,488,489,489,489,488,488,488
+msgid "Move backward"
+msgstr "Переместить назад"
+
+#: editors/tinymce.inc:491,488,491,487,491,488,489,489,489,488,488,488
+msgid "Absolute"
+msgstr "Абсолютный"
+
+#: editors/tinymce.inc:498,495,498,494,498,495,496,496,496,495,495,495
+msgid "Paste text"
+msgstr "Вставить текст"
+
+#: editors/tinymce.inc:498,495,498,494,498,495,496,496,496,495,495,495; editors/fckeditor.inc:233,230,233,227,233,230,231,231,231; editors/ckeditor.inc:306,303,306,292,306,303,307,307,307,305,305,305
+msgid "Paste from Word"
+msgstr "Вставить из Word"
+
+#: editors/tinymce.inc:526,523,526,522,526,523,524,524,524,523,523,523
+msgid "Style properties"
+msgstr "Свойства стиля"
+
+#: plugins/break.inc:14,14,14,14,14,14
+msgid "Teaser break"
+msgstr "Конец анонса"
+
+#: wysiwyg.info:0,0,0,0,0,0; wysiwyg.module:14,17,14,17
+msgid "Wysiwyg"
+msgstr "Wysiwyg"
+
+#: wysiwyg.admin.inc:163,163,163,163,163,163
+msgid "Button alignment"
+msgstr "Расположение кнопки"
+
+#: editors/yui.inc:287,284,287,284,287,284,288,288,288
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: wysiwyg.admin.inc:277,277,277,277,277,277
+msgid ""
+"Optionally define CSS classes for the \"Font style\" dropdown list.<br "
+"/>Enter one class on each line in the format: !format. Example: "
+"!example<br />If left blank, CSS classes are automatically imported "
+"from all loaded stylesheet(s)."
+msgstr ""
+"Дополнительно определить CSS-классы в "
+"выпадающем списке \"Стиль "
+"шрифта\".<br>Введите по одному классу на "
+"строку в формате: !format. Пример: "
+"!example<br>Если поле оставить пустым, то "
+"CSS-классы будут автоматически "
+"импортированы из всех загруженных "
+"стилей."
+
+#: editors/yui.inc:281,278,281,278,281,278,282,282,282; editors/whizzywig.inc:129,120,129,114,129,120,132,132,132,130,130,130; editors/tinymce.inc:383,380,383,379,383,380,381,381,381,380,380,380; editors/openwysiwyg.inc:146,142,146,142,146,142,147,147,147; editors/nicedit.inc:105,105,105,105,105,105,103,103,103; editors/fckeditor.inc:222,219,222,216,222,219,220,220,220; editors/ckeditor.inc:295,292,295,281,295,292,296,296,296,294,294,294
+msgid "Align left"
+msgstr "По левому краю"
+
+#: editors/yui.inc:281,278,281,278,281,278,282,282,282; editors/whizzywig.inc:129,120,129,114,129,120,132,132,132,130,130,130; editors/tinymce.inc:383,380,383,379,383,380,381,381,381,380,380,380; editors/openwysiwyg.inc:146,142,146,142,146,142,147,147,147; editors/nicedit.inc:105,105,105,105,105,105,103,103,103; editors/fckeditor.inc:222,219,222,216,222,219,220,220,220; editors/ckeditor.inc:295,292,295,281,295,292,296,296,296,294,294,294
+msgid "Align center"
+msgstr "По центру"
+
+#: editors/yui.inc:281,278,281,278,281,278,282,282,282; editors/whizzywig.inc:129,120,129,114,129,120,132,132,132,130,130,130; editors/tinymce.inc:383,380,383,379,383,380,381,381,381,380,380,380; editors/openwysiwyg.inc:146,142,146,142,146,142,147,147,147; editors/nicedit.inc:105,105,105,105,105,105,103,103,103; editors/fckeditor.inc:222,219,222,216,222,219,220,220,220; editors/ckeditor.inc:295,292,295,281,295,292,296,296,296,294,294,294
+msgid "Align right"
+msgstr "По правому краю"
+
+#: editors/yui.inc:281,278,281,278,281,278,282,282,282; editors/tinymce.inc:383,380,383,379,383,380,381,381,381,380,380,380; editors/openwysiwyg.inc:146,142,146,142,146,142,147,147,147; editors/fckeditor.inc:222,219,222,216,222,219,220,220,220; editors/ckeditor.inc:295,292,295,281,295,292,296,296,296,294,294,294
+msgid "Justify"
+msgstr "По ширине"
+
+#: editors/yui.inc:291,288,291,288,291,288,292,292,292; editors/whizzywig.inc:127,118,127,112,127,118,130,130,130,128,128,128; editors/tinymce.inc:456,453,456,452,456,453,454,454,454,453,453,453; editors/openwysiwyg.inc:161,157,161,157,161,157,162,162,162; editors/nicedit.inc:115,115,115,115,115,115,113,113,113; editors/fckeditor.inc:238,235,238,232,238,235,236,236,236; editors/ckeditor.inc:310,307,310,297,310,307,311,311,311,309,309,309
+msgid "HTML block format"
+msgstr "Формат HTML блока"
+
+#: editors/tinymce.inc:392,389,392,388,392,389,390,390,390,389,389,389; editors/openwysiwyg.inc:155,151,155,151,155,151,156,156,156; editors/fckeditor.inc:230,227,230,224,230,227,228,228,228; editors/ckeditor.inc:303,300,303,289,303,300,304,304,304,302,302,302
+msgid "Blockquote"
+msgstr "Цитата"
+
+#: editors/fckeditor.inc:237,234,237,231,237,234,235,235,235; editors/ckeditor.inc:317,314,317,296,317,314,318,318,318,316,316,316
+msgid "About"
+msgstr "О редакторе"
+
+#: wysiwyg.admin.inc:270,270,270,270,270,270
+msgid "Example:"
+msgstr "Например:"
+
+#: wysiwyg.admin.inc:66,66,66,66,66,66
+msgid "Enabled by default"
+msgstr "Включено по умолчанию"
+
+#: wysiwyg.admin.inc:69,69,69,69,69,69
+msgid ""
+"The default editor state for users having access to this profile. "
+"Users are able to override this state if the next option is enabled."
+msgstr ""
+"По умолчанию состояние редактора для "
+"пользователей, имеющих доступ к этому "
+"профилю. Пользователи могут "
+"переопределить это состояние, если "
+"следующая опция включена."
+
+#: wysiwyg.admin.inc:158,158,158,158,158,158
+msgid ""
+"This option controls whether the editor toolbar is displayed above or "
+"below the editing area."
+msgstr ""
+"Эта опция позволяет отображать панель "
+"инструментов редактора выше или ниже "
+"области редактирования."
+
+#: wysiwyg.admin.inc:166,166,166,166,166,166
+msgid "This option controls the alignment of icons in the editor toolbar."
+msgstr ""
+"Эта опция контролирует выравнивание "
+"иконок в панели инструментов "
+"редактора."
+
+#: wysiwyg.admin.inc:174,174,174,174,174,174
+msgid ""
+"Where to display the path to HTML elements (i.e. <code>body > table > "
+"tr > td</code>)."
+msgstr ""
+"Где отображать путь к элементам HTML "
+"(напр., <code>body > table > tr > td</code>)."
+
+#: wysiwyg.admin.inc:182,182,182,182,182,182
+msgid ""
+"This option gives you the ability to enable/disable the resizing "
+"button. If enabled, the Path location toolbar must be set to \"Top\" "
+"or \"Bottom\" in order to display the resize icon."
+msgstr ""
+"Этот параметр позволяет "
+"разрешить/запретить кнопку изменения "
+"размера. Если включено, панель Пути "
+"должна быть в режиме \"Top\" или \"Bottom\", "
+"чтобы иконка изменения размера "
+"отображалась."
+
+#: wysiwyg.admin.inc:197,197,197,197,197,197
+msgid ""
+"If enabled, potentially malicious code like <code>&lt;HEAD&gt;</code> "
+"tags will be removed from HTML contents."
+msgstr ""
+"Если включено, потенциально опасный "
+"код, вроде тегов <code>&lt; HEAD &gt;</code>, будет "
+"удален из HTML содержимого."
+
+#: wysiwyg.admin.inc:205,205,205,205,205,205
+msgid ""
+"If enabled, the editor will insert TAB characters on tab and preserve "
+"other whitespace characters just like a PRE element in HTML does."
+msgstr ""
+"Если включено, редактор вставит "
+"символы табуляции по нажатию на "
+"клавишу TAB, а также сохранит прочие "
+"пробельные символы в точности так, как "
+"это делает HTML-тег <code>&lt; PRE &gt;</code>."
+
+#: wysiwyg.admin.inc:213,213,213,213,213,213
+msgid ""
+"If enabled, HTML tags declaring the font size, font family, font color "
+"and font background color will be replaced by inline CSS styles."
+msgstr ""
+"Если выбрано, HTML-теги, определяющие "
+"размер, начертание и цвет шрифта будут "
+"заменены внедрёнными стилями CSS."
+
+#: wysiwyg.admin.inc:221,221,221,221,221,221
+msgid ""
+"If enabled, the editor will remove most linebreaks from contents. "
+"Disabling this option could avoid conflicts with other input filters."
+msgstr ""
+"Если выбрано, редактор удалит "
+"основную часть разрывов строк из "
+"содержимого. Отключение этой опции "
+"позволяет избежать конфликтов с "
+"другими фильтрами ввода."
+
+#: wysiwyg.admin.inc:229,229,229,229,229,229
+msgid ""
+"If enabled, the editor will re-format the HTML source code. Disabling "
+"this option could avoid conflicts with other input filters."
+msgstr ""
+"Если выбрано, редактор "
+"переформатирует исходный HTML-код. "
+"Отключение этой опции позволяет "
+"избежать конфликтов с другими "
+"фильтрами ввода."
+
+#: wysiwyg.admin.inc:234,234,234,234,234,234
+msgid "Force cleanup on standard paste"
+msgstr ""
+"Принудительная чистка кода при "
+"стандартной вставке"
+
+#: wysiwyg.admin.inc:237,237,237,237,237,237
+msgid ""
+"If enabled, the default paste function (CTRL-V or SHIFT-INS) behaves "
+"like the \"paste from word\" plugin function."
+msgstr ""
+"В положении включено функция вставки "
+"по умолчанию (CTRL-V или SHIFT-INS) ведёт себя "
+"как функция плагина \"Вставить из Word\"."
+
+#: wysiwyg.module:624,634,614,616,634,614,628,643,623
+msgid "Enable editor by default"
+msgstr "Разрешить редактор по умолчанию"
+
+#: wysiwyg.module:627,637,617,619,637,617,631,646,626
+msgid ""
+"If enabled, rich-text editing is enabled by default in textarea "
+"fields."
+msgstr ""
+"Если выбрано, по умолчанию визуальный "
+"редактор включён."
+
+#: wysiwyg.admin.inc:412,408,408,407,408,408,413,412,412,417
+msgid ""
+"There are no editor libraries installed currently. The following list "
+"contains a list of currently supported editors:"
+msgstr ""
+"Библиотеки редакторов не установлены. "
+"Следующий список содержит перечень "
+"поддерживаемых в настоящее время "
+"редакторов:"
+
+#: wysiwyg.module:711,721,701,703,721,701,715,730,710
+msgid "The version of %editor could not be detected."
+msgstr ""
+"Невозможно определение версии "
+"редактора %editor."
+
+#: editors/tinymce.inc:397,394,397,393,397,394,395,395,395,394,394,394; editors/openwysiwyg.inc:160,156,160,156,160,156,161,161,161; editors/fckeditor.inc:236,233,236,230,236,233,234,234,234; editors/ckeditor.inc:309,306,309,295,309,306,310,310,310,308,308,308
+msgid "Character map"
+msgstr "Таблица символов"
+
+#: wysiwyg.module:14,14,14; wysiwyg.admin.inc:421,421,425
+msgid "Wysiwyg profiles"
+msgstr "Wysiwyg профили"
+
+#: wysiwyg.admin.inc:77,77,77,77,77,77
+msgid ""
+"If allowed, users will be able to choose their own editor default "
+"state in their user account settings."
+msgstr ""
+"Если разрешено, то пользователи "
+"смогут устанавливать по умолчанию в "
+"своих учётных записях собственные "
+"редакторы."
+
+#: wysiwyg.admin.inc:82,82,82,82,82,82
+msgid "Show <em>enable/disable rich text</em> toggle link"
+msgstr ""
+"Отображение переключателя "
+"<em>включить/выключить визуальный "
+"редактор</em>"
+
+#: wysiwyg.admin.inc:85,85,85,85,85,85
+msgid ""
+"Whether or not to show the <em>enable/disable rich text</em> toggle "
+"link below a textarea. If disabled, the user setting or global default "
+"is used (see above)."
+msgstr ""
+"Надо ли отображать переключатель "
+"<em>включить/выключить визуальный "
+"редактор</em> под текстовым блоком. Если "
+"выключено, используются установки "
+"пользователя или глобальные "
+"умолчания."
+
+#: wysiwyg.admin.inc:98,98,98,98,98,98
+msgid ""
+"The language to use for the editor interface. Language codes are based "
+"on the <a "
+"href=\"http://www.loc.gov/standards/iso639-2/englangn.html\">ISO-639-2</a> "
+"format."
+msgstr ""
+"Язык, использующийся для интерфейса "
+"редактора. Языковые коды основаны на "
+"формате <a "
+"href=\"http://www.loc.gov/standards/iso639-2/englangn.html\">ISO-639-2</a>."
+
+#: wysiwyg.admin.inc:321,321,321,316,321,321,322,325,325,326
+msgid "Wysiwyg profile for %format has been saved."
+msgstr "Wysiwyg-профиль для %format был сохранён."
+
+#: wysiwyg.admin.inc:370,369,369,365,369,369,371,373,373,375
+msgid "No editor"
+msgstr "Нет редактора"
+
+#: wysiwyg.admin.inc:514,507,509,509,507,509,516,511,513,520
+msgid "Are you sure you want to remove the profile for %name?"
+msgstr ""
+"Вы уверены, что хотите удалить профиль "
+"для %name?"
+
+#: wysiwyg.admin.inc:528,521,523,523,521,523,532,525,527,536
+msgid "Wysiwyg profile for %name has been deleted."
+msgstr "Wysiwyg-профиль для %name был удалён."
+
+#: wysiwyg.module:724,734,714,716,734,714,728,743,723
+msgid "The installed version %version of %editor is not supported."
+msgstr ""
+"Установленная версия %version для %editor не "
+"поддерживается."
+
+#: editors/tinymce.inc:576,573,576,571,576,573,574,574,574,573,573,573
+msgid "Safari compatibility"
+msgstr "Совместимость с  Safari"
+
+#: wysiwyg.install:9,9,9,9
+msgid "Stores Wysiwyg profiles."
+msgstr "Сохранить Wysiwyg профиль."
+
+#: wysiwyg.admin.inc:378,374,374,373,374,374,379,378,378,383
+msgid ""
+"<a href=\"!vendor-url\">@editor</a> (<a "
+"href=\"!download-url\">Download</a>)"
+msgstr ""
+"<a href=\"!vendor-url\">@editor</a> (<a "
+"href=\"!download-url\">Скачать</a>)"
+
+#: wysiwyg.admin.inc:393,389,389,388,389,389,394,393,393,398
+msgid ""
+"Extract the archive and copy its contents into a new folder in the "
+"following location:<br /><code>@editor-path</code>"
+msgstr ""
+"Извлечь архив и скопировать его "
+"содержимое в следующую "
+"папку:<br><code>@editor-path</code>"
+
+#: wysiwyg.admin.inc:409,405,405,404,405,405,410,409,409,414
+msgid "Installation instructions"
+msgstr "Инструкция по установке"
+
+#: editors/whizzywig.inc:141,132,141,126,141,132,144,144,144,142,142,142
+msgid "Spell check"
+msgstr "Проверка орфографии"
+
+#: editors/yui.inc:289,286,289,286,289,286,290,290,290
+msgid "Show/hide hidden elements"
+msgstr "Показать/скрыть скрытые элементы"
+
+#: wysiwyg.admin.inc:260,260,260,260,260,260
+msgid "Editor default CSS"
+msgstr "CSS редактора по умолчанию"
+
+#: wysiwyg.admin.inc:261,261,261,261,261,261
+msgid ""
+"Defines the CSS to be used in the editor area.<br />Use theme CSS - "
+"loads stylesheets from current site theme.<br/>Define CSS - enter path "
+"for stylesheet files below.<br />Editor default CSS - uses default "
+"stylesheets from editor."
+msgstr ""
+"Определяет CSS, используемые для "
+"текстового блока.<br />Использовать CSS "
+"темы - загружает стили из текущей темы "
+"оформления.<br />Определить CSS - введите "
+"ниже путь к таблицам стилей.<br />CSS "
+"редактора по умолчанию - использует "
+"стили редактора."
+
+#: editors/fckeditor.inc:233,230,233,227,233,230,231,231,231; editors/ckeditor.inc:306,303,306,292,306,303,307,307,307,305,305,305
+msgid "Paste Text"
+msgstr "Вставить текст"
+
+#: editors/fckeditor.inc:241,238,241,235,241,238,239,239,239
+msgid "Create DIV container"
+msgstr "Создать DIV блок"
+
+#: editors/fckeditor.inc:243,240,243,237,243,240,241,241,241
+msgid "FitWindow"
+msgstr "Вписать в окно"
+
+#: editors/fckeditor.inc:244,241,244,238,244,241,242,242,242; editors/ckeditor.inc:316,313,316,302,316,313,317,317,317,315,315,315
+msgid "Check spelling"
+msgstr "Проверка орфографии"
+
+#: plugins/break.inc:17,17,17,17,17,17
+msgid "Separate the teaser and body of this content"
+msgstr ""
+"Разделить анонс и основной текст "
+"этого содержимого"
+
+#: wysiwyg.admin.inc:253,253,253,253,253,253
+msgid ""
+"Comma separated list of HTML block formats. Possible values: "
+"<code>@format-list</code>."
+msgstr ""
+"Список блокируемых HTML-форматов, "
+"разделённых запятыми. Допустимые "
+"значения: <code>@format-list</code>."
+
+#: wysiwyg.admin.inc:270,270,270,270,270,270
+msgid ""
+"Available tokens: <code>%b</code> (base path, eg: <code>/</code>), "
+"<code>%t</code> (path to theme, eg: <code>themes/garland</code>)"
+msgstr ""
+"Допустимые токены: <code>%b</code> (базовый "
+"путь, напр.: <code>/</code>), <code>%t</code> (путь к "
+"теме, напр.: <code>themes/garland</code>)"
+
+#: wysiwyg.admin.inc:270,270,270,270,270,270
+msgid ""
+"If \"Define CSS\" was selected above, enter path to a CSS file or a "
+"list of CSS files separated by a comma."
+msgstr ""
+"Если выше было выбрано \"Определить "
+"CSS\", то следует ввести путь к файлу CSS "
+"или списку файлов CSS, разделённых "
+"запятыми."
+
+#: editors/fckeditor.inc:251,248,251,245,251,248,249,249,249
+msgid "Autogrow"
+msgstr "Автоувеличение"
+
+#: editors/fckeditor.inc:270,267,270,264,270,267,268,268,268
+msgid "Table drag/resize"
+msgstr "Таблица: перетащить/изменить размер"
+
+#: editors/fckeditor.inc:278,275,278,272,278,275,276,276,276
+msgid "Table: Cell properties"
+msgstr "Таблица: свойства ячейки"
+
+#: editors/fckeditor.inc:279,276,279,273,279,276,277,277,277
+msgid "Table: Insert row after"
+msgstr "Таблица: вставить строку после"
+
+#: editors/fckeditor.inc:280,277,280,274,280,277,278,278,278
+msgid "Table: Insert column after"
+msgstr "Таблица: вставить колонку после"
+
+#: editors/fckeditor.inc:281,278,281,275,281,278,279,279,279
+msgid "Table: Insert cell after"
+msgstr "Таблица: вставить ячейку после"
+
+#: editors/fckeditor.inc:282,279,282,276,282,279,280,280,280
+msgid "Table: Delete rows"
+msgstr "Таблица: удалить строки"
+
+#: editors/fckeditor.inc:283,280,283,277,283,280,281,281,281
+msgid "Table: Delete columns"
+msgstr "Таблица: удалить колонки"
+
+#: editors/fckeditor.inc:284,281,284,278,284,281,282,282,282
+msgid "Table: Delete cells"
+msgstr "Таблица: удалить ячейки"
+
+#: editors/fckeditor.inc:285,282,285,279,285,282,283,283,283
+msgid "Table: Merge cells"
+msgstr "Таблица: объединить ячейки"
+
+#: editors/fckeditor.inc:286,283,286,280,286,283,284,284,284
+msgid "Table: Horizontal split cell"
+msgstr ""
+"Таблица: разъединить ячейку по "
+"горизонтали"
+
+#: wysiwyg.admin.inc:51,51,51,51,51,51
+msgid "%editor profile for %format"
+msgstr "профиль %editor для %format"
+
+#: wysiwyg.admin.inc:394,390,390,389,390,390,395,394,394,399
+msgid ""
+"So the actual library can be found at:<br "
+"/><code>@library-filepath</code>"
+msgstr ""
+"Таким образом, актуальные библиотеки "
+"могут быть найдены "
+"в:<br><code>@library-filepath</code>"
+
+#: wysiwyg.module:17,17,20,17,17,20
+msgid "Configure client-side editors."
+msgstr "Настроить клиентские редакторы."
+
+#: wysiwyg.admin.inc:422,422,426
+msgid ""
+"Once an editor has been associated with an input format, the editor "
+"association cannot be changed without first deleting the profile and "
+"then creating a new one. Delete a profile by clicking on the "
+"\"delete\" link and afterwards, set up a new profile as usual."
+msgstr ""
+"Связь редактора со входным форматом "
+"не может быть изменена без удаления "
+"профиля и создания его заново. Удалите "
+"профиль, нажав на ссылку \"Удалить\", а "
+"затем создайте новый профиль."
+
+#: wysiwyg.module:84,84,66,84,84,66
+msgid ""
+"A Wysiwyg profile is associated with an input format. A Wysiwyg "
+"profile defines which client-side editor is loaded with a particular "
+"input format, what buttons or themes are enabled for the editor, how "
+"the editor is displayed, and a few other editor-specific functions."
+msgstr ""
+"Профиль визуального редактора, "
+"ассоциированный с входным форматом. "
+"Профиль визуального редактора "
+"определяет, какой клиентский редактор "
+"загружен с конкретным входным "
+"форматом, какие кнопки или темы "
+"включены в редактор, как редактор "
+"отображается, и ряд других "
+"специфических редакторских функций."
+
+#: wysiwyg.admin.inc:425,421,420,421,426,425,430
+msgid ""
+"To assign a different editor to a text format, click \"delete\" to "
+"remove the existing first."
+msgstr ""
+"Для назначения другого редактора к "
+"формату ввода, сперва нажмите "
+"«удалить» для отключения текущего"
+
+#: editors/ckeditor.inc:316,313,316,302,316,313,317,317,317,315,315,315
+msgid "Check spelling as you type"
+msgstr "Проверка правописания при вводе"
+
+#: editors/tinymce.inc:559,556,559,559,556,557,557,557,556,556,556
+msgid "HTML attributes"
+msgstr "HTML атрибуты"
+
+#: editors/tinymce.inc:586,583,586,586,583,593,593,593,592,592,592
+msgid "Advanced list"
+msgstr "Расширенное управление списками"
+
+#: editors/ckeditor.inc:314,311,314,314,311,315,315,315,313,313,313
+msgid "Div container"
+msgstr "Div блок"
+
+#: editors/tinymce.inc:584,584,584,583,583,583
+msgid "Auto resize"
+msgstr "Автоматически изменить размер"
+

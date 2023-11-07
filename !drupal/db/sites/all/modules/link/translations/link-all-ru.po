@@ -1,0 +1,488 @@
+# Russian translation of link (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  link_views_handler_argument_target.inc,v 1.2.2.1 2009/11/09 06:40:51 herc
+#  link.module,v 1.25.2.3 2010/10/18 03:46:47 jcfiala
+#  link_views_handler_argument_target.inc,v 1.1.4.3 2010/06/14 15:59:35 jcfiala
+#  link.module,v 1.24.4.35 2010/08/19 04:34:49 jcfiala
+#  link.module,v 1.24.4.34 2010/06/14 18:14:11 jcfiala
+#  link.module,v 1.20.2.58 2010/03/01 01:57:25 jcfiala
+#  link.views.inc,v 1.2.2.1 2009/11/09 06:40:51 herc
+#  link.views.inc,v 1.1.4.3 2010/06/14 15:59:35 jcfiala
+#  link.info,v 1.2 2008/03/31 06:50:42 quicksketch
+#  link.info,v 1.1 2006/11/22 02:48:17 quicksketch
+#  link_views_handler_filter_protocol.inc,v 1.2.2.1 2009/11/09 06:40:51 herc
+#  link_views_handler_filter_protocol.inc,v 1.1.4.4 2010/06/14 16:33:53 jcfiala
+#  link.inc,v 1.1.2.1 2010/08/19 04:34:49 jcfiala
+#  link.info,v 1.2.6.2 2010/09/13 04:20:00 jcfiala
+#  link.theme.inc,v 1.1.2.1 2010/08/19 04:34:49 jcfiala
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: link (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:06+0000\n"
+"PO-Revision-Date: 2010-10-17 21:00+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: views/link_views_handler_argument_target.inc:31,24,24; link.module:666,350,577,184,429,665
+msgid "Title"
+msgstr "Заголовок"
+
+#: link.module:657,341,568,179,417,656
+msgid "URL"
+msgstr "URL"
+
+#: views/link.views.inc:97,80,47,95,79,47,47,79,95
+msgid "Content"
+msgstr "Содержимое"
+
+#: views/link_views_handler_argument_target.inc:58,51,51
+msgid "Wildcard"
+msgstr "Групповой символ"
+
+#: link.info:0,0,0
+msgid "CCK"
+msgstr "CCK"
+
+#: link.module:238,117,106,106,101,290,231
+msgid "Placeholder tokens"
+msgstr "Маркеры-заполнители"
+
+#: link.module:239,118,107,107,102,232
+msgid ""
+"The following placeholder tokens can be used in both paths and titles. "
+"When used in a path or title, they will be replaced with the "
+"appropriate values."
+msgstr ""
+"Данный заполнитель меток может быть "
+"использован и для синонимов и для "
+"заголовков. Когда он используется в "
+"синониме или заголовке, они будут "
+"заменены соответствующими "
+"значениями."
+
+#: link.module:213,90,81,81,76,206
+msgid "Required Title"
+msgstr "Обязательный заголовок"
+
+#: link.module:214,82,82,77,207
+msgid "Static Title: "
+msgstr "Статичный Заголовок: "
+
+#: link.module:215,92,83,83,78,208
+msgid "No Title"
+msgstr "Без заголовка"
+
+#: link.module:220,97,88,88,83,199,213
+msgid "Link Title"
+msgstr "Ссылка заголовка"
+
+#: link.module:249,128,117,117,112,242
+msgid ""
+"Checking will allow users to enter tokens in URLs and Titles on the "
+"node edit form. This does not affect the field settings on this page."
+msgstr ""
+"Если пункт отмечен, пользователи "
+"смогут вводить маркеры в URL и "
+"заголовки в форме редактирования "
+"материала. Это не повлияет на "
+"настройки поля на этой странице."
+
+#: link.module:258,137,126,126,121,251
+msgid "URL Display Cutoff"
+msgstr "Сокращение длиных URL-адресов"
+
+#: link.module:260,139,128,128,123,253
+msgid ""
+"If the user does not include a title for this link, the URL will be "
+"used as the title. When should the link title be trimmed and finished "
+"with an elipsis (&hellip;)? Leave blank for no limit."
+msgstr ""
+"Если пользователь не ввел заголовок "
+"для ссылки, в качестве него будет "
+"использован URL. Заголовок ссылки будет "
+"обрезан и в конце добавлено "
+"многоточие (&hellip;)? Оставьте пустым, "
+"если не хотите вводить ограничение."
+
+#: link.module:266,145,134,134,129,259
+msgid "Default (no target attribute)"
+msgstr "По умолчанию (без атрибута  target)"
+
+#: link.module:267,146,135,135,130,260
+msgid "Open link in window root"
+msgstr "Открывать ссылку в текущем окне"
+
+#: link.module:268,147,136,136,131,261
+msgid "Open link in new window"
+msgstr "Открывать ссылку в новом окне"
+
+#: link.module:269,148,137,137,132,262
+msgid "Allow the user to choose"
+msgstr "Разрешить пользователям выбирать"
+
+#: link.module:276,155,144,144,139,203,269
+msgid "Link Target"
+msgstr "Цель ссылки"
+
+#: link.module:282,161,150,150,145,275
+msgid "Rel Attribute"
+msgstr "Атрибут Rel"
+
+#: link.module:283,162,151,151,146,276
+msgid ""
+"When output, this link will have this rel attribute. The most common "
+"usage is <a "
+"href=\"http://en.wikipedia.org/wiki/Nofollow\">rel=&quot;nofollow&quot;</a> "
+"which prevents some search engines from spidering entered links."
+msgstr ""
+"Атрибут rel ссылки при отображении. "
+"Наиболее часто используется значение "
+"<a "
+"href=\"http://en.wikipedia.org/wiki/Nofollow\">rel=&quot;nofollow&quot;</a>, "
+"чтобы предотвратить переход по данной "
+"ссылке некоторыми поисковыми "
+"системами."
+
+#: link.module:291,170,159,159,154,284
+msgid "Additional CSS Class"
+msgstr "Дополнительный CSS-класс"
+
+#: link.module:299,175,175,162,292
+msgid "A default title must be provided if the title is a static value"
+msgstr ""
+"Заголовок по умолчанию, нужен, если "
+"заголовок - статическое значение"
+
+#: views/link_views_handler_filter_protocol.inc:63,65,65; link.module:189
+msgid "Protocol"
+msgstr "Протокол"
+
+#: link.module:807,421,715,809
+msgid "Link URL"
+msgstr "URL-адрес ссылки"
+
+#: link.module:291
+msgid ""
+"The following placeholder tokens can be used in both titles and URLs. "
+"When used in a URL or title, they will be replaced with the "
+"appropriate values."
+msgstr ""
+"Следующие символы использоваться и в "
+"заголовках и в URL. Когда они "
+"используется в URL или названии, они "
+"будут заменены соответствующими "
+"значениями."
+
+#: link.module:339
+msgid "More Links"
+msgstr "Ещё..."
+
+#: link.module:442,315,471,429; link.inc:41
+msgid "Not a valid URL."
+msgstr "Неправильный адрес."
+
+#: link.module:446,319,475,433; link.inc:45
+msgid "Titles are required for all links."
+msgstr "Заголовки требуются для всех ссылок"
+
+#: link.module:682,366,593,437,681
+msgid "Open URL in a New Window"
+msgstr "Открывать ссылку в новом окне"
+
+#: link.module:711,400,627,578,710
+msgid "Short, as link with title \"Link\""
+msgstr ""
+"Короткий, как ссылка с заголовком "
+"\"Ссылка\""
+
+#: link.module:716,405,632,582,715
+msgid "Label, as link with label as title"
+msgstr "Имя поля в ввиде ссылки"
+
+#: link.info:0,0,0,0
+msgid "Defines simple link field types."
+msgstr ""
+"Определяет простые типы полей для "
+"ссылок."
+
+#: link.module:809,423,717,811
+msgid "Formatted html link"
+msgstr "Форматированная html ссылка"
+
+#: link.info:0,0,0,0; link.module:773,31,48,48,683,660,775; link.theme.inc:92
+msgid "Link"
+msgstr "Ссылка"
+
+#: link.module:808,422,716,810
+msgid "Link title"
+msgstr "Заголовок ссылки"
+
+#: link.module:212,89,80,80,75,205
+msgid "Optional Title"
+msgstr "Необязательный заголовок"
+
+#: link.module:66,66
+msgid "Validate URL"
+msgstr "Проверка URL"
+
+#: views/link_views_handler_filter_protocol.inc:30,32,32
+msgid "="
+msgstr "="
+
+#: views/link_views_handler_filter_protocol.inc:29,31,31
+msgid "Is one of"
+msgstr "Любые:"
+
+#: views/link_views_handler_argument_target.inc:46,39,39
+msgid "Action to take if argument is not present"
+msgstr "Если аргумента нет, то"
+
+#: views/link_views_handler_argument_target.inc:61,54,54
+msgid ""
+"If this value is received as an argument, the argument will be "
+"ignored; i.e, \"all values\""
+msgstr ""
+"Если аргумент равен этому значению, то "
+"аргумент будет игнорирован (как \"все "
+"значения\")"
+
+#: views/link_views_handler_argument_target.inc:67,60,60
+msgid "Wildcard title"
+msgstr "Подстановочный заголовок"
+
+#: views/link_views_handler_argument_target.inc:70,63,63
+msgid "The title to use for the wildcard in substitutions elsewhere."
+msgstr ""
+"Заголовок, который будет использован "
+"для подстановки где-нибудь."
+
+#: link.module:205,82,73,73,68,198
+msgid "Optional URL"
+msgstr "Дополнительный URL"
+
+#: link.module:71
+msgid ""
+"If checked, the URL field is optional and submitting a title alone "
+"will be acceptable. If the URL is ommitted, the title will be "
+"displayed as plain text."
+msgstr ""
+"Если пункт отмечен, поле URL является "
+"необязательным и разрешается "
+"отправка одного заголовка. Если URL "
+"пропущено, заголовок будет показан "
+"как открытый текст."
+
+#: link.module:451,324,480,438; link.inc:50
+msgid "You cannot enter a title without a link url."
+msgstr ""
+"Вы не можете ввести заголовок без "
+"ссылки на адрес."
+
+#: link.module:362,223,236,367,449
+msgid "At least one title or URL must be entered."
+msgstr ""
+"По крайней мере, один заголовок или "
+"адрес должен быть введён."
+
+#: views/link_views_handler_filter_protocol.inc:115,115
+msgid "exposed"
+msgstr "раскрыт"
+
+#: link.module:32,49,49
+msgid ""
+"Store a title, href, and attributes in the database to assemble a "
+"link."
+msgstr ""
+"Сохранить заголовок, адрес и атрибуты "
+"в базу данных для создания ссылки"
+
+#: views/link_views_handler_argument_target.inc:33,26,26
+msgid ""
+"The title to use when this argument is present; it will override the "
+"title of the view and titles from previous arguments. You can use "
+"percent substitution here to replace with argument titles. Use \"%1\" "
+"for the first argument, \"%2\" for the second, etc."
+msgstr ""
+"Если есть аргумент, то для него будет "
+"использован заголовок. Он заменит "
+"заголовок представления и заголовки "
+"предыдущих аргументов. Можно "
+"использовать аргументы в заголовке: "
+"\"%1\" для первого аргумента, \"%2\" для "
+"второго и т.д."
+
+#: views/link_views_handler_argument_target.inc:93,86,86
+msgid "Validator"
+msgstr "Проверка"
+
+#: views/link_views_handler_argument_target.inc:133,126,126
+msgid "Action to take if argument does not validate"
+msgstr "Если аргумент некорректен, то"
+
+#: views/link_views_handler_argument_target.inc:97,90,90
+msgid "<Basic validation>"
+msgstr "<Базовая проверка>"
+
+#: link.module:223,100,91,91,86,216
+msgid ""
+"If the link title is optional or required, a field will be displayed "
+"to the end user. If the link title is static, the link will always use "
+"the same title. If <a href=\"http://drupal.org/project/token\">token "
+"module</a> is installed, the static title value may use any other node "
+"field as its value. Static and token-based titles may include most "
+"inline XHTML tags such as <em>strong</em>, <em>em</em>, <em>img</em>, "
+"<em>span</em>, etc."
+msgstr ""
+"Если заголовок ссылки необязательный "
+"или обязательный, то поле будет "
+"показано пользователю. Если же он "
+"статичный, у ссылки всегда будет тот "
+"же заголовок. Если установлен модуль "
+"token<a href=\"http://drupal.org/project/token\"></a>, в "
+"качесте значения статического "
+"заголовка может использоваться любое "
+"другое поле материала.  Статические и "
+"основанные на токенах заголовки могут "
+"включать большинство встроенных "
+"тэгов XHTML, как например, <em>strong</em>, "
+"<em>em</em>, <em>img</em>, <em>span</em>, etc."
+
+#: link.module:247,126,115,115,110,240
+msgid "Allow user-entered tokens"
+msgstr "Разрешить пользовательские маркеры"
+
+#: link.module:696,380,607,566,695
+msgid "Title, as link (default)"
+msgstr "Заголовок, как ссылка (по умолчанию)"
+
+#: link.module:701,390,617,570,700
+msgid "URL, as link"
+msgstr "URL, как ссылка"
+
+#: link.module:574
+msgid "URL, plain text"
+msgstr "URL, простой текст"
+
+#: link.module:721,410,637,586,720
+msgid "Separate title and URL"
+msgstr "Отдельные заголовок и URL"
+
+#: views/link.views.inc:41,41,41
+msgid "@label URL"
+msgstr "@label URL"
+
+#: views/link.views.inc:61,48,61,48,48,61
+msgid "@label title"
+msgstr "@label заголовок(title)"
+
+#: views/link.views.inc:85,81,84,80,80,84
+msgid "@label protocol"
+msgstr "@label протокол"
+
+#: views/link.views.inc:102,98,100,96,96,100
+msgid "@label target"
+msgstr "@label цель(target)"
+
+#: views/link_views_handler_filter_protocol.inc:68,70,70
+msgid ""
+"The protocols displayed here are those globally available. You may add "
+"more protocols by modifying the <em>filter_allowed_protocols</em> "
+"variable in your installation."
+msgstr ""
+"Протоколы отображенные здесь "
+"доступны в любом месте. Вы можете "
+"добавить больше протоколов, изменив "
+"переменную <em>filter_allowed_protocols</em> в вашей "
+"установке."
+
+#: link.module:706,395,622,705
+msgid "URL, as plain text"
+msgstr "URL, как открытый текст"
+
+#: link.module:292,171,155,285
+msgid ""
+"When output, this link will have have this class attribute. Multiple "
+"classes should be separated by spaces."
+msgstr ""
+"Атрибут класса ссылки при "
+"отображении. Если классов несколько, "
+"их следует разделить пробелами."
+
+#: link.module:208,85,76,76,201
+msgid ""
+"If checked, the URL field is optional and submitting a title alone "
+"will be acceptable. If the URL is omitted, the title will be displayed "
+"as plain text."
+msgstr ""
+"Если выбрано, поле URL является не "
+"обязательным и позволяет сохранять "
+"только заголовок. Если URL не доступен, "
+"заголовок будет отображен как обычный "
+"текст"
+
+#: link.module:164,164
+msgid "Link 'title' Attribute"
+msgstr "Атрибут ссылки 'title' (заголовок)"
+
+#: link.module:160,160
+msgid ""
+"When output, this link will have this class attribute. Multiple "
+"classes should be separated by spaces."
+msgstr ""
+"При выводе, эта ссылка будет иметь "
+"этот класс. Несколько классов должны "
+"быть разделены пробелами."
+
+#: link.module:168,168
+msgid ""
+"When output, links will use this \"title\" attribute (when different "
+"from the link text). Read <a "
+"href=\"http://www.w3.org/TR/WCAG10-HTML-TECHS/#links\">WCAG 1.0 "
+"Guidelines</a> for links comformances. Tokens values will be "
+"evaluated."
+msgstr ""
+"При выводе ссылки будет использован "
+"атрибут \"title\" (иначе будет использован "
+"текст ссылки). Прочтите <a "
+"href=\"http://www.w3.org/TR/WCAG10-HTML-TECHS/#links\">WCAG 1.0 "
+"Guidelines</a> относительно соответствующих "
+"элементов ссылки. Значения "
+"заменителей (token) так же будут "
+"использованы."
+
+#: link.module:68,68
+msgid ""
+"If checked, the URL field will be verified as a valid URL during "
+"validation."
+msgstr ""
+"Если выбрано, поле URL будет "
+"проверяться на соответствие "
+"форматирования URL адресов."
+
+#: link.module:385,612
+msgid "Title, as plain text"
+msgstr "Заголовок, как простой текст"
+
+#: link.module:91
+msgid "Static Title"
+msgstr ""
+
+#: link.module:105
+msgid "Static title"
+msgstr ""
+
+#: link.module:108
+msgid ""
+"This title will always be used if &ldquo;Static Title&rdquo; is "
+"selected above."
+msgstr ""
+
+#: link.module:182
+msgid "A default title must be provided if the title is a static value."
+msgstr ""
+

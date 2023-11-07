@@ -1,0 +1,1632 @@
+# Russian translation of akismet (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  akismet.module,v 1.10.4.9 2008/03/18 23:09:56 drewish
+#  akismet.module,v 1.28 2008/07/13 07:48:00 drewish
+#  akismet.module,v 1.26 2008/05/26 23:41:12 drewish
+#  akismet.module,v 1.10.4.11 2008/07/13 07:45:17 drewish
+#  akismet_admin.inc,v 1.3.4.4 2008/03/18 23:19:54 drewish
+#  akismet.admin.inc,v 1.3 2008/08/01 23:14:51 drewish
+#  akismet.admin.inc,v 1.2 2008/05/26 23:37:31 drewish
+#  akismet_cron.inc,v 1.3 2006/12/31 23:49:25 eaton
+#  akismet_cron.inc,v 1.5 2008/03/24 23:31:16 drewish
+#  akismet/akismet.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: akismet (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:19+0000\n"
+"PO-Revision-Date: 2010-09-16 04:06+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: akismet.module:712,712,824,824,825,713,713
+msgid "Access denied"
+msgstr "Доступ запрещен"
+
+#: akismet.module:1074,1068,1074,1068,1186,1180,1180,1186,1181,1187,1069,1075,1069,1075; akismet_admin.inc:10,10; akismet.admin.inc:17,17
+msgid "Enabled"
+msgstr "Включено"
+
+#: akismet_admin.inc:228,90,228,90,228,90,228,90; akismet.admin.inc:235,97,97,235,235,97,97,235
+msgid "none"
+msgstr "нет"
+
+#: akismet.module:919,919,1031,1031,1032,920,920; akismet_admin.inc:496,496; akismet.admin.inc:503,503
+msgid "Title"
+msgstr "Заголовок"
+
+#: akismet_admin.inc:489,489; akismet.admin.inc:496,496
+msgid "Submit"
+msgstr "Отправить"
+
+#: akismet_admin.inc:68,68; akismet.admin.inc:75,75
+msgid "never"
+msgstr "никогда"
+
+#: akismet.module:1074,1068,1074,1068,1186,1180,1180,1186,1181,1187,1069,1075,1069,1075; akismet_admin.inc:10,10; akismet.admin.inc:17,17
+msgid "Disabled"
+msgstr "Отключено"
+
+#: akismet_admin.inc:656,656; akismet.admin.inc:663,663
+msgid "Cancel"
+msgstr "Отменить"
+
+#: akismet.module:167,167,241,241,167; akismet_admin.inc:462,462; akismet.admin.inc:469,469
+msgid "Comments"
+msgstr "Комментарии"
+
+#: akismet.module:179,179,265,265,179
+msgid "Published comments"
+msgstr "Опубликованные комментарии"
+
+#: akismet.module:630,630,742,742,743,631,631
+msgid ""
+"Your comment has been queued for moderation by site administrators and "
+"will be published after approval."
+msgstr ""
+"Ваш комментарий был отправлен "
+"администраторам сайта и будет "
+"опубликован после проверки."
+
+#: akismet.module:911,911,1023,1023,1024,912,912; akismet_admin.inc:508,508; akismet.admin.inc:515,515
+msgid "Subject"
+msgstr "Тема"
+
+#: akismet_admin.inc:509,498,509,498; akismet.admin.inc:516,505,505,516
+msgid "Author"
+msgstr "Автор"
+
+#: akismet_admin.inc:331,301,331,301; akismet.admin.inc:338,308,308,338
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить."
+
+#: akismet_admin.inc:330,330; akismet.admin.inc:337,337
+msgid "Delete comments"
+msgstr "Удалить комментарии"
+
+#: akismet_admin.inc:678,678; akismet.admin.inc:685,685
+msgid "The comments have been deleted."
+msgstr "Комментарии удалены."
+
+#: akismet.module:559,515,559,515,671,627,627,671,628,672,516,560,516,560
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: akismet_admin.inc:510,499,510,499; akismet.admin.inc:517,506,506,517
+msgid "Status"
+msgstr "Статус"
+
+#: akismet_admin.inc:368,368; akismet.admin.inc:375,375
+msgid "Published"
+msgstr "Опубликовано"
+
+#: akismet.module:560,560,672,672,673,561,561
+msgid "Comment"
+msgstr "Комментарий"
+
+#: akismet_admin.inc:641,641; akismet.admin.inc:648,648
+msgid "by"
+msgstr "Автор:"
+
+#: akismet_admin.inc:175,165,155,175,165,155; akismet.admin.inc:182,172,162,162,172,182
+msgid "administer comments"
+msgstr "управлять комментариями"
+
+#: akismet.module:904,904,1016,1016,1017,905,905
+msgid "Drupal"
+msgstr "Drupal"
+
+#: akismet_admin.inc:497,497; akismet.admin.inc:504,504
+msgid "Type"
+msgstr "Тип"
+
+#: akismet.module:516,516,628,628,629,517,517
+msgid "Body"
+msgstr "Содержимое"
+
+#: akismet.module:249,231,363,345,345,363,231,249
+msgid "Publish"
+msgstr "Опубликован"
+
+#: akismet.module:246,228,360,342,342,360,228,246
+msgid "Unpublish"
+msgstr "Снять с публикации"
+
+#: akismet_admin.inc:134,124,114,134,124,114; akismet.admin.inc:141,131,121,121,131,141
+msgid "administer nodes"
+msgstr "управлять материалами"
+
+#: akismet.module:558,514,558,514,670,626,626,670,627,671,515,559,515,559
+msgid "SQL"
+msgstr "SQL"
+
+#: akismet_admin.inc:540,529,540,529; akismet.admin.inc:547,536,536,547
+msgid "%time ago"
+msgstr "%time назад"
+
+#: akismet.module:98,98,115,115,98
+msgid "names"
+msgstr "названия"
+
+#: akismet.module:146,146,201,201,146
+msgid "Overview"
+msgstr "Обзор"
+
+#: akismet.module:149,149,208,208,149; akismet_admin.inc:451,451; akismet.admin.inc:458,458
+msgid "Nodes"
+msgstr "Материалы"
+
+#: akismet.module:1062,1062,1174,1174,1175,1063,1063
+msgid "Image"
+msgstr "Изображение"
+
+#: akismet_admin.inc:367,367; akismet.admin.inc:374,374
+msgid "Unpublished"
+msgstr "Неопубликовано"
+
+#: akismet_cron.inc:118,110,85,69,8,118,110,85,69,112,8,8,112,8,69,85,110,118
+msgid "cron"
+msgstr "cron"
+
+#: akismet_admin.inc:24,24; akismet.admin.inc:31,31
+msgid "Akismet Service Options"
+msgstr "Опции настройки Akismet"
+
+#: akismet_admin.inc:28,28; akismet.admin.inc:35,35
+msgid "WordPress.com API key"
+msgstr "API ключ WordPress.com"
+
+#: akismet_admin.inc:31,31; akismet.admin.inc:38,38
+msgid ""
+"Please, enter here your <a href=\"!wpapikey\">WordPress.com API "
+"key</a>. If you don't have one already, you can get it by simply "
+"signing up for a free account at <a "
+"href=\"!wordpress-com\">WordPress.com</a>. Note that this information "
+"is required in order to use the <a href=\"!akismet\">Akismet "
+"Service</a>. Please, consult the <a href=\"!akismet-faq\">Akismet "
+"FAQ</a> for further information."
+msgstr ""
+"Пожалуйста, введите здесь ваш <a "
+"href=\"!wpapikey\">WordPress.com API ключ</a>. Если у вас "
+"его ещё нет, проще всего получить его, "
+"зарегистрировавшись (бесплатно) на  <a "
+"href=\"!wordpress-com\">WordPress.com</a>. Обратите "
+"внимание, что ключ является "
+"обязательным, если вы ходите "
+"воспользоваться <a href=\"!akismet\">услугами "
+"Akismet</a>. Просьба обращаться к <a "
+"href=\"!akismet-faq\">списку частых вопросов об "
+"Akismet</a> за даьнейшими пояснениями."
+
+#: akismet_admin.inc:40,40; akismet.admin.inc:47,47
+msgid "<strong>WARNING: Your API Key doesn't seem to be valid!</strong>"
+msgstr ""
+"<strong>ВНИМАНИЕ: ваш API ключ, похоже, "
+"недействителен!</strong>"
+
+#: akismet_admin.inc:43,43; akismet.admin.inc:50,50
+msgid "Akismet connections"
+msgstr "Akismet соединения"
+
+#: akismet_admin.inc:46,46; akismet.admin.inc:53,53
+msgid ""
+"<strong>This option must be enabled in order to perform real requests "
+"to the <a href=\"!akismet\">Akismet Service</a>.</strong> You may want "
+"to disable this option for testing purposes, however. In this case, "
+"the <em>akismet module</em> will operate as normal, except sending "
+"real requests to the <a href=\"!akismet\">Akismet Service</a>. ie. no "
+"automatic spam detection will be performed and no remote requests will "
+"be made when content is manually <em>marked</em>/<em>unmarked</em> as "
+"spam.<br />Note: regardless of this option, the <em>akismet "
+"module</em> will still connect, from this panel, to validate your <a "
+"href=\"!wpapikey\">WordPress.com API key</a>, if specified."
+msgstr ""
+"<strong>Эту опцию необходимо включить, "
+"чтобы задействовать <a "
+"href=\"!akismet\">сервис Akismet</a>.</strong> Вы можете "
+"отключать эту опцию в целях "
+"тестирования. В этом случае <em>модуль "
+"akismet</em> будет работать штатно за "
+"исключением того, что не будет "
+"отправлять подлинных запросов на  <a "
+"href=\"!akismet\">Akismet Service</a>. Иными словами, "
+"автоматического распознавания СПАМа "
+"не будет, не будут также производиться "
+"удалённые запросы, если документ "
+"будет  <em>помечен как СПАМ</em>/<em>помечен "
+"как не СПАМ</em>.<br />Примечание: вне "
+"зависимости от состояния этой опции, "
+"<em>модуль akismet</em> по-прежнему будет "
+"подсоединяться, из этой панели "
+"управления, чтобы проверить ваш <a "
+"href=\"!wpapikey\">WordPress.com API ключ</a>, если он "
+"указан."
+
+#: akismet_admin.inc:57,57; akismet.admin.inc:64,64
+msgid "Connection timeout"
+msgstr "Тайм-аут соединения"
+
+#: akismet_admin.inc:60,60; akismet.admin.inc:67,67
+msgid ""
+"This option allows you to specify the connection timeout in seconds "
+"that is used for real time Akismet connections."
+msgstr ""
+"Эта опция позволяет указать тайм-аут, "
+"в секундах, который будет учитываться "
+"при запросах Akismet в реальном времени."
+
+#: akismet_admin.inc:64,64; akismet.admin.inc:71,71
+msgid "General Options"
+msgstr "Общие настройки"
+
+#: akismet_admin.inc:69,69; akismet.admin.inc:76,76
+msgid "1 month"
+msgstr "1 месяц"
+
+#: akismet_admin.inc:70,70; akismet.admin.inc:77,77
+msgid "2 months"
+msgstr "2 месяца"
+
+#: akismet_admin.inc:71,71; akismet.admin.inc:78,78
+msgid "3 months"
+msgstr "3 месяца"
+
+#: akismet_admin.inc:72,72; akismet.admin.inc:79,79
+msgid "4 months"
+msgstr "4 месяца"
+
+#: akismet_admin.inc:73,73; akismet.admin.inc:80,80
+msgid "6 months"
+msgstr "6 месяцев"
+
+#: akismet_admin.inc:74,74; akismet.admin.inc:81,81
+msgid "1 year"
+msgstr "1 год"
+
+#: akismet_admin.inc:76,76; akismet.admin.inc:83,83
+msgid "Remove spam older than"
+msgstr "Удалить СПАМ возрастом более"
+
+#: akismet_admin.inc:79,79; akismet.admin.inc:86,86
+msgid ""
+"Content marked as <em>spam</em> is still saved into database so it can "
+"be reviewed by content administrators. This option allows you to "
+"specify how long this information will be kept in the database. "
+"<em>Spam</em> older than the age specified here will be automatically "
+"removed. Requires crontab."
+msgstr ""
+"Документы, <em>помеченные как СПАМ</em> "
+"всё равно сохраняются в базе даных, "
+"чтобы администрация могла "
+"ознакомиться с их содержимым. Эта "
+"опция указывает, как долго подобные "
+"записи будут храниться в базе данных. "
+"<em>СПАМ</em> возрастом более указанного "
+"будет удалён автоматически. "
+"Используется планировщик задач (crontab)."
+
+#: akismet_admin.inc:82,82; akismet.admin.inc:89,89
+msgid "Records per page"
+msgstr "Записей на страницу"
+
+#: akismet_admin.inc:85,85; akismet.admin.inc:92,92
+msgid "The maximum number of records per page on moderation queue."
+msgstr ""
+"Максимальное число записей на "
+"страницу в очереди на модерирование."
+
+#: akismet_admin.inc:88,88; akismet.admin.inc:95,95
+msgid "Number of blocks"
+msgstr "Количество блоков"
+
+#: akismet_admin.inc:91,91; akismet.admin.inc:98,98
+msgid ""
+"The akismet module may generate a number of blocks for you to display "
+"the current spam counter anywhere on your site. The number of blocks "
+"is variable to help you keep your <a href=\"!admin-block\">blocks "
+"administration panel</a> as clean as possible. This option allows you "
+"to specify how many blocks you wish to use. If you do not plan to show "
+"the spam counter to your visitors, set this option to <em>none</em>."
+msgstr ""
+"Модуль akismet может создавать множество "
+"блоков для отображения текущего "
+"счётчика СПАМа где угодно на сайте. "
+"Количество блоков может меняться, "
+"чтобы содержать вашу <a "
+"href=\"!admin-block\">панель управления "
+"блоками</a> в порядке. Эта опция "
+"похволяет определить, сколько именно "
+"блоков вы намерены использовать. Если "
+"в ваши планы не входит показывать "
+"счётчик СПАМа, выберите <em>нет</em>."
+
+#: akismet_admin.inc:97,97; akismet.admin.inc:104,104
+msgid "E-mail notifications"
+msgstr "Уведомления электронной почтой"
+
+#: akismet_admin.inc:100,100; akismet.admin.inc:107,107
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> e-mail "
+"notifications to content moderators. If enabled, users with proper "
+"permissions are allowed to set, from their user profiles, whether they "
+"wish to receive e-mail notications for all new (or updated) posts, "
+"just for content needing approval or no notifications at all. Users "
+"are notified about content types they are allowed to moderate only."
+msgstr ""
+"Воспользуйтесь этой опцией, чтобы "
+"<em>включить</em> или <em>выключить</em> "
+"уведомление модераторов  электронной "
+"почтой. Если опция включена, то "
+"пользователи с соответствующими "
+"полномочиями могут выбрать в своих "
+"профилях, желают ли они получать "
+"уведомления обо всех новых или "
+"обновлённых документах, только о "
+"документах, требующих одобрения - или "
+"же не получать уведомлений вовсе. "
+"Пользователи уведомляются только о "
+"тех типах документов, которые им "
+"позволено модерировать."
+
+#: akismet_admin.inc:104,104; akismet.admin.inc:111,111
+msgid "Node Options"
+msgstr "Опции документа"
+
+#: akismet_admin.inc:108,108; akismet.admin.inc:115,115
+msgid "Check for spam in these node types"
+msgstr ""
+"Проверять на СПАМ следуюшие типы "
+"документов"
+
+#: akismet_admin.inc:111,111; akismet.admin.inc:118,118
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> spam check for "
+"nodes of types specified here. When this option is enabled, a request "
+"will be sent to the <a href=\"!akismet\">Akismet Service</a>, in real "
+"time. If the <a href=\"!akismet\">Akismet Service</a> was down, nodes "
+"would simply be queued for manual moderation. Users with <a "
+"href=\"!admin-access\">@admin-nodes</a> permission and <a "
+"href=\"!admin-access\">spam moderators</a> are exempt from this check."
+msgstr ""
+"Используйте эту опцию, чтобы "
+"<em>включить</em> или <em>выключить</em> "
+"проверку на СПАМ документов типов, "
+"перечисленных здесь. Когда опция "
+"включена, запрос <a href=\"!akismet\">сервиса "
+"Akismet Service</a>происходит в реальном "
+"времени. Если <a href=\"!akismet\">сервис Akismet</a> "
+"был недоступен, документы будут "
+"отправлены в очередь на ручное "
+"модерирование. Пользователи с правами "
+"<a href=\"!admin-access\">@admin-nodes</a> и <a "
+"href=\"!admin-access\">spam moderators</a> могут "
+"публиковать документы без подобной "
+"проверки."
+
+#: akismet_admin.inc:160,119,160,119; akismet.admin.inc:167,126,126,167
+msgid "Show publish/unpublish links"
+msgstr ""
+"Отображать ссылки "
+"\"опубликовать/снять с публикации\""
+
+#: akismet_admin.inc:122,122; akismet.admin.inc:129,129
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> links for "
+"<em>publish</em>/<em>unpublish</em> operations in nodes. If enabled, "
+"these links will only be displayed to <a href=\"!admin-access\">spam "
+"moderators</a> and users with <a "
+"href=\"!admin-access\">@admin-nodes</a> permission."
+msgstr ""
+"Эта опция позволяет показывать или "
+"скрывать ссылки <em>опубликовать</em> или "
+"<em>снять с публикации</em>. Когда опция "
+"включена, эти ссылки видны, но только <a "
+"href=\"!admin-access\">модераторам СПАМа</a> и "
+"пользователям с правом <a "
+"href=\"!admin-access\">@admin-nodes</a>."
+
+#: akismet_admin.inc:170,129,170,129; akismet.admin.inc:177,136,136,177
+msgid "Show submit spam/ham links"
+msgstr ""
+"Отображать ссылки \"сообщить, что это "
+"СПАМ\" и \"сообщить, что это не СПАМ\""
+
+#: akismet_admin.inc:132,132; akismet.admin.inc:139,139
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> links for "
+"<em>submit spam</em>/<em>ham</em> operations in nodes. If enabled, "
+"these links will only be displayed to <a href=\"!admin-access\">spam "
+"moderators</a> and users with <a "
+"href=\"!admin-access\">@admin-nodes</a> permission."
+msgstr ""
+"Используйте эту опцию, чтобы "
+"<em>включить</em> или <em>выключить</em> "
+"ссылки для отправки сообщений, что "
+"данный документ <em>является</em>/<em>не "
+"является</em> СПАМом. Эти ссылки видны "
+"только  <a href=\"!admin-access\">модераторам "
+"СПАМа</a> и пользователям с правами <a "
+"href=\"!admin-access\">@admin-nodes</a>."
+
+#: akismet_admin.inc:178,137,178,137; akismet.admin.inc:185,144,144,185
+msgid ""
+"<strong>Note:</strong> To interact fully with the <a "
+"href=\"!akismet\">Akismet Service</a> you really should try putting "
+"data back into the system as well as just taking it out. If it is at "
+"all possible, please use these links to submit missed spam and false "
+"positives (ham), otherwise Akismet will never learn from its mistakes. "
+"Thank you."
+msgstr ""
+"<strong>Примечание:</strong> Для наибольшего "
+"взаимодействия с  <a href=\"!akismet\">сервисом "
+"Akismet</a> вы должны пробовать возвращать "
+"данные в систему, не только удалять их. "
+"Если возможно, используйте эти ссылки "
+"для отправки сообщений о пропущенном "
+"СПАМе или ложном срабатывании, иначе "
+"Akismet не будет учиться на своих ошибках. "
+"Спасибо!"
+
+#: akismet_admin.inc:145,145; akismet.admin.inc:152,152
+msgid "Comment Options"
+msgstr "Опции для комментариев"
+
+#: akismet_admin.inc:149,149; akismet.admin.inc:156,156
+msgid "Check for spam in comments"
+msgstr "Проверять комментарии на СПАМ"
+
+#: akismet_admin.inc:152,152; akismet.admin.inc:159,159
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> spam check for "
+"comments. When this option is enabled, a request will be sent to the "
+"<a href=\"!akismet\">Akismet Service</a>, in real time. If the <a "
+"href=\"!akismet\">Akismet Service</a> was down, comments would simply "
+"be queued for manual moderation. Users with <a "
+"href=\"!admin-access\">@admin-comments</a> permission and <a "
+"href=\"!admin-access\">spam moderators</a> are exempt from this check."
+msgstr ""
+"Используйте эту опцию, чтобы "
+"<em>включить</em> или <em>выключить</em> "
+"проверку комментариев на СПАМ. Когда "
+"опция включена, запрос будет "
+"направляться на <a href=\"!akismet\">сервис "
+"Akismet</a> в реальном времени. Если  <a "
+"href=\"!akismet\">сервис Akismet</a> недоступен, "
+"комментарии просто отправляются в "
+"очередь на ручное модерирование. "
+"Пользователи с правом <a "
+"href=\"!admin-access\">@admin-comments</a>, а также <a "
+"href=\"!admin-access\">модераторы СПАМа</a> "
+"избавлены от подобной проверки."
+
+#: akismet_admin.inc:163,163; akismet.admin.inc:170,170
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> links for "
+"<em>publish</em>/<em>unpublish</em> operations in comments. If "
+"enabled, these links will only be displayed to <a "
+"href=\"!admin-access\">spam moderators</a> and users with <a "
+"href=\"!admin-access\">@admin-comments</a> permission."
+msgstr ""
+"Эта опция позволяет <em>включить</em> или "
+"<em>выключить</em> ссылки, поволяющие "
+"<em>публиковать "
+"комментарии</em>/<em>снимать комментарии "
+"с публикации</em>. Если включены, эти "
+"ссылки видны только <a "
+"href=\"!admin-access\">модераторам СПАМа</a> и "
+"пользователям с правом доступа <a "
+"href=\"!admin-access\">@admin-comments</a>."
+
+#: akismet_admin.inc:173,173; akismet.admin.inc:180,180
+msgid ""
+"Use this option to <em>enable</em> or <em>disable</em> links for "
+"<em>submit spam</em>/<em>ham</em> operations in comments. If enabled, "
+"these links will only be displayed to <a href=\"!admin-access\">spam "
+"moderators</a> and users with <a "
+"href=\"!admin-access\">@admin-comments</a> permission."
+msgstr ""
+"Эта опция позволяет <em>включить</em> или "
+"<em>выключить</em> отображение ссылок, "
+"чтобы <em>сообщать о СПАМе в "
+"комментарии</em>/<em>сообщать о том, что в "
+"комментарии нет СПАМа</em>. Если "
+"включены, эти ссылки видны только <a "
+"href=\"!admin-access\">модераторам СПАМа</a> и "
+"пользователям с правами <a "
+"href=\"!admin-access\">@admin-comments</a>."
+
+#: akismet_admin.inc:198,198; akismet.admin.inc:205,205
+msgid "Spam Counter Options"
+msgstr "Опции счётчика СПАМа"
+
+#: akismet_admin.inc:202,202; akismet.admin.inc:209,209
+msgid "Spam counter"
+msgstr "Счётчик СПАМа"
+
+#: akismet_admin.inc:205,205; akismet.admin.inc:212,212
+msgid "This counter is incremented for every spam caught by Akismet."
+msgstr ""
+"Этот счётчик увеличивается для "
+"каждого случая СПАМа, выявленного "
+"Akismet."
+
+#: akismet_admin.inc:208,208; akismet.admin.inc:215,215
+msgid "Counting since"
+msgstr "Счётчик активен с"
+
+#: akismet_admin.inc:210,210; akismet.admin.inc:217,217
+msgid ""
+"This is the date that will tell your visitors when your Akismet spam "
+"counter started to increment."
+msgstr ""
+"Это дата, которая поясняет вашим "
+"посетителям, с какого момента "
+"действует счётчик СПАМа."
+
+#: akismet_admin.inc:213,213; akismet.admin.inc:220,220
+msgid "Date format"
+msgstr "Формат даты"
+
+#: akismet_admin.inc:216,216; akismet.admin.inc:223,223
+msgid "Date format used to render the <em>Counting since</em> date."
+msgstr ""
+"Формат записи даты для поля <em>Счётчик "
+"активен с</em>."
+
+#: akismet_admin.inc:220,220; akismet.admin.inc:227,227
+msgid "Anti-Spambot Options"
+msgstr "Опции противодействия СПАМ-роботам"
+
+#: akismet_admin.inc:222,222; akismet.admin.inc:229,229
+msgid ""
+"The goal of this section is not to replace anything that the <a "
+"href=\"!akismet\">Akismet Service</a> itself can do a lot better than "
+"us, but to provide a set of simple rules aimed to prevent Denial of "
+"Service (DoS) situations that could be caused by certain spambots."
+msgstr ""
+"Целью создания этогораздела является "
+"не замещения тех функций, которые <a "
+"href=\"!akismet\">сервис Akismet</a> выполняет "
+"лучше, нежели мы, но предоставление "
+"набора простых правил, направленных "
+"на предотвращение ситуаций \"DoS\" "
+"(отказа в обслуживании), которые могут "
+"породить некоторые СПАМ-роботы."
+
+#: akismet_admin.inc:230,230; akismet.admin.inc:237,237
+msgid "Delay when spam is detected"
+msgstr ""
+"Пауза перед ответом при обнаружении "
+"СПАМа"
+
+#: akismet_admin.inc:233,233; akismet.admin.inc:240,240
+msgid ""
+"Use this option to delay the response when content has been identified "
+"as spam or to requests that match the rules defined below."
+msgstr ""
+"Эта опция позволяет создать паузу "
+"между запросом и ответом, когда "
+"материал опознаётся как СПАМ - или "
+"если запрос удовлетворяет одному из "
+"правил, указанных ниже."
+
+#: akismet_admin.inc:236,236; akismet.admin.inc:243,243
+msgid "IP addresses used by known spammers."
+msgstr ""
+"IP адреса, используемые известными "
+"СПАМмерами"
+
+#: akismet_admin.inc:237,237; akismet.admin.inc:244,244
+msgid "E-mail addresses used by known spammers."
+msgstr ""
+"Адреса электронной почты, "
+"используемые известными СПАМмерами"
+
+#: akismet_admin.inc:238,238; akismet.admin.inc:245,245
+msgid "Content that has already been identified as spam."
+msgstr ""
+"Документ, который уже опознан, как "
+"СПАМ."
+
+#: akismet_admin.inc:241,241; akismet.admin.inc:248,248
+msgid "Identify spambots by"
+msgstr "Определять СПАМ-роботы по"
+
+#: akismet_admin.inc:244,244; akismet.admin.inc:251,251
+msgid ""
+"These rules will be applied before sending any request to the <a "
+"href=\"!akismet\">Akismet Service</a>. If a request to send content "
+"matches any of these rules, the actions defined below will be "
+"triggered. Requests to send content are checked against spam that is "
+"stored locally (visible from the <a "
+"href=\"!moderation-queue\">moderation queue</a>)."
+msgstr ""
+"Эти правила будут использованы до "
+"обращения к <a href=\"!akismet\">сервису Akismet</a>. "
+"Если запрос на публикацию материала "
+"согласуется с любым из правил, "
+"инициируется действие, указанное "
+"ниже. Запросы на публикацию "
+"проверяются на наличие СПАМа, "
+"сохранённого локально (можно увидеть "
+"на странице <a href=\"!moderation-queue\">очереди "
+"на модерирование</a>)."
+
+#: akismet_admin.inc:251,251; akismet.admin.inc:258,258
+msgid "None (only the delay specified above, if any)."
+msgstr ""
+"Нет (только пауза, указанная выше - "
+"если она настроена)"
+
+#: akismet_admin.inc:252,252; akismet.admin.inc:259,259
+msgid "HTTP error 503 (Service Unavailable), showing a simple blank page."
+msgstr ""
+"Ошибка HTTP  503 (В сервисе отказано), "
+"пустая страница."
+
+#: akismet_admin.inc:253,253; akismet.admin.inc:260,260
+msgid "HTTP error 403 (Forbidden), showing a simple blank page."
+msgstr ""
+"Ошибка HTTP 403 (Доступ запрещён), пустая "
+"страница."
+
+#: akismet_admin.inc:254,254; akismet.admin.inc:261,261
+msgid "HTTP error 403 (Forbidden), showing a Drupal generated page."
+msgstr ""
+"Ошибка HTTP 403 (Доступ запрещён), "
+"показать страницу, сгенерированную "
+"Drupal."
+
+#: akismet_admin.inc:257,257; akismet.admin.inc:264,264
+msgid "Actions against spambots"
+msgstr "Действия против СПАМ-роботов"
+
+#: akismet_admin.inc:260,260
+msgid ""
+"Use this option to specify what to do against spambots identified by "
+"any of the above rules. When a <em>HTTP error</em> is generated (403 "
+"or 503), no request to the <a href=\"!akismet\">Akismet Service</a> "
+"will be made, the request to post content will not be stored into "
+"database and no further moderator notifications will be sent. In any "
+"case, when a rule matches, a record of the event will be <a "
+"href=\"!admin-logs\">logged</a> for further analysis."
+msgstr ""
+"Эта опция позволяет определить, что "
+"делать в отношении СПАМ-роботов, "
+"обнаруженных при помощи одного из "
+"правил выше. Когда возвращается "
+"<em>ошибка HTTP</em> (403 or 503), запросов  <a "
+"href=\"!akismet\">сервиса Akismet</a> не "
+"происходит,  материал не сохраняется в "
+"базе данных и не отправляется никаких "
+"уведомлений для модераторов. В любом "
+"случае, когда правило выполнено, "
+"сообщение об этом событии  <a "
+"href=\"!admin-logs\">заносится в журнал</a> для "
+"последующего анализа."
+
+#: akismet_admin.inc:278,278; akismet.admin.inc:285,285
+msgid "Submit selected nodes as spam"
+msgstr ""
+"Сообщить, что выбранные документы "
+"являются СПАМом"
+
+#: akismet_admin.inc:278,278; akismet.admin.inc:285,285
+msgid "Mark selected nodes as spam"
+msgstr "Пометить выбранные документы как СПАМ"
+
+#: akismet_admin.inc:279,279; akismet.admin.inc:286,286
+msgid "Are you sure you want to submit these nodes as spam?"
+msgstr ""
+"Вы уверены, что хотите сообщить, что "
+"эти документы - СПАМ?"
+
+#: akismet_admin.inc:279,279; akismet.admin.inc:286,286
+msgid "Are you sure you want to mark these nodes as spam?"
+msgstr ""
+"Вы уверены, что хотите пометить эти "
+"документы как СПАМ?"
+
+#: akismet_admin.inc:280,280; akismet.admin.inc:287,287
+msgid "Submit nodes as spam"
+msgstr "Сообщить о документах, что это - СПАМ"
+
+#: akismet_admin.inc:280,280; akismet.admin.inc:287,287
+msgid "Mark nodes as spam"
+msgstr "Пометить документы как СПАМ"
+
+#: akismet_admin.inc:283,283; akismet.admin.inc:290,290
+msgid "Submit selected nodes as ham"
+msgstr ""
+"Сообщить, что указанные документы "
+"СПАМом не являются"
+
+#: akismet_admin.inc:283,283; akismet.admin.inc:290,290
+msgid "Mark selected nodes as ham"
+msgstr "Пометить документы как не СПАМ"
+
+#: akismet_admin.inc:284,284; akismet.admin.inc:291,291
+msgid "Are you sure you want to submit these nodes as ham?"
+msgstr ""
+"Вы уверены, что хотите сообщить, что "
+"выбранные документы не СПАМ?"
+
+#: akismet_admin.inc:284,284; akismet.admin.inc:291,291
+msgid "Are you sure you want to mark these nodes as ham?"
+msgstr ""
+"Вы уверены, что хотите пометить эти "
+"документы как не СПАМ?"
+
+#: akismet_admin.inc:285,285; akismet.admin.inc:292,292
+msgid "Submit nodes as ham"
+msgstr ""
+"Сообщить, что документы не являются "
+"СПАМом"
+
+#: akismet_admin.inc:285,285; akismet.admin.inc:292,292
+msgid "Mark nodes as ham"
+msgstr "Пометить докумнеты как не СПАМ"
+
+#: akismet_admin.inc:288,288; akismet.admin.inc:295,295
+msgid "Publish selected nodes"
+msgstr "Опубликовать выбранные докуемнты"
+
+#: akismet_admin.inc:289,289; akismet.admin.inc:296,296
+msgid "Are you sure you want to publish these nodes?"
+msgstr ""
+"Вы уверены, что хотите опубликовать "
+"выбранные документы?"
+
+#: akismet_admin.inc:290,290; akismet.admin.inc:297,297
+msgid "Publish nodes"
+msgstr "Опубликовать документы"
+
+#: akismet_admin.inc:293,293; akismet.admin.inc:300,300
+msgid "Unpublish selected nodes"
+msgstr ""
+"Снять с публикации выбранные "
+"документы"
+
+#: akismet_admin.inc:294,294; akismet.admin.inc:301,301
+msgid "Are you sure you want to unpublish these nodes?"
+msgstr ""
+"Вы уверены, что хотите снять с "
+"публикации выбранные документы?"
+
+#: akismet_admin.inc:295,295; akismet.admin.inc:302,302
+msgid "Unpublish nodes"
+msgstr "Снять документы с публикации"
+
+#: akismet_admin.inc:298,298; akismet.admin.inc:305,305
+msgid "Delete selected nodes"
+msgstr "Удалить выбранные документы"
+
+#: akismet_admin.inc:299,299; akismet.admin.inc:306,306
+msgid "Are you sure you want to delete these nodes and all their comments?"
+msgstr ""
+"Вы уверены, что хотите удалить все "
+"выбранные документы и все комментарии "
+"к ним?"
+
+#: akismet_admin.inc:300,300; akismet.admin.inc:307,307
+msgid "Delete nodes"
+msgstr "Удалить документы"
+
+#: akismet_admin.inc:308,308; akismet.admin.inc:315,315
+msgid "Submit selected comments as spam"
+msgstr ""
+"Сообщить, что выделенные комментарии "
+"являются СПАМом"
+
+#: akismet_admin.inc:308,308; akismet.admin.inc:315,315
+msgid "Mark selected comments as spam"
+msgstr ""
+"Пометить выделенные комментарии как "
+"СПАМ"
+
+#: akismet_admin.inc:309,309; akismet.admin.inc:316,316
+msgid "Are you sure you want to submit these comments as spam?"
+msgstr ""
+"Вы уверены, что хотите сообщить, что "
+"эти комментарии являются СПАМом?"
+
+#: akismet_admin.inc:309,309; akismet.admin.inc:316,316
+msgid "Are you sure you want to mark these comments as spam?"
+msgstr ""
+"Вы уверены, что хотите пометить эти "
+"комментарии как СПАМ?"
+
+#: akismet_admin.inc:310,310; akismet.admin.inc:317,317
+msgid "Submit comments as spam"
+msgstr ""
+"Сообщить, что комментарии являются "
+"СПАМом"
+
+#: akismet_admin.inc:310,310; akismet.admin.inc:317,317
+msgid "Mark comments as spam"
+msgstr "Пометить комментарии как СПАМ"
+
+#: akismet_admin.inc:313,313; akismet.admin.inc:320,320
+msgid "Submit selected comments as ham"
+msgstr ""
+"Сообщить, что выделенные коментарии "
+"не являются СПАМом"
+
+#: akismet_admin.inc:313,313; akismet.admin.inc:320,320
+msgid "Mark selected comments as ham"
+msgstr ""
+"Пометить выделенные комментарии как "
+"не СПАМ"
+
+#: akismet_admin.inc:314,314; akismet.admin.inc:321,321
+msgid "Are you sure you want to submit these comments as ham?"
+msgstr ""
+"Вы уверены, что хотите сообщить, что "
+"выбранные комментарии не являются "
+"СПАМом?"
+
+#: akismet_admin.inc:314,314; akismet.admin.inc:321,321
+msgid "Are you sure you want to mark these comments as ham?"
+msgstr ""
+"Вы уверены, что хотите пометить "
+"выбранные комментарии как не СПАМ?"
+
+#: akismet_admin.inc:315,315; akismet.admin.inc:322,322
+msgid "Submit comments as ham"
+msgstr ""
+"Сообщить, что комментарии не являются "
+"СПАМом"
+
+#: akismet_admin.inc:315,315; akismet.admin.inc:322,322
+msgid "Mark comments as ham"
+msgstr "Пометить комментарии как не СПАМ"
+
+#: akismet_admin.inc:318,318; akismet.admin.inc:325,325
+msgid "Publish selected comments"
+msgstr "Опубликовать выбранные комментарии"
+
+#: akismet_admin.inc:319,319; akismet.admin.inc:326,326
+msgid "Are you sure you want to publish these comments?"
+msgstr ""
+"Вы уверены, что хотите опубликовать "
+"эти комментарии?"
+
+#: akismet_admin.inc:320,320; akismet.admin.inc:327,327
+msgid "Publish comments"
+msgstr "Опубликовать комментарии"
+
+#: akismet_admin.inc:323,323; akismet.admin.inc:330,330
+msgid "Unpublish selected comments"
+msgstr ""
+"Снять выбранные комментарии с "
+"публикации"
+
+#: akismet_admin.inc:324,324; akismet.admin.inc:331,331
+msgid "Are you sure you want to unpublish these comments?"
+msgstr ""
+"Вы уверены, что хотите снять выбранные "
+"комментарии с публикации?"
+
+#: akismet_admin.inc:325,325; akismet.admin.inc:332,332
+msgid "Unpublish comments"
+msgstr "Снять комментарии с публикции"
+
+#: akismet_admin.inc:328,328; akismet.admin.inc:335,335
+msgid "Delete selected comments"
+msgstr "Удалить выбранные комментарии"
+
+#: akismet_admin.inc:329,329; akismet.admin.inc:336,336
+msgid "Are you sure you want to delete these comments and all their replies?"
+msgstr ""
+"Вы уверены, что хотите удалить все жти "
+"комментарии и ответы на них?"
+
+#: akismet.module:171,153,171,153,251,218,218,251,153,171; akismet_admin.inc:366,366; akismet.admin.inc:373,373
+msgid "Spam"
+msgstr "СПАМ"
+
+#: akismet_admin.inc:464,464; akismet.admin.inc:471,471
+msgid "Summary of content:"
+msgstr "Итог по документам"
+
+#: akismet_admin.inc:478,478; akismet.admin.inc:485,485
+msgid "Moderator actions"
+msgstr "Действия модератора"
+
+#: akismet_admin.inc:484,484; akismet.admin.inc:491,491
+msgid "<select operation>"
+msgstr "<выбрать действие>"
+
+#: akismet_admin.inc:511,500,511,500; akismet.admin.inc:518,507,507,518
+msgid "Last changed"
+msgstr "Дата последнего изменения"
+
+#: akismet_admin.inc:538,527,538,527; akismet.admin.inc:545,534,534,545
+msgid "/spam"
+msgstr "/СПАМ"
+
+#: akismet_admin.inc:575,575; akismet.admin.inc:582,582
+msgid "There is no spam in the nodes moderation queue."
+msgstr ""
+"В очереди на модерирвоание нет "
+"документов."
+
+#: akismet_admin.inc:575,575; akismet.admin.inc:582,582
+msgid "There is no spam in the comments moderation queue."
+msgstr ""
+"В очереди на модерирование нет "
+"комментариев."
+
+#: akismet_admin.inc:575,575; akismet.admin.inc:582,582
+msgid "It must be your lucky day! ;-)"
+msgstr "Вам сегодня повезло! ;-)"
+
+#: akismet_admin.inc:578,578; akismet.admin.inc:585,585
+msgid "There are no unpublished nodes in the moderation queue."
+msgstr ""
+"В очереди на модерирование нет снятых "
+"с публикации документов."
+
+#: akismet_admin.inc:578,578; akismet.admin.inc:585,585
+msgid "There are no unpublished comments in the moderation queue."
+msgstr ""
+"В очереди на модерирование нет снятых "
+"с упбликации комментариев."
+
+#: akismet_admin.inc:581,581; akismet.admin.inc:588,588
+msgid "There are no published nodes."
+msgstr "Нет опубликованных документов."
+
+#: akismet_admin.inc:581,581; akismet.admin.inc:588,588
+msgid "There are no published comments."
+msgstr "Нет опубликованных комемнтариев."
+
+#: akismet_admin.inc:603,603; akismet.admin.inc:610,610
+msgid "Please, choose a valid operation."
+msgstr ""
+"Пожалуйста, выберите допустимое "
+"действие."
+
+#: akismet_admin.inc:608,608; akismet.admin.inc:615,615
+msgid "Please, select some items to perform the delete operation."
+msgstr ""
+"Пожалуйста, выберите, что именно "
+"удалить."
+
+#: akismet_admin.inc:611,611; akismet.admin.inc:618,618
+msgid "Please, select some items to perform the action on."
+msgstr ""
+"Пожалуйста, выберите, над чем "
+"производить действие."
+
+#: akismet_admin.inc:678,678; akismet.admin.inc:685,685
+msgid "The nodes have been deleted."
+msgstr "Документы удалены."
+
+#: akismet_admin.inc:703,703; akismet.admin.inc:710,710
+msgid "The nodes have been updated."
+msgstr "Документы обновлены."
+
+#: akismet_admin.inc:703,703; akismet.admin.inc:710,710
+msgid "The comments have been updated."
+msgstr "Комментарии обновлены."
+
+#: akismet_cron.inc:103,83,67,103,83,67,97,77,61,61,77,97,67,83,103
+msgid "Akismet housekeeping"
+msgstr "Akismet: поддержание порядка"
+
+#: akismet_cron.inc:105,68,105,68,99,62,62,99,68,105
+msgid "Node ID List: %nids"
+msgstr ""
+"Список идентификаторов документов: "
+"%nids"
+
+#: akismet_cron.inc:108,84,108,84,102,78,78,102,84,108
+msgid "Comment ID List: %cids"
+msgstr ""
+"Список идентификаторов комментариев: "
+"%cids"
+
+#: akismet_cron.inc:118,118,112,112,118
+msgid "Akismet cron completed at %time."
+msgstr ""
+"Задача планировщика Akismet завершена в "
+"%time."
+
+#: akismet_cron.inc:67,67,61,61,67
+msgid "1 expired spam node removed from database"
+msgid_plural "%count expired spam nodes removed from database"
+msgstr[0] ""
+"1 документ, помеченный как СПАМ, удалён "
+"из базы данных"
+msgstr[1] ""
+"%count документа, помеченных как СПАМ, "
+"удалено из базы данных"
+msgstr[2] ""
+"%count документов, помеченных как СПАМ, "
+"удалено из базы данных"
+
+#: akismet_cron.inc:83,83,77,77,83
+msgid "1 expired spam comment removed from database"
+msgid_plural "%count expired spam comments removed from database"
+msgstr[0] ""
+"1 комментарий, помеченный как СПАМ, "
+"удалён из базы данных"
+msgstr[1] ""
+"%count комментария, помеченных как СПАМ, "
+"удалено из базы данных"
+msgstr[2] ""
+"%count комментариев, помеченных как СПАМ, "
+"удалено из базы данных"
+
+#: akismet_cron.inc:103,103,97,97,103
+msgid "1 spam mark removed from database"
+msgid_plural "%count spam marks removed from database"
+msgstr[0] "1 метка СПАМа удалена из базы данных"
+msgstr[1] "%count метки СПАМа удалено из базы данных"
+msgstr[2] "%count меток СПАМа удалено из базы данных"
+
+#: akismet.module:44,44,44,44
+msgid "post with no akismet checking"
+msgstr "публиковать, не проверяя Akismet"
+
+#: akismet.module:49,49,49,49
+msgid ""
+"<p>The <a href=\"!akismet-module-home\">akismet module</a> for <a "
+"href=\"!drupal\">Drupal</a> allows you to use the <a "
+"href=\"!akismet\">Akismet Service</a> to protect your site from being "
+"spammed.</p>"
+msgstr ""
+"<p><a href=\"!akismet-module-home\">Модуль akismet</a> для <a "
+"href=\"!drupal\">Drupal</a> позволяет "
+"использовать <a href=\"!akismet\">сервис Akismet</a> "
+"для защиты вашего сайта от СПАМа.</p>"
+
+#: akismet.module:55,55,55,55
+msgid ""
+"<p>Akismet has caught <strong>@count spam</strong> for you since "
+"%since.</p>"
+msgstr ""
+"<p>Akismet выявил <strong>@count spam</strong> для вас с "
+"%since.</p>"
+
+#: akismet.module:61,61,58,58,61
+msgid ""
+"Below is the list of <strong>unpublished nodes</strong> awaiting for "
+"moderation."
+msgstr ""
+"Ниже приведён список <strong>документов, "
+"снятых с публикации</strong>. ожидающих "
+"модерирования."
+
+#: akismet.module:64,64,62,62,64
+msgid "Below is the list of <strong>published nodes</strong>."
+msgstr ""
+"Ниже приведён список "
+"<strong>опубликованных документов</strong>."
+
+#: akismet.module:67,67,66,66,67
+msgid ""
+"Below is the list of <strong>nodes marked as spam</strong> awaiting "
+"for moderation."
+msgstr ""
+"Ниже приведён список <strong>документов, "
+"помеченных как СПАМ</strong> и ожидающих "
+"модерирования."
+
+#: akismet.module:69,69,67,63,59,59,63,67,69
+msgid ""
+"Click on the titles to see the content of the nodes or the author's "
+"name to view the author's user information. You may also wish to click "
+"on the headers to order the nodes upon your needs."
+msgstr ""
+"Нажмите на названия, чтобы увидеть "
+"содержимое документов или на имя "
+"автора, чтобы увидеть информацию об "
+"авторе. Вы можете также нажать на "
+"заголовки полей, чтобы отсортировать "
+"документы по своему усмотрению."
+
+#: akismet.module:73,73,70,70,73
+msgid ""
+"Below is the list of <strong>unpublished comments</strong> awaiting "
+"for moderation."
+msgstr ""
+"Ниже приведён список "
+"<strong>неопубликованных "
+"комментариев</strong>, ожидающих "
+"модерирования."
+
+#: akismet.module:76,76,74,74,76
+msgid "Below is the list of <strong>published comments</strong>."
+msgstr ""
+"Ниже приведён список "
+"<strong>опубликованных "
+"комментариев</strong>."
+
+#: akismet.module:79,79,78,78,79
+msgid ""
+"Below is the list of <strong>comments marked as spam</strong> awaiting "
+"for moderation."
+msgstr ""
+"Ниже приведён список "
+"<strong>комментариев, помеченных как "
+"СПАМ</strong> и ожидающих модерирования."
+
+#: akismet.module:81,81,79,75,71,71,75,79,81
+msgid ""
+"Click on the subjects to see the comments or the author's name to view "
+"the author's user information. You may also wish to click on the "
+"headers to order the comments upon your needs."
+msgstr ""
+"Нажмите на тему, чтобы увидеть "
+"комментарией,или на имя автора, чтобы "
+"увидеть сведения о нём. Вы можете "
+"также нажать на заголовки полей, чтобы "
+"отсортировать комментарии по своему "
+"усмотрению."
+
+#: akismet.module:84,84,83,83,84
+msgid ""
+"<strong>Note:</strong> To interact fully with the <a "
+"href=\"!akismet\">Akismet Service</a> you really should try putting "
+"data back into the system as well as just taking it out. If it is at "
+"all possible, please use the submit <em>ham</em> operation rather than "
+"simply publishing content that was identified as spam (false "
+"positives). This is necessary in order to let Akismet learn from its "
+"mistakes. Thank you."
+msgstr ""
+"<strong>Примечание:</strong> чтобы  "
+"максимально эффективно "
+"взаимодействовать с <a "
+"href=\"!akismet\">сервисом Akismet</a>, вам следует "
+"возвращать данные в систему, так же "
+"как и удалять их из неё. Если возможно, "
+"пользуйтесь операцией  <em>сообщить, "
+"что это не СПАМ</em>, взамен простой "
+"публикации содержания, ошибочно "
+"принятого за СПАМ. Это необходимо, "
+"чтобы Akismet учился на своих ошибках. "
+"Спасибо."
+
+#: akismet.info:0,0,0,0; akismet.module:135,135,182,182,135
+msgid "Akismet"
+msgstr "Akismet"
+
+#: akismet.info:0,0,0,0; akismet.module:135,135,183,183,135
+msgid "Use the Akismet Service to protect your site from spam."
+msgstr ""
+"Используйте сервис Akismet для защиты "
+"сайта от СПАМа"
+
+#: akismet.module:142,142,193,193,142
+msgid "Akismet moderation queue"
+msgstr "Очередь на модерирование Akismet"
+
+#: akismet.module:194,194
+msgid ""
+"Manage the Akismet spam queue, appropving or deleting content in need "
+"of moderation."
+msgstr ""
+"Управление очередью на модерирование "
+"Akismet - одобрить или удалить содержимое"
+
+#: akismet.module:157,157,225,225,157
+msgid "Unpublished nodes"
+msgstr "Документы, снятые с публикации"
+
+#: akismet.module:161,161,232,232,161
+msgid "Published nodes"
+msgstr "Опубликованные документы"
+
+#: akismet.module:175,175,258,258,175
+msgid "Unpublished comments"
+msgstr "Комментарии, снятые с публикации"
+
+#: akismet.module:201,201,275,275,201
+msgid "switch content status"
+msgstr "переключить статус документа"
+
+#: akismet.module:254,236,236,254
+msgid "submit ham"
+msgstr "сообщить о том, что это не СПАМ"
+
+#: akismet.module:254,236,236,254
+msgid "mark as ham"
+msgstr "пометить как не СПАМ"
+
+#: akismet.module:257,239,239,257
+msgid "submit spam"
+msgstr "сообщить о СПАМе"
+
+#: akismet.module:257,239,239,257
+msgid "mark as spam"
+msgstr "пометить как СПАМ"
+
+#: akismet.module:396,396,510,510,511,397,397
+msgid ""
+"Your %content-type-name has been queued for moderation by site "
+"administrators and will be published after approval."
+msgstr ""
+"Ваш документr %content-type-name отправлен в "
+"очередь на модерирование и будет "
+"опубликован, как только администрация "
+"одобрит его."
+
+#: akismet.module:400,400,514,514,515,401,401
+msgid ""
+"Akismet service seems to be down, %content-type-name queued for manual "
+"approval: %title"
+msgstr ""
+"Сервис Akismet, вероятнее всего, "
+"недоступен в данный момент, документ "
+"типа %content-type-name отправлен в очередь на "
+"одобрение вручнуюl: %title"
+
+#: akismet.module:403,403,517,517,518,404,404
+msgid "Spam detected by Akismet in %content-type-name: %title"
+msgstr "Akismet обнаружил СПАМ в %content-type-name: %title"
+
+#: akismet.module:634,634,746,746,747,635,635
+msgid ""
+"Akismet service seems to be down, comment queued for manual approval: "
+"%subject"
+msgstr ""
+"Сервис Akismet, по всей видимости не "
+"работает, комментарий помещён в "
+"очередь для ручного модерирования: "
+"%subject"
+
+#: akismet.module:637,637,749,749,750,638,638
+msgid "Spam detected by Akismet in comment: %subject"
+msgstr ""
+"Akismet обнаружил СПАМ в комментарии: "
+"%subject"
+
+#: akismet.module:713,708,713,708,825,820,820,825,821,826,709,714,709,714
+msgid "Spambot detected (action: 403 Forbidden)."
+msgstr ""
+"Обнаружен СПАМ-робот (действие: 403 "
+"Forbidden)."
+
+#: akismet.module:717,717,829,829,830,718,718
+msgid "Service unavailable"
+msgstr "Сервис недоступен"
+
+#: akismet.module:718,718,830,830,831,719,719
+msgid "Spambot detected (action: 503 Service unavailable)."
+msgstr ""
+"Обнаружен СПАМ-робот (действие: 503 Service "
+"unavailable)."
+
+#: akismet.module:721,721,722,722
+msgid "Additional information:"
+msgstr "дополнительные сведения"
+
+#: akismet.module:907,907,1019,1019,1020,908,908
+msgid ""
+"An error has ocurred while trying to notify moderators about a "
+"comment. The associated node could not be loaded."
+msgstr ""
+"Сбой при попытке уведомить модератора "
+"о комментарии. Ассоциированный "
+"документ не загружен."
+
+#: akismet.module:925,925,1037,1037,1038,926,926
+msgid "marked as spam"
+msgstr "помечено как СПАМ"
+
+#: akismet.module:930,930,1042,1042,1043,931,931
+msgid ""
+"[@site-name] moderator notification - Posted @content-type "
+"'@content-title'"
+msgstr ""
+"[@site-name] уведомление модератора - "
+"Отправлено @content-type '@content-title'"
+
+#: akismet.module:950,950,1062,1062,1063,951,951
+msgid "Trying to notify the following recipients: %emails"
+msgstr ""
+"Попытка отправить уведомления "
+"следующим адресатам: %emails"
+
+#: akismet.module:968,968,1080,1080,1081,969,969
+msgid "All new (or updated) content"
+msgstr "Все новые и/или обновлённые документы"
+
+#: akismet.module:969,969,1081,1081,1082,970,970
+msgid "Only content needing approval"
+msgstr "Только документы, требующие одобрения"
+
+#: akismet.module:980,980,1092,1092,1093,981,981
+msgid "Akismet moderator settings"
+msgstr "Настройки модератора Akismet"
+
+#: akismet.module:983,983,1095,1095,1096,984,984
+msgid "You are currently moderator for the following content types: %types."
+msgstr ""
+"Вы модерируете следующие типы "
+"документов: %types."
+
+#: akismet.module:986,986,1098,1098,1099,987,987
+msgid "Send me e-mails for"
+msgstr "Отправить мне e-mail для"
+
+#: akismet.module:1061,1061,1173,1173,1174,1062,1062
+msgid "Display counter as"
+msgstr "Отобразить счётчик как"
+
+#: akismet.module:1067,1067,1179,1179,1180,1068,1068
+msgid "Show site name"
+msgstr "Показать имя сайта"
+
+#: akismet.module:1073,1073,1185,1185,1186,1074,1074
+msgid "Open Akismet link in new window"
+msgstr "Открыть ссылку на Akismet в новом окне"
+
+#: akismet.module:1084,1084,1196,1196,1197,1085,1085
+msgid "Akismet spam counter (block: @count)"
+msgstr "Счётчик СПАМа akismet (блок: @count)"
+
+#: akismet.module:1090,1090,1202,1202,1203,1091,1091
+msgid ""
+"Oops! You are requesting a non-existing block, changes will not be "
+"saved."
+msgstr ""
+"Ой! Вы запросили несуществующий блок, "
+"изменения не сохранились."
+
+#: akismet.module:1096,1096,1208,1208,1209,1097,1097
+msgid ""
+"These options allow to customize the look of this <em>akismet spam "
+"counter</em> block."
+msgstr ""
+"Эти опции позволяют настроить внешний "
+"вид <em>блока счётчика СПАМа akismet</em>."
+
+#: akismet.module:1113,1113,1225,1225,1226,1114,1114
+msgid "Oops! You have requested a non-existing block, changes were not saved."
+msgstr ""
+"Ой! Вы запросили несуществующий блок, "
+"изменения не будут сохранены."
+
+#: akismet.module:1150,1150,1262,1262,1263,1151,1151
+msgid "Proudly protected by Akismet, @count spam caught since @since."
+msgstr "Защищён Akismet, @count spam caught since @since."
+
+#: akismet.module:1151,1151,1263,1263,1264,1152,1152
+msgid ""
+"@site_name is proudly protected by Akismet, @count spam caught since "
+"@since."
+msgstr ""
+"@site_name защищён <a href=\"!akismet\"@target>Akismet</a>, "
+"@count spam caught since @since"
+
+#: akismet.module:1154,1154,1266,1266,1267,1155,1155
+msgid ""
+"Proudly protected by <a href=\"@akismet\"@target>Akismet</a>, @count "
+"spam caught since @since"
+msgstr ""
+"Защищён <a href=\"@akismet\"@target>Akismet</a>, @count spam "
+"caught since @since"
+
+#: akismet.module:1155,1155,1267,1267,1268,1156,1156
+msgid ""
+"@site_name is proudly protected by <a "
+"href=\"!akismet\"@target>Akismet</a>, @count spam caught since @since"
+msgstr ""
+"@site_name защищён <a href=\"!akismet\"@target>Akismet</a>, "
+"@count spam caught since @since"
+
+#: akismet.module:1171,1171,1283,1283,1284,1172,1172
+msgid "Akismet spam counter"
+msgstr "Счётчик СПАМа Akismet"
+
+#: akismet.module:1257,1257,1392,1392,1393,1258,1258
+msgid "%type: deleted @title."
+msgstr "удалено: %type @title."
+
+#: akismet.module:1315,1315,1450,1450,1451,1316,1316
+msgid "Content submitted as spam"
+msgstr "Содержание отправлено как СПАМ"
+
+#: akismet.module:1315,1315,1450,1450,1451,1316,1316
+msgid "Comment submitted as spam"
+msgstr "Комментарий отпарвлен как СПАМ"
+
+#: akismet.module:1318,1318,1453,1453,1454,1319,1319
+msgid "Content marked as spam"
+msgstr "Содержание отменено как СПАМ"
+
+#: akismet.module:1318,1318,1453,1453,1454,1319,1319
+msgid "Comment marked as spam"
+msgstr "Комментарий помечен как СПАМ"
+
+#: akismet.module:1326,1326,1461,1461,1462,1327,1327
+msgid "Content submitted as ham"
+msgstr "Содержание отправлено как не СПАМ"
+
+#: akismet.module:1326,1326,1461,1461,1462,1327,1327
+msgid "Comment submitted as ham"
+msgstr "Комментарий отправлен как не СПАМ"
+
+#: akismet.module:1329,1329,1464,1464,1465,1330,1330
+msgid "Content marked as ham"
+msgstr "Содержание помечено как не СПАМ"
+
+#: akismet.module:1329,1329,1464,1464,1465,1330,1330
+msgid "Comment marked as ham"
+msgstr "Комментарий отмечени как не СПАМ"
+
+#: akismet.module:1357,1334,1357,1334,1492,1469,1469,1492,1470,1493,1335,1358,1335,1358
+msgid "@action: @title"
+msgstr "@action: @title"
+
+#: akismet.module:1356,1356,1491,1491,1492,1357,1357
+msgid "Content published"
+msgstr "Срдержание опубликовано"
+
+#: akismet.module:1356,1356,1491,1491,1492,1357,1357
+msgid "Content unpublished"
+msgstr ""
+"Содержание отмечено как "
+"неопубликованное"
+
+#: akismet.module:1380,1380,1515,1515,1516,1381,1381
+msgid "Comment published"
+msgstr "Комментарий опубликован"
+
+#: akismet.module:1380,1380,1515,1515,1516,1381,1381
+msgid "Comment unpublished"
+msgstr ""
+"Комментарий отмечен как "
+"неопубликованный"
+
+#: akismet.module:1381,1381,1516,1516,1517,1382,1382
+msgid "@action: %subject"
+msgstr "@action: %subject"
+
+#: akismet.module:96,96,113,113,96
+msgid "administer akismet settings"
+msgstr "администрировать установки akismet"
+
+#: akismet.module:99,99,116,116,99
+msgid "moderate spam in nodes of type "
+msgstr "модерировать СПАМ в документах типа "
+
+#: akismet.module:1381,1357,1334,1257,637,634,403,400,1381,1357,1334,1257,637,634,403,400,1516,1492,1469,1392,749,746,517,514,514,517,746,749,1392,1469,1492,1516,515,518,747,750,1393,1470,1493,1517,401,404,635,638,1258,1335,1358,1382,401,404,635,638,1258,1335,1358,1382
+msgid "content"
+msgstr "содержимое"
+
+#: akismet.module:1381,1357,1305,1299,907,637,634,403,400,1381,1357,1305,1299,907,637,634,403,400,1516,1492,1440,1434,1019,749,746,517,514,514,517,746,749,1019,1434,1440,1492,1516,515,518,747,750,1020,1435,1441,1493,1517,401,404,635,638,908,1300,1306,1358,1382,401,404,635,638,908,1300,1306,1358,1382
+msgid "view"
+msgstr "просмотреть"
+
+#: akismet.module:970,970,1082,1082,1083,971,971
+msgid "Never"
+msgstr "Никогда"
+
+#: akismet.module:913,913,1025,1025,1026,914,914
+msgid "comment"
+msgstr "комментарий"
+
+#: akismet.module:925,925,1037,1037,1038,926,926; akismet_admin.inc:536,525,536,525; akismet.admin.inc:543,532,532,543
+msgid "published"
+msgstr "опубликован"
+
+#: akismet.module:925,925,1037,1037,1038,926,926; akismet_admin.inc:536,525,536,525; akismet.admin.inc:543,532,532,543
+msgid "not published"
+msgstr "не опубликован"
+
+#: akismet.module:1062,1062,1174,1174,1175,1063,1063
+msgid "Text"
+msgstr "Текст"
+
+#: akismet.module:246,228,228,246
+msgid "unpublish"
+msgstr "отменить публикацию"
+
+#: akismet.module:249,231,231,249
+msgid "publish"
+msgstr "опубликовать"
+
+#: akismet.module:813,813,925,925,926,814,814
+msgid "comments"
+msgstr "комментарии"
+
+#: akismet.module:0,950,907,721,950,907,721,0,1062,1019,833,833,1019,1062,0,834,1020,1063,722,908,951,0,722,908,951
+msgid "akismet"
+msgstr "akismet"
+
+#: akismet_cron.inc:8,8,8,8
+msgid "Akismet cron started at %time."
+msgstr "Крон задание Akismet запущено в %time."
+
+#: akismet.module:32,32,32,32
+msgid ""
+"<p>In order to use the <a href=\"!akismet\">Akismet Service</a>, you "
+"need a <a href=\"!wpapikey\">WordPress.com API key</a>. If you don't "
+"have one already, you can get it by simply signing up for a free "
+"account at <a href=\"!wordpress-com\">wordpress.com</a>. Please, "
+"consult the <a href=\"!akismet-faq\">Akismet FAQ</a> for further "
+"information.</p>\n"
+"<p>The <em>akismet module</em> may automatically check for spam posted "
+"in content (nodes and/or comments) by any user, except node or comment "
+"administrators respectively. It is also possible, from the <a "
+"href=\"!access-control\">access control</a> panel, to grant "
+"<em>%no-check-perm</em> permission to <em>user roles</em> of your "
+"choice.</p>\n"
+"<p>Content marked as <em>spam</em> is still saved into database so it "
+"can be reviewed by content administrators. There is <a "
+"href=\"!akismet-settings\">an option</a> that allows you to specify "
+"how long this information will be kept in the database. <em>Spam</em> "
+"older than a specified age will be automatically removed. Requires "
+"crontab.</p>\n"
+"<p>Automatic spam detection can be enabled or disabled by content type "
+"and/or comments. In addition to this, the <em>akismet module</em> "
+"makes it easy for <em>content administrators</em> to manually "
+"<em>publish</em>/<em>unpublish</em> content and "
+"<em>mark</em>/<em>unmark</em> content as spam, from links available at "
+"the bottom of content.</p>\n"
+"<p></p>"
+msgstr ""
+
+#: akismet.module:143,143,143
+msgid ""
+"Manage the Akismet spam queue, approving or deleting content in need "
+"of moderation."
+msgstr ""
+
+#: akismet.module:94,94
+msgid "Akismet API key"
+msgstr ""
+
+#: akismet.module:95,95
+msgid "Not present"
+msgstr ""
+
+#: akismet.module:96,96
+msgid ""
+"Akismet spam protection requires a <a href='!wpapikey'>WordPress.com "
+"API key</a> to function. Obtain a key by signing up for a free account "
+"at <a href='!wordpress-com'>WordPress.com</a>, then enter the key on "
+"the <a href='!akismet-settings'>Akismet settings page</a>."
+msgstr ""
+
+#: akismet.admin.inc:267,267
+msgid ""
+"Use this option to specify what to do against spambots identified by "
+"any of the above rules. When a <em>HTTP error</em> is generated (403 "
+"or 503), no request to the <a href=\"!akismet\">Akismet Service</a> "
+"will be made, the request to post content will not be stored into "
+"database and no further moderator notifications will be sent. In any "
+"case, when a rule matches, a record of the event will be <a "
+"href=\"!admin-reports\">logged</a> for further analysis."
+msgstr ""
+
+#: akismet.module:833,833,834
+msgid "%message<p>Additional information:</p>%items"
+msgstr ""
+"%message<p>Дополнительная "
+"информация:</p>%items"
+
+#: akismet.module:254,236,368,350,350,368,236,254
+msgid "Submit ham"
+msgstr ""
+
+#: akismet.module:254,236,368,350,350,368,236,254
+msgid "Mark as ham"
+msgstr ""
+
+#: akismet.module:257,239,371,353,353,371,239,257
+msgid "Submit spam"
+msgstr ""
+
+#: akismet.module:257,239,371,353,353,371,239,257
+msgid "Mark as spam"
+msgstr "Отметить как спам"
+

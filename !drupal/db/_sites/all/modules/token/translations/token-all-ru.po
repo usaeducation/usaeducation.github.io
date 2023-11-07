@@ -1,0 +1,1307 @@
+# Russian translation of token (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  token.module,v 1.7.4.45 2010/11/19 23:11:55 davereid
+#  token_node.inc,v 1.5.4.34 2010/11/15 03:24:51 davereid
+#  token.module,v 1.7.4.33 2010/08/10 03:33:32 davereid
+#  token_node.inc,v 1.5.4.30 2010/07/24 20:25:04 davereid
+#  token.module,v 1.40 2010/07/21 07:12:27 davereid
+#  token_node.inc,v 1.3.2.34 2010/08/10 04:03:11 davereid
+#  token.module,v 1.5.2.24 2010/08/10 04:03:11 davereid
+#  token.module,v 1.5.2.26 2010/09/24 20:41:25 davereid
+#  token_node.inc,v 1.5.4.31 2010/09/24 22:47:29 greggles
+#  token.module,v 1.7.4.38 2010/09/30 19:39:43 davereid
+#  token.tokens.inc,v 1.12 2010/08/11 17:35:17 davereid
+#  token.tokens.inc,v 1.34 2010/11/21 23:48:00 davereid
+#  token.tokens.inc,v 1.18 2010/10/07 16:42:48 davereid
+#  token.pages.inc,v 1.7.2.8 2010/10/18 16:17:38 davereid
+#  token.pages.inc,v 1.7.2.5 2010/08/10 03:33:32 davereid
+#  token.pages.inc,v 1.10 2010/07/11 02:55:08 davereid
+#  token.pages.inc,v 1.12 2010/09/25 15:58:49 davereid
+#  token.pages.inc,v 1.7.2.7 2010/09/30 18:30:08 davereid
+#  token_actions.module,v 1.4.2.12 2010/11/18 00:01:36 davereid
+#  token_actions.module,v 1.4.2.9 2010/03/25 17:49:43 davereid
+#  token_actions.module,v 1.5 2009/07/11 18:33:46 eaton
+#  token_actions.module,v 1.6 2010/09/19 19:39:56 davereid
+#  token_cck.inc,v 1.1.2.12 2010/06/05 17:40:04 davereid
+#  token_taxonomy.inc,v 1.3.4.7 2010/11/14 22:00:24 davereid
+#  token_taxonomy.inc,v 1.3.4.5 2010/06/05 16:45:58 davereid
+#  token_taxonomy.inc,v 1.1.2.7 2010/06/05 17:43:05 davereid
+#  token.info,v 1.2.2.1 2007/10/29 04:40:41 eaton
+#  token.info,v 1.11 2010/04/18 05:03:01 davereid
+#  token.info,v 1.1.2.1 2007/03/10 22:17:48 eaton
+#  token.info,v 1.12 2010/11/18 00:20:33 davereid
+#  token.rules.inc,v 1.1.2.5 2010/06/09 00:48:56 davereid
+#  token.module,v 1.52 2010/11/21 23:48:00 davereid
+#  token.module,v 1.44 2010/09/25 15:58:49 davereid
+#  token_actions.info,v 1.1.2.1 2008/07/08 19:40:17 greggles
+#  token_actions.info,v 1.2 2009/07/11 18:33:46 eaton
+#  token_comment.inc,v 1.3.4.11 2010/07/08 00:41:19 davereid
+#  token_comment.inc,v 1.1.2.8 2010/07/27 15:17:08 davereid
+#  tokenSTARTER.module,v 1.1.2.4 2010/11/28 20:44:47 davereid
+#  tokenSTARTER.module,v 1.1.2.3 2010/03/11 19:28:54 davereid
+#  tokenSTARTER.info,v 1.1.2.1 2009/04/19 21:31:24 greggles
+#  token_user.inc,v 1.3.4.12 2010/11/11 00:12:20 davereid
+#  token_user.inc,v 1.3.4.10 2010/08/10 04:01:05 davereid
+#  token_user.inc,v 1.1.2.13 2010/09/19 21:39:18 davereid
+#  token_user.inc,v 1.1.2.12 2010/08/10 04:03:11 davereid
+#  token_user.inc,v 1.3.4.11 2010/09/19 21:39:14 davereid
+#  token.js,v 1.3.2.2 2010/03/26 00:03:19 davereid
+#  token.js,v 1.3 2010/03/20 19:48:25 davereid
+#  token.install,v 1.1.2.4 2010/09/24 20:41:25 davereid
+#  token.install,v 1.2.2.2 2010/09/24 20:37:21 davereid
+#  token.install,v 1.14 2010/11/18 00:20:33 davereid
+#  token.install,v 1.13 2010/09/25 14:44:17 davereid
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: token (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:17+0000\n"
+"PO-Revision-Date: 2010-11-27 15:39+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: token.module:78,78,94,94,94,105,106,102,102; token_node.inc:29,29,29,29,29
+msgid "Anonymous"
+msgstr "Гость"
+
+#: token.tokens.inc:73,73,104,109,73,109,93,129,145,137,165,141,169,149,177
+msgid "Title"
+msgstr "Заголовок"
+
+#: token.pages.inc:67,67,112,112,49,72,49,72; token.tokens.inc:83,480,487,501,84,538
+msgid "Description"
+msgstr "Описание"
+
+#: token_actions.module:196,196,183,183,183,196,254; token.tokens.inc:89,112,89,112,117,89,117,109,137,125,153,145,173,149,177,157,185
+msgid "URL"
+msgstr "URL"
+
+#: token.tokens.inc:93,93,93,113,129,149,153,161
+msgid "Parent"
+msgstr "Родитель"
+
+#: token_actions.module:85,85,74,74,74,85,112
+msgid "Subject"
+msgstr "Тема"
+
+#: token_actions.module:153,93,153,93,82,141,82,141,82,141,93,153,122,199
+msgid "Message"
+msgstr "Сообщение"
+
+#: token.module:84,84,100,100,100,111,112,108,108
+msgid "Drupal"
+msgstr "Drupal"
+
+#: token.pages.inc:110,110,47,47; token.tokens.inc:75,472,479,493,76,530
+msgid "Name"
+msgstr "Название"
+
+#: token.tokens.inc:467,474,488,525
+msgid "Menus"
+msgstr "Меню"
+
+#: token.tokens.inc:473,480,494,531
+msgid "The name of the menu."
+msgstr "Название меню."
+
+#: token.tokens.inc:29,85,104,108,29,85,104,108,113,29,85,113,31,105,133,41,121,149,141,169,145,173,153,181
+msgid "Path"
+msgstr "Адрес"
+
+#: token.tokens.inc:70,71
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: token.pages.inc:155,155
+msgid "Value"
+msgstr "Значение"
+
+#: token.tokens.inc:132
+msgid "Picture"
+msgstr "Изображение"
+
+#: token.pages.inc:26,26,28,28; token.module:54,54,54
+msgid "Replacement value"
+msgstr "Значение замены"
+
+#: token.pages.inc:29,29,31,31; token.module:57,57,57
+msgid "tokens"
+msgstr "маркеры"
+
+#: token.tokens.inc:63,64
+msgid "Content type"
+msgstr "Тип содержимого"
+
+#: token_actions.module:205,164,104,205,164,104,93,152,192,93,152,192,93,152,192,104,164,205,136,212,266
+msgid "Placeholder tokens"
+msgstr "Маркеры-заполнители"
+
+#: token_cck.inc:193,193
+msgid "Image title"
+msgstr "Заголовок изображения"
+
+#: token_cck.inc:196,196
+msgid "Image path"
+msgstr "Путь к изображению"
+
+#: token_cck.inc:164,164
+msgid "Link URL"
+msgstr "URL-адрес ссылки"
+
+#: token_node.inc:214,213,214,213,208,209,208,209,213,214
+msgid "The name of the menu the node belongs to."
+msgstr ""
+"Название меню, которому принадлежит "
+"материал."
+
+#: token_taxonomy.inc:52,52,52,52,52
+msgid "The vocabulary that the page's first category belongs to."
+msgstr ""
+"Словарь, которому принадлежит первая "
+"категория страницы."
+
+#: token_taxonomy.inc:48,48,48,48,48
+msgid "The name of the category."
+msgstr "Название категории."
+
+#: token_taxonomy.inc:47,47,47,47,47
+msgid "The id number of the category."
+msgstr "ID категории."
+
+#: token.tokens.inc:313,313,325,333,333,384,419,422,494,509,523,560
+msgid "Menu link"
+msgstr "Ссылка в меню"
+
+#: token_cck.inc:61,61
+msgid "Referenced node title."
+msgstr "Заголовок связанного материала."
+
+#: token_cck.inc:62,62
+msgid "Formatted html link to the node."
+msgstr ""
+"Форматированная html ссылка на "
+"материал."
+
+#: token_cck.inc:88,88
+msgid "Raw number value."
+msgstr "Необработанное числовое значение."
+
+#: token_cck.inc:89,89
+msgid "Formatted number value."
+msgstr "Форматированное числовое значение."
+
+#: token_cck.inc:114,114
+msgid "Raw, unfiltered text."
+msgstr "Прямой, необработанный текст."
+
+#: token_cck.inc:115,115
+msgid "Formatted and filtered text."
+msgstr ""
+"Форматированный и отфильтрованный "
+"текст."
+
+#: token_cck.inc:137,137
+msgid "Referenced user ID"
+msgstr "ID связанного пользователя"
+
+#: token_cck.inc:138,138
+msgid "Referenced user name"
+msgstr "Имя связанного пользователя"
+
+#: token_cck.inc:139,139
+msgid "Formatted html link to referenced user"
+msgstr ""
+"Форматированныя html-ссылка на "
+"ссылочного пользователя"
+
+#: token_cck.inc:166,166
+msgid "Formatted html link"
+msgstr "Форматированная html ссылка"
+
+#: token_cck.inc:192,192
+msgid "Image file ID"
+msgstr "ID файла изображения"
+
+#: token_cck.inc:194,194
+msgid "Image alt text"
+msgstr "Альтернативный текст изображения"
+
+#: token_cck.inc:195,195
+msgid "Image file name"
+msgstr "Имя файла изображения"
+
+#: token_cck.inc:197,197
+msgid "Image MIME type"
+msgstr "MIME-тип изображения"
+
+#: token_cck.inc:198,198
+msgid "Image file size"
+msgstr "Размер файла изображения"
+
+#: token_cck.inc:199,199
+msgid "Fully formatted HTML image tag"
+msgstr ""
+"Полностью форматированный HTML-тег "
+"изображения"
+
+#: token_cck.inc:230,230
+msgid "The raw date value."
+msgstr "Необработанное значение даты."
+
+#: token_cck.inc:231,231
+msgid "The formatted date."
+msgstr "Форматированная дата."
+
+#: token_cck.inc:233,233
+msgid ""
+"If the field has a to-date defined, the same tokens exist in the form: "
+"[to-????], where ???? is the normal token."
+msgstr ""
+"Если для поля определена дата "
+"окончания (to-date), такой же маркер "
+"существует в форме: [to-????], где ???? — "
+"обычный маркер."
+
+#: token_node.inc:202,202,197,197,202
+msgid "Name of top taxonomy term"
+msgstr "Название верхнего термина таксономии"
+
+#: token_node.inc:204,204,199,199,204
+msgid "ID of top taxonomy term"
+msgstr "ID верхнего термина таксономии"
+
+#: token_node.inc:205,205,200,200,205
+msgid "Name of top term's vocabulary"
+msgstr "Название словаря верхнего термина"
+
+#: token_node.inc:207,207,202,202,207
+msgid "ID of top term's vocabulary"
+msgstr "ID словаря верхнего термина"
+
+#: token_node.inc:215,215,210,210,215
+msgid ""
+"The menu path (as reflected in the breadcrumb), not including Home or "
+"[menu]. Separated by /."
+msgstr ""
+"Путь меню (как отображается в "
+"навигационной цепочке), не включая "
+"главную страницу или [menu]. Разделены с "
+"помощью /."
+
+#: token_node.inc:307,307,261,261,307,306,305
+msgid "The title of the node's book parent."
+msgstr ""
+"Заголовок родителя материала в "
+"подшивке."
+
+#: token_node.inc:308,308,262,262,308,307,306
+msgid "The id of the node's book parent."
+msgstr "ID родителя материала в подшивке."
+
+#: token_node.inc:309,309,263,263,309,308,307
+msgid "The titles of all parents in the node's book hierarchy."
+msgstr ""
+"Заголовки всех предков в иерархии "
+"материалов подшивки."
+
+#: token.module:128,128,144,144,144,155,156,141,141,143
+msgid "The name of the currently logged in user."
+msgstr ""
+"Имя вошедшего в данный момент "
+"пользователя."
+
+#: token.module:129,129,145,145,145,156,157,142,142,144
+msgid "The user ID of the currently logged in user."
+msgstr ""
+"ID вошедшего в данный момент "
+"пользователя."
+
+#: token.module:130,130,146,146,146,157,158,143,143,145
+msgid "The email address of the currently logged in user."
+msgstr ""
+"E-mail адрес авторизованного в данный "
+"момент пользователя."
+
+#: token.module:356,356,376,376,376,383
+msgid "token"
+msgstr "маркер"
+
+#: token.info:0,0,0,0,0,0
+msgid ""
+"Provides a shared API for replacement of textual placeholders with "
+"actual data."
+msgstr ""
+"Предоставляет общий API для замены "
+"текстовых шаблонов реальными данными."
+
+#: token.tokens.inc:81,81,81,101,117
+msgid "Menu name"
+msgstr "Имя меню"
+
+#: token_actions.module:77,77,66,66,66,77,101
+msgid "Recipient"
+msgstr "Получатель"
+
+#: token_actions.module:89,89,78,78,78,89,116
+msgid "The subject of the message."
+msgstr "Тема сообщения"
+
+#: token_actions.module:197,197,184,184,184,197,255
+msgid ""
+"The URL to which the user should be redirected. This can be an "
+"internal URL like node/1234 or an external URL like http://drupal.org."
+msgstr ""
+"Адрес URL, на который следует "
+"перенаправить пользователя. Им может "
+"быть внутренний адрес (например, "
+"node/1234), либо внешний URL (например, "
+"http://drupal.org)."
+
+#: token_actions.module:138,138,131,131,131,138,77
+msgid "Sent email to %recipient"
+msgstr ""
+"Сообщение электронной почты "
+"отправлено для %recipient"
+
+#: token_actions.module:141,141,134,134,134,141,80
+msgid "Unable to send email to %recipient"
+msgstr ""
+"Невозможно послать e-mail получателю "
+"%recipient"
+
+#: token.tokens.inc:265,265,277,285,285,336,371,374,422,429,443,480
+msgid "Book"
+msgstr "Подшивка"
+
+#: token.tokens.inc:77,77,77,97,113,489,500,514,551
+msgid "Menu"
+msgstr "Меню"
+
+#: token_cck.inc:232,232
+msgid "Date"
+msgstr "Дата"
+
+#: token_actions.module:141,141,134,134,134,141,80
+msgid "error"
+msgstr "ошибка"
+
+#: token_actions.module:138,138,131,131,131,138,77
+msgid "action"
+msgstr "действие"
+
+#: token_cck.inc:165,165
+msgid "Link title"
+msgstr "Заголовок ссылки"
+
+#: token.info:0,0,0,0,0,0,0,0; token.pages.inc:66,26,66,26,111,111,48,154,28,71,48,154,28,71; token.module:54,54,54
+msgid "Token"
+msgstr "Маркер"
+
+#: token.rules.inc:105,105,105
+msgid "Replacement patterns for @name"
+msgstr "Шаблоны замещения для @name"
+
+#: token.module:44,53,45,54,57,66,75,84,63,57,66,75,84,54,63,69,78,87,96
+msgid "Tokens"
+msgstr "Маркеры"
+
+#: token_actions.info:0,0,0,0,0,0
+msgid "Token actions"
+msgstr "Маркер: Действия"
+
+#: token_cck.inc:60,60
+msgid "Referenced node ID."
+msgstr "ID связанного материала."
+
+#: token_taxonomy.inc:51,51,51,51,51
+msgid "The id number of the category's parent vocabulary."
+msgstr "ID родительского словаря категории."
+
+#: token.tokens.inc:82,110,114,115
+msgid "Extension"
+msgstr "Расширение"
+
+#: token.tokens.inc:98,98,118,134,154,158,166
+msgid "Root"
+msgstr "Корневая"
+
+#: token.tokens.inc:61,71,79,99,476,103,483,497,80,104,534
+msgid "Machine-readable name"
+msgstr "Системное имя"
+
+#: token_actions.module:22,22,11,11,11,22
+msgid "Display a tokenized message to the user"
+msgstr ""
+"Отобразить маркированное сообщение "
+"пользователю"
+
+#: token_actions.module:32,32,21,21,22,22,32
+msgid "Send tokenized e-mail"
+msgstr ""
+"Отправить маркированное сообщение "
+"электронной почты"
+
+#: token_actions.module:43,43,32,32,33,33,43
+msgid "Redirect to a tokenized URL"
+msgstr "Перенаправить на маркированный URL"
+
+#: token_actions.module:81,81,70,70,70,81,106
+msgid "The email address to which the message should be sent."
+msgstr ""
+"Адрес электронной почты, на который "
+"следует отправить сообщение."
+
+#: token_actions.module:97,97,86,86,86,97,127
+msgid "The message that should be sent."
+msgstr "Сообщение, которое следует отправить."
+
+#: token_actions.module:105,105,94,94,94,105,137
+msgid ""
+"The following placeholder tokens can be used in to generate the URL "
+"path. Some tokens may not be available, depending on the context in "
+"which the action is triggered."
+msgstr ""
+"Следующие метки-заполнители могут "
+"использоваться для формирования "
+"адреса URL. Некоторые метки могут быть "
+"недоступны в зависимости от того "
+"контекста, в котором выполняется "
+"действие."
+
+#: token_actions.module:157,157,145,145,145,157,203
+msgid "The message to be displayed to the current user."
+msgstr ""
+"Сообщение, которое будет отображаться "
+"текущему пользователю."
+
+#: token_actions.module:165,165,153,153,153,165,213
+msgid ""
+"The following placeholder tokens can be used in the custom message "
+"text. Some tokens may not be available, depending on the context in "
+"which the action is triggered."
+msgstr ""
+"Следующие метки-заполнители могут "
+"использоваться в пользовательском "
+"тексте сообщения. Некоторые метки "
+"могут быть недоступны в зависимости "
+"от того контекста, в котором "
+"выполняется действие."
+
+#: token_actions.module:206,206,193,193,193,206,267
+msgid ""
+"The following placeholder tokens can be used in the URL path. Some "
+"tokens may not be available, depending on the context in which the "
+"action is triggered."
+msgstr ""
+"Следующие метки-заполнители могут "
+"использоваться в адресе URL. Некоторые "
+"метки могут быть недоступны в "
+"зависимости от того контекста, в "
+"котором выполняется действие."
+
+#: token_actions.info:0,0,0,0,0,0
+msgid ""
+"Provides enhanced versions of core Drupal actions using the Token "
+"module."
+msgstr ""
+"Предоставляет расширенные версии "
+"встроенных в Drupal действий, используя "
+"модуль Token."
+
+#: token_node.inc:179,178,179,178,173,174,173,174,178,179
+msgid "The title of the node."
+msgstr "Заголовок материала."
+
+#: token.module:134,134,150,150,150,161,162,147,147,149
+msgid "The name of the site."
+msgstr "Имя сайта"
+
+#: token_comment.inc:73,72,73,72,72,73,72,73,72,73
+msgid "The title of the comment."
+msgstr "Заголовок комментария."
+
+#: token.tokens.inc:87,88
+msgid "Node count"
+msgstr "Количество материалов"
+
+#: token.tokens.inc:17
+msgid "Current date"
+msgstr "Текущая дата"
+
+#: token_node.inc:193,193,188,188,193
+msgid "Node creation"
+msgstr "Создание материала"
+
+#: token.tokens.inc:64,64,64,84,100,128,132,140
+msgid "Menu links"
+msgstr "Ссылки меню"
+
+#: token_node.inc:217,217,217
+msgid "The text used in the menu as link text for this item."
+msgstr ""
+"Текст ссылки на этот элемент, "
+"используемый в меню."
+
+#: token_node.inc:181,180,181,180,175,176,175,176,180,181
+msgid "The URL alias of the node."
+msgstr "URL-синоним материала."
+
+#: token.rules.inc:17,17,17
+msgid "Token replacement patterns"
+msgstr "Шаблоны маркеров замещения"
+
+#: token.tokens.inc:69,69,69,89,105,133,137,145
+msgid "Link ID"
+msgstr "ID ссылки."
+
+#: token.tokens.inc:46,46,46,49,59,60
+msgid "Revision log message"
+msgstr "Лог сообщение для этой редакции"
+
+#: token.tokens.inc:56,65,66,75,94,103,91,98,107,495,505,509,519,92,99,108,546,556
+msgid "Edit URL"
+msgstr "Редактировать URL"
+
+#: tokenSTARTER.module:23,23,23
+msgid "A randomly generated SHA1 hash."
+msgstr "Генератор случайного SHA1 хеша."
+
+#: tokenSTARTER.module:24,24,24
+msgid "The current timestamp in seconds past January 1, 1970."
+msgstr ""
+"Текущий штамп времени в секундах с 1 "
+"Января 1970."
+
+#: tokenSTARTER.info:0,0,0
+msgid "TokenSTARTER"
+msgstr "TokenSTARTER"
+
+#: tokenSTARTER.info:0,0,0
+msgid ""
+"Provides additional tokens and a base on which to build your own "
+"tokens."
+msgstr ""
+"Предоставляет дополнительные маркеры "
+"и базу для создания собственных "
+"маркеров."
+
+#: tokenSTARTER.module:25,25,25
+msgid "A randomly generated single-digit number."
+msgstr "Случайно сгенерированная цифра."
+
+#: tokenSTARTER.module:26,26,26
+msgid "A randomly generated three-digit number."
+msgstr ""
+"Случайно сгенерированное трехзначное "
+"число."
+
+#: tokenSTARTER.module:27,27,27
+msgid "A randomly generated ten-digit number."
+msgstr ""
+"Случайно сгенерированное "
+"десятизначное число."
+
+#: tokenSTARTER.module:28,28,28
+msgid "Randomly generated single-digit letter."
+msgstr "Случайно сгенерированная буква."
+
+#: tokenSTARTER.module:29,29,29
+msgid "Randomly generated three-digit letters."
+msgstr ""
+"Случайно сгенерированное "
+"двухбуквенное сообщение."
+
+#: tokenSTARTER.module:30,30,30
+msgid "Randomly generated ten-digit letters."
+msgstr ""
+"Случайно сгенерированное "
+"десятибуквенное сообщение."
+
+#: token_node.inc:197,197,192,192,197
+msgid "The number of comments posted on a node."
+msgstr "Количество комментариев в материале."
+
+#: token_node.inc:198,198,193,193,198
+msgid ""
+"The number of comments posted on a node since the reader last viewed "
+"it."
+msgstr ""
+"Число опубликованных комментариев "
+"материала с момента последнего "
+"прочтения."
+
+#: token_comment.inc:70,70,70,70,70
+msgid "The unique ID of the comment."
+msgstr "Уникальный ID комментария."
+
+#: token_comment.inc:71,71,71,71,71
+msgid "The unique ID of the node the comment was posted to."
+msgstr ""
+"Уникальный ID материала, на котором был "
+"размещен комментарий."
+
+#: token_comment.inc:79,78,79,78,78,79,78,79,78,79
+msgid "The name left by the comment author."
+msgstr "Имя, оставленное автором комментария."
+
+#: token_comment.inc:83,82,83,82,83,82,82,83,82,83
+msgid "The email address left by the comment author."
+msgstr "Email, оставленный автором комментария."
+
+#: token_comment.inc:80,80,80,80,80
+msgid "The home page URL left by the comment author."
+msgstr ""
+"URL домашней страницы, оставленный "
+"автором комментария."
+
+#: token_comment.inc:75,74,75,74,74,75,74,75,74,75
+msgid "The formatted content of the comment itself."
+msgstr ""
+"Форматированное содержимое "
+"комментария."
+
+#: token_node.inc:175,175,171,171,175
+msgid "The type of the node."
+msgstr "Тип материала."
+
+#: token_node.inc:176,176,172,172,176
+msgid "The human-readable name of the node type."
+msgstr ""
+"Человекопонятное название типа "
+"материала."
+
+#: token_node.inc:177,177,177
+msgid "The language the node is written in."
+msgstr "Язык, на котором написан материал."
+
+#: token_node.inc:182,182,177,177,182
+msgid "The URL of the node."
+msgstr "URL материала."
+
+#: token.module:135,135,151,151,151,162,163,148,148,150
+msgid "The slogan of the site."
+msgstr "Слоган сайта."
+
+#: token.module:136,136,152,152,152,163,164,149,149,151
+msgid "The optional 'mission' of the site."
+msgstr "Миссия сайта (необязательно)."
+
+#: token.module:137,137,153,153,153,164,165,150,150,152
+msgid "The administrative email address for the site."
+msgstr "Административный email для сайта."
+
+#: token.module:133,133,149,149,149,160,161,146,146,148
+msgid "The URL of the site's front page."
+msgstr "Адрес главной страницы сайта."
+
+#: token_taxonomy.inc:25
+msgid "The unique ID of the taxonomy term."
+msgstr "Уникальный ID термина таксономии."
+
+#: token_taxonomy.inc:26,27
+msgid "The name of the taxonomy term."
+msgstr "Имя термина таксономии."
+
+#: token_taxonomy.inc:50,50,50,50,50,28
+msgid "The optional description of the taxonomy term."
+msgstr ""
+"Необязательное описание термина "
+"таксономии."
+
+#: token_taxonomy.inc:38
+msgid "The unique ID of the taxonomy vocabulary."
+msgstr "Уникальный ID словаря таксономии."
+
+#: token_taxonomy.inc:39,40
+msgid "The name of the taxonomy vocabulary."
+msgstr "Имя словаря таксономии."
+
+#: token_taxonomy.inc:54,54,54,54,54,41,42
+msgid "The optional description of the taxonomy vocabulary."
+msgstr ""
+"Необязательное описание словаря "
+"таксономии."
+
+#: token_user.inc:67,67,67,67,24,24,24
+msgid "The unique ID of the user account."
+msgstr "Уникальный номер учётной записи"
+
+#: token_user.inc:65,64,65,64,64,65,64,65,22,23,22,23,22,23
+msgid "The login name of the user account."
+msgstr "Логин учётной записи"
+
+#: token_user.inc:68,68,68,68,25,25,25
+msgid "The email address of the user account."
+msgstr "E-mail адрес учётной записи"
+
+#: token_user.inc:73,73,73,73,31,31,31
+msgid "The URL of the account profile page."
+msgstr ""
+"Ссылка на страницу профиля учётной "
+"записи"
+
+#: token_node.inc:184,184,179,179,184
+msgid "The unique ID of the author of the node."
+msgstr "Уникальный ID автора материала."
+
+#: token_node.inc:174,174,170,170,174
+msgid "The unique ID of the content item, or \"node\"."
+msgstr ""
+"Уникальный ID содержимого или "
+"\"материала\"."
+
+#: token.tokens.inc:66,76,104,108,109
+msgid "The URL of the vocabulary's edit page."
+msgstr ""
+
+#: token_comment.inc:85,85,85,85,85
+msgid "Comment creation"
+msgstr "Создание комментария"
+
+#: token.module:138,138,154,154,154,165,166,151,151,153
+msgid "The current"
+msgstr "Текущий"
+
+#: token.module:465,461,461,481,481,481,488,448,464,447,447,451,453,466
+msgid "!description year (four digit)"
+msgstr "!description год (четыре цифры)"
+
+#: token.module:466,462,462,482,482,482,489,449,465,448,448,452,454,467
+msgid "!description year (two digit)"
+msgstr "!description год (две цифры)"
+
+#: token.module:467,463,463,483,483,483,490,450,466,449,449,453,455,468
+msgid "!description month (full word)"
+msgstr "!description месяц (полное слово)"
+
+#: token.module:468,464,464,484,484,484,491,451,467,450,450,454,456,469
+msgid "!description month (abbreviated)"
+msgstr "!description месяц (аббревиатура)"
+
+#: token.module:469,465,465,485,485,485,492,452,468,451,451,455,457,470
+msgid "!description month (two digits with leading zeros)"
+msgstr ""
+"!description месяц (две цифры с вводным "
+"нулем)"
+
+#: token.module:470,466,466,486,486,486,493,453,469,452,452,456,458,471
+msgid "!description month (one or two digits without leading zeros)"
+msgstr ""
+"!description месяц (одна или две цифры без "
+"вводного нуля)"
+
+#: token.module:471,467,467,487,487,487,494,454,470,453,453,457,459,472
+msgid "!description week (two digits with leading zeros)"
+msgstr ""
+"!description неделя (две цифры с вводным "
+"нулем)"
+
+#: token.module:473,469,469,489,489,489,496,456,472,455,455,459,461,474
+msgid "!description date (numeric representation of the day of the week)"
+msgstr ""
+"!description дата (цифровое представление "
+"дня недели)"
+
+#: token.module:475,471,471,491,491,491,498,458,474,457,457,461,463,476
+msgid "!description day (full word)"
+msgstr "!description день (полное слово)"
+
+#: token.module:476,472,472,492,492,492,499,459,475,458,458,462,464,477
+msgid "!description day (abbreviation)"
+msgstr "!description день (аббревиатура)"
+
+#: token.module:477,473,473,493,493,493,500,460,476,459,459,463,465,478
+msgid "!description day (two digits with leading zeros)"
+msgstr ""
+"!description день (две цифры, включая "
+"вводный нуль)"
+
+#: token.module:478,474,474,494,494,494,501,461,477,460,460,464,466,479
+msgid "!description day (one or two digits without leading zeros)"
+msgstr ""
+"!description день (одна или две цифры без "
+"вводного нуля)"
+
+#: token.tokens.inc:41,41,41,44,54,55
+msgid "Translation source node"
+msgstr "Перевод исходного материала"
+
+#: token_actions.module:98,157,197,98,157,197,98,157,197
+msgid "Token help is not yet available."
+msgstr "Помощь по Token пока еще недоступна."
+
+#: token.pages.inc:92,92,141,141,91,185,97,91,185,97
+msgid "No tokens available."
+msgstr "Нет доступных маркеров."
+
+#: token.pages.inc:102,102,144,144,94,107,94,107
+msgid "Click a token to insert it into the field you've last clicked."
+msgstr ""
+"Кликните для вставки маркера в "
+"последнее выбранное поле."
+
+#: token.js:0,0,0,0,0,0
+msgid "Insert this token into your form"
+msgstr "Вставить этот маркер в вашу форму"
+
+#: token.js:0,0,0,0,0,0
+msgid "First click a text field to insert your tokens into."
+msgstr ""
+"Сначала кликните в текстовое поле, "
+"чтобы вставить в него ваши маркеры."
+
+#: token.module:31,31,10,31,31,10,31,15,15,31
+msgid "List of the currently available tokens on this site"
+msgstr ""
+"Список доступных в данный момент "
+"маркеров на этом сайте."
+
+#: token.module:479,475,475,495,495,495,502,462,478,461,461,465,467
+msgid "!description in UNIX timestamp format (1269441371)"
+msgstr "!description в формате UNIX-даты (1269441371)"
+
+#: token.info:0,0,0
+msgid ""
+"Provides a user interface for the Token API and some missing core "
+"tokens."
+msgstr ""
+"Обеспечивает пользовательский "
+"интерфейс для Token API и некоторые "
+"пропущенные маркеры ядра."
+
+#: token.tokens.inc:100,100,105,105,125,141,161,165,173
+msgid "Current page"
+msgstr "Текущая страница"
+
+#: token_node.inc:203,203,198,198,203
+msgid "Unfiltered name of top taxonomy term."
+msgstr ""
+"Неотфильтрованное имя главного "
+"термина таксономии."
+
+#: token_node.inc:206,206,201,201,206
+msgid "Unfiltered name of top term's vocabulary."
+msgstr ""
+"Неотфильтрованное название словаря "
+"верхнего термина."
+
+#: token_node.inc:216,216,211,211,216
+msgid ""
+"The unfiltered menu path (as reflected in the breadcrumb), not "
+"including Home or [menu]. Separated by /."
+msgstr ""
+"Неотфильтрованный путь меню (как "
+"отраженные в навигационной линейке), "
+"не включая Home или [menu]. Разделяется /."
+
+#: token_node.inc:311,311,265,265,311,310,309
+msgid "The unfiltered title of the node's book parent."
+msgstr ""
+"Неотфильтрованный заголовок родителя "
+"подшивки материалов."
+
+#: token_node.inc:312,312,266,266,312,311,310
+msgid "The unfiltered titles of all parents in the node's book hierarchy."
+msgstr ""
+"Неотфильтрованные заголовки всех "
+"родителей в иерархии подшивки "
+"материалов."
+
+#: token_taxonomy.inc:49,49,49,49,49
+msgid "The unfiltered name of the category."
+msgstr "Неотфильтрованное имя категории."
+
+#: token_taxonomy.inc:53,53,53,53,53
+msgid "The unfiltered vocabulary that the page's first category belongs to."
+msgstr ""
+"Неотфильтрованный словарь, который "
+"принадлежит первой категории "
+"страницы."
+
+#: token.module:401,397,397,417,417,417,424,384,400,387,387,389
+msgid "raw user input"
+msgstr "сырой пользовательский ввод"
+
+#: token.module:402,398,398,418,418,418,425,385,401,388,388,390
+msgid "Warning: Token value contains raw user input."
+msgstr ""
+"Внимание: Метка маркера содержит "
+"необработанный пользовательский "
+"ввод."
+
+#: token_node.inc:218,218,218
+msgid "The unfiltered text used in the menu as link text for this item."
+msgstr ""
+"Неотфильтрованный текст "
+"использовался в меню как текст ссылки "
+"для этого элемента."
+
+#: token.tokens.inc:42,42,42,45,55,56
+msgid "The source node for this current node's translation set."
+msgstr ""
+"Исходный материал для данного набора "
+"переводов материала."
+
+#: token_node.inc:191,190,191,190,185,186,185,186,190,191; token.tokens.inc:47,47,47,50,60,61
+msgid "The explanation of the most recent changes made to the node."
+msgstr ""
+"Разъяснение самых последних "
+"изменений, внесенных в материал."
+
+#: token_node.inc:219,219,219
+msgid "The unique ID of the node's menu link."
+msgstr "Уникальный ID ссылки меню на материалы."
+
+#: token_node.inc:220,220,220
+msgid "The unique ID of the node's menu link parent."
+msgstr ""
+"Уникальный ID родительской ссылки меню "
+"на материалы."
+
+#: token.tokens.inc:65,65,65,85,101,129,133,141
+msgid "Tokens related to menu links."
+msgstr "Маркеры, связанные с ссылками меню."
+
+#: token.tokens.inc:70,70,70,90,106,134,138,146
+msgid "The unique ID of the menu link."
+msgstr "Уникальный ID ссылки меню."
+
+#: token.tokens.inc:74,74,74,94,110,138,142,150
+msgid "The title of the menu link."
+msgstr "Заголовок ссылки меню."
+
+#: token.tokens.inc:78,78,78,98,114
+msgid "The machine name of the link's menu."
+msgstr "Машинное имя ссылки меню."
+
+#: token.tokens.inc:82,82,82,102,118
+msgid "The human-readable name of the link's menu."
+msgstr "Удобочитаемое имя ссылки меню."
+
+#: token.tokens.inc:90,90,90,110,126,146,150,158
+msgid "The URL of the menu link."
+msgstr "URL ссылки меню."
+
+#: token.tokens.inc:94,94,94,114,130,150,154,162
+msgid "The menu link's parent."
+msgstr "Родитель ссылки меню."
+
+#: token.tokens.inc:314,314,326,334,334,385,420,423,495,510,524,561
+msgid "The menu link for this node."
+msgstr "Ссылка в меню для этого материала."
+
+#: token_node.inc:194,194,189,189,194
+msgid "Node modification"
+msgstr "Изменение материала"
+
+#: token_user.inc:70,70,70,70,27,27,27
+msgid "User's registration"
+msgstr "Регистрация пользователя"
+
+#: token_user.inc:71,71,71,71,28,28,28
+msgid "User's last login"
+msgstr "Последний вход пользователя"
+
+#: token.module:480,476,476,496,496,496,503,463,479,462,462,466,468
+msgid "!description in 'time-since' format. (40 years 3 months)"
+msgstr ""
+"!description в формате 'времени с'. (40 years 3 "
+"months)"
+
+#: token.module:464,460,460,480,480,480,487,447,463,446,446,450,452
+msgid "!description date in 'small' format. <em>(06/07/2010 - 23:28)</em>"
+msgstr ""
+"!description дата в 'кратком' формате. "
+"<em>(06/07/2010 - 23:28)</em>"
+
+#: token.tokens.inc:30,30,30,32,42
+msgid "The URL alias of the @entity."
+msgstr "URL-синоним для @entity."
+
+#: token.tokens.inc:86,86,86,106,122,142,146,154
+msgid "The URL alias of the menu link."
+msgstr "URL-синоним ссылки меню"
+
+#: token.tokens.inc:266,266,278,286,286,337,372,375,423,430,444,481
+msgid "The book page associated with the node."
+msgstr ""
+"Страница подшивки, связанная с этим "
+"материалом."
+
+#: token.module:308,308,389,389,428,450,478,513,529
+msgid ""
+"Available variables are: [site:name], [site:url], [user:name], "
+"[user:mail], [site:login-url], [site:url-brief], [user:edit-url], "
+"[user:one-time-login-url], [user:cancel-url]."
+msgstr ""
+"Доступные переменные: [site:name], [site:url], "
+"[user:name], [user:mail], [site:login-url], [site:url-brief], "
+"[user:edit-url], [user:one-time-login-url], [user:cancel-url]."
+
+#: token.module:356,356,376,376,376,383
+msgid "More than one module has defined the %key token."
+msgstr ""
+"Более, чем один модуль определеяет "
+"маркер %key."
+
+#: token.tokens.inc:52,52,52,72,88,116,120,121
+msgid "Account cancellation URL"
+msgstr "URL аннулирования учетной записи"
+
+#: token.tokens.inc:53,53,53,73,89,117,121,122
+msgid "The URL of the confirm delete page for the user account."
+msgstr ""
+"URL подтверждения удаления страницы "
+"для пользовательской учетной записи."
+
+#: token.tokens.inc:57,57,57,77,93,121,125,126
+msgid "One-time login URL"
+msgstr "URL одноразового входа"
+
+#: token.tokens.inc:58,58,58,78,94,122,126,127
+msgid "The URL of the one-time login page for the user account."
+msgstr ""
+"URL страницы одноразового входа для "
+"пользовательской учетной записи."
+
+#: token.module:652,606,606,626,296,626,296,636,643,603,619,377,604,377,604,608,407,638,640,429,457,469,654,655,485
+msgid ""
+"The %element-title is using the following invalid tokens: "
+"@invalid-tokens."
+msgstr ""
+"%element-title использует следующие "
+"неверные маркеры: @invalid-tokens."
+
+#: token_comment.inc:77,77,77,77,77
+msgid "The unique ID of the author of the comment."
+msgstr "Уникальный ID автора комментария"
+
+#: token_comment.inc:88,87,88,87,87,88,87,88,87,88
+msgid "The title of the node the comment was posted to."
+msgstr ""
+"Заголовок материала, в котором был "
+"размещен комментарий."
+
+#: token_node.inc:186,185,186,185,180,181,180,181,185,186
+msgid "The login name of the author of the node."
+msgstr "Имя автора материала."
+
+#: token_node.inc:188,187,188,187,182,183,182,183,187,188
+msgid "The email address of the author of the node."
+msgstr "Email автора материала."
+
+#: token_user.inc:72,72,72,72,29,29,29
+msgid "The current date in the user's timezone."
+msgstr ""
+"Текущая дата в пользовательском "
+"часовом поясе."
+
+#: token.tokens.inc:101,101,106,106,126,142,162,166,174
+msgid "Tokens related to the current page request."
+msgstr ""
+
+#: token.module:143,142,143,142,159,158,158,159,158,159,169,170,171,155,156,155,156,157,158; token.tokens.inc:109,109,114,114,134,150,170,174,182
+msgid "The URL alias of the current page."
+msgstr "URL-синоним текущей страницы."
+
+#: token.module:144,144,160,160,160,171,172,157,157,159; token.tokens.inc:113,113,118,118,138,154,174,178,186
+msgid "The URL of the current page."
+msgstr "URL текущей страницы."
+
+#: token.tokens.inc:116,116,121,121,141,157,177,181,189
+msgid "Page number"
+msgstr "Номер страницы"
+
+#: token.module:145,145,161,161,161,172,173,158,158,160; token.tokens.inc:117,117,122,122,142,158,178,182,190
+msgid "The page number of the current page when viewing paged lists."
+msgstr ""
+"Номер текущей страницы при показе "
+"списка страниц."
+
+#: token.module:141,141,157,157,157,168,169,154,154,156; token.tokens.inc:105,105,110,110,130,146,166,170,178
+msgid "The title of the current page."
+msgstr "Заголовок текущей страницы."
+
+#: token_user.inc:74,74,74,74,32,32,32
+msgid "The URL of the account edit page."
+msgstr ""
+"URL на странцу редактрования учётной "
+"записи."
+
+#: token.tokens.inc:99,99,119,135,155,159,167
+msgid "The menu link's root."
+msgstr ""
+
+#: token.install:22,22,15,15,22
+msgid "@token (defined by modules: @modules)"
+msgstr "@token (определен модулями: @modules)"
+
+#: token.install:25,25,18,18,25
+msgid "Duplicate tokens"
+msgstr "Повторяющиеся маркеры"
+
+#: token.install:26,26,19,19,26
+msgid ""
+"The following tokens are defined by multiple modules and may cause "
+"problems when performing token replacement."
+msgstr ""
+"Указанные макеры определены "
+"множеством модулей, что может "
+"привести к проблемам при их замене."
+
+#: token.tokens.inc:83,111,115,116
+msgid "The extension of the file."
+msgstr ""
+
+#: token.tokens.inc:57,67,95,99,100
+msgid "The URL of the taxonomy term's edit page."
+msgstr ""
+
+#: token.tokens.inc:62,72,100,104,105
+msgid "The unique machine-readable name of the vocabulary."
+msgstr ""
+
+#: token.tokens.inc:18
+msgid "Tokens related to the current date and time."
+msgstr ""
+
+#: token.tokens.inc:83
+msgid "The extenion of the file."
+msgstr ""
+
+#: token.pages.inc:31
+msgid "@type tokens"
+msgstr ""
+
+#: token.module:637,392,623,625,414,442,454,639,640,470
+msgid "The %element-title cannot contain fewer than one token."
+msgid_plural "The %element-title must contain at least @count tokens."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: token.module:644,399,630,632,421,449,461,646,647,477
+msgid "The %element-title must contain as most one token."
+msgid_plural "The %element-title must contain at most @count tokens."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: token_taxonomy.inc:29
+msgid "The unique ID of the taxonomy vocabulary the taxonomy term belongs to."
+msgstr ""
+
+#: token_taxonomy.inc:30,31
+msgid "The name of the taxonomy vocabulary the taxonomy term belongs to."
+msgstr ""
+
+#: token_taxonomy.inc:32,33
+msgid ""
+"The optional description of the taxonomy vocabulary the taxonomy term "
+"belongs to."
+msgstr ""
+
+#: token.tokens.inc:64,65
+msgid "The content type of the node."
+msgstr ""
+
+#: token.tokens.inc:71,72
+msgid "Tokens related to content types."
+msgstr ""
+
+#: token.tokens.inc:76,77
+msgid "The name of the content type."
+msgstr ""
+
+#: token.tokens.inc:80,81
+msgid "The unique machine-readable name of the content type."
+msgstr ""
+
+#: token.tokens.inc:84,85
+msgid "The optional description of the content type."
+msgstr "Опциональное описание типа контента."
+
+#: token.tokens.inc:88,89
+msgid "The number of nodes belonging to the content type."
+msgstr ""
+
+#: token.tokens.inc:468,475,489,526
+msgid "Tokens related to menus."
+msgstr ""
+
+#: token.tokens.inc:477,484,498,535
+msgid "The unique machine-readable name of the menu."
+msgstr ""
+
+#: token.tokens.inc:481,488,502,539
+msgid "The optional description of the menu."
+msgstr ""
+
+#: token.tokens.inc:484,491,505,542
+msgid "Menu link count"
+msgstr ""
+
+#: token.tokens.inc:485,492,506,543
+msgid "The number of menu links belonging to the menu."
+msgstr ""
+
+#: token.tokens.inc:490,501,515,552
+msgid "The menu of the menu link."
+msgstr ""
+
+#: token.tokens.inc:595,626,640,677
+msgid "@category @type field."
+msgstr ""
+
+#: token.tokens.inc:92,93
+msgid "The URL of the content type's edit page."
+msgstr ""
+
+#: token.tokens.inc:496,510,547
+msgid "The URL of the menu's edit page."
+msgstr ""
+
+#: token.tokens.inc:506,520,557
+msgid "The URL of the menu link's edit page."
+msgstr ""
+
+#: token.tokens.inc:185,193
+msgid "Page argument"
+msgstr ""
+
+#: token.tokens.inc:186,194
+msgid ""
+"The specific argument of the current page (e.g. 'arg:1' on the page "
+"'node/1' returns '1')."
+msgstr ""
+
+#: token_actions.module:157
+msgid ""
+"Enter a valid email address or use a token e-mail address such as "
+"%mail."
+msgstr ""
+
+#: token.module:401
+msgid "UNIX timestamp format"
+msgstr ""
+
+#: token.module:465
+msgid "!description date in 'small' format. (%date)"
+msgstr ""
+
+#: token.module:480
+msgid "!description in UNIX timestamp format (%date)"
+msgstr ""
+
+#: token.module:481
+msgid "!description in 'time-since' format. (%date)"
+msgstr ""
+
+#: token.tokens.inc:133
+msgid "The picture of the user."
+msgstr "Изображение пользователя."
+

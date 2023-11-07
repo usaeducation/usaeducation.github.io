@@ -1,0 +1,281 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head> 
+ <title>mobile site</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css"  href="static/mobile.css" />  
+<link rel="shortcut icon" href="static/images/favicon.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="static/images/favapple.png" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="clear type" content="on" />
+<meta name="viewport"content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<link rel="alternate" media="handheld" href="" />
+  
+ </head>
+ <body class="manage_photos_page">
+  <div class="header">
+   <!--<img src="static/images/logo.png" alt="logo" width="93" height="30" />-->
+   <ul>
+     					<li>
+                            <a href="account_free.html">Account</a>
+                        </li>
+                        <li>
+                            <a href="search_form.html">Search</a>
+                        </li>
+                        <li>
+                            <a href="edit_profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <a href="favorites.html">Favourites</a>
+                        </li>
+                        <li>
+                            <a href="messages.html">Messages</a>
+                        </li>
+                        <li>
+                            <a href="avatars_select.html">Avatars</a>
+                        </li>
+                        <li>
+                            <a href="support_chat.html">Support Chat Live</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+   </ul>
+  </div>
+  <div class="mainbody">
+    <h3>Manage photos</h3>
+		
+	<div class="panel_edit_profile">
+	<!--<form action="" name="form1" method="post">
+	<div class="head_line"><h4>Add new photo</h4></div>
+	<p>You can use this service from your desktop or laptop PC</p>
+	<div class="head_line"><h4>&nbsp;</h4></div>
+	</form>-->
+		
+		
+		<form action="manage_photos.php" method="post" enctype="multipart/form-data">
+		<div class="panel_black history_table">
+			
+		<div class="left">
+			
+			<div class="line">
+				<img width="42" height="55" alt="no photo" src="static/images/nophoto.png" />
+			</div>
+			
+		</div>
+		
+		
+		<div class="center">
+			
+			<div class="line">
+				<dl>
+          		<dt><div><label for="type">Type</label></div></dt>
+				<div class="clear"></div>
+          		<dd>
+					<select id="type2" name="type"   class="private">
+
+                        <option value="1" selected="selected">Main</option>
+                        <option value="2" >Public</option>
+                 	</select>	
+				</dd>
+		  	</dl>
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		<div class="two_btns_small">
+			<div class="left">			
+				<input id="photo_delete1" class="submit photo_delete"  type="button" value="Delete"  onclick="document.location='manage_photos.php?picid=36009&action=delete'"/>
+			</div>
+			<div class="right">
+				<input id="photo_save" class="submit photo_save" type="submit" value="Save" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>  
+		
+		<div class="clear"></div>
+		
+			<input id="edit" type="hidden" value="edit" name="action"/>
+            <input id="picid" type="hidden" value="36009" name="picid"/>
+			
+	       
+			<div class="clear"></div>
+		
+		
+		<div class="clear"></div>	
+		</form> 
+		
+		
+		
+		<form action="manage_photos.php" method="post" enctype="multipart/form-data">
+		<div class="panel_black history_table">
+			
+		<div class="left">
+			
+			<div class="line">
+				<img width="42" height="55" alt="no photo" src="static/images/nophoto.png" />
+			</div>
+			
+		</div>
+		
+		
+		<div class="center">
+			
+			<div class="line">
+				<dl>
+          		<dt><div><label for="type">Type</label></div></dt>
+				<div class="clear"></div>
+          		<dd>
+					<select id="type2" name="type"   class="private">
+
+                        <option value="1" selected="selected">Main</option>
+                        <option value="2" >Public</option>
+                 	</select>	
+				</dd>
+		  	</dl>
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		<div class="two_btns_small">
+			<div class="left">			
+				<input id="photo_delete1" class="submit photo_delete"  type="button" value="Delete"  onclick="document.location='manage_photos.php?picid=36009&action=delete'"/>
+			</div>
+			<div class="right">
+				<input id="photo_save" class="submit photo_save" type="submit" value="Save" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>  
+		
+		<div class="clear"></div>
+		
+			<input id="edit" type="hidden" value="edit" name="action"/>
+            <input id="picid" type="hidden" value="36009" name="picid"/>
+			
+	       
+			<div class="clear"></div>
+		
+		
+		<div class="clear"></div>	
+		</form> 
+		
+		
+		<form action="manage_photos.php" method="post" enctype="multipart/form-data">
+		<div class="panel_black history_table">
+			
+		<div class="left">
+			
+			<div class="line">
+				<img width="42" height="55" alt="no photo" src="static/images/nophoto.png" />
+			</div>
+			
+		</div>
+		
+		
+		<div class="center">
+			
+			<div class="line">
+				<dl>
+          		<dt><div><label for="type">Type</label></div></dt>
+				<div class="clear"></div>
+          		<dd>
+					<select id="type2" name="type"   class="private">
+
+                        <option value="1" selected="selected">Main</option>
+                        <option value="2" >Public</option>
+                 	</select>	
+				</dd>
+		  	</dl>
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+		<div class="two_btns_small">
+			<div class="left">			
+				<input id="photo_delete1" class="submit photo_delete"  type="button" value="Delete"  onclick="document.location='manage_photos.php?picid=36009&action=delete'"/>
+			</div>
+			<div class="right">
+				<input id="photo_save" class="submit photo_save" type="submit" value="Save" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>  
+		
+		<div class="clear"></div>
+		
+			<input id="edit" type="hidden" value="edit" name="action"/>
+            <input id="picid" type="hidden" value="36009" name="picid"/>
+			
+	       
+			<div class="clear"></div>
+		
+		
+		<div class="clear"></div>	
+		</form> 
+		
+		
+		
+		
+	
+	</div>
+	
+	
+  </div>
+<div class="footer">
+      <p>
+	  	<!--<ul>
+               <li>
+                            <a href="account_free.html">Account</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="search_form.html">Search</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="edit_profile.html">Profile</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="favorites.html">Favourites</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="messages.html">Messages</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="avatars_select.html">Avatars</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="support_chat.html">Support Chat Live</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+						<li>|</li>
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+        
+            </ul>-->
+		</p>
+</div>
+
+ </body>
+</html>

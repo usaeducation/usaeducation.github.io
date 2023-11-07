@@ -1,0 +1,782 @@
+<?php
+/**
+ * @file
+ * Main file of the Video module.
+ */
+
+define('VIDEO_RENDERING_PENDING', 1);
+define('VIDEO_RENDERING_ACTIVE', 5);
+define('VIDEO_RENDERING_COMPLETE', 10);
+define('VIDEO_RENDERING_FAILED', 20);
+
+/**
+ * Implementation of hook_init().
+ */
+function video_init() {
+  drupal_add_css(drupal_get_path('module', 'video') .'/css/video.css');
+  drupal_add_js(drupal_get_path('module', 'video') .'/js/video.js');
+}
+
+/**
+ * Invokes hook_video_*action*() in every module.
+ *
+ * Examples:
+ * hook_video_submit()
+ * hook_video_insert()
+ * hook_video_preview()
+ * hook_video_delete()
+ * hook_video_load()
+ * hook_video_form() - to show values once upload is completed eg. Resolution,
+ *                     and Convert on Save etc
+ *
+ * We cannot use module_invoke() for this, because the arguments need to
+ * be passed by reference.
+ */
+function video_module_invoke($action, &$array, &$video = NULL, $other = NULL) {
+  foreach (module_list() as $module) {
+    $function = $module . '_video_' . $action;
+    if (function_exists($function)) {
+      $function($array, $video, $other);
+    }
+  }
+}
+
+/**
+ * Implementation of hook_perm().
+ */
+function video_perm() {
+  return array('bypass conversion video', 'convert on submission', 'override player dimensions', 'use default thumb');
+}
+
+/**
+ * Implementation of hook_menu().
+ */
+function video_menu() {
+  $items = array();
+  $items['admin/settings/video'] = array(
+    'title' => 'Video',
+    'description' => 'Configure different aspects of the video module and its plugins',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_general_admin_settings'),
+    'file' => 'video.admin.inc',
+    'access arguments' => array('administer site configuration'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/settings/video/general'] = array(
+    'title' => 'General',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => 0,
+  );
+  $items['admin/settings/video/players'] = array(
+    'title' => 'Players',
+    'description' => 'Configure your player settings for each video extension.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_players_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 1,
+  );
+  $items['admin/settings/video/transcoders'] = array(
+    'title' => 'Transcoders',
+    'description' => 'Configure your transcoder to convert your videos or extra thumbnails.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_transcoder_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 2,
+  );
+  $items['admin/settings/video/presets'] = array(
+    'title' => 'Presets',
+    'description' => 'Configure your transcoder presets to convert your videos.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_preset_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 3,
+  );
+  $items['admin/settings/video/presets/list'] = array(
+    'title' => 'List',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => 1,
+  );
+  $items['admin/settings/video/presets/add'] = array(
+    'title' => 'Add preset',
+    'description' => 'Add a new video conversion preset.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_admin_preset'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 2,
+  );
+  $items['admin/settings/video/presets/%video_preset/configure'] = array(
+    'title' => 'Configure preset',
+    'description' => 'Configure a preset for the current transcoder.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_admin_preset_configure', 4),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_CALLBACK,
+  );
+  $items['admin/settings/video/presets/%video_preset/edit'] = array(
+    'title' => 'Edit preset',
+    'description' => 'Edit a transcoding preset.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_admin_preset', 4),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_CALLBACK,
+  );
+  $items['admin/settings/video/presets/%video_preset/delete'] = array(
+    'title' => 'Delete preset',
+    'description' => 'Delete a transcoding preset.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_admin_preset_delete', 4),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['admin/settings/video/filesystem'] = array(
+    'title' => 'File system',
+    'description' => 'Configure your file system settings.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_filesystem_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 5,
+  );
+
+  $items['admin/settings/video/cron'] = array(
+    'title' => 'Cron settings',
+    'description' => 'Configure your cron settings.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('video_cron_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'video.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 6,
+  );
+
+
+  return $items;
+}
+
+function video_preset_load($id) {
+  $data = db_fetch_object(db_query('SELECT * FROM {video_preset} WHERE id = %d', intval($id)));
+  if (!$data) {
+    return FALSE;
+  }
+
+  module_load_include('lib.inc', 'video');
+
+  return new video_preset($data);
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function video_theme() {
+  $theme = array();
+  $theme['video_preset_admin_settings'] = array(
+    'arguments' => array('form' => NULL),
+    'file' => 'video.admin.inc',
+  );
+  $theme['video_thumbnails'] = array(
+    'arguments' => array('file' => NULL, 'alt' => '', 'title' => '', 'attributes' => NULL, 'getsize' => TRUE),
+    'file' => 'video.theme.inc',
+  );
+  $theme['video_widget_preview'] = array(
+    'arguments' => array('item' => TRUE),
+    'file' => 'video.theme.inc',
+  );
+  $theme['video_image'] = array(
+    'arguments' => array('file' => NULL, 'alt' => '', 'title' => '', 'attributes' => NULL, 'getsize' => TRUE, 'imagecache' => NULL),
+    'file' => 'video.theme.inc',
+  );
+  $theme['video_widget_video_thumb'] = array(
+    'arguments' => array('item' => TRUE),
+    'file' => 'video.theme.inc',
+  );
+  $theme['video_formatter_video_plain'] = array(
+    'arguments' => array('element' => NULL),
+    'file' => 'video_formatter.inc',
+  );
+  $theme['video_formatter_video_nodelink'] = array(
+    'arguments' => array('element' => NULL, 'imagecache' => NULL),
+    'file' => 'video_formatter.inc',
+  );
+  $theme['video_formatter_video_thumbnail'] = array(
+    'arguments' => array('element' => NULL, 'imagecache' => NULL),
+    'file' => 'video_formatter.inc',
+  );
+  $theme['video_formatter_video_nonodelink'] = array(
+    'arguments' => array('element' => NULL, 'imagecache' => NULL),
+    'file' => 'video_formatter.inc',
+  );
+
+  $theme['video_formatter_video_media_js'] = array(
+    'arguments' => array('element' => NULL),
+    'file' => 'video_formatter.inc',
+  );
+  $theme['video_encoding_failed'] = array(
+    'arguments' => array(),
+    'file' => 'video_formatter.inc',
+  );
+  $theme['video_inprogress'] = array(
+    'arguments' => array(),
+    'file' => 'video_formatter.inc',
+  );
+
+  $path = drupal_get_path('module', 'video') . '/theme';
+  // Lets setup our themes for our players
+  $players = video_video_players();
+  foreach ($players as $tpl => $value) {
+    $theme[$tpl] = array(
+      'arguments' => array('video' => NULL, 'node' => NULL, 'themed_output' => NULL),
+      'template' => str_replace('_', '-', $tpl),
+      'path' => $path,
+    );
+  }
+  // We need to add an flv theme buffer to allow users to override in their own module to add in extra parameters before
+  // calling our flv template file.
+  $theme['video_flv'] = array(
+    'arguments' => array('video' => NULL, 'node' => NULL),
+    'file' => 'video_formatter.inc'
+  );
+  $theme['video_html5'] = array(
+    'arguments' => array('video' => NULL, 'node' => NULL),
+    'file' => 'video_formatter.inc'
+  );
+  // Setup our imagecache presets
+  if (module_exists('imagecache')) {
+    // we need formatters for each of our thumbnails.
+    // @todo create a function to check for our colorbox module and only add theme elements that could be used.
+    $thumb_types = array('video_nodelink', 'video_thumbnail', 'video_nonodelink');
+    foreach ($thumb_types as $types) {
+      foreach (imagecache_presets() as $preset) {
+        $theme['video_formatter_' . $preset['presetname'] . '__' . $types] = array(
+          'arguments' => array('element' => NULL),
+          'function' => 'theme_video_formatter_imagecache',
+          'file' => 'video_formatter.inc'
+        );
+      }
+    }
+  }
+  return $theme;
+}
+
+/**
+ * Implementation of CCK's hook_field_formatter_info().
+ */
+function video_field_formatter_info() {
+  $formatters = array(
+    'video_plain' => array(
+      'label' => t('Video'),
+      'field types' => array('filefield'),
+      'description' => t('Displays video files with player embedded.'),
+    ),
+    'video_nodelink' => array(
+      'label' => t('Video Thumbnail linked to node'),
+      'field types' => array('filefield'),
+      'description' => t('Displays the video thumbnail and links to the node.'),
+    ),
+    'video_thumbnail' => array(
+      'label' => t('Video Thumbnail'),
+      'field types' => array('filefield'),
+      'description' => t('Displays the video thumbnail.'),
+    ),
+    'video_nonodelink' => array(
+      'label' => t('Video Thumbnail'),
+      'field types' => array('filefield'),
+      'description' => t('Displays the video thumbnail (no link to node).'),
+    ),
+    'video_media_js' => array(
+      'label' => t('Video inject with jMedia'),
+      'field types' => array('filefield'),
+      'description' => t('Displays the video by using jmedia javascript.'),
+    ),
+  );
+  // Setup our imagecache presets
+  if (module_exists('imagecache')) {
+    // We need formatters for each of our thumbnails.
+    $thumb_types = array('video_nodelink', 'video_thumbnail', 'video_nonodelink');
+    foreach ($thumb_types as $types) {
+      foreach (imagecache_presets() as $preset) {
+        $formatters[$preset['presetname'] . '__' . $types] = array(
+          'label' => t('@preset @label', array('@preset' => $preset['presetname'], '@label' => $formatters[$types]['label'])),
+          'field types' => array('filefield'),
+        );
+      }
+    }
+  }
+  return $formatters;
+}
+
+/**
+ * Implementation of hook_cron().
+ */
+function video_cron() {
+  if (variable_get('video_cron', TRUE)) {
+    video_run_queue();
+  }
+}
+
+/**
+ * Implementation of hook_form_alter().
+ */
+function video_form_alter(&$form, &$form_state, $form_id) {
+  if (isset($form['type']) && isset($form['#node']) && $form['type']['#value'] .'_node_form' == $form_id) {
+    $form['buttons']['submit']['#submit'][] = 'video_node_update_submit';
+    $form['#validate'][] = 'video_add_adminjs'; // Make sure the js is loaded even when the form is cached
+    video_add_adminjs();
+  }
+}
+
+function video_node_update_submit($form, &$form_state) {
+  // Lets update our video rending table to include the node id created
+  if (isset($form_state['nid']) && isset($form_state['values']['video_id']) && is_array($form_state['values']['video_id'])) {
+    $transcoder = video_get_transcoder();
+
+    foreach ($form_state['values']['video_id'] as $fid) {
+      $video = new stdClass();
+      $video->fid = intval($fid);
+      $video->nid = intval($form_state['nid']);
+      $transcoder->update_job($video);
+
+      // Lets other module to know to update
+      video_module_invoke('update', $form, $form_state);
+    }
+  }
+}
+
+/**
+ * Implementation of hook_file_delete().
+ */
+function video_file_delete($file) {
+  $fid = intval($file->fid);
+
+  if ($fid <= 0) {
+    watchdog('video', 'video_file_delete called with empty argument', array(), WATCHDOG_ERROR);
+    return;
+  }
+
+  // Let other modules to know about the file delete
+  // before we delete the file, so the module has access to information in the database.
+  video_module_invoke('delete', $file);
+
+  // Delete the transcoder job and video
+  $transcoder = video_get_transcoder();
+  $video = $transcoder->load_job($fid);
+  $filesystem = video_get_filesystem();
+  if ($video) {
+    $transcoder->delete_job($video);
+    $filesystem->delete_video($video);
+  }
+}
+
+/**
+ * Implementation of hook_views_api().
+ */
+function video_views_api() {
+  return array(
+    'api' => 2.0,
+    'path' => drupal_get_path('module', 'video') .'/views',
+  );
+}
+
+/**
+ * Implementation of hook_file_download().
+ */
+function video_file_download($filepath) {
+  $full_path = file_create_path($filepath);
+
+  // Video thumbnails
+  if (strpos($filepath, 'video_thumbs/') !== FALSE) {
+    return array(
+      'Content-Type: ' . file_get_mimetype($full_path),
+      'Content-Length: ' . filesize($full_path),
+    );
+  }
+
+  // Only handle converted videos. Originals are handled by filefield_file_download().
+  if (strpos($filepath, '/converted/') === FALSE) {
+    return NULL;
+  }
+
+  // The get_video_by_converted_path() call is expensive, avoid it if the requested file is not a video
+  $extensions = array_keys(video_video_extensions());
+  $extension = pathinfo($filepath, PATHINFO_EXTENSION);
+  if (!in_array($extension, $extensions)) {
+    return NULL;
+  }
+
+  $transcoder = video_get_transcoder();
+  $video = $transcoder->get_original_path_by_converted_path($full_path);
+
+  if ($video == NULL) {
+    return NULL;
+  }
+
+  // If FileField has returned headers, then the video has passed all access
+  // control requirements, so we know it's okay to display.
+  $headers = filefield_file_download($video->filepath);
+
+  if (!is_array($headers)) {
+    return $headers;
+  }
+
+  // Look to see if the requested file is one of the converted files and return the headers.
+  foreach ($video->data as $converted) {
+    if ($converted->filepath == $full_path) {
+      $name = mime_header_encode($converted->filename);
+      $type = mime_header_encode($converted->filemime);
+      return array(
+        'Content-Type: ' . $type,
+        'Content-Length: ' . $converted->filesize,
+        'Content-Disposition: inline; filename="' . $name . '"',
+        'Cache-Control: private',
+      );
+    }
+  }
+}
+
+/**
+ * Returns the aspect ratio for the given width and height.
+ */
+function _video_aspect_ratio($width, $height) {
+  return number_format($width / $height, 4);
+}
+
+/**
+ * Default video dimensions.
+ */
+function video_default_dimensions() {
+  return "176x144\n352x288\n704x576\n1408x1152\n128x96\n160x120\n320x240\n640x480\n800x600\n1024x768\n1600x1200\n2048x1024\n1280x1024\n2560x2048\n5120x4096\n852x480\n1366x768\n1600x1024\n1920x1200\n2560x1600\n3200x2048\n3840x2400\n6400x4096\n7680x4800\n320x200\n640x350\n852x480\n1280x720\n1920x1080";
+}
+
+/**
+ * Return our list of video extensions and their associated player.
+ */
+function video_video_extensions() {
+  return array(
+    'divx' => 'video_play_divx',
+    'mkv' => 'video_play_divx',
+    'mov' => 'video_play_quicktime',
+    '3gp' => 'video_play_quicktime',
+    '3g2' => 'video_play_quicktime',
+    'm4v' => 'video_play_quicktime',
+    'mp4' => 'video_play_html5',
+    'rm' => 'video_play_realmedia',
+    'f4v' => 'video_play_flv',
+    'flv' => 'video_play_flv',
+    'swf' => 'video_play_flash',
+    'dir' => 'video_play_dcr',
+    'dcr' => 'video_play_dcr',
+    'asf' => 'video_play_windowsmedia',
+    'wmv' => 'video_play_windowsmedia',
+    'avi' => 'video_play_windowsmedia',
+    'mpg' => 'video_play_windowsmedia',
+    'mpeg' => 'video_play_windowsmedia',
+    'ogg' => 'video_play_html5',
+    'ogv' => 'video_play_html5',
+    'webm' => 'video_play_html5',
+  );
+}
+
+/**
+ * Return our supported video players.
+ */
+function video_video_players() {
+  return array(
+    'video_play_html5' => t('HTML5 Player'),
+    'video_play_divx' => t('Divx Player'),
+    'video_play_quicktime' => t('Quicktime'),
+    'video_play_realmedia' => t('Real Media Player'),
+    'video_play_flv' => t('FLV Flash Players'),
+    'video_play_flash' => t('SWF Flash Player'),
+    'video_play_dcr' => t('Director/Shockwave'),
+    'video_play_windowsmedia' => t('Windows Media Player'),
+    'video_play_theora' => t('Theora Player'),
+  );
+}
+
+/**
+ * Utility function to remove all files and directories recursively.
+ */
+function rmdirr($dir) {
+  if ($objs = glob($dir . "/*")) {
+    foreach ($objs as $obj) {
+      is_dir($obj) ? rmdirr($obj) : unlink($obj);
+    }
+  }
+  @rmdir($dir);
+}
+
+function video_thumb_path($video = NULL, $checkexistence = TRUE) {
+  $dir = $basedir = file_directory_path() .'/'. variable_get('video_thumb_path', 'video_thumbs');
+
+  if (is_array($video)) {
+    $dir .= '/'. $video['fid'];
+  }
+  elseif (is_object($video)) {
+    $dir .= '/'. $video->fid;
+  }
+  elseif ($video > 0) {
+    $dir .= '/'. intval($video);
+  }
+  elseif ($video != NULL) {
+    return NULL;
+  }
+
+  if ($checkexistence) {
+    field_file_check_directory(file_directory_path(), FILE_CREATE_DIRECTORY);
+    field_file_check_directory($basedir, FILE_CREATE_DIRECTORY);
+
+    if ($dir != $basedir) {
+      field_file_check_directory($dir, FILE_CREATE_DIRECTORY);
+    }
+  }
+
+  return $dir;
+}
+
+function video_add_adminjs() {
+  drupal_add_js(drupal_get_path('module', 'video') .'/js/video.admin.js');
+}
+
+/**
+ * Increase the database timeout in preparation for long time operations
+ *
+ * Examples of such operations are S3 uploads and local transcoding.
+ *
+ * Reconnecting to the database after this operation is not possible
+ * due to the way db_set_active stores the connection identifiers.
+ *
+ * At this moment, only mysqli and mysql are handled. The timeout is
+ * set to 1 day
+ */
+function _video_db_increase_timeout() {
+  global $db_type;
+
+  if ($db_type === 'mysqli' || $db_type === 'mysql') {
+    $timeout = 24 * 60 * 60; // one day
+    db_query('SET SESSION wait_timeout = %d', $timeout);
+  }
+}
+
+function video_ctools_plugin_directory($module, $plugin) {
+  if ($module != 'video') {
+    return;
+  }
+
+  elseif ($plugin == 'filesystem') {
+    return 'filesystem';
+  }
+  elseif ($plugin == 'transcoder') {
+    return 'transcoders';
+  }
+}
+
+/**
+ * Get (active) presets
+ *
+ * @param $all
+ *   Whether to return all presets or just the active ones
+ * @return array
+ *   Requested video_preset instances
+ */
+function video_get_presets($all = FALSE) {
+  module_load_include('lib.inc', 'video');
+
+  $presets = array();
+
+  if ($all) {
+    $result = db_query('SELECT * FROM {video_preset}');
+  }
+  else {
+    $current = variable_get('vid_preset', NULL);
+    if (!empty($current)) {
+      $result = db_query('SELECT * FROM {video_preset} WHERE id IN ('. db_placeholders($current) .')', $current);
+    }
+    else {
+      $result = db_query_range('SELECT * FROM {video_preset} ORDER BY id ASC', 0, 2);
+    }
+  }
+
+  while ($row = db_fetch_object($result)) {
+    $presets[$row->id] = new video_preset($row);
+  }
+
+  return $presets;
+}
+
+/**
+ * Get available file system plugins
+ *
+ * @return array
+ *   File system plugins
+ */
+function video_get_filesystem_plugins() {
+  ctools_include('plugins');
+  module_load_include('lib.inc', 'video');
+
+  return ctools_get_plugins('video', 'filesystem');
+}
+
+/**
+ * Get file system instance
+ *
+ * @param $name
+ *   Plugin name (eg. drupal), NULL for current
+ * @return video_filesystem
+ *   The current file system
+ */
+function video_get_filesystem($name = NULL) {
+  if ($name === NULL) {
+    $name = variable_get('vid_filesystem', 'drupal');
+  }
+
+  ctools_include('plugins');
+  module_load_include('lib.inc', 'video');
+  $plugin = ctools_get_plugins('video', 'filesystem', $name);
+
+  if ($plugin && $plugin['valid']) {
+    require_once $plugin['path'] .'/'. $plugin['file'];
+    return new $plugin['class'];
+  }
+
+  return NULL;
+}
+
+/**
+ * Get available transcoder plugins
+ *
+ * @return array
+ *   Transcoder plugins
+ */
+function video_get_transcoder_plugins() {
+  ctools_include('plugins');
+  module_load_include('lib.inc', 'video');
+
+  return ctools_get_plugins('video', 'transcoder');
+}
+
+/**
+ * Get transcoder instance
+ *
+ * @param $name
+ *   Plugin name (eg. video_localcommand), NULL for current
+ *
+ * @return video_transcoder
+ *   The current transcoder
+ */
+function video_get_transcoder($name = NULL) {
+  if ($name === NULL) {
+    $name = variable_get('vid_convertor', 'video_localcommand');
+  }
+
+  ctools_include('plugins');
+  module_load_include('lib.inc', 'video');
+  $plugin = ctools_get_plugins('video', 'transcoder', $name);
+
+  if ($plugin && $plugin['valid']) {
+    require_once $plugin['path'] .'/'. $plugin['file'];
+    return new $plugin['class'];
+  }
+
+  return NULL;
+}
+
+/**
+ * Implementation of hook_ctools_plugin_type().
+ */
+function video_ctools_plugin_filesystem() {
+  return array(
+    'cache' => FALSE,
+    'use hooks' => FALSE,
+    'process' => '_video_process_plugin',
+  );
+}
+
+/**
+ * Implementation of hook_ctools_plugin_type().
+ */
+function video_ctools_plugin_transcoder() {
+  return array(
+    'cache' => FALSE,
+    'use hooks' => FALSE,
+    'process' => '_video_process_plugin',
+  );
+}
+
+function video_run_queue($num = NULL) {
+  if ($num === NULL || $num <= 0) {
+    $num = intval(variable_get('video_queue_batchsize', 5));
+  }
+
+  $donesomething = FALSE;
+
+  $transcoder = video_get_transcoder();
+  $filesystem = video_get_filesystem();
+  $presets = video_get_presets();
+
+  $videos = $transcoder->load_job_queue($num);
+  foreach ($videos as $video) {
+    if (_video_process_video($video, $transcoder, $filesystem, $presets)) {
+      $donesomething = TRUE;
+    }
+  }
+
+  // Clear cache once completed the conversion to update the file paths
+  if ($donesomething) {
+    cache_clear_all('*', 'cache_content', TRUE);
+  }
+}
+
+function video_process_video(stdClass $video) {
+  $transcoder = video_get_transcoder();
+  $filesystem = video_get_filesystem();
+  $presets = video_get_presets();
+
+  return _video_process_video($video, $transcoder, $filesystem, $presets);
+}
+
+function _video_process_video(stdClass $video, video_transcoder $transcoder, video_filesystem $filesystem, array $presets) {
+  // Make sure this video is pending or do nothing.
+  if ($video->status != VIDEO_RENDERING_PENDING) {
+    return NULL;
+  }
+  if (!file_exists($video->filepath)) {
+    $transcoder->change_status($video, VIDEO_RENDERING_FAILED);
+    watchdog('video', 'The video module tried to transcode %filepath, but the file can\'t be found.', array('%filepath' => $video->filepath), WATCHDOG_ERROR);
+    return FALSE;
+  }
+
+  $video->presets = $presets;
+
+  if (!$filesystem->onpreconvert($video)) return FALSE;
+  if (!$transcoder->convert_video($video)) return FALSE;
+  if (!$filesystem->onpostconvert($video)) return FALSE;
+
+  db_query('UPDATE {node} SET status=%d WHERE nid = %d', 1, $video->nid);
+  return TRUE;
+}
+
+function _video_process_plugin(&$plugin, $info) {
+  if (!isset($plugin['class'])) {
+    $plugin['class'] = $plugin['name'];
+  }
+
+  if (!class_exists($plugin['class']) && is_file($plugin['path'] .'/'. $plugin['file'])) {
+    require_once $plugin['path'] .'/'. $plugin['file'];
+  }
+
+  $interfacename = 'video_'. $info['type'];
+
+  $plugin['valid'] = class_exists($plugin['class']) && in_array($interfacename, class_implements($plugin['class']));
+}

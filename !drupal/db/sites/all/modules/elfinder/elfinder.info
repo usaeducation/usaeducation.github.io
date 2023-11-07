@@ -1,0 +1,12 @@
+; $Id: elfinder.info 106 2011-02-26 08:19:56Z ph0enix $
+name = elFinder
+description = AJAX file manager with Wysiwyg API capable editors support.
+package = User interface
+core = 6.x
+project status url = https://drupal-elfinder.sourceforge.io/release-history.php
+
+; Information added by Drupal.org packaging script on 2018-07-31
+version = "6.x-2.x-dev"
+core = "6.x"
+project = "elfinder"
+datestamp = "1533057784"

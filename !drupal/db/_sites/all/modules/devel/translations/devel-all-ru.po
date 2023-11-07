@@ -1,0 +1,3044 @@
+# Russian translation of devel (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  devel.module,v 1.455 2010/11/25 22:01:34 salvis
+#  devel.module,v 1.258.2.85 2010/11/25 22:01:38 salvis
+#  devel.module,v 1.106.4.109 2009/10/21 15:41:50 salvis
+#  devel.module,v 1.422 2010/04/07 18:44:37 weitzman
+#  devel_node_access.module,v 1.57 2010/09/11 21:26:18 salvis
+#  devel_node_access.module,v 1.15.2.32 2010/09/11 21:26:21 salvis
+#  devel_node_access.module,v 1.7.4.24 2010/07/13 15:46:53 salvis
+#  devel_node_access.module,v 1.49 2010/02/13 17:12:33 salvis
+#  performance.module,v 1.37 2010/08/04 22:24:59 kbahey
+#  performance.module,v 1.2.2.33 2010/08/04 22:26:53 kbahey
+#  performance.module,v 1.1.2.17 2010/08/04 22:31:46 kbahey
+#  performance.module,v 1.34 2010/02/07 22:40:54 kbahey
+#  devel.pages.inc,v 1.10 2010/11/08 17:58:09 weitzman
+#  devel.pages.inc,v 1.3 2010/01/28 21:27:09 weitzman
+#  devel_generate.module,v 1.11 2010/10/26 05:09:36 weitzman
+#  devel_generate.module,v 1.4 2010/04/03 23:43:07 weitzman
+#  devel_generate.inc,v 1.27 2010/11/14 00:29:50 weitzman
+#  devel_generate.inc,v 1.14.2.24 2010/10/26 05:11:54 weitzman
+#  devel_generate.inc,v 1.1.2.13 2008/06/15 20:26:16 weitzman
+#  devel_generate.inc,v 1.15 2010/04/03 23:43:07 weitzman
+#  devel_generate.module,v 1.11.2.15 2010/04/03 23:45:08 weitzman
+#  performance.info,v 1.3 2008/10/20 22:15:57 kbahey
+#  devel_generate.info,v 1.2 2010/08/17 15:12:24 weitzman
+#  devel_node_access.info,v 1.12 2010/09/11 04:28:40 salvis
+#  devel.info,v 1.11 2010/01/27 23:45:52 weitzman
+#  devel.install,v 1.46 2010/10/27 07:54:03 salvis
+#  performance.info,v 1.2 2008/10/20 20:29:18 kbahey
+#  devel_node_access.info,v 1.7.2.1 2008/05/17 03:49:30 weitzman
+#  devel_generate.info,v 1.5.2.1 2008/05/17 03:49:30 weitzman
+#  devel.info,v 1.5.2.1 2008/06/13 03:25:20 weitzman
+#  devel.install,v 1.24.2.10 2010/09/11 22:27:32 salvis
+#  performance.info,v 1.1 2008/10/20 19:33:59 kbahey
+#  devel_node_access.info,v 1.1.4.5 2007/06/13 19:41:05 dww
+#  devel_generate.info,v 1.1.2.6 2007/06/13 19:41:05 dww
+#  devel.info,v 1.1.4.5 2007/06/13 19:41:05 dww
+#  devel.install,v 1.42 2010/01/26 18:37:05 weitzman
+#  devel_node_access.info,v 1.10 2009/07/26 16:50:38 salvis
+#  devel_generate.info,v 1.1 2010/01/28 21:06:42 weitzman
+#  devel.admin.inc,v 1.4 2010/09/11 12:38:48 weitzman
+#  devel.admin.inc,v 1.2 2010/03/17 12:42:46 weitzman
+#  devel_generate.module,v 1.1.2.7 2008/01/15 04:06:56 weitzman
+#  devel.install,v 1.8.4.6 2007/07/26 19:27:48 thehunmonkgroup
+#  generate-og-users.php,v 1.3 2006/06/11 00:43:25 killes
+#  generate-og2list-mail.php,v 1.4 2006/06/27 21:51:29 killes
+#  devel_generate_batch.inc,v 1.1 2010/01/28 21:06:42 weitzman
+#  devel_generate_batch.inc,v 1.1.2.5 2009/02/02 21:00:52 drewish
+#  performance.install,v 1.1.2.6 2009/09/13 12:11:39 salvis
+#  performance.install,v 1.17 2010/03/23 22:05:47 weitzman
+#  performance.install,v 1.1.4.12 2010/02/08 03:56:14 kbahey
+#  devel_generate.drush.inc,v 1.11 2010/10/26 03:51:53 weitzman
+#  devel_generate.drush.inc,v 1.5 2010/04/03 23:43:07 weitzman
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: devel (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:19+0000\n"
+"PO-Revision-Date: 2010-11-15 09:35+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: devel.module:600,524,332,332,587,541,557,621,622
+msgid "%message in %file on line %line."
+msgstr "%message в файле %file в строке %line."
+
+#: devel_node_access.module:923,559,524,507,279,249,511,283,253,475,262,233,233,262,475,508,543,899
+msgid "delete"
+msgstr "удалить"
+
+#: performance/performance.module:80,72,50,50,62
+msgid "Enabled"
+msgstr "Включено"
+
+#: devel.module:1029,1037,787,787,1034,1101,1117,1122
+msgid "Default"
+msgstr "По умолчанию"
+
+#: devel.pages.inc:226,214; devel.module:1230,1174,1238,1182,994,940,940,994,1179,1235,1180,1236,1247,1303,1263,1319,1268,1324
+msgid "Operations"
+msgstr "Действия"
+
+#: devel.module:1202,1210,968,968,1207,1208,1275,1291,1296
+msgid "edit"
+msgstr "изменить"
+
+#: devel.module:808,1265,682,1273,690,1027,1027,753,1270,1271,707,1338,723,1354,829,830,831,728,1359,818; devel.pages.inc:303,289
+msgid "Submit"
+msgstr "Отправить"
+
+#: performance/performance.module:79,71,49,49,61
+msgid "Disabled"
+msgstr "Отключено"
+
+#: performance/performance.module:758,722,677,641,490,490,627; devel.module:853,853
+msgid "Cancel"
+msgstr "Отменить"
+
+#: performance/performance.module:654,573,428,428,559
+msgid "Yes"
+msgstr "Да"
+
+#: performance/performance.module:654,573,428,428,559
+msgid "No"
+msgstr "Нет"
+
+#: devel.pages.inc:223,211; devel.module:1227,1171,1235,1179,991,937,937,991,1176,1232,1177,1233,1244,1300,1260,1316,1265,1321
+msgid "Name"
+msgstr "Название"
+
+#: performance/performance.module:625,449,550,425,408,302,302,408,377,530
+msgid "Path"
+msgstr "Адрес"
+
+#: devel.module:85,85
+msgid "Menu item"
+msgstr "Пункт меню"
+
+#: devel_generate/devel_generate.module:125,132
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: devel_node_access.module:596,600
+msgid "administer nodes"
+msgstr "управлять материалами"
+
+#: devel_node_access.module:1019,604,608,991
+msgid "access content"
+msgstr "доступ к содержанию сайта"
+
+#: devel_node_access.module:559,524,279,249,283,253,262,233,233,262,508,543
+msgid "node"
+msgstr "материал"
+
+#: devel_generate/devel_generate.module:109,102,116,109,102,116
+msgid "Closed"
+msgstr "Закрыто"
+
+#: devel.module:192,184
+msgid "Run cron"
+msgstr ""
+"Запустить выполнение регулярных "
+"процедур"
+
+#: performance/performance.module:142,134,98,98,110
+msgid "Other"
+msgstr "Другой"
+
+#: devel.pages.inc:224,212; devel.module:1228,1172,1236,1180,992,938,938,992,1177,1233,1178,1234,1245,1301,1261,1317,1266,1322
+msgid "Value"
+msgstr "Значение"
+
+#: devel_generate/devel_generate.inc:109,107; devel_generate.inc:38,31,31
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "@count пользователь"
+msgstr[1] "@count пользователя"
+msgstr[2] "@count[2] пользователей"
+
+#: performance/performance.module:450,426,303,303,378
+msgid "Last access"
+msgstr "Последний доступ"
+
+#: performance/performance.module:665,584,436,436,570
+msgid "No log messages available."
+msgstr "В системном журнале нет сообщений."
+
+#: devel.module:1827,1835,1431,1431,1832,1833,1920,1936,1941
+msgid "Count"
+msgstr "Количество"
+
+#: devel.pages.inc:202
+msgid "Fields"
+msgstr "Поля"
+
+#: devel_generate/devel_generate.module:109,102,116
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: devel.pages.inc:225,213; devel.module:1229,1173,1237,1181,993,939,939,993,1178,1234,1179,1235,1246,1302,1262,1318,1267,1323
+msgid "Length"
+msgstr "Длина"
+
+#: devel_generate/devel_generate.module:331,374
+msgid "Nodes"
+msgstr "Материалы"
+
+#: devel.module:791,665,673,457,457,736,690,706,812,813,814,711,801
+msgid "Switch"
+msgstr "Переключить"
+
+#: devel_generate/devel_generate.module:332,375
+msgid "Front page"
+msgstr "Главная страница"
+
+#: devel.module:380,380
+msgid "Adjust module settings for devel module"
+msgstr "Настройка параметров модуля devel"
+
+#: devel.module:381,381
+msgid ""
+"Clear the database cache tables which store page, menu, node, and "
+"variable caches."
+msgstr ""
+
+#: devel.module:385,385
+msgid ""
+"View a list of currently defined user functions with documentation "
+"links"
+msgstr ""
+
+#: devel.module:386,386
+msgid "Re-run hook_install() for a given module"
+msgstr ""
+
+#: devel.module:387,387
+msgid "Resets all menu items to their default settings"
+msgstr ""
+"Сбросить все пункты меню в их "
+"настройки по умолчанию"
+
+#: devel.module:388,388
+msgid "Edit and delete site variables"
+msgstr ""
+"Редактировать и удалять переменные на "
+"сайте"
+
+#: devel.module:389,389
+msgid "List the contents of $_SESSION"
+msgstr "Список содержимого $_SESSION"
+
+#: devel_generate/devel_generate.module:143,67,60,136,74,150; devel_generate.module:115,64
+msgid "ago"
+msgstr "назад"
+
+#: performance/performance.info:0,0,0,0,0; devel_generate/devel_generate.info:0,0; devel_node_access.info:0,0,0,0,0; devel.info:0,0,0,0,0; devel.install:21,45,21; devel_node_access.module:54,61; devel_generate.info:0,0,0
+msgid "Development"
+msgstr "Разработка"
+
+#: devel_generate/devel_generate.module:182,175,189; devel_generate.module:172
+msgid "Language neutral"
+msgstr "Нейтральный по отношению к языку"
+
+#: devel.module:862,862
+msgid "Primary links"
+msgstr "Основные ссылки"
+
+#: devel.admin.inc:112,112; devel.module:1008,1016,778,778,1013,1080,1096,1101
+msgid "None"
+msgstr "Нет"
+
+#: devel_node_access.module:923,559,524,507,279,249,511,283,253,430,475,262,233,233,262,475,430,508,543,899
+msgid "view"
+msgstr "просмотреть"
+
+#: devel.pages.inc:269,257; devel.module:1207,1215,973,973,1212,1213,1280,1296,1301
+msgid "Delete"
+msgstr "Удалить"
+
+#: devel_node_access.module:543,543
+msgid "yes"
+msgstr "да"
+
+#: devel_node_access.module:546,546
+msgid "no"
+msgstr "нет"
+
+#: devel.pages.inc:259,247
+msgid "Edit"
+msgstr "Редактировать"
+
+#: performance/performance.module:624,549,407,407,529
+msgid "Date"
+msgstr "Дата"
+
+#: devel_generate/devel_generate.module:109,102,116
+msgid "Open"
+msgstr "Открыто"
+
+#: devel.module:600,524,332,332,587,541,557,621,622,562,609
+msgid "php"
+msgstr "php"
+
+#: devel_node_access.module:559,279,283,262,262,543
+msgid "status"
+msgstr "состояние"
+
+#: devel_node_access.module:923,559,524,507,279,249,511,283,253,475,262,233,233,262,475,508,543,899
+msgid "update"
+msgstr "обновить"
+
+#: devel_node_access.module:545,268,272,252,252,529
+msgid "default"
+msgstr "по умолчанию"
+
+#: devel_node_access.module:923,507,511,475,475,899
+msgid "username"
+msgstr "пользователь"
+
+#: devel_node_access.module:1016,990,579,583,962,988
+msgid "NO"
+msgstr "НЕТ"
+
+#: devel_node_access.module:1017,580,584,989
+msgid "YES"
+msgstr "ДА"
+
+#: devel_generate/devel_generate.module:141,65,58,134,72,148; devel_generate.module:113,62
+msgid "Now"
+msgstr "Сейчас"
+
+#: performance/performance.module:757,721,676,640,489,489,626
+msgid "Clear"
+msgstr "Очистить"
+
+#: performance/performance.module:623,548,406,406,528
+msgid "#"
+msgstr "№"
+
+#: devel_generate/devel_generate.module:233
+msgid "Vocabularies"
+msgstr "Словари"
+
+#: devel_node_access.module:553,274,278,257,257,537
+msgid "missing"
+msgstr "отсутствует"
+
+#: devel_node_access.module:548,270,274,532
+msgid "static"
+msgstr ""
+
+#: devel_node_access.module:923,507,511,899
+msgid "create"
+msgstr "создать"
+
+#: devel.module:168,693,634,584,137,590,540,369,348,127,127,348,369,621,668,160,557,607,573,623,655,714,656,715,578,628,643,702
+msgid "Switch user"
+msgstr "Переключить пользователя"
+
+#: devel.module:1113,1087,1095,829,829,1060,1092,1093,1114,1160,1176,1134,1135,1136,1181,1123
+msgid "Execute"
+msgstr "Выполнить"
+
+#: devel.module:48,64,64
+msgid "Database queries"
+msgstr "SQL-запросы"
+
+#: devel.pages.inc:330,316; devel.module:1292,1300,1053,1053,1297,1298,1365,1381,1386
+msgid "Session name"
+msgstr "Имя сессии"
+
+#: devel_node_access.module:143,118,122,117,117,133
+msgid "All nodes are represented in the node_access table."
+msgstr ""
+"Все материалы, присутствующие в "
+"таблице node_access."
+
+#: devel_node_access.module:121,96,100,91,91,111
+msgid "Access Granted to All Nodes (All Users)"
+msgstr ""
+"Открытый доступ для всех материалов "
+"(всем пользователям)"
+
+#: devel_node_access.module:154,129,133,124,124,144
+msgid "Access Granted to All Nodes (Some Users)"
+msgstr ""
+"Открытый доступ для всех материалов "
+"(некоторым пользователям)"
+
+#: devel_node_access.module:559,524,200,178,156,123,279,249,167,149,131,98,283,253,171,153,135,102,262,233,158,142,126,93,93,126,142,158,233,262,113,146,168,190,508,543
+msgid "realm"
+msgstr "область"
+
+#: devel.module:1829,1837,1433,1433,1834,1835,1922,1938,1943
+msgid "Query"
+msgstr "SQL-запрос"
+
+#: devel_node_access.module:551,273,277,256,256,535
+msgid "empty"
+msgstr "пусто"
+
+#: devel.module:151,93,122,92,114,107,101,101,107,114,93,143
+msgid "Variable editor"
+msgstr "Редактор переменных"
+
+#: devel.module:42,40,52,52,42
+msgid "Empty cache"
+msgstr "Очистить кэш"
+
+#: devel_generate.inc:22,20,20
+msgid "Users deleted."
+msgstr "Пользователи удалены."
+
+#: devel_generate/devel_generate.inc:109,107; devel_generate.inc:38,31,31
+msgid "!num_users created."
+msgstr "!num_users создано."
+
+#: devel_generate.inc:188,251,251
+msgid "Deleted taxonomy."
+msgstr "Таксономия удалена."
+
+#: devel_generate/devel_generate.inc:289,286,311; devel_generate.inc:193,256,256
+msgid "Created the following new vocabularies: !vocs"
+msgstr "Созданы следующие новые словари: !vocs"
+
+#: devel_generate/devel_generate.inc:294,291,296; devel_generate.inc:198,261,261
+msgid "Created the following new terms: !terms"
+msgstr "Созданы следующие новые термины: !terms"
+
+#: devel_generate.inc:64
+msgid "1 node created."
+msgid_plural "@count nodes created"
+msgstr[0] "создан @count материал."
+msgstr[1] "созданы @count материала."
+msgstr[2] "создано @count[2] материалов."
+
+#: devel.module:24,24,34,34,24
+msgid ""
+"This is a list of defined user functions that generated this current "
+"request lifecycle. Click on a function name to view its documention."
+msgstr ""
+"Это список всех определённых "
+"пользователем функций, которые "
+"использовались при генерации данной "
+"страницы. Ссылка с имени функции ведёт "
+"на её описание в документации."
+
+#: devel.module:36,36
+msgid ""
+"Clicking a module's reinstall button will simulate "
+"uninstalling/installing a module. <code>hook_uninstall()</code> and "
+"<code>hook_install()</code> will be executed and the schema version "
+"number will be set to the most recent update number. You may have to "
+"manually clear out any existing tables first if the module doesn't "
+"implement <code>hook_uninstall()</code>."
+msgstr ""
+
+#: devel.module:26,26,38,38,26
+msgid "Here are the contents of your <code>$_SESSION</code> variable."
+msgstr ""
+"Содержимое Вашей переменной "
+"<code>$_SESSION</code>."
+
+#: devel.module:29,29,40,40,29
+msgid ""
+"This is a list of the variables and their values currently stored in "
+"variables table and the <code>$conf</code> array of your settings.php "
+"file. These variables are usually accessed with <a "
+"href=\"@variable-get-doc\">variable_get()</a> and <a "
+"href=\"@variable-set-doc\">variable_set()</a>. Variables that are too "
+"long can slow down your pages."
+msgstr ""
+"Это список всех переменных и их "
+"значений, хранящихся в таблице "
+"переменных и в массиве <code>$conf</code> "
+"Вашего файла settings.php. Доступ к этим "
+"переменным осуществляется при помощи "
+"функций <a href=\"@variable-get-doc\">variable_get()</a> и <a "
+"href=\"@variable-set-doc\">variable_set()</a>. Слишком "
+"длинные значения переменных могут "
+"увеличить время загрузки Вашего "
+"сайта."
+
+#: devel.pages.inc:26,26; devel.module:285
+msgid "Invalid file path"
+msgstr "Неверный путь к файлу"
+
+#: devel.info:0,0,0,0,0; devel.module:298,272,246,220,179,152,349,134,134,349,212,238,264,290
+msgid "Devel"
+msgstr "Devel"
+
+#: devel.module:630,543,350,350,617,560,576,651,652,581,639
+msgid "Execute PHP"
+msgstr "Выполнение PHP"
+
+#: devel.module:1804,1812,1414,378,378,1414,1809,1810,1897,1913,1918
+msgid "devel"
+msgstr "devel"
+
+#: devel_node_access.module:62,67; devel.module:211,202,144,194,203
+msgid "Devel settings"
+msgstr "Devel"
+
+#: devel.module:44,42,44
+msgid ""
+"Clear the CSS cache and all database cache tables which store page, "
+"node, theme and variable caches."
+msgstr ""
+"Очистка кэша CSS и всех таблиц в базе "
+"данных, в которых хранятся кэши "
+"страниц, материалов, оформлений и "
+"переменных."
+
+#: devel.module:102,100,102
+msgid "PHPinfo()"
+msgstr "PHPinfo()"
+
+#: devel.module:52,63,52
+msgid ""
+"View a list of currently defined user functions with documentation "
+"links."
+msgstr ""
+"Просмотр списка пользовательских "
+"функций, загруженных для текущей "
+"страницы, со ссылками на документацию."
+
+#: devel.module:144,116,136
+msgid "View the active form/render elements for this site."
+msgstr ""
+"Просмотр активных структурных (для "
+"форм и т.п.) элементов этого сайта"
+
+#: devel.module:161,131,153
+msgid "List the contents of $_SESSION."
+msgstr "Список содержимого $_SESSION."
+
+#: devel.module:59,69,79,79,59
+msgid "Reinstall modules"
+msgstr "Переустановить модули"
+
+#: devel.module:76,84,76
+msgid "Rebuild menus"
+msgstr "Обновить меню"
+
+#: devel.module:94,93,94
+msgid "Edit and delete site variables."
+msgstr ""
+"Редактирование и удаление переменных "
+"сайта."
+
+#: devel.module:763,734,617,625,433,433,702,642,658,755,784,756,785,757,786,663,744,773
+msgid "This user can switch back."
+msgstr ""
+"Пользователь сможет переключиться "
+"обратно."
+
+#: devel.module:718
+msgid "Caution: this user will be unable switch back."
+msgstr ""
+"Предупреждение: пользователь не "
+"сможет переключиться обратно."
+
+#: devel.module:784,658,666,450,450,729,683,699,805,806,807,704,794
+msgid "Enter username"
+msgstr "Введите имя пользователя"
+
+#: devel.module:801,675,683,746,700,716,822,823,824,721,811
+msgid "Enter function name for api lookup"
+msgstr "Введите имя функции для поиска в API"
+
+#: devel.module:822,696,704,465,465,767,721,737,843,844,845,742,832
+msgid "Username not found"
+msgstr "Имя пользователя не найдено"
+
+#: devel.module:508,508
+msgid ""
+"<p>The user is being redirected to <a "
+"href=\"@destination\">@destination</a>.</p>"
+msgstr ""
+"<p>Пользователь переадресовывается к  "
+"<a href=\"@destination\">@destination</a>.</p>"
+
+#: devel.admin.inc:5,5; devel.module:946,954,715,715,951,992,1008,1013
+msgid "Query log"
+msgstr "Журнал SQL-запросов"
+
+#: devel.module:953,961,722,722,958,999,1015,1020
+msgid "Collect query info"
+msgstr "Учёт SQL-запросов"
+
+#: devel.module:948,956,717,717,953,994,1010,1015
+msgid "Collect query info. If disabled, no query log functionality will work."
+msgstr ""
+"Ведение учёта SQL-запросов. Если опция "
+"отключена, журнал SQL-запросов работать "
+"не будет."
+
+#: devel.admin.inc:12,12; devel.module:960,968,729,729,965,1006,1022,1027
+msgid "Display query log"
+msgstr "Показывать журнал SQL-запросов."
+
+#: devel.admin.inc:7,7; devel.module:962,970,731,731,967,1008,1024,1029
+msgid ""
+"Display a log of the database queries needed to generate the current "
+"page, and the execution time for each. Also, queries which are "
+"repeated during a single page view are summed in the # column, and "
+"printed in red since they are candidates for caching."
+msgstr ""
+"Показывать список использовавшихся "
+"для генерации текущей страницы "
+"SQL-запросов и время их выполнения. "
+"Также, запросы, выполнение которых "
+"повторяется несколько раз для одной и "
+"той же страницы, будут суммироваться в "
+"специальном столбце # и помечаться "
+"красным, как кандидаты на кэширование."
+
+#: devel.admin.inc:27,27; devel.module:964,972,733,733,969,1010,1026,1031
+msgid "Sort query log"
+msgstr "Сортировка списка SQL-запросов"
+
+#: devel.admin.inc:29,29; devel.module:966,974,735,735,971,1012,1028,1033
+msgid "by source"
+msgstr "по порядку"
+
+#: devel.admin.inc:29,29; devel.module:966,974,735,735,971,1012,1028,1033
+msgid "by duration"
+msgstr "по продолжительности"
+
+#: devel.admin.inc:30,30; devel.module:967,975,736,736,972,1013,1029,1034
+msgid ""
+"The query table can be sorted in the order that the queries were "
+"executed or by descending duration."
+msgstr ""
+"Таблица запросов может быть "
+"отсортирована по порядку, в котором "
+"они выполнялись для генерации "
+"страницы, или по времени их выполнения "
+"в обратном порядке."
+
+#: devel.admin.inc:33,33; devel.module:970,978,739,739,975,1016,1032,1037
+msgid "Slow query highlighting"
+msgstr "Подсветка медленных SQL-запросов"
+
+#: devel.admin.inc:37,37; devel.module:974,982,743,743,979,1020,1036,1041
+msgid ""
+"Enter an integer in milliseconds. Any query which takes longer than "
+"this many milliseconds will be highlighted in the query log. This "
+"indicates a possibly inefficient query, or a candidate for caching."
+msgstr ""
+"Введите количество миллисекунд. Все "
+"SQL-запросы, которые будут выполняться "
+"больше заданного количества "
+"миллисекунд, будут подсвечены. Таким "
+"образом, будут показаны возможные "
+"неэффективные запросы к базе данных "
+"или кандидаты на кэширование."
+
+#: devel.module:977,985,746,746,982,1023,1039,1044
+msgid "Store executed queries"
+msgstr "Хранение выполненных SQL-запросов."
+
+#: devel.module:748,748
+msgid ""
+"Store statistics about executed queries. See the devel_x tables. This "
+"feature is currently only available for the MySQL database backend."
+msgstr ""
+
+#: devel.module:981,989,750,750,986,1027,1043,1048
+msgid "Sampling interval"
+msgstr "Интервал сохраняемых запросов"
+
+#: devel.module:984,992,753,753,989,1030,1046,1051
+msgid ""
+"If storing query statistics, only store every nth page view. 1 means "
+"every page view, 2 every second, and so on."
+msgstr ""
+"Если хранение SQL-запросов включено, "
+"сохранение будет работать только при "
+"каждом n-ом просмотре страницы. 1 "
+"означает сохранение запросов при "
+"каждом просмотре страницы, 2 - при "
+"каждом втором, и так далее."
+
+#: devel.admin.inc:85,85; devel.module:987,995,992,1059,1075,1080
+msgid "API Site"
+msgstr "Сайт API"
+
+#: devel.admin.inc:87,87; devel.module:989,997,994,1061,1077,1082
+msgid ""
+"The base URL for your developer documentation links. You might change "
+"this if you run <a href=\"!url\">api.module</a> locally."
+msgstr ""
+"Базовый URL для ссылок на документацию "
+"разработчика. Вы можете поменять его, "
+"если у Вас есть локально "
+"установленный <a href=\"!url\">api.module</a>."
+
+#: devel.admin.inc:89,89; devel.module:991,999,756,756,996,1063,1079,1084
+msgid "Display page timer"
+msgstr "Показывать счётчик времени"
+
+#: devel.admin.inc:91,91; devel.module:993,1001,758,758,998,1065,1081,1086
+msgid "Display page execution time in the query log box."
+msgstr ""
+"Показывать время генерации страницы в "
+"блоке лога SQL-запросов."
+
+#: devel.admin.inc:95,95; devel.module:996,1004,761,761,1001,1068,1084,1089
+msgid "Display memory usage"
+msgstr "Показывать используемую память"
+
+#: devel.module:998,1006,763,763,1003,1070,1086,1091
+msgid ""
+"Display how much memory is used to generate the current page. This "
+"will show memory usage when devel_init() is called and when "
+"devel_exit() is called. PHP must have been compiled with the "
+"<em>--enable-memory-limit</em> configuration option for this feature "
+"to work."
+msgstr ""
+"Показывать, сколько памяти "
+"использовалось для генерации текущей "
+"страницы. Будет показано количество "
+"используемой памяти в момент вызова "
+"devel_init() и в момент вызова devel_exit(). Для "
+"того, чтобы эта функция работала, PHP "
+"должен быть скомпилирован с опцией "
+"<em>--enable-memory-limit</em>."
+
+#: devel.admin.inc:100,100; devel.module:1001,1009,766,766,1006,1073,1089,1094
+msgid "Display redirection page"
+msgstr "Показывать страницу перенаправления"
+
+#: devel.admin.inc:102,102; devel.module:1003,1011,768,768,1008,1075,1091,1096
+msgid ""
+"When a module executes drupal_goto(), the query log and other "
+"developer information is lost. Enabling this setting presents an "
+"intermediate page to developers so that the log can be examined before "
+"continuing to the destination page."
+msgstr ""
+"Если модуль выполняет функцию drupal_goto(), "
+"лог SQL-запросов и  прочая информация "
+"для разработчика теряется. Включение "
+"данной опции позволяет разработчику "
+"просмотреть промежуточную страницу "
+"со всей необходимой информацией, "
+"чтобы её можно было проанализировать "
+"до перехода на страницу назначения."
+
+#: devel.module:771,771
+msgid "Display form element keys and weights"
+msgstr ""
+"Показывать машинное имя и вес для всех "
+"элементов формы."
+
+#: devel.module:773,773
+msgid ""
+"Form element names are needed for performing themeing or altering a "
+"form. Their weights determine the position of the element. Enabling "
+"this setting will show these keys and weights beside each form item."
+msgstr ""
+"Имена элементов форм нужны, чтобы "
+"упростить оформление и видоизменение "
+"форм. Вес элементов определяет "
+"последовательность элементов в форме. "
+"Включение этой настройки покажет имя "
+"и вес элемента внутри каждого объекта "
+"формы."
+
+#: devel.admin.inc:110,110; devel.module:1006,1014,776,776,1011,1078,1094,1099
+msgid "Error handler"
+msgstr "Обработчик ошибок"
+
+#: devel.admin.inc:112,112; devel.module:1008,1016,778,778,1013,1080,1096,1101
+msgid "Standard drupal"
+msgstr "Стандартный drupal"
+
+#: devel.admin.inc:116,116; devel.module:1012,1020,778,778,1017,1084,1100,1105
+msgid "Backtrace"
+msgstr "Backtrace"
+
+#: devel.module:1030,1038,788,788,1035,1102,1118,1123
+msgid "Log only"
+msgstr "Только лог"
+
+#: devel.module:1033,1041,791,791,1038,1105,1121,1126
+msgid "Other (!library)"
+msgstr "Другое (!library)"
+
+#: devel.module:1037,1045,795,795,1042,1109,1125,1130
+msgid "SMTP library"
+msgstr "SMTP библиотека"
+
+#: devel.module:1109,1084,1092,826,826,1056,1089,1156,1172,1129,1130,1131,1177,1118
+msgid "PHP code to execute"
+msgstr "PHP-код, который должен быть выполнен"
+
+#: devel.module:1110,1085,1093,827,827,1057,1090,1157,1173,1130,1131,1132,1178,1119
+msgid "Enter some code. Do not use <code>&lt;?php ?&gt;</code> tags."
+msgstr ""
+"Введите нужный PHP-код. Тэги <code>&lt;?php "
+"?&gt;</code> не нужны."
+
+#: devel.module:891,891
+msgid "Reinstall @name module"
+msgstr ""
+
+#: devel.module:31,1129,1137,907,907,31,1134,1135,1202,1218,1223
+msgid "Warning - will delete your module tables and variables."
+msgstr ""
+"Предупреждение: все таблицы и "
+"настройки модуля будут удалены."
+
+#: devel.pages.inc:292,278; devel.module:1254,1262,1016,1016,1259,1260,1327,1343,1348
+msgid "Old value"
+msgstr "Старое значение"
+
+#: devel.pages.inc:310,298,284,296; devel.module:1272,1260,1280,1268,1033,1022,1022,1033,1265,1277,1266,1278,1333,1345,1349,1361,1354,1366
+msgid "New value"
+msgstr "Новое значение"
+
+#: devel.pages.inc:311,297; devel.module:1273,1281,1034,1034,1278,1279,1346,1362,1367
+msgid ""
+"Sorry, complex variable types may not be edited yet. Use the "
+"<em>Execute PHP</em> block and the <a "
+"href=\"@variable-set-doc\">variable_set()</a> function."
+msgstr ""
+"Извините, переменные сложных типов не "
+"могут быть отредактированы отсюда, "
+"воспользуйтесь блоком <em>Запуск PHP</em> и "
+"функцией <a href=\"@variable-set-doc\">variable_set()</a>."
+
+#: devel.pages.inc:320,306; devel.module:1282,1290,1287,1288,1355,1371,1376
+msgid "Saved new value for %name."
+msgstr "Новое значение для %name сохранено."
+
+#: devel.module:1188,1389,1397,1136,1394,1395,1193,1462,1478,1213,1214,1215,1483,1202
+msgid "Display of !type !obj"
+msgstr "Отображение !type !obj"
+
+#: devel.module:1261,1461,1469,1209,1466,1467,1266,1534,1550,1286,1287,1288,1555,1275
+msgid "{empty}"
+msgstr "{пусто}"
+
+#: devel.module:1275,1475,1483,1223,1480,1481,1280,1548,1564,1300,1301,1302,1569,1289
+msgid "TRUE"
+msgstr "ИСТИНА"
+
+#: devel.module:1275,1475,1483,1223,1480,1481,1280,1548,1564,1300,1301,1302,1569,1289
+msgid "FALSE"
+msgstr "ЛОЖЬ"
+
+#: devel.module:1824,1832,1428,1428,1829,1830,1917,1933,1938
+msgid "Total (ms)"
+msgstr "Всего (мс)"
+
+#: devel.module:1825,1833,1429,1429,1830,1831,1918,1934,1939
+msgid "Average (ms)"
+msgstr "В среднем (мс)"
+
+#: devel.module:1826,1834,1430,1430,1831,1832,1919,1935,1940
+msgid "Std deviation (ms)"
+msgstr "Стандартное отклонение (мс)"
+
+#: devel.module:1828,1836,1432,1432,1833,1834,1921,1937,1942
+msgid "Function"
+msgstr "Функция"
+
+#: devel.module:1852,1860,1451,1451,1857,1858,1945,1961,1966
+msgid "Delete collected query statistics"
+msgstr ""
+"Удалить собранную статистику "
+"SQL-запросов"
+
+#: devel.module:1860,1868,1459,1459,1865,1866,1953,1969,1974
+msgid "Stored query statistics deleted."
+msgstr "Статистика SQL-запросов очищена."
+
+#: devel.module:1414,1414
+msgid ""
+"Mail sent:<br />Key: %mailkey<br />To: %to<br />From: %from<br "
+"/>Subject: %subject<br />Body: %body<br /><br />Additional headers: "
+"!header"
+msgstr ""
+
+#: devel.pages.inc:280,267; devel.module:1242,1250,1247,1248,1315,1331,1336
+msgid "One variable deleted."
+msgid_plural "@count variables deleted."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: devel.module:1267,1467,1475,1215,1472,1473,1272,1540,1556,1292,1293,1294,1561,1281
+msgid "1 character"
+msgid_plural "@count characters"
+msgstr[0] "@count символ"
+msgstr[1] "@count символа"
+msgstr[2] "@count[2] символов"
+
+#: devel.module:1272,1472,1480,1220,1477,1478,1277,1545,1561,1297,1298,1299,1566,1286
+msgid "1 element"
+msgid_plural "@count elements"
+msgstr[0] "@count элемент"
+msgstr[1] "@count элемента"
+msgstr[2] "@count[2] элементов"
+
+#: devel.module:532,340,340,549,565,570
+msgid "access devel information"
+msgstr ""
+"просматривать информацию для "
+"разработчика"
+
+#: devel.module:532,340,340,549,565,570
+msgid "execute php code"
+msgstr "выполнять php-код"
+
+#: devel.module:532,340,340,549,565,570
+msgid "switch users"
+msgstr "переключать пользователей"
+
+#: devel.module:532,549,565,570
+msgid "display source code"
+msgstr "показывать исходный код"
+
+#: devel.module:58,58
+msgid "Rebuild node_comment_statistics table"
+msgstr ""
+
+#: devel.module:55,68,68
+msgid "Empty database queries"
+msgstr "Очистить SQL-запросы в БД"
+
+#: devel.module:73,73
+msgid "function reference"
+msgstr ""
+
+#: devel.module:68,77,68
+msgid "Display the PHP code of any file in your Drupal installation"
+msgstr ""
+"Просмотр PHP-кода любого файла в Вашей "
+"версии Drupal"
+
+#: devel.module:86,86
+msgid "Reset menus"
+msgstr ""
+
+#: devel.module:119,206,119
+msgid "Theme registry"
+msgstr "Реестр функций оформления"
+
+#: devel.module:160,130,121,121,152
+msgid "Session viewer"
+msgstr "Просмотрщик сессий"
+
+#: devel.module:188,161,183,163,147,147,163,183
+msgid "Dev load"
+msgstr "Dev-загрузка"
+
+#: devel.module:197,170,154,154
+msgid "Dev render"
+msgstr "Dev-представление"
+
+#: devel_generate/devel_generate.module:11,11; devel_generate.module:23,13,13
+msgid "Generate users"
+msgstr "Генерировать пользователей"
+
+#: devel_generate/devel_generate.module:12,12; devel_generate.module:24,15,15
+msgid "Generate a given number of users. Optionally delete current users."
+msgstr ""
+"Создать заданное количество "
+"пользователей. Опционально можно "
+"удалить текущих пользователей."
+
+#: devel_generate/devel_generate.module:18,18; devel_generate.module:30,22,22
+msgid "Generate content"
+msgstr "Генерировать материалы"
+
+#: devel_generate/devel_generate.module:19,19; devel_generate.module:31,23,23
+msgid ""
+"Generate a given number of nodes and comments. Optionally delete "
+"current items."
+msgstr ""
+"Создать заданное количество "
+"материалов и комментариев к ним. "
+"Опционально можно удалить текущие "
+"объекты."
+
+#: devel_generate.module:38,31,31
+msgid "Generate categories"
+msgstr "Генерировать словари и термины"
+
+#: devel_generate.module:39,32,32
+msgid ""
+"Generate a given number of vocabularies and terms. Optionally delete "
+"current categories."
+msgstr ""
+"Создать заданное количество словарей "
+"и терминов. Опционально можно удалить "
+"текущие объекты таксономии."
+
+#: devel_generate/devel_generate.module:47,40,54; devel_generate.module:52,60,60
+msgid "How many users would you like to generate?"
+msgstr ""
+"Сколько пользователей Вы хотите "
+"создать?"
+
+#: devel_generate/devel_generate.module:53,46,60; devel_generate.module:58
+msgid "Delete all users (except user id 1) before generating new users."
+msgstr ""
+"Удалить всех пользователей (кроме "
+"пользователя с id 1) перед генерацией "
+"новых пользователей."
+
+#: devel_generate/devel_generate.module:79,72,191,238; devel_generate.module:222,178,76,170,134,71,71,134,170
+msgid "Do it!"
+msgstr "Сделать!"
+
+#: devel_generate.module:87,87
+msgid ""
+". <strong>Warning</strong>. This type contains CCK fields which won't "
+"be populated. See !url"
+msgstr ""
+". <strong>Внимание</strong>. Этот тип содержит "
+"CCK поля, которые не будут заполнены. "
+"Смотрите !url"
+
+#: devel_generate.module:87,87
+msgid "this CCK issue."
+msgstr ""
+
+#: devel_generate.module:97,104,104; devel_generate/devel_generate.module:118
+msgid "Which node types do you want to create?"
+msgstr ""
+"Какие типы материалов вы хотите "
+"сгенерировать?"
+
+#: devel_generate.module:103; devel_generate/devel_generate.module:124
+msgid ""
+"<strong>Delete all content</strong> in these node types before "
+"generating new content."
+msgstr ""
+"<strong>Удалить все материалы</strong> этого "
+"типа перед генерацией новых."
+
+#: devel_generate/devel_generate.module:136,129,143; devel_generate.module:108,116,116
+msgid "How many nodes would you like to generate?"
+msgstr ""
+"Сколько материалов должно быть "
+"создано?"
+
+#: devel_generate.module:128
+msgid "You must also enable comments for the node types you are generating."
+msgstr ""
+"Необходимо, также, включить "
+"комментарии для типов материалов, к "
+"которым будут создаваться "
+"комментарии."
+
+#: devel_generate/devel_generate.module:163,156,170; devel_generate.module:135,128,128
+msgid "Max word length of titles"
+msgstr "Максимальная длина слова в заголовках"
+
+#: devel_generate.module:150
+msgid "Add taxonomy terms to each node."
+msgstr ""
+"Добавить термины таксономии к каждому "
+"материалу."
+
+#: devel_generate/devel_generate.module:171,164,178; devel_generate.module:157
+msgid "Add an url alias for each node."
+msgstr ""
+"Добавить синоним для каждого "
+"материала."
+
+#: devel_generate.module:199,147,147; devel_generate/devel_generate.module:214
+msgid "How many vocabularies would you like to generate?"
+msgstr "Сколько словарей должно быть создано?"
+
+#: devel_generate.module:205,153,153; devel_generate/devel_generate.module:221
+msgid "How many terms would you like to generate?"
+msgstr "Сколько терминов должно быть создано?"
+
+#: devel_generate.module:211,159,159
+msgid "Max word length of term/vocab names"
+msgstr ""
+"Максимальная длина слова в именах "
+"терминов и словарей"
+
+#: devel_generate.module:217,165,165
+msgid "Delete existing terms and vocabularies before generating new content."
+msgstr ""
+"Удалить все существующие словари и "
+"термины перед генерацией новых."
+
+#: devel_generate.module:14
+msgid "Generate items"
+msgstr "Генерировать объекты"
+
+#: devel_generate.module:15
+msgid "Populate your database with dummy items."
+msgstr ""
+"Заполнение Вашей базы данных "
+"ненастоящими объектами."
+
+#: devel_node_access.module:29,24,24,24,29
+msgid "Development helper for node_access table"
+msgstr ""
+"Помощник разработчика для работы с "
+"node_access"
+
+#: devel_node_access.module:32,27,27,27,32
+msgid ""
+"This module helps in site development.  Specifically, when an access "
+"control module is used to limit access to some or all nodes, this "
+"module provides some feedback showing the node_access table in the "
+"database."
+msgstr ""
+"Этот модуль служит для помощи в "
+"разработке сайтов. В частности, когда "
+"используются модули, ограничивающие "
+"доступ к материалам сайта, этот модуль "
+"позволяет просмотреть актуальную "
+"информацию в таблице node_access базы "
+"данных сайта."
+
+#: devel_node_access.module:33,28,28,28,33
+msgid ""
+"The node_access table is one method Drupal provides to hide content "
+"from some users while displaying it to others.  By default, Drupal "
+"shows all nodes to all users.  There are a number of optional modules "
+"which may be installed to hide content from some users."
+msgstr ""
+"Таблица node_access содержит информацию о "
+"том, какие материалы скрывать от "
+"определённых пользователей, а какие "
+"показывать. По умолчанию, в Drupal открыт "
+"доступ ко всем материалам для всех. "
+"Существует ряд необязательных для "
+"установки модулей, с помощью которых "
+"можно ограничить доступ определённым "
+"пользователям."
+
+#: devel_node_access.module:47,47
+msgid "node_access summary"
+msgstr ""
+
+#: devel_node_access.module:122,97,101,92,92,112
+msgid ""
+"Your node_access table contains entries that may be granting all users "
+"access to all nodes.  Depending on which access control module(s) you "
+"use, you may want to delete these entries.  If you are not using an "
+"access control module, you should probably leave these entries as is."
+msgstr ""
+"Ваша таблица node_access содержит записи, "
+"дающие доступ всем пользователям на "
+"просмотр всех материалов сайта. В "
+"зависимости от того, какие модули "
+"ограничения доступа используются, Вам "
+"может понадобиться удалить эти "
+"записи. Если Вы не используете модулей "
+"ограничения доступа, вероятно, лучше "
+"будет оставить их как есть."
+
+#: devel_node_access.module:131,106,110,105,105,121
+msgid "Legacy Nodes"
+msgstr "Потерянные материалы"
+
+#: devel_node_access.module:133,108,112,107,107,123
+msgid ""
+"You have !num nodes in your node table which are not represented in "
+"your node_access table.  If you have an access control module "
+"installed, these nodes may be hidden from all users.  This could be "
+"caused by publishing nodes before enabling the access control module.  "
+"If this is the case, manually updating each node should add it to the "
+"node_access table and fix the problem."
+msgstr ""
+"На сайте есть !num материалов, доступ к "
+"которым не описан в таблице node_access. "
+"Если у Вас используется модуль "
+"контроля доступа, эти материалы могут "
+"быть скрыты от всех типов "
+"пользователей. Это могло произойти, "
+"если материалы были опубликованы до "
+"подключения модуля контроля доступа. "
+"Если это так, обновление данных "
+"материалов вручную добавит описание "
+"доступа к ним в node_access и решит данную "
+"проблему."
+
+#: devel_node_access.module:142,117,121,116,116,132
+msgid "All Nodes Represented"
+msgstr "Все материалы определены."
+
+#: devel_node_access.module:155,130,134,125,125,145
+msgid ""
+"Your node_access table contains entries that may be granting some "
+"users access to all nodes.  This may be perfectly normal, depending on "
+"which access control module(s) you use."
+msgstr ""
+"Таблица node_access содержит записи, "
+"определяющие доступ ко всем "
+"материалам для некоторых "
+"пользователей. Это может быть "
+"абсолютно нормальным, в зависимости "
+"от того, какие модули контроля доступа "
+"Вы используете."
+
+#: devel_node_access.module:174,145,149,138,138,164
+msgid "Access Granted to Some Nodes"
+msgstr ""
+"Доступ для всех к некоторым "
+"материалам"
+
+#: devel_node_access.module:147,151,140,140
+msgid ""
+"The following realms appear to grant all users access to some specific "
+"nodes.  This may be perfectly normal, if some of your content is "
+"available to the public."
+msgstr ""
+"К некоторым из материалов сайта есть "
+"доступ для всех пользователей. Это "
+"абсолютно нормально, если часть "
+"материалов сайта должна иметь "
+"публичный доступ."
+
+#: devel_node_access.module:178,149,153,142,142,168
+msgid "public nodes"
+msgstr "публичные материалы"
+
+#: devel_node_access.module:179,150,154,149,149,169
+msgid "Public Nodes"
+msgstr "Публичные материалы"
+
+#: devel_node_access.module:198,165,169,156,156,188
+msgid "Summary by Realm"
+msgstr "Кратко по областям"
+
+#: devel_node_access.module:199,166,170,157,157,189
+msgid "The following realms grant limited access to some specific nodes."
+msgstr ""
+"Следующие области дают ограниченный "
+"доступ к некоторым специфическим "
+"материалам."
+
+#: devel_node_access.module:200,167,171,158,158,190
+msgid "private nodes"
+msgstr "приватные материалы"
+
+#: devel_node_access.module:201,168,172,165,165,191
+msgid "Protected Nodes"
+msgstr "Защищённые Материалы"
+
+#: devel_node_access.module:474,94,226,230,210,210,88,461; devel_node_access.info:0,0
+msgid "Devel Node Access"
+msgstr "Devel Node Access"
+
+#: devel_node_access.module:559,524,279,249,283,253,262,233,233,262,508,543
+msgid "gid"
+msgstr "gid"
+
+#: devel_node_access.module:916,501,505,469,469,892
+msgid "node_access entries for nodes shown on this page"
+msgstr ""
+"Записи в node_access для материалов, "
+"показанных на этой странице"
+
+#: devel_node_access.module:557,557
+msgid "Node Access: realm"
+msgstr ""
+
+#: devel_node_access.module:563,563
+msgid "Node Access Realm"
+msgstr ""
+
+#: devel_node_access.module:575,575
+msgid "Node Access: Realm"
+msgstr ""
+
+#: devel.install:93,95,59,59
+msgid "Disabled query logging since devel module is disabled."
+msgstr ""
+"Так как модуль devel отключен, журнал "
+"SQL-запросов, также, отключен."
+
+#: devel.info:0,0,0,0,0
+msgid "Various blocks, pages, and functions for developers."
+msgstr ""
+"Различные инструменты (блоки, "
+"страницы и функции) для разработчиков."
+
+#: devel_generate/devel_generate.info:0,0; devel_generate.info:0,0,0
+msgid "Generate dummy users, nodes, and taxonomy terms."
+msgstr ""
+"Генерирует ненастоящих "
+"пользователей, материалы и термины "
+"таксономии"
+
+#: devel_node_access.info:0,0,0
+msgid "Developer block and page illustrating relevant node_access records."
+msgstr ""
+"Блок и страница разработчика, "
+"показывающие связанные записи node_access."
+
+#: generate/generate-og-users.php:48,48
+msgid "Assigned %n users to group %t."
+msgstr "Поместить %n пользователей в группу %t."
+
+#: generate/generate-og2list-mail.php:38,38
+msgid "Y/m/d - G:i"
+msgstr "Y/m/d - G:i"
+
+#: devel_generate.inc:48,48
+msgid "%num nodes created."
+msgstr "%num материалов создано."
+
+#: devel_generate.inc:55,55
+msgid "%num comments created."
+msgstr "%num комментариев создано."
+
+#: devel.module:191,191
+msgid "Dev queries"
+msgstr ""
+
+#: devel.module:199,199
+msgid "Dev items"
+msgstr ""
+
+#: devel.module:401,401
+msgid "Execute php"
+msgstr ""
+
+#: devel.module:748,631,639,440,440,656,672,769,770,771,677,758
+msgid "Caution: this user will be unable to switch back."
+msgstr ""
+
+#: devel.module:565,565
+msgid ""
+" Queries taking longer than %threshold ms and queries executed more "
+"than once, are <span class=\"marker\">highlighted</span>."
+msgstr ""
+" Запросы, выполняющиеся дольше %threshold "
+"мс и запросы, выполняющиеся больше "
+"одного раза, <span class=\"marker\">выделены "
+"цветом</span>."
+
+#: devel.module:584,584
+msgid "Memory used at %type: %value MB"
+msgstr ""
+
+#: devel.module:849,849
+msgid ""
+"Are you sure you want to reset all menu items to their default "
+"settings?"
+msgstr ""
+
+#: devel.module:851,851
+msgid "Any custom additions or changes to the menu will be lost."
+msgstr ""
+
+#: devel.module:852,852
+msgid "Reset all"
+msgstr ""
+
+#: devel.module:866,866
+msgid "The menu items have been reset to their default settings."
+msgstr ""
+
+#: devel.module:922,922
+msgid "Reinstalled the %name module."
+msgstr ""
+
+#: devel.module:1043,1043
+msgid "Saved new value for %name"
+msgstr ""
+
+#: devel.module:1230,1230
+msgid " Page execution time was %time ms."
+msgstr " Страница сгенерированна за %time мс."
+
+#: devel.module:1005,1005
+msgid "one variable deleted"
+msgid_plural "@count variables deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: devel_generate.module:66,66
+msgid "Delete all users but user 1 before generating new users."
+msgstr ""
+
+#: devel_generate.module:110,110
+msgid ""
+"<strong>Delete existing content</strong> before generating new "
+"content."
+msgstr ""
+
+#: devel_generate.module:122,122
+msgid "How many comments would you like to generate?"
+msgstr ""
+
+#: devel_generate.info:0,0
+msgid "Generator"
+msgstr ""
+
+#: devel_generate/devel_generate.module:333,376
+msgid "External"
+msgstr "Внешний"
+
+#: devel.pages.inc:330,316; devel.module:1292,1300,1053,1053,1297,1298,1365,1381,1386
+msgid "Session ID"
+msgstr "ID сессии"
+
+#: devel_generate/devel_generate_batch.inc:65,65; devel_generate_batch.inc:66
+msgid "Finished with an error."
+msgstr "Завершено с ошибкой"
+
+#: devel.module:383,383
+msgid "Execute functions scheduled for cron runs."
+msgstr ""
+
+#: devel_generate/devel_generate.module:361,245,198,86,205,257,282,404
+msgid "Generate"
+msgstr "Создать"
+
+#: devel.module:307,281,255,229,221,247,273,299
+msgid "Load"
+msgstr "Загрузить"
+
+#: devel_node_access.module:559,524,279,249,283,253,262,233,233,262,508,543
+msgid "explained"
+msgstr "раскрыто"
+
+#: devel_node_access.module:99,93
+msgid "Debug mode"
+msgstr ""
+
+#: devel.module:647,552,356,356,634,569,585,668,669,590,656
+msgid "Number of users to display in the list"
+msgstr ""
+"Количество пользователей, которые "
+"нужно показать в списке."
+
+#: devel_node_access.module:546,269,273,253,253,530
+msgid "ok"
+msgstr "OK"
+
+#: devel.module:979,987,984,1025,1041,1046
+msgid "Store statistics about executed queries. See the devel_x tables."
+msgstr ""
+"Хранение статистики выполненных "
+"SQL-запросов. Смотрите таблицы devel_x."
+
+#: devel.module:1804,1812,1809,1810,1897,1913,1918
+msgid ""
+"Mail sent:<br />Id: %mail_id<br />To: %to<br />From: %from<br "
+"/>Language: %lang<br />Subject: %subject<br />Body: %body<br /><br "
+"/>Additional headers: <br />!header"
+msgstr ""
+"Письмо отправлено:<br />Id: %mail_id<br />To: %to<br "
+"/>From: %from<br />Language: %lang<br />Subject: %subject<br />Body: "
+"%body<br /><br />Дополнительные заголовки: <br "
+"/>!header"
+
+#: devel.module:51,62,51
+msgid "Function reference"
+msgstr "Описание функции"
+
+#: devel.module:62,72,62
+msgid "Run hook_uninstall() and then hook_install() for a given module."
+msgstr ""
+"Запускает hook_uninstall() и hook_install() для "
+"выбранного модуля."
+
+#: devel.module:77,85,77
+msgid ""
+"Rebuild menu based on hook_menu() and revert any custom changes. All "
+"menu items return to their default settings."
+msgstr ""
+
+#: devel.module:103,101,103
+msgid "View your server's PHP configuration"
+msgstr ""
+
+#: devel.module:143,115,135
+msgid "Hook_elements()"
+msgstr "Hook_elements()"
+
+#: devel_node_access.module:75,46,51
+msgid "Node_access summary"
+msgstr ""
+
+#: devel.install:45
+msgid "Development links."
+msgstr ""
+
+#: devel.pages.inc:206
+msgid "Bundles"
+msgstr ""
+
+#: devel.pages.inc:148,148; devel.module:1107,1115,1112,1113,1180,1196,1201
+msgid "The menu router has been rebuilt."
+msgstr "Меню было пересобрано."
+
+#: devel.admin.inc:9,9; devel.module:950,958,719,719,955,996,1012,1017
+msgid ""
+"You must disable or upgrade the php Zend Optimizer extension in order "
+"to enable this feature. The minimum required version is 3.2.8. Earlier "
+"versions of Zend Optimizer are <a href=\"!url\">horribly buggy and "
+"segfault your Apache</a> ... "
+msgstr ""
+
+#: devel_node_access.module:76,76,76
+msgid "Devel Node Access debug mode"
+msgstr ""
+
+#: devel_node_access.module:550,272,276,255,255,534
+msgid "ignored"
+msgstr ""
+
+#: devel_node_access.module:555,275,279,258,258,539
+msgid "illegitimate"
+msgstr ""
+
+#: devel_node_access.module:556,276,280,259,259,540
+msgid "alien"
+msgstr ""
+
+#: devel_node_access.module:559,279,283,262,262,543
+msgid "prio"
+msgstr ""
+
+#: devel_node_access.module:748,427,431,397,397,731
+msgid "This entry grants access to this node to this user."
+msgstr ""
+
+#: devel_node_access.module:430,430
+msgid "This user is granted %view access to node %nid !by_what"
+msgstr ""
+
+#: devel_node_access.module:441,441
+msgid "by the %module module itself."
+msgstr ""
+
+#: devel_node_access.module:460,460
+msgid "as author of the node."
+msgstr ""
+
+#: devel_node_access.module:34,29,29,29,34
+msgid ""
+"If you have not installed any of these modules, you really have no "
+"need for the devel_node_access module.  This module is intended for "
+"use during development, so that developers and admins can confirm that "
+"the node_access table is working as expected.  You probably do not "
+"want this module enabled on a production site."
+msgstr ""
+
+#: devel_node_access.module:35,30,30,30,35
+msgid ""
+"This module provides two blocks.  One called Devel Node Access by User "
+"is visible when a single node is shown on a page.  This block shows "
+"which users can view, update or delete the node shown.  Note that this "
+"block uses an inefficient algorithm to produce its output.  You should "
+"only enable this block on sites with very few user accounts."
+msgstr ""
+
+#: devel_node_access.module:78,78
+msgid ""
+"Debug mode verifies the grants in the node_access table against those "
+"that would be set by running !Rebuild_permissions, and displays them "
+"all; this can cause considerable overhead."
+msgstr ""
+
+#: devel_node_access.module:499,480,103,229,233,80,213,213,467,483
+msgid "Devel Node Access by User"
+msgstr ""
+
+#: devel_node_access.module:269,273,253,253
+msgid "Highest priority grant, in !na."
+msgstr ""
+
+#: devel_node_access.module:272,276,255,255
+msgid "Lower priority grant, not in !na and thus ignored."
+msgstr ""
+
+#: devel_node_access.module:555,275,279,258,258,539
+msgid "Should NOT be in !na because of lower priority!"
+msgstr ""
+
+#: devel_node_access.module:556,276,280,259,259,540
+msgid "Should NOT be in !na because of unknown origin!"
+msgstr ""
+
+#: devel_node_access.module:424,424
+msgid ""
+"This user has the %administer_nodes permission and thus full access to "
+"all nodes."
+msgstr ""
+
+#: devel_node_access.module:960,530,534,492,492,932
+msgid "Access permissions by user"
+msgstr ""
+
+#: devel_generate/devel_generate.module:98,91,105; devel_generate.inc:256
+msgid ""
+". This type contains CCK fields which will only be populated by fields "
+"that implement the content_generate hook."
+msgstr ""
+". Этот тип содержит CCK поля, которые "
+"будут заполнены только если "
+"реализуется хук content_generate."
+
+#: devel_generate/devel_generate_batch.inc:30,30; devel_generate_batch.inc:31
+msgid "Generating Content"
+msgstr ""
+
+#: devel_generate/devel_generate_batch.inc:62,62; devel_generate_batch.inc:63
+msgid "Finished @num_nids nodes created successfully."
+msgstr "Успешно создано @num_nids материалов."
+
+#: devel.module:120,207,120
+msgid "View a list of available theme functions across the whole site."
+msgstr ""
+
+#: devel_generate/devel_generate.info:0,0; devel_generate.info:0
+msgid "Devel generate"
+msgstr ""
+
+#: devel_node_access.info:0,0,0; devel_node_access.module:54,55,55
+msgid "Devel node access"
+msgstr ""
+
+#: devel_generate.module:142
+msgid "Requires upload.module"
+msgstr "Требуется модуль Upload"
+
+#: devel_generate.module:143
+msgid "Add an upload to each node"
+msgstr "Прикрепить файл к каждому материалу"
+
+#: devel_generate.module:148
+msgid "Requires taxonomy.module"
+msgstr "Требуется модуль Taxonomy"
+
+#: devel_generate/devel_generate.module:170,163,177; devel_generate.module:156
+msgid "Requires path.module"
+msgstr "Требуется модуль Path"
+
+#: performance/performance.info:0,0,0,0,0
+msgid "Performance Logging"
+msgstr ""
+
+#: performance/performance.module:27,30,14,14,17
+msgid "Logs performance data: page generation times and memory usage."
+msgstr ""
+
+#: performance/performance.module:50,53,31,31,32
+msgid "Performance Logs: Summary"
+msgstr ""
+
+#: performance/performance.module:51,54,32,32,33
+msgid "View summary performance logs: page generation times and memory usage."
+msgstr ""
+
+#: performance/performance.module:57,60,38,38,39
+msgid "Performance Logs: Details"
+msgstr ""
+
+#: performance/performance.module:58,61,39,39,40
+msgid ""
+"View detailed, per page, performance logs: page generation times and "
+"memory usage."
+msgstr ""
+
+#: performance/performance.module:84,76,54,54,66
+msgid ""
+"APC is enabled. It is reasonably safe to enable summary logging on "
+"live sites."
+msgstr ""
+
+#: performance/performance.module:87,79,57,57,69
+msgid ""
+"APC is not enabled. It is <strong>not</strong> safe to enable summary "
+"logging to the database on live sites."
+msgstr ""
+
+#: performance/performance.module:92,84,62,62,74
+msgid "Logging mode"
+msgstr ""
+
+#: performance/performance.module:98,90,68,68,80
+msgid "Detailed logging"
+msgstr ""
+
+#: performance/performance.module:101,93,71,71,83
+msgid ""
+"Log memory usage and page generation times for every page. This "
+"logging mode is <strong>not</strong> suitable for large sites, as it "
+"can degrade performance severly. It is intended for use by developers, "
+"or on a test copy of the site."
+msgstr ""
+
+#: performance/performance.module:106,98,76,76,88
+msgid "Summary logging (DB)"
+msgstr ""
+
+#: performance/performance.module:109,101,79,79,91
+msgid ""
+"Log summary data, such as average and maximum page generation times "
+"and memory usage to the database. This logging mode is "
+"<strong>not</strong> suitable for most live sites."
+msgstr ""
+
+#: performance/performance.module:119,111,89,89,101
+msgid "Summary logging (APC)"
+msgstr ""
+
+#: performance/performance.module:123,115,93,93,105
+msgid ""
+"Log summary data, such as average and maximum page generation times "
+"and memory usage to APC, if installed. The summary will be stored in "
+"APC memory, and hence there is no load on the database. This logging "
+"to APC is suitable for most live sites, unless the number of unique "
+"page accesses is excessively high."
+msgstr ""
+
+#: performance/performance.module:148,141,104,104,116
+msgid "Database Query timing and count"
+msgstr ""
+
+#: performance/performance.module:156,149,112,112,124
+msgid "Accesses threshold"
+msgstr ""
+
+#: performance/performance.module:451,427,304,304,379
+msgid "# accesses"
+msgstr ""
+
+#: performance/performance.module:428,305,305
+msgid "Max Memory (MB)"
+msgstr ""
+
+#: performance/performance.module:429,306,306
+msgid "Avg Memory (MB)"
+msgstr ""
+
+#: performance/performance.module:307,307
+msgid "Milliseconds (Max)"
+msgstr ""
+
+#: performance/performance.module:308,308
+msgid "Milliseconds (Avg)"
+msgstr ""
+
+#: performance/performance.module:309,309
+msgid "Query Millisecs (Max)"
+msgstr ""
+
+#: performance/performance.module:310,310
+msgid "Query Millisecs (Avg)"
+msgstr ""
+
+#: performance/performance.module:460,436,311,311,388
+msgid "Query Count (Max)"
+msgstr ""
+
+#: performance/performance.module:461,437,312,312,389
+msgid "Query Count (Avg)"
+msgstr ""
+
+#: performance/performance.module:570,508,367,367,475
+msgid "No statistics available yet."
+msgstr ""
+
+#: performance/performance.module:575,513,371,371,480
+msgid ""
+"Showing !shown paths with more than !threshold accesses, out of !total "
+"total paths."
+msgstr ""
+
+#: performance/performance.module:579,517,375,375,484
+msgid "Showing all !total paths."
+msgstr ""
+
+#: performance/performance.module:592,530,388,388,497
+msgid "Average memory per page: !mb_avg MB"
+msgstr ""
+
+#: performance/performance.module:389,389
+msgid "Average milliseconds per page: !ms_avg"
+msgstr ""
+
+#: performance/performance.module:594,532,390,390,499
+msgid "Total number of page accesses: !accesses"
+msgstr ""
+
+#: performance/performance.module:595,533,391,391,500
+msgid "First access: !access."
+msgstr ""
+
+#: performance/performance.module:596,534,392,392,501
+msgid "Last access: !access."
+msgstr ""
+
+#: performance/performance.module:626,551,409,409,531
+msgid "Memory (MB)"
+msgstr ""
+
+#: performance/performance.module:410,410
+msgid "Milliseconds (Total)"
+msgstr ""
+
+#: performance/performance.module:628,553,411,411,533
+msgid "Anonymous?"
+msgstr ""
+
+#: performance/performance.module:632,557,412,412,537
+msgid "# Queries"
+msgstr ""
+
+#: performance/performance.module:413,413
+msgid "Query Milliseconds"
+msgstr ""
+
+#: performance/performance.info:0,0,0,0,0
+msgid ""
+"Logs detailed and/or summary page generation time and memory "
+"consumption for page requests."
+msgstr ""
+
+#: devel.pages.inc:163,163; devel.module:1122,1130,1127,1128,1195,1211,1216
+msgid ""
+"Uninstall and then install the selected modules. "
+"<code>hook_uninstall()</code> and <code>hook_install()</code> will be "
+"executed and the schema version number will be set to the most recent "
+"update number. You may have to manually clear out any existing tables "
+"first if the module doesn't implement <code>hook_uninstall()</code>."
+msgstr ""
+
+#: devel.pages.inc:166,166; devel.module:1125,1133,1130,1131,1198,1214,1219
+msgid "Reinstall"
+msgstr "Переустановка"
+
+#: devel.module:1148,1156,1153,1154,1221,1237,1242
+msgid "Uninstalled and installed the %name module."
+msgstr ""
+
+#: performance/performance.module:34,37,22,22,24
+msgid "Clear APC"
+msgstr ""
+
+#: performance/performance.module:35,38,23,23,25
+msgid "Clears performance statistics collected in APC."
+msgstr ""
+
+#: performance/performance.module:714,633,482,482,619
+msgid "Confirm APC clear"
+msgstr ""
+
+#: performance/performance.module:718,637,486,486,623
+msgid "Are you sure you want to clear the APC statistics for this site?"
+msgstr ""
+
+#: performance/performance.module:720,639,488,488,625
+msgid ""
+"This will clear all the collected performance statistics stored in "
+"APC. This action cannot be undone."
+msgstr ""
+
+#: performance/performance.module:744,663,512,512,649
+msgid "Performance statistics collected in APC has been cleared."
+msgstr ""
+
+#: devel.pages.inc:204
+msgid "Instances"
+msgstr "Пример"
+
+#: devel_generate/devel_generate.inc:284,281
+msgid "Deleted existing vocabularies and terms."
+msgstr ""
+
+#: devel.module:610,597,631,632,619
+msgid "View developer output like variable printouts, query log, etc."
+msgstr ""
+
+#: devel.module:615,602,636,637,624
+msgid "Run arbitrary PHP from a block. Danger!"
+msgstr ""
+
+#: devel.module:619,606,640,641,628
+msgid "Become any user on the site with just a click. Danger!"
+msgstr ""
+
+#: devel.module:623,610,644,645,632
+msgid "View the site's php source code. Danger!"
+msgstr ""
+
+#: devel_node_access.info:0,0
+msgid "Developer blocks and page illustrating relevant node_access records."
+msgstr ""
+
+#: devel_generate/devel_generate.module:71,64,78; devel_generate.module:68
+msgid "How old should user accounts be?"
+msgstr ""
+
+#: devel_generate/devel_generate.module:72,65,79; devel_generate.module:69
+msgid ""
+"User ages will be distributed randomly from the current time, back to "
+"the selected time."
+msgstr ""
+
+#: devel_generate/devel_generate.module:147,140,154; devel_generate.module:119
+msgid "How far back in time should the nodes be dated?"
+msgstr ""
+
+#: devel_generate/devel_generate.module:148,141,155; devel_generate.module:120
+msgid ""
+"Node creation dates will be distributed randomly from the current "
+"time, back to the selected time."
+msgstr ""
+
+#: devel.admin.inc:97,97
+msgid ""
+"Display how much memory is used to generate the current page. This "
+"will show memory usage when devel_init() is called and when "
+"devel_exit() is called."
+msgstr ""
+
+#: performance/performance.module:107,107
+msgid ""
+"Log database timing and count for each page. This is useful to know if "
+"the bottleneck is in excessive database query counts, or the time "
+"required to execute those queries is high. Please note that this will "
+"automatically be enabled and disabled in the settings of the devel "
+"module. Also note that enabling this will incurr some memory overhead "
+"as query times and the actual query strings are cached in memory as "
+"arrays."
+msgstr ""
+
+#: performance/performance.module:159,152,115,115,127
+msgid ""
+"When displaying the summary report and using APC, only pages with the "
+"number of accesses larger than the specified threshold will be shown. "
+"Also, when cron runs, pages with that number of accesses or less will "
+"be removed, so as not to overflow APC's shared memory. This is useful "
+"on a live site with a high volume of hits. On a development site, you "
+"probably want this set to 0, so you can see all pages."
+msgstr ""
+
+#: devel.module:1455,1660,1668,1267,1267,1403,1665,1666,1460,1753,1769,1480,1481,1482,1774,1469
+msgid "The file could not be written."
+msgstr ""
+
+#: devel_node_access.module:55
+msgid ""
+"Helper pages and blocks to assist Drupal developers and admins with "
+"node_access. The devel blocks can be managed via the Blocks "
+"(admin/build/block) page."
+msgstr ""
+
+#: performance/performance.install:126,126
+msgid ""
+"APC has been configured for !size, which is less than the recommended "
+"48 MB of memory. If you encounter errors when viewing the summary "
+"report, then try to increase that limit for APC."
+msgstr ""
+
+#: devel.module:611,598,632,633,620
+msgid "Access developer information"
+msgstr ""
+
+#: devel.module:614,601,635,636,623
+msgid "Execute PHP code"
+msgstr "Выполнить PHP код"
+
+#: devel.module:618,605,639,640,627
+msgid "Switch users"
+msgstr ""
+
+#: devel.module:622,609,643,644,631
+msgid "Display source code"
+msgstr ""
+
+#: performance/performance.module:144
+msgid ""
+"Log database query timing and query count for each page. This is "
+"useful to know if the bottleneck is in excessive database query "
+"counts, or the time required to execute those queries is high. "
+"Enabling this will incurr some memory overhead as query times and the "
+"actual query strings are cached in memory as arrays for each page, "
+"hence skewing the overall page memory reported. Please note that this "
+"settings is enabled or disabled in the settings of the devel module."
+msgstr ""
+
+#: performance/performance.module:151,119
+msgid ""
+"Log database query timing and query count for each page. This is "
+"useful to know if the bottleneck is in excessive database query "
+"counts, or the time required to execute those queries is high. "
+"Enabling this will incurr some memory overhead as query times and the "
+"actual query strings are cached in memory as arrays for each page, "
+"hence skewing the overall page memory reported."
+msgstr ""
+
+#: devel.module:110,1095,1070,107,1078,94,94,1042,110,1075,1142,1158,1115,1116,1117,1163,1104
+msgid "Execute PHP Code"
+msgstr "Выполнить PHP код"
+
+#: devel.module:111,108,382,382,111
+msgid "Execute some PHP code"
+msgstr ""
+
+#: performance/performance.install:75,77,91,91,75
+msgid "Performance logging details"
+msgstr ""
+
+#: performance/performance.install:87,89,103,103,87
+msgid "Performance logging query"
+msgstr ""
+
+#: performance/performance.install:97,99,113,113,97
+msgid "Performance logging APC"
+msgstr ""
+
+#: performance/performance.install:100,102,116,116,100
+msgid "Performance logging on live web sites works best if APC is enabled."
+msgstr ""
+
+#: performance/performance.install:107,109,123,123,107
+msgid "Performance logging APC memory size"
+msgstr ""
+
+#: devel_generate/devel_generate.module:26,26
+msgid "Generate taxonomy"
+msgstr ""
+
+#: devel_generate/devel_generate.module:27,27
+msgid ""
+"Generate a given number of vocabularies and terms. Optionally delete "
+"current taxonomies."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:98,81,91
+msgid "Generated @number users."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:113,96
+msgid "Generated @num_vocab vocabulary, @num_terms terms"
+msgstr ""
+
+#: devel.admin.inc:122,122; devel.module:1018,1026,1023,1090,1106,1111
+msgid "Krumo display"
+msgstr "Вид Krumo"
+
+#: devel.admin.inc:123,123; devel.module:1019,1027,1024,1091,1107,1112
+msgid ""
+"Select a skin for your debug messages or select <em>disabled</em> to "
+"display object and array output in standard PHP format."
+msgstr ""
+"Выберите шаблон для отладочных "
+"сообщений, либо выберите <em>disabled</em> для "
+"вывода информации об объектах и "
+"массивах в стандартном PHP формате."
+
+#: devel_generate/devel_generate.drush.inc:93,76,86
+msgid "Invalid number of users."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:106,89
+msgid "Invalid vocabulary ID."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:109,92
+msgid "Invalid number of terms."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:121,104,129
+msgid "Invalid number of nodes"
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:124,107,132
+msgid "Invalid number of comments."
+msgstr ""
+
+#: performance/performance.module:813,732,545,545,682
+msgid "Performance logging is not enabled"
+msgstr ""
+
+#: devel.module:410,354,397,363,421
+msgid ""
+"The theme registry is being rebuilt on every request. Remember to <a "
+"href=\"!url\">turn off</a> this feature on production websites."
+msgstr ""
+
+#: devel.admin.inc:130,130; devel.module:1044,1052,1049,1116,1132,1137
+msgid "Rebuild the theme registry on every page load"
+msgstr ""
+"Перестраивать кэш темы при каждой "
+"загрузке страницы"
+
+#: devel.admin.inc:131,131; devel.module:1045,1053,1050,1117,1133,1138
+msgid ""
+"While creating new templates and theme_ overrides the theme registry "
+"needs to be rebuilt."
+msgstr ""
+
+#: performance/performance.module:727,646,495,495,632
+msgid "APC is not enabled. Nothing to do ..."
+msgstr ""
+
+#: performance/performance.module:26,29,13,13,16
+msgid "Performance logging"
+msgstr ""
+
+#: devel.admin.inc:105,105
+msgid "Display $page array"
+msgstr ""
+
+#: devel.admin.inc:107,107
+msgid ""
+"Display $page array from <a "
+"href=\"http://api.drupal.org/api/function/hook_page_alter/7\">hook_page_alter()</a> "
+"in the messages area of each page."
+msgstr ""
+
+#: devel.pages.inc:265,253
+msgid "No variables."
+msgstr ""
+
+#: devel_node_access.module:268,272,252,252
+msgid ""
+"Default grant supplied by core in the absence of any other non-empty "
+"grants, in !na."
+msgstr ""
+
+#: devel_node_access.module:551,273,277,256,256,535
+msgid ""
+"Does not grant any access, but could block lower priority grants; not "
+"in !na."
+msgstr ""
+
+#: devel_node_access.module:553,274,278,257,257,537
+msgid "Should be in !na but isn't!"
+msgstr ""
+
+#: devel_generate.module:127
+msgid "Maximum number of generated comments per node"
+msgstr ""
+"Максимальное число генерируемых "
+"комментариев для одной ноды"
+
+#: devel_generate.module:162
+msgid "Generate node view statistics (node_counter table)."
+msgstr ""
+
+#: devel_generate/devel_generate.module:176,169,183
+msgid "Add statistics for each node (node_counter table)."
+msgstr ""
+
+#: devel_generate.inc:428
+msgid "Deleted one post"
+msgid_plural "Deleted @count posts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: devel_generate/devel_generate.inc:628,481,618,635
+msgid "Deleted %count nodes."
+msgstr ""
+
+#: devel_node_access.module:137,112,116,111,111,127
+msgid ""
+"This issue may be masked by the one above, so look into the former "
+"first."
+msgstr ""
+
+#: devel_node_access.module:549,271,275,254,254,533
+msgid "unexpected"
+msgstr ""
+
+#: devel_node_access.module:271,275,254,254
+msgid ""
+"The 0/0/all/... grant applies to all nodes and all users -- usually it "
+"should not be present if any node access module is active!"
+msgstr ""
+
+#: devel_node_access.module:856,448,452,418,418,832
+msgid ""
+"You have errors in your !na table! You may be able to fix these for "
+"now by running !Rebuild_permissions, but this is likely to destroy the "
+"evidence and make it impossible to identify the underlying issues. If "
+"you don't fix those, the errors will probably come back again. <br /> "
+"DON'T do this just yet if you intend to ask for help with this "
+"situation."
+msgstr ""
+
+#: devel_node_access.module:457,457
+msgid ""
+"by one or more of the following grants (if they are present above): "
+"!list"
+msgstr ""
+
+#: devel.module:135,127
+msgid "Field info"
+msgstr ""
+
+#: devel.module:136,128
+msgid "View fields information across the whole site."
+msgstr ""
+
+#: devel_generate/devel_generate.module:119,112,126; devel_generate.module:91
+msgid ""
+"You do not have any content types that can be generated. <a "
+"href=\"@create-type\">Go create a new content type</a> already!</a>"
+msgstr ""
+
+#: devel.module:315,289,263,237,229,255,281,307
+msgid "Render"
+msgstr "Воспроизвести"
+
+#: devel_node_access.module:875,467,471,851
+msgid "These are the grants returned by hook_node_grants() for this user."
+msgstr ""
+
+#: devel_node_access.module:884,476,480,860
+msgid "!username has the following access"
+msgstr ""
+
+#: devel_node_access.module:892,484,488,868
+msgid "to node !nid:"
+msgstr ""
+
+#: devel_node_access.module:923,507,511,899
+msgid "Create nodes of the '@Node_type' type."
+msgstr ""
+
+#: devel_node_access.module:984,554,558,956
+msgid "Unable to load the node &ndash; this should never happen!"
+msgstr ""
+
+#: devel_node_access.module:585,589
+msgid "!NO: input format"
+msgstr ""
+
+#: devel_node_access.module:586,590
+msgid ""
+"!NO: This user is not allowed to use the input format '!format' "
+"(!fid)."
+msgstr ""
+
+#: devel_node_access.module:594,598
+msgid "!YES: administer nodes"
+msgstr ""
+
+#: devel_node_access.module:595,599
+msgid ""
+"!YES: This user has the '!administer_nodes' permission and may do "
+"everything with nodes."
+msgstr ""
+
+#: devel_node_access.module:1033,602,606,1005
+msgid "!NO: access content"
+msgstr ""
+
+#: devel_node_access.module:1034,603,607,1006
+msgid ""
+"!NO: This user does not have the '!access_content' permission and is "
+"denied doing anything with content."
+msgstr ""
+
+#: devel_node_access.module:617,621
+msgid "!YES: by the module"
+msgstr ""
+
+#: devel_node_access.module:623,627
+msgid "!NO: by the module"
+msgstr ""
+
+#: devel_node_access.module:624,628
+msgid ""
+"!NO: The '@module' module (which defines the '@content_type' content "
+"type) denies this."
+msgstr ""
+
+#: devel_node_access.module:1096,632,636,1068
+msgid "!YES: node access"
+msgstr ""
+
+#: devel_node_access.module:1097,633,637,1069
+msgid "!YES: Node access allows this."
+msgstr ""
+
+#: devel_node_access.module:1103,638,642,1075
+msgid "!NO: node access"
+msgstr ""
+
+#: devel_node_access.module:1104,639,643,1076
+msgid "!NO: Node access denies this."
+msgstr ""
+
+#: devel_node_access.module:646,650
+msgid "!YES: own node"
+msgstr ""
+
+#: devel_node_access.module:647,651
+msgid "!YES: The user may view his/her own node."
+msgstr ""
+
+#: devel_node_access.module:1111,651,655,1083
+msgid "!NO: no reason"
+msgstr ""
+
+#: devel_node_access.module:1112,652,656,1084
+msgid "!NO: None of the checks resulted in allowing this, so it's denied."
+msgstr ""
+
+#: devel_node_access.module:653,657
+msgid "Node access was not checked because the node is not published."
+msgstr ""
+
+#: devel_node_access.module:15
+msgid "view devel_node_access information"
+msgstr ""
+
+#: devel.module:32,32
+msgid ""
+"Helper functions, pages, and blocks to assist Drupal developers. The "
+"devel blocks can be managed via the <a href=\"@block\">block "
+"administration</a> page."
+msgstr ""
+
+#: devel.admin.inc:113,113; devel.module:1009,1017,779,779,1014,1081,1097,1102
+msgid ""
+"Choose an error handler for your site. <em>Backtrace</em> prints nice "
+"debug information when an error is noticed, and you <a "
+"href=\"@choose\">choose to show errors on screen</a>. "
+"<strong>Backtrace requires the <a href=\"@krumo\">krumo "
+"library</a></strong>. <em>None</em> is a good option when stepping "
+"through the site in your debugger."
+msgstr ""
+
+#: devel_node_access.module:36,31,31,31,36
+msgid ""
+"The second block provided by this module shows the entries in the "
+"node_access table for any nodes shown on the current page.  You can "
+"enable the debug mode on the <a href=\"@settings_page\">settings "
+"page</a> to display much more information, but this can cause "
+"considerable overhead.  Because the tables shown are wide, it is "
+"recommended to enable the blocks in the page footer rather than a "
+"sidebar."
+msgstr ""
+
+#: devel_node_access.module:39,34,34,34,39
+msgid ""
+"This module also provides a <a href=\"@summary_page\">summary page</a> "
+"which shows general information about your node_access table.  If you "
+"have installed the Views module, you may browse node_access by realm."
+msgstr ""
+
+#: performance/performance.module:420,298,298
+msgid ""
+"Summary performance log is not enabled. Go to the <a "
+"href=\"@link\">settings page</a> to enable it."
+msgstr ""
+
+#: performance/performance.module:618,544,402,402,523
+msgid ""
+"Detail performance log is not enabled. Go to the <a "
+"href=\"@link\">settings page</a> to enable it."
+msgstr ""
+
+#: performance/performance.install:78,80,94,94,78
+msgid ""
+"Performance detailed logging is <a href=\"@link\">enabled</a>. This "
+"can cause severe issues on live sites."
+msgstr ""
+
+#: performance/performance.install:90,92,106,106,90
+msgid ""
+"Query timing and count logging is <a href=\"@link\">enabled</a>. This "
+"can cause memory size per page to be larger than normal."
+msgstr ""
+
+#: devel_node_access.module:220
+msgid ""
+"For per-user access permissions enable the second DNA <a "
+"href=\"@block\">block</a>."
+msgstr ""
+
+#: devel_node_access.module:539,262,266,523
+msgid "To see more details enable <a href=\"@debug_mode\">debug mode</a>."
+msgstr ""
+
+#: devel_node_access.module:462,466
+msgid ""
+"!username has the %administer_nodes permission and thus full access to "
+"all nodes."
+msgstr ""
+
+#: devel_node_access.module:890,482,486,866
+msgid "%op:"
+msgstr ""
+
+#: devel_node_access.module:618,622
+msgid ""
+"!YES: The '@module' module (which defines the '@content_type' content "
+"type) allows this, probably based on some permission."
+msgstr ""
+
+#: devel.install:64,61
+msgid "Devel module menu links will be rebuilt."
+msgstr ""
+
+#: devel.module:212,203,195,204
+msgid ""
+"Helper functions, pages, and blocks to assist Drupal developers. The "
+"devel blocks can be managed via the <a href=\""
+msgstr ""
+
+#: devel_generate/devel_generate.module:60,53,67
+msgid "Which roles should the users receive?"
+msgstr ""
+
+#: devel_generate/devel_generate.module:61,54,68
+msgid "Users always receive the <em>authenticated user</em> role."
+msgstr ""
+
+#: devel_node_access.module:17,17
+msgid ""
+"View the node access information blocks on node pages and the summary "
+"page."
+msgstr ""
+
+#: devel_node_access.module:18,18
+msgid "Access DNA information"
+msgstr ""
+
+#: devel.install:22,22; devel_node_access.module:55,62
+msgid "Development link"
+msgstr ""
+
+#: devel_node_access.module:78,95
+msgid ""
+"Debug mode verifies the grant records in the node_access table against "
+"those that would be set by running !Rebuild_permissions, and displays "
+"them all; this can cause considerable overhead."
+msgstr ""
+
+#: devel_node_access.module:548,270,274,532
+msgid "Non-standard grant in !na."
+msgstr ""
+
+#: devel_node_access.module:850,826
+msgid ""
+"(Some of the table elements provide additional information if you "
+"hover your mouse over them.)"
+msgstr ""
+
+#: devel_node_access.module:870,846
+msgid ""
+"!username has the %bypass_node_access permission and thus full access "
+"to all nodes."
+msgstr ""
+
+#: devel_node_access.module:956,529,533,928
+msgid ""
+"(This table lists the most-recently active users. Hover your mouse "
+"over each result for more details.)"
+msgstr ""
+
+#: devel_node_access.module:990,962
+msgid "!NO: invalid $op"
+msgstr ""
+
+#: devel_node_access.module:991,963
+msgid "'@op' is an invalid operation!"
+msgstr ""
+
+#: devel_node_access.module:1025,997
+msgid "!YES: bypass node access"
+msgstr ""
+
+#: devel_node_access.module:1026,998
+msgid ""
+"!YES: This user has the '!bypass_node_access' permission and may do "
+"everything with nodes."
+msgstr ""
+
+#: devel_node_access.module:1018,990
+msgid "bypass node access"
+msgstr ""
+
+#: devel_node_access.module:1066,1038
+msgid "!NO: by %module"
+msgstr ""
+
+#: devel_node_access.module:1068,1040
+msgid ""
+"!NO: hook_node_access() of the following module(s) denies this: "
+"@deniers."
+msgstr ""
+
+#: devel_node_access.module:1069,1041
+msgid ""
+"!NO: hook_node_access() of the following module(s) denies this: "
+"@deniers &ndash; even though the following module(s) would allow it: "
+"@allowers."
+msgstr ""
+
+#: devel_node_access.module:1079,1051
+msgid "!YES: by %module"
+msgstr ""
+
+#: devel_node_access.module:1080,1052
+msgid ""
+"!YES: hook_node_access() of the following module(s) allows this: "
+"@allowers."
+msgstr ""
+
+#: devel_node_access.module:1087,1059
+msgid "!YES: view own unpublished content"
+msgstr ""
+
+#: devel_node_access.module:1088,1060
+msgid ""
+"!YES: The node is unpublished, but the user has the "
+"'!view_own_unpublished_content' permission."
+msgstr ""
+
+#: devel_node_access.module:1075,1047
+msgid "view own unpublished content"
+msgstr ""
+
+#: devel_node_access.module:1113,654,658,1085
+msgid "This is most likely due to a withheld permission."
+msgstr ""
+
+#: devel_node_access.module:63,68
+msgid ""
+"Helper pages and blocks to assist Drupal developers and admins with "
+"node_access. The devel blocks can be managed via the <a href=\""
+msgstr ""
+
+#: performance/performance.module:443,371
+msgid ""
+"Summary performance log is not enabled. Go to the <a "
+"href=\"!link\">settings page</a> to enable it."
+msgstr ""
+
+#: performance/performance.module:454,430,382
+msgid "ms (Max)"
+msgstr ""
+
+#: performance/performance.module:455,431,383
+msgid "ms (Avg)"
+msgstr ""
+
+#: performance/performance.module:458,434,386
+msgid "Query ms (Max)"
+msgstr ""
+
+#: performance/performance.module:459,435,387
+msgid "Query ms (Avg)"
+msgstr ""
+
+#: performance/performance.module:531
+msgid "Average ms per page: !ms_avg"
+msgstr ""
+
+#: performance/performance.module:627,552,532
+msgid "ms (Total)"
+msgstr ""
+
+#: performance/performance.module:633,558,538
+msgid "Query ms"
+msgstr ""
+
+#: devel_node_access.module:467,471
+msgid ""
+"!username (user %uid) can use these grants for %access access (if they "
+"are present above): !list"
+msgstr ""
+
+#: devel_generate/devel_generate.module:155,148,162
+msgid "Maximum number of comments per node."
+msgstr ""
+
+#: performance/performance.module:72,54
+msgid "Administer performance logging"
+msgstr ""
+
+#: performance/performance.module:73,55
+msgid ""
+"Allows both configuring the performance module and accessing its "
+"reports."
+msgstr ""
+
+#: performance/performance.module:452,380
+msgid "MB Memory (Max)"
+msgstr ""
+
+#: performance/performance.module:453,381
+msgid "MB Memory (Avg)"
+msgstr ""
+
+#: performance/performance.module:593,498
+msgid "Average duration per page: !ms_avg ms"
+msgstr ""
+
+#: performance/performance.module:605,510
+msgid "No data has been collected."
+msgstr ""
+
+#: devel.pages.inc:181,181
+msgid "Uninstalled and installed: %names."
+msgstr ""
+
+#: devel_generate/devel_generate.module:110,103,117
+msgid "Comments: "
+msgstr ""
+
+#: devel_generate/devel_generate.module:156,149,163
+msgid ""
+"You must also enable comments for the content types you are "
+"generating. Note that some nodes will randomly receive zero comments. "
+"Some will receive the max."
+msgstr ""
+
+#: devel.module:86,86
+msgid "Details about a given menu item."
+msgstr ""
+
+#: devel.module:176,168
+msgid "Explain query"
+msgstr ""
+
+#: devel.module:178,170
+msgid "Run an EXPLAIN on a given query. Used by query log"
+msgstr ""
+
+#: devel.module:184,176
+msgid "Arguments query"
+msgstr ""
+
+#: devel.module:178
+msgid ""
+"Return a giben query, with arguments instead of placeholders. Used by "
+"query log"
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:150,133,158
+msgid "Generated @num_nodes nodes, @max_comments comments (or less) per node."
+msgstr ""
+
+#: performance/performance.install:110,112,110
+msgid ""
+"APC has been configured for !size, which is less than the recommended "
+"!min_memory MB of memory. If you encounter errors when viewing the "
+"summary report, then try to increase that limit for APC."
+msgstr ""
+
+#: devel_node_access.module:176,166
+msgid ""
+"The following realms appear to grant all users access to some specific "
+"nodes. This may be perfectly normal, if some of your content is "
+"available to the public."
+msgstr ""
+
+#: devel_node_access.module:285,275
+msgid ""
+"Devel Node Access has detected duplicate records returned from "
+"%function:"
+msgstr ""
+
+#: devel_node_access.module:483
+msgid ""
+"For per-user access permissions enable the <a href=\"@block\">%DNAbU "
+"block</a>."
+msgstr ""
+
+#: devel_node_access.module:545,529
+msgid ""
+"Default grant supplied by core in the absence of any other non-empty "
+"grants; in !na."
+msgstr ""
+
+#: devel_node_access.module:546,530
+msgid "Highest priority grant; in !na."
+msgstr ""
+
+#: devel_node_access.module:547,531
+msgid "removed"
+msgstr ""
+
+#: devel_node_access.module:547,531
+msgid "Was removed in @func; not in !na."
+msgstr ""
+
+#: devel_node_access.module:549,533
+msgid ""
+"The 0/all/0/... grant applies to all nodes and all users -- usually it "
+"should not be present in !na if any node access module is active!"
+msgstr ""
+
+#: devel_node_access.module:550,534
+msgid "Lower priority grant; not in !na and thus ignored."
+msgstr ""
+
+#: devel_node_access.module:552,536
+msgid "wrong"
+msgstr ""
+
+#: devel_node_access.module:552,536
+msgid "Is rightfully in !na but at least one access flag is wrong!"
+msgstr ""
+
+#: devel_node_access.module:554,538
+msgid "removed!"
+msgstr ""
+
+#: devel_node_access.module:554,538
+msgid "Was removed in @func; should NOT be in !na!"
+msgstr ""
+
+#: devel_node_access.module:875,851
+msgid ""
+"!username (user %uid) can use these grants (if they are present above) "
+"for %access access: !list"
+msgstr ""
+
+#: devel_generate/devel_generate.inc:141,139
+msgid "1 node created."
+msgid_plural "Finished creating @count nodes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: devel_generate/devel_generate.inc:25,25
+msgid "1 user deleted"
+msgid_plural "@count users deleted."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: devel_generate/devel_generate.module:222,215
+msgid ""
+"Terms will be generated from the new vocabularies and any existing "
+"vocabularies."
+msgstr ""
+
+#: devel_generate/devel_generate.module:234,227
+msgid "Max word length of term/vocabulary names"
+msgstr ""
+
+#: devel_generate/devel_generate.module:240,233
+msgid "Delete existing terms and vocabularies before generating new ones."
+msgstr ""
+
+#: devel.admin.inc:43,43; devel.module:1035,1051,1056
+msgid ""
+"XHProf is a php extension which is essential for profiling your Drupal "
+"site. It pinpoints slow functions, and also memory hogging functions."
+msgstr ""
+
+#: devel.admin.inc:45,45; devel.module:1037,1053,1058
+msgid "Profile requests with the xhprof php extension."
+msgstr ""
+
+#: devel.admin.inc:45,45; devel.module:1037,1053,1058
+msgid ""
+"You must enable the <a href=\"!url\">xhprof php extension</a> to use "
+"this feature."
+msgstr ""
+
+#: devel.admin.inc:64,64; devel.module:1048,1064,1069
+msgid ""
+"Location of the xhprof source code on your system, usually somewhere "
+"in /usr/local/share or /usr/share, include the leading forward slash."
+msgstr ""
+
+#: devel.admin.inc:75,75; devel.module:1054,1070,1075
+msgid ""
+"Path to the publically accessible xhprof_html - required to display "
+"profiler reports. You will need to set this up outside Drupal, for "
+"example at http://xhprof.localhost/xhprof_html"
+msgstr ""
+
+#: devel.module:958,905,1714,1730,978,979,980,1735,967
+msgid "<a href=\"@xhprof\">XHProf output</a>. "
+msgstr ""
+
+#: devel_generate/devel_generate.module:188,181,195; devel_generate.module:169
+msgid "Set language on nodes"
+msgstr "Установить язык для материалов"
+
+#: devel_generate/devel_generate.module:191,184,198; devel_generate.module:171
+msgid "Requires locale.module"
+msgstr "Требуется модуль Locale"
+
+#: devel.module:145
+msgid ""
+"Helper functions, pages, and blocks to assist Drupal developers. The "
+"devel blocks can be managed via the <a "
+"href=\"/admin/build/block\">block administration</a> page."
+msgstr ""
+
+#: devel_generate/devel_generate.module:131,138
+msgid ""
+"<strong>Delete all content</strong> in these content types before "
+"generating new content."
+msgstr ""
+
+#: devel_generate/devel_generate.module:221,265
+msgid "Number of vocabularies?"
+msgstr ""
+
+#: devel_generate/devel_generate.module:228,240
+msgid "Number of terms?"
+msgstr ""
+
+#: performance/performance.module:133,125
+msgid "Summary logging (Memcached)"
+msgstr ""
+
+#: performance/performance.module:137,129
+msgid ""
+"Log summary data, such as average and maximum page generation times "
+"and memory usage to Memcached, if installed. The summary will be "
+"stored in Memcached memory, and hence there is no load on the "
+"database. This logging to Memcached is suitable for most live sites, "
+"unless the number of unique page accesses is excessively high."
+msgstr ""
+
+#: performance/performance.module:750,669
+msgid "Confirm Memcache clear"
+msgstr ""
+
+#: performance/performance.module:754,673
+msgid "Are you sure you want to clear the Memcache statistics for this site?"
+msgstr ""
+
+#: performance/performance.module:756,675
+msgid ""
+"This will clear all the collected performance statistics stored in "
+"Memcache. This action cannot be undone."
+msgstr ""
+
+#: performance/performance.module:763,682
+msgid "Memcache is not enabled. Nothing to do ..."
+msgstr ""
+
+#: performance/performance.module:780,699
+msgid "Performance statistics collected in Memcache has been cleared."
+msgstr ""
+
+#: performance/performance.module:42,45
+msgid "Clear Memcache"
+msgstr ""
+
+#: performance/performance.module:43,46
+msgid "Clears performance statistics collected in Memcache."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:158,166
+msgid "Invalid number of menus"
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:161,169
+msgid "Invalid number of links"
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:164,172
+msgid "Invalid maximum link depth. Use a value between 1 and 9"
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:167,175
+msgid "Invalid maximum menu width. Use a positive numeric value."
+msgstr ""
+
+#: devel_generate/devel_generate.drush.inc:179,187
+msgid "Generated @number_menus menus, @number_links links."
+msgstr ""
+
+#: devel_generate/devel_generate.inc:319,336
+msgid "Deleted existing menus and links."
+msgstr ""
+
+#: devel_generate/devel_generate.inc:325,342
+msgid "Created the following new menus: !menus"
+msgstr ""
+
+#: devel_generate/devel_generate.inc:331,348
+msgid "Created @count new menu links."
+msgstr ""
+
+#: devel_generate/devel_generate.inc:348,365
+msgid "Description of @name"
+msgstr ""
+
+#: devel_generate/devel_generate.inc:376,393
+msgid "Description of @title."
+msgstr ""
+
+#: devel_generate/devel_generate.module:288,331
+msgid "Create new menu(s)"
+msgstr ""
+
+#: devel_generate/devel_generate.module:295,338
+msgid "Generate links for these menus"
+msgstr ""
+
+#: devel_generate/devel_generate.module:303,346
+msgid "Number of new menus to create"
+msgstr ""
+
+#: devel_generate/devel_generate.module:315,358
+msgid "Number of links to generate"
+msgstr ""
+
+#: devel_generate/devel_generate.module:322,365
+msgid "Max word length of menu and menu link names"
+msgstr ""
+
+#: devel_generate/devel_generate.module:329,372
+msgid "Types of links to generate"
+msgstr ""
+
+#: devel_generate/devel_generate.module:340,383
+msgid "Maximum link depth"
+msgstr ""
+
+#: devel_generate/devel_generate.module:348,391
+msgid "Maximum menu width"
+msgstr ""
+
+#: devel_generate/devel_generate.module:351,394
+msgid ""
+"Limit the width of the generated menu's first level of links to a "
+"certain number of items."
+msgstr ""
+
+#: devel_generate/devel_generate.module:356,399
+msgid ""
+"Delete existing custom generated menus and menu links before "
+"generating new ones."
+msgstr ""
+
+#: devel_generate/devel_generate.module:34,41
+msgid "Generate menus"
+msgstr ""
+
+#: devel_generate/devel_generate.module:35,42
+msgid ""
+"Generate a given number of menus and menu links. Optionally delete "
+"current menus."
+msgstr ""
+
+#: devel.module:127
+msgid "Entity info"
+msgstr ""
+
+#: devel.module:128
+msgid "View entity information across the whole site."
+msgstr ""
+
+#: devel.module:186
+msgid ""
+"Return a given query, with arguments instead of placeholders. Used by "
+"query log"
+msgstr ""
+
+#: devel.module:654,675,676,663
+msgid "Include %anonymous"
+msgstr ""
+
+#: devel.module:759,780,781,782,769
+msgid "Caution: the anonymous user will be unable to switch back."
+msgstr ""
+
+#: devel.module:659,559,576,592,680,681,597,668
+msgid "Allow entering any user name"
+msgstr ""
+
+#: devel_node_access.module:101,78
+msgid ""
+"Debug mode verifies the grant records in the node_access table against "
+"those that would be set by running !Rebuild_permissions, and displays "
+"them all; this can cause considerable overhead.<br />For even more "
+"information enable the <a href=\"@link\">%DNAbU block</a>, too."
+msgstr ""
+
+#: devel_node_access.module:224
+msgid ""
+"For per-user access permissions enable the second DNA <a "
+"href=\"@link\">block</a>."
+msgstr ""
+
+#: devel.admin.inc:48; devel.module:1040,1056,1061
+msgid ""
+"Enable profiling of all page views and <a href=\"!drush\">drush</a> "
+"requests."
+msgstr ""
+
+#: devel_node_access.module:499
+msgid ""
+"For per-user access permissions enable the <a href=\"@link\">%DNAbU "
+"block</a>."
+msgstr ""
+
+#: devel_generate/devel_generate.inc:291
+msgid "Deleted existing terms."
+msgstr ""
+
+#: devel_generate/devel_generate.inc:306
+msgid "Deleted existing vocabularies."
+msgstr ""
+
+#: devel_generate/devel_generate.module:236
+msgid "Restrict terms to these vocabularies."
+msgstr ""
+
+#: devel_generate/devel_generate.module:246
+msgid "Max word length of term names"
+msgstr ""
+
+#: devel_generate/devel_generate.module:252
+msgid ""
+"Delete existing terms in specified vocabularies before generating new "
+"terms."
+msgstr ""
+
+#: devel_generate/devel_generate.module:271
+msgid "Max word length of vocabulary names"
+msgstr ""
+
+#: devel_generate/devel_generate.module:277
+msgid "Delete existing vocabularies before generating new ones."
+msgstr ""
+
+#: devel_generate/devel_generate.module:26
+msgid "Generate terms"
+msgstr ""
+
+#: devel_generate/devel_generate.module:27
+msgid "Generate a given number of terms. Optionally delete current terms."
+msgstr ""
+
+#: devel_generate/devel_generate.module:33
+msgid "Generate vocabularies"
+msgstr ""
+
+#: devel_generate/devel_generate.module:34
+msgid ""
+"Generate a given number of vocabularies. Optionally delete current "
+"vocabularies."
+msgstr ""
+
+#: devel.module:558,562,605,609
+msgid "%error: %message in %function (line %line of %file)."
+msgstr ""
+

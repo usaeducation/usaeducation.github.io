@@ -1,0 +1,98 @@
+20120215T150521: www.fareastusaedu.com/index.php
+suexec failure: could not open log file
+fopen: Permission denied
+
+20121104T170356: fareastusaedu.com/index.php
+PHP Parse error:  syntax error, unexpected T_VARIABLE in /hermes/bosweb/web046/b460/ipg.fareastusaeducom/sites/all/themes/zen/templates/comment.tpl.php on line 75
+
+20121104T170403: fareastusaedu.com/index.php
+PHP Parse error:  syntax error, unexpected T_VARIABLE in /hermes/bosweb/web046/b460/ipg.fareastusaeducom/sites/all/themes/zen/templates/comment.tpl.php on line 75
+
+20130608T070220: fareastusaedu.com/index.php
+PHP Warning:  Lost connection to MySQL server during query
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /hermes/bosoraweb115/b460/ipg.fareastusaeducom/includes/database.mysqli.inc on line 134
+PHP Warning:  MySQL server has gone away
+query: SELECT * FROM languages ORDER BY weight ASC, name ASC in /hermes/bosoraweb115/b460/ipg.fareastusaeducom/includes/database.mysqli.inc on line 134
+PHP Warning:  Inval
+20130626T083058: www.fareastusaedu.com/index.php
+PHP Warning:  Server shutdown in progress
+query: UPDATE cache SET data = &#039;a:335:{s:13:\&quot;theme_default\&quot;;s:3:\&quot;zen\&quot;;s:13:\&quot;filter_html_1\&quot;;s:1:\&quot;1\&quot;;s:18:\&quot;node_options_forum\&quot;;a:1:{i:0;s:6:\&quot;status\&quot;;}s:18:\&quot;drupal_private_key\&quot;;s:64:\&quot;2d7e63a3754b8ecc5c9da77b0d677b79ea7571fe9b589f10945ed6bfb4838095\&quot;;s:10:\&quot;menu_masks\&quot;;a:24:{i:0;i:127;i:1;i:125;i:2;i:63;i:3;i:62;i:4;i:61;i:5;i:59;i:6;i:45;i:7;i:31;i:8;i:30;i:9;
+20130710T072802: fareastusaedu.com/index.php
+PHP Warning:  Lost connection to MySQL server during query
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:168:\&quot;Server shutdown in progress\nquery: SELECT dst FROM url_alias WHERE src = &amp;#039;user&amp;#039; AND language IN(&amp;#039;ru&amp;#039;, &amp
+20130710T073401: fareastusaedu.com/index.php
+PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:699:\&quot;Lost connection to MySQL server during query\nquery: SELECT * FROM menu_router WHERE path IN (&amp;#039;user/reset/228/1370919011/8153368711e50ebad63ea45bc459fbc
+20140916T171621: fareastusaedu.com/index.php
+2014-09-16 17:16:21 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140916T192737: fareastusaedu.com/index.php
+2014-09-16 19:27:36 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140917T085151: fareastusaedu.com/index.php
+2014-09-17 08:51:51 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140917T101250: fareastusaedu.com/index.php
+2014-09-17 10:12:50 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140917T123920: fareastusaedu.com/index.php
+2014-09-17 12:39:20 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140918T174606: fareastusaedu.com/index.php
+2014-09-18 17:46:06 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140919T101121: fareastusaedu.com/index.php
+2014-09-19 10:11:21 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140920T120959: fareastusaedu.com/index.php
+2014-09-20 12:09:59 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140920T123253: fareastusaedu.com/index.php
+2014-09-20 12:32:53 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140920T181016: fareastusaedu.com/index.php
+2014-09-20 18:10:16 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140921T125811: fareastusaedu.com/index.php
+2014-09-21 12:58:11 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140922T062854: fareastusaedu.com/index.php
+2014-09-22 06:28:53 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140922T202617: fareastusaedu.com/index.php
+2014-09-22 20:26:17 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140922T212120: fareastusaedu.com/index.php
+2014-09-22 21:21:20 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140922T215704: fareastusaedu.com/index.php
+2014-09-22 21:57:04 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140923T091736: fareastusaedu.com/index.php
+2014-09-23 09:17:36 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140923T145523: fareastusaedu.com/index.php
+2014-09-23 14:55:22 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20141118T152659: fareastusaedu.com/index.php
+PHP Warning:  Lost connection to MySQL server during query
+query: UPDATE sessions SET uid = 0, cache = 0, hostname = &#039;182.140.132.108&#039;, session = &#039;&#039;, timestamp = 1416341729 WHERE sid = &#039;1d1f204a62b8bdf4a40fa4e50e110d27&#039; in /hermes/bosoraweb115/b460/ipg.fareastusaeducom/includes/database.mysqli.inc on line 134
+
+20180206T100216: fareastusaedu.com/test.php
+PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /hermes/bosnaweb19a/b460/ipg.fareastusaeducom/test.php on line 9
+
+20180206T100709: fareastusaedu.com/test.php
+PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /hermes/bosnaweb19a/b460/ipg.fareastusaeducom/test.php on line 9
+
+20180206T101145: fareastusaedu.com/test.php
+PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /hermes/bosnaweb19a/b460/ipg.fareastusaeducom/test.php on line 9
+
+20190206T191342: fareastusaedu.com/index.php
+sh: 1: /usr/sbin/sendmail: Permission denied
+

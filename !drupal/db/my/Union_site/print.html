@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Union</title>
+	<link href="static/lightgallery/skins/default/style.css" type="text/css" media="screen" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+	<link rel="SHORTCUT ICON" href="favicon.ico"/>
+	<script src="static/lightgallery/lightgallery.min.js" type="text/javascript"></script>
+	<script src="static/lightgallery/lang/ru_utf8.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			lightgallery.init({});
+		}
+	</script>
+	<script type="text/javascript" src="static/js/menu-lights.js"></script>	
+	<script type="text/javascript" src="static/js/kalkulator.js"></script>
+	<script type="text/javascript" src="print_ajax.js"></script>
+</head>
+
+<body class="print">
+
+ 
+	<div class="center">
+		<div class="header">
+			<a href="index.html"><img class="logo" alt="logo" src="static/images/logo.png" /></a>
+			 <div class="nav">
+			 	<div class="clear"></div>
+					 <div class="nav_right">
+						<ul>
+							<li class="first" id="nav1"  onmouseover="light_on('nav1');" onmouseout="light_off('nav1');">
+								<a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</li>
+							<li id="nav2"  onmouseover="light_on('nav2');" onmouseout="light_off('nav2');">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li id="nav3" class="current">
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li id="nav4" onmouseover="light_on('nav4');" onmouseout="light_off('nav4');">
+								<a href="contacts.html">Контакты</a>
+							</li>
+							<li class="last">
+								<form action="">
+								<input onblur="if(this.value == '') { this.value='Поиск по сайту...'}" onfocus="if (this.value == 'Поиск по сайту...') {this.value=''}" class="search" type="text" value="Поиск по сайту..." />
+								<input class="search_button" type="submit" value="" />
+								</form>
+							</li>
+						</ul>
+					</div> 
+              </div> 
+		</div>
+		<div class="mainbody">
+			
+			<div class="mainbody_top">
+				<div class="shadow">
+					<div class="left">
+						<h3>Показать только...</h3>
+						<ul>
+							<li><a class="sell_button" onclick="showPage('vizitki')">Визитки  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a class="sell_button" onclick="showPage('bukleti')">Буклеты  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a class="sell_button" onclick="showPage('knigi')">Книги  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a class="sell_button" onclick="showPage('otkritki')">Открытки  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a class="sell_button" onclick="showPage('kalendari')">Календари &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							<li><a class="sell_button" onclick="showPage('oblogki')">Обложки CD/DVD</a></li>
+						</ul>
+					</div>	
+					<div class="okno">				
+						<div class="right">
+							
+							<div id="gallery_knigi">
+								<div class="polka">
+									<div class="vert_book"><a href="static/images/knigi/crocodile/001.jpg" rel="lightgallery[crocodile]" title=""><img alt="book" src="static/images/knigi/book_2.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/knigi/duck/001.jpg" rel="lightgallery[duck]" title=""><img alt="book" src="static/images/knigi/book_3.jpg" /></a></div>
+								</div>
+														
+								
+								<div class="polka">
+									<div class="gor_book"><a href="static/images/knigi/inchgirl/inch_girl_1.jpg" rel="lightgallery[inchgirl]" title=""><img alt="Дюймовочка" src="static/images/knigi/book_1.jpg" /></a></div>
+									
+								</div>
+							
+							</div>
+							
+							<div id="gallery_otkritki">
+							
+								<div class="polka">
+									<div class="vert_book"><a href="static/images/otkritki/b_otkr_1.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_1.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/otkritki/b_otkr_2.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_2.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/otkritki/b_otkr_3.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_3.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/otkritki/otkr_4.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_4.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/otkritki/otkr_5.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_5.jpg" /></a></div>
+									
+								</div>
+								
+								<div class="polka">
+									<div class="gor_book"><a href="static/images/otkritki/b_otkr_6.jpg" rel="lightgallery[otkritki]" title=""><img alt="otkritki" src="static/images/otkritki/otkr_6.jpg" /></a></div>
+																		
+								</div>
+														
+								
+								
+							
+							</div>
+							
+							<div id="gallery_vizitki">
+							
+								<div class="polka">
+									<div class="gor_book"><a href="static/images/vizitki/viz_1.jpg" rel="lightgallery[vizitki]" title=""><img alt="otkritki" src="static/images/vizitki/viz_1.jpg" /></a></div>
+									<div class="gor_book"><a href="static/images/vizitki/viz_2.jpg" rel="lightgallery[vizitki]" title=""><img alt="otkritki" src="static/images/vizitki/viz_2.jpg" /></a></div>
+									
+									
+								</div>
+								
+								<div class="polka">
+									<div class="gor_book"><a href="static/images/vizitki/viz_3.jpg" rel="lightgallery[vizitki]" title=""><img alt="otkritki" src="static/images/vizitki/viz_3.jpg" /></a></div>
+																		
+								</div>
+														
+								
+								
+							
+							</div>
+							<div id="gallery_bukleti">
+							
+								<div class="polka">
+									<div class="vert_book"><a href="static/images/bukleti/bukl_1.jpg" rel="lightgallery[bukleti]" title=""><img alt="otkritki" src="static/images/bukleti/bukl_1.jpg" /></a></div>
+									<div class="vert_book"><a href="static/images/bukleti/bukl_2.jpg" rel="lightgallery[bukleti]" title=""><img alt="otkritki" src="static/images/bukleti/bukl_2.jpg" /></a></div>
+									
+									
+								</div>
+								
+								<div class="polka">
+									<div class="gor_book"><a href="static/images/bukleti/bukl_3.jpg" rel="lightgallery[bukleti]" title=""><img alt="otkritki" src="static/images/bukleti/bukl_3.jpg" /></a></div>
+																		
+								</div>
+														
+								
+								
+							
+							</div>
+							
+							<div id="gallery_oblogki">
+							
+								
+							
+							</div>
+							<div id="gallery_kalendari">
+							
+								
+							
+							</div>
+								
+								
+						</div> 
+					</div> 
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			<div class="mainbody_bottom">
+				<div class="wide">
+				
+					<div id="kalkulator">
+						<form>
+							<select onchange="selProd()"  id="k_production" name="production" >
+								<option selected="selected" value="no_val">Я хочу заказать ...</option>
+								<option value='viz'>Визитки</option>
+								<option value='bukl'>Буклеты</option>
+								<option value='otkr'>Открытки</option>
+								<option value='kal'>Карманные календари</option>
+							</select> 
+							<select  id="k_paper" name="paper" >
+								<option selected="selected">Тип бумаги и формат ...</option>
+							</select> 
+							<input id="k_kol" type="text" name="kol" value="Количество ..." onfocus="if (this.value == 'Количество ...') {this.value=''}" onblur="if(this.value == '') { this.value='Количество ...'}"/>
+							<div id="k_button" onclick="countPrice()" onmouseover="this.style.background = 'url(static/images/back_kalk_btn_hov.png) no-repeat scroll center center transparent'" onmouseout="this.style.background = 'url(static/images/back_kalk_btn.png) no-repeat scroll center center transparent'"><span>Считать цену</span></div>
+							
+							<div id="k_rezult">
+								<span>$</span><div id="k_rez">&nbsp;</div>
+							</div>
+						</form>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+					<div class="table" id="table_vizitki">
+						<div class="headline">
+							<div class="col1 col">ВИЗИТКИ</div>
+							<div class="col2 col">Черно-белая<br /> односторон.</div>
+							<div class="col3 col">Черно-белая<br /> двухсторонняя</div>
+							<div class="col4 col">Полноцветная<br /> односторонняя</div>
+							<div class="col5 col">Полноцветная<br /> двухсторонняя</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">от 1 до 5 комплектов<br /> (~100-500 штук)</div>
+							<div class="col2 col">$ 5,63<br /> за комплект</div>
+							<div class="col3 col">$ 6,31<br /> за комплект</div>
+							<div class="col4 col">$ 7,33<br /> за комплект</div>
+							<div class="col5 col">$ 9,73<br /> за комплект</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">от 5 до 10 комплектов<br /> (~500-1000 штук)</div>
+							<div class="col2 col">$ 5,06<br /> за комплект</div>
+							<div class="col3 col">$ 5,68<br /> за комплект</div>
+							<div class="col4 col">$ 6,60<br /> за комплект</div>
+							<div class="col5 col">$ 8,75<br /> за комплект</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">от 10 комплектов<br /> (от 1000 штук)</div>
+							<div class="col2 col">$ 4,50<br /> за комплект</div>
+							<div class="col3 col">$ 5,05<br /> за комплект</div>
+							<div class="col4 col">$ 5,86<br /> за комплект</div>
+							<div class="col5 col">$ 7,78<br /> за комплект</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="table" id="table_bukleti">
+						<div class="headline">
+							<div class="col1 col">БУКЛЕТЫ</div>
+							<div class="col2 col">От 50 штук</div>
+							<div class="col3 col">От 100 штук</div>
+							<div class="col4 col">От 300 штук</div>
+							<div class="col5 col">От 400 штук</div>
+							<div class="col6 col">От 500 штук</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">А5, 115г/м, полноцвет.<br /> двухсторонняя</div>
+							<div class="col2 col">$ 0,39<br /> за штуку</div>
+							<div class="col3 col">$ 0,38<br /> за штуку</div>
+							<div class="col2 col">$ 0,36<br /> за штуку</div>
+							<div class="col3 col">$ 0,33<br /> за штуку</div>
+							<div class="col2 col">$ 0,30<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">А5, 135г/м, полноцвет.<br /> двухсторонняя</div>
+							<div class="col2 col">$ 0,41<br /> за штуку</div>
+							<div class="col3 col">$ 0,40<br /> за штуку</div>
+							<div class="col2 col">$ 0,37<br /> за штуку</div>
+							<div class="col3 col">$ 0,35<br /> за штуку</div>
+							<div class="col2 col">$ 0,32<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">А4, 115г/м, полноцвет.<br /> двухсторонняя</div>
+							<div class="col2 col">$ 0,79<br /> за штуку</div>
+							<div class="col3 col">$ 0,77<br /> за штуку</div>
+							<div class="col2 col">$ 0,72<br /> за штуку</div>
+							<div class="col3 col">$ 0,67<br /> за штуку</div>
+							<div class="col2 col">$ 0,61<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">А4, 135г/м, полноцвет.<br /> двухсторонняя</div>
+							<div class="col2 col">$ 0,82<br /> за штуку</div>
+							<div class="col3 col">$ 0,80<br /> за штуку</div>
+							<div class="col2 col">$ 0,75<br /> за штуку</div>
+							<div class="col3 col">$ 0,70<br /> за штуку</div>
+							<div class="col2 col">$ 0,63<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="table" id="table_otkritki">
+						<div class="headline">
+							<div class="col1 col">ОТКРЫТКИ</div>
+							<div class="col2 col">От 10 штук</div>
+							<div class="col3 col">От 50 штук</div>
+							<div class="col4 col">От 100 штук</div>
+							<div class="col5 col">От 200 штук</div>
+							<div class="col6 col">От 500 штук</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">Полноцветная<br /> одностороняя</div>
+							<div class="col2 col">$ 0,27<br /> за штуку</div>
+							<div class="col3 col">$ 0,24<br /> за штуку</div>
+							<div class="col2 col">$ 0,21<br /> за штуку</div>
+							<div class="col3 col">$ 0,19<br /> за штуку</div>
+							<div class="col2 col">$ 0,17<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">Полноцветная<br /> двухсторонняя</div>
+							<div class="col2 col">$ 0,37<br /> за штуку</div>
+							<div class="col3 col">$ 0,33<br /> за штуку</div>
+							<div class="col2 col">$ 0,30<br /> за штуку</div>
+							<div class="col3 col">$ 0,27<br /> за штуку</div>
+							<div class="col2 col">$ 0,24<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						
+					</div>
+					
+					<div class="table" id="table_kalendari">
+						<div class="headline">
+							<div class="col1 col">КАРМАННЫЕ КАЛЕНДАРИ</div>
+							<div class="col2 col">От 50 штук</div>
+							<div class="col3 col">От 100 штук</div>
+							<div class="col4 col">От 300 штук</div>
+							<div class="col5 col">От 500 штук</div>
+							<div class="col6 col">От 1000 штук</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">86х54мм, 300г/м</div>
+							<div class="col2 col">$ 0,122<br /> за штуку</div>
+							<div class="col3 col">$ 0,116<br /> за штуку</div>
+							<div class="col2 col">$ 0,109<br /> за штуку</div>
+							<div class="col3 col">$ 0,103<br /> за штуку</div>
+							<div class="col2 col">$ 0,097<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">86х54мм,<br /> глянцевая ламинация</div>
+							<div class="col2 col">$ 0,137<br /> за штуку</div>
+							<div class="col3 col">$ 0,131<br /> за штуку</div>
+							<div class="col2 col">$ 0,125<br /> за штуку</div>
+							<div class="col3 col">$ 0,119<br /> за штуку</div>
+							<div class="col2 col">$ 0,112<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">86х54мм,<br /> матовая ламинация</div>
+							<div class="col2 col">$ 0,146<br /> за штуку</div>
+							<div class="col3 col">$ 0,140<br /> за штуку</div>
+							<div class="col2 col">$ 0,134<br /> за штуку</div>
+							<div class="col3 col">$ 0,128<br /> за штуку</div>
+							<div class="col2 col">$ 0,122<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">100х70мм, 300г/м</div>
+							<div class="col2 col">$ 0,152<br /> за штуку</div>
+							<div class="col3 col">$ 0,144<br /> за штуку</div>
+							<div class="col2 col">$ 0,138<br /> за штуку</div>
+							<div class="col3 col">$ 0,131<br /> за штуку</div>
+							<div class="col2 col">$ 0,126<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">100х70мм,<br /> глянцевая ламинация</div>
+							<div class="col2 col">$ 0,171<br /> за штуку</div>
+							<div class="col3 col">$ 0,163<br /> за штуку</div>
+							<div class="col2 col">$ 0,157<br /> за штуку</div>
+							<div class="col3 col">$ 0,150<br /> за штуку</div>
+							<div class="col2 col">$ 0,145<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+						<div class="line2">
+							<div class="col1 col">100х70мм,<br /> матовая ламинация</div>
+							<div class="col2 col">$ 0,183<br /> за штуку</div>
+							<div class="col3 col">$ 0,175<br /> за штуку</div>
+							<div class="col2 col">$ 0,168<br /> за штуку</div>
+							<div class="col3 col">$ 0,162<br /> за штуку</div>
+							<div class="col2 col">$ 0,157<br /> за штуку</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="table" id="table_knigi">
+						<div class="headline">
+							<div class="col1 col">КНИГИ</div>
+							<div class="col2 col"></div>
+							<div class="col3 col"></div>
+							<div class="col4 col"></div>
+							<div class="col5 col"></div>
+							<div class="col6 col"></div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">Цены уточнять<br />по телефонам</div>
+							<div class="col2 col"><br /></div>
+							<div class="col3 col"><br /></div>
+							<div class="col2 col"><br /></div>
+							<div class="col3 col"><br /></div>
+							<div class="col2 col"><br /></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="table" id="table_oblogki">
+						<div class="headline">
+							<div class="col1 col">ОБЛОЖКИ CD/DVD</div>
+							<div class="col2 col"></div>
+							<div class="col3 col"></div>
+							<div class="col4 col"></div>
+							<div class="col5 col"></div>
+							<div class="col6 col"></div>
+						</div>
+						<div class="clear"></div>
+						<div class="line1">
+							<div class="col1 col">Цены уточнять<br />по телефонам</div>
+							<div class="col2 col"><br /></div>
+							<div class="col3 col"><br /></div>
+							<div class="col2 col"><br /></div>
+							<div class="col3 col"><br /></div>
+							<div class="col2 col"><br /></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<a href="send_message.html" class="ask_button">Задать вопрос</a>
+				</div>
+				
+				<div class="clear"></div>		 
+			</div>						 
+		</div>
+		
+		<div class="footer">
+		   <div class="nav">
+			 			<ul>
+							<li class="first">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li class="current">
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li>
+								<a href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					
+              </div>  
+		</div>
+	</div>		
+
+
+<div class="gallery display_none">
+<a href="static/images/knigi/crocodile/002.jpg" rel="lightgallery[crocodile]" title=""></a>
+<a href="static/images/knigi/crocodile/003.jpg" rel="lightgallery[crocodile]" title=""></a>
+<a href="static/images/knigi/crocodile/004.jpg" rel="lightgallery[crocodile]" title=""></a>
+<a href="static/images/knigi/duck/002.jpg" rel="lightgallery[duck]" title=""></a>
+<a href="static/images/knigi/duck/003.jpg" rel="lightgallery[duck]" title=""></a>
+<a href="static/images/knigi/duck/004.jpg" rel="lightgallery[duck]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_2.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_3.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_4.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_5.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_6.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_7.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_8.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_9.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_10.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_11.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_12.jpg" rel="lightgallery[inchgirl]" title=""></a>
+<a href="static/images/knigi/inchgirl/inch_girl_13.jpg" rel="lightgallery[inchgirl]" title=""></a>
+
+
+</div>
+</body>
+</html>

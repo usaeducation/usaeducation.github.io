@@ -1,0 +1,586 @@
+# Russian translation of imageapi (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  imageapi.module,v 1.23.2.3 2009/03/18 08:35:59 drewish
+#  imageapi.module,v 1.15.2.7 2009/03/18 10:09:02 drewish
+#  imageapi.module,v 1.23.2.4 2010/04/30 21:48:38 drewish
+#  imageapi_gd.module,v 1.13.2.7 2009/04/17 00:15:21 drewish
+#  imageapi_gd.module,v 1.8.2.7 2009/04/17 00:30:36 drewish
+#  imageapi_gd.module,v 1.13.2.9 2010/10/17 18:16:13 drewish
+#  imageapi_gd.module,v 1.9 2008/04/30 15:42:40 dopry
+#  imageapi.module,v 1.16 2008/04/30 15:42:40 dopry
+#  imageapi_gd.install,v 1.11 2010/05/20 15:26:11 drewish
+#  imageapi_gd.install,v 1.8 2008/08/01 18:52:22 dopry
+#  imageapi_gd.install,v 1.3.2.3 2008/07/23 21:11:35 dopry
+#  imageapi_gd.install,v 1.8.2.3 2010/10/17 18:09:22 drewish
+#  imageapi_gd.install,v 1.4 2008/04/30 15:42:40 dopry
+#  imageapi_gd.install,v 1.10 2009/05/02 19:44:33 drewish
+#  imageapi_gd.install,v 1.8.2.1 2009/05/02 19:45:10 drewish
+#  imageapi_imagemagick.module,v 1.25 2010/10/17 18:03:13 drewish
+#  imageapi_imagemagick.module,v 1.17.2.4 2009/04/17 17:58:03 drewish
+#  imageapi_imagemagick.module,v 1.10.2.9 2009/04/17 17:58:27 drewish
+#  imageapi_imagemagick.module,v 1.10.2.10 2009/05/29 17:49:17 drewish
+#  imageapi_imagemagick.module,v 1.17.2.7 2010/10/17 18:02:32 drewish
+#  imageapi_imagemagick.module,v 1.11 2008/04/30 15:42:40 dopry
+#  imageapi_imagemagick.module,v 1.23 2009/05/29 17:48:48 drewish
+#  imageapi_imagemagick.module,v 1.17.2.5 2009/05/29 17:48:32 drewish
+#  imageapi_imagemagick.info,v 1.5 2009/03/11 05:42:47 drewish
+#  imageapi_gd.info,v 1.6 2009/03/11 05:42:47 drewish
+#  imageapi.info,v 1.5 2009/03/11 05:42:47 drewish
+#  imageapi.info,v 1.3.2.1 2009/04/17 18:03:39 drewish
+#  imageapi.info,v 1.2.2.1 2008/07/23 21:11:35 dopry
+#  imageapi.info,v 1.3 2008/04/30 15:42:40 dopry
+#  imageapi_gd.info,v 1.4 2008/08/01 18:52:22 dopry
+#  imageapi_imagemagick.info,v 1.3 2008/08/01 18:52:22 dopry
+#  imageapi_gd.info,v 1.2 2008/02/21 11:21:05 dopry
+#  imageapi_imagemagick.info,v 1.1 2008/04/02 06:48:17 dopry
+#  imageapi_gd.info,v 1.3 2008/04/30 15:42:40 dopry
+#  imageapi_imagemagick.info,v 1.2 2008/04/30 15:42:40 dopry
+#  imageapi.install,v 1.3.2.3 2009/01/06 00:19:08 drewish
+#  imageapi.install,v 1.7 2008/12/21 23:08:39 drewish
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: imageapi (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:16+0000\n"
+"PO-Revision-Date: 2010-10-09 14:40+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: imageapi.module:167,162,162,167,168,168,168
+msgid ""
+"The selected image handling toolkit %toolkit can not correctly process "
+"%function."
+msgstr ""
+"Выбранный механизм работы с "
+"изображениями '%toolkit' не может "
+"правильно обработать '%function'."
+
+#: imageapi_gd.module:23,23,23,23,23,23,23
+msgid "JPEG quality"
+msgstr "Качество JPEG"
+
+#: imageapi.module:42,42,32,42,42
+msgid "List"
+msgstr "Список"
+
+#: imageapi.module:47,47,37,47,47
+msgid "Configure"
+msgstr "Настроить"
+
+#: imageapi_gd.install:33,13,13,33,13,25,13,25,13,33,13,34,33,13,33,13,35,13,35,35
+msgid "Not installed"
+msgstr "Не установлено"
+
+#: imageapi_gd.install:15,15,15,15,15,15,15,15,15
+msgid ""
+"The GD library for PHP is missing or outdated. Please check the <a "
+"href=\"@url\">PHP image documentation</a> for information on how to "
+"correct this."
+msgstr ""
+"Библиотека GD для PHP отсутствует или "
+"устарела. Пожалуйста, обратитесь к <a "
+"href=\"@url\">документации</a>, посвященной "
+"работе с изображениями в PHP, чтобы "
+"получить информацию об устранении "
+"этой ошибки."
+
+#: imageapi_gd.install:23,12,12,23,12,12,12,23,12,24,23,12,23,12,24,12,24,24
+msgid "GD library"
+msgstr "GD библиотека"
+
+#: imageapi_imagemagick.module:40,36,37,37,36,36,40,36,36,36
+msgid ""
+"ImageMagick is a standalone program used to manipulate images. To use "
+"it, it must be installed on your server and you need to know where it "
+"is located. If you are unsure of the exact path consult your ISP or "
+"server administrator."
+msgstr ""
+"ImageMagick является стандартной "
+"программой для обработки изображений. "
+"Для ее использования, она должна быть "
+"установлена на Ваш сервер, и Вам "
+"необходимо знать, где она расположена. "
+"Если Вы не знаете точный путь, "
+"свяжитесь с администрацией Вашего "
+"сервера."
+
+#: imageapi_imagemagick.module:44,44,45,45,44,44,44,44,44
+msgid "Path to the \"convert\" binary"
+msgstr "Путь к исполняемому файлу \"convert\""
+
+#: imageapi_imagemagick.module:47,47,48,48,47,47,47,47,47
+msgid ""
+"Specify the complete path to the ImageMagic <kbd>convert</kbd> binary. "
+"For example: <kbd>/usr/bin/convert</kbd> or <kbd>C:\\Program "
+"Files\\ImageMagick-6.3.4-Q16\\convert.exe</kbd>"
+msgstr ""
+"Определите полный путь к ImageMagick "
+"бинарному файлу <kbd>конвертации</kbd>. "
+"Например: <kbd>/usr/bin/convert</kbd> или <kbd>C:\\Program "
+"Files\\ImageMagick-6.3.4-Q16\\convert.exe</kbd>"
+
+#: imageapi_imagemagick.module:52,53,54,54,53,53,52,53,53,53
+msgid "Display debugging information"
+msgstr "Показать отладочную информацию"
+
+#: imageapi_imagemagick.module:55
+msgid ""
+"Checking this option will display the ImageMagick commands and ouput "
+"to users with the <em>administer site configuration</em> permission."
+msgstr ""
+
+#: imageapi_imagemagick.module:217,207,206,210,211,205,217,211,222,216,216,216
+msgid "ImageMagick command: @command"
+msgstr "ImageMagick команда: @command"
+
+#: imageapi_imagemagick.module:218,208,207,211,212,206,218,212,223,217,217,217
+msgid "ImageMagick output: @output"
+msgstr "ImageMagick вывод: @output"
+
+#: imageapi_imagemagick.module:222,212,211,215,216,210,222,216,230,224
+msgid "ImageMagick reported an error: %error"
+msgstr "ImageMagick сообщил об ошибке: %error"
+
+#: imageapi_gd.install:32,32,24,24,32,33,32,32,34,34,34
+msgid "GD !format Support"
+msgstr "GD !format Поддерживается"
+
+#: imageapi_imagemagick.module:38,34,35,35,34,34,38,34,34,34
+msgid "ImageMagick Binary"
+msgstr "Бинарный файл ImageMagick"
+
+#: imageapi.module:56,56,56,56
+msgid "@name"
+msgstr "@name"
+
+#: imageapi_imagemagick.info:0,0; imageapi_gd.info:0,0; imageapi.info:0,0,0,0,0,0,0,0,0; imageapi.module:32,32,32,32,22,32,32
+msgid "ImageAPI"
+msgstr "ImageAPI"
+
+#: imageapi.module:33,33,33,33,23,33,33
+msgid "Configure ImageAPI."
+msgstr "Настройка ImageAPI."
+
+#: imageapi.module:79,75,75,79,66,79,79
+msgid ""
+"There are no image toolkit modules enabled. Toolkit modules can be "
+"enabled from the <a href=\"!admin-build-modules\">module configuration "
+"page</a>."
+msgstr ""
+"Не включен ни один инструментальный "
+"модуль для изображений. "
+"Инструментальные модули могут быть "
+"включены на <a "
+"href=\"!admin-build-modules\">странице "
+"конфигурации модулей</a>."
+
+#: imageapi.module:88,84,84,88,75,88,88
+msgid ""
+"The %toolkit module is the only enabled image toolkit. Drupal will use "
+"it for resizing, cropping and other image manipulations."
+msgstr ""
+"Модуль %toolkit является единственным "
+"включенным инструментарием для "
+"обработки изображений. Drupal будет "
+"использовать его для изменения "
+"размеров, образки и других действий "
+"над изображениями."
+
+#: imageapi.module:167,411,162,406,162,406,167,411,291,313,412,168,412,168,168,412
+msgid "imageapi"
+msgstr "imageapi"
+
+#: imageapi_gd.module:24,24,24,24,24,24,24
+msgid ""
+"Define the image quality for JPEG manipulations. Ranges from 0 to 100. "
+"Higher values mean better image quality, but bigger files."
+msgstr ""
+"Определите качество изображения для "
+"действий с JPEG. Значение указывайте в "
+"диапазоне от 0 до 100. Большее значение "
+"означает лучшее качество, но больший "
+"размер файла."
+
+#: imageapi.info:0,0,0,0,0,0,0,0,0
+msgid "ImageAPI supporting multiple toolkits."
+msgstr ""
+"ImageAPI поддерживает различные "
+"инструментарии."
+
+#: imageapi.info:0,0,0,0,0,0,0,0; imageapi_gd.info:0,0,0,0,0,0,0,0; imageapi_imagemagick.info:0,0,0,0,0,0,0,0
+msgid "ImageCache"
+msgstr "ImageCache"
+
+#: imageapi_gd.info:0,0,0,0,0,0,0,0,0
+msgid "ImageAPI GD2"
+msgstr "ImageAPI GD2"
+
+#: imageapi_gd.info:0,0,0,0,0,0,0,0
+msgid "Uses PHP's built-in GD2 image processing support."
+msgstr ""
+"Использует встроенную в PHP поддержку "
+"обработки изображений GD2."
+
+#: imageapi.module:291
+msgid "ImageAPI failed to open %file with %toolkit"
+msgstr ""
+"ImageAPI не удалось открыть %file с помощью "
+"%toolkit"
+
+#: imageapi_imagemagick.module:27,23,24,24,23,23,27,23,23,23
+msgid "Compression Quality"
+msgstr "Качество Сжатия"
+
+#: imageapi_imagemagick.module:24
+msgid ""
+"Ranges from 1 to 100. Higher values mean better image quality, but "
+"bigger files."
+msgstr ""
+"Диапазоны от 1 до 100. Более высокое "
+"значение означают лучшее качество "
+"изображения, но большие размеры файла"
+
+#: imageapi_imagemagick.module:95
+msgid "Compression Quality must be a value between 1 and 100."
+msgstr ""
+"Качество сжатия должно быть указано в "
+"диапазоне от 1 до 100."
+
+#: imageapi.module:98,94,94,98,85,98,98
+msgid "Select a default image processing toolkit"
+msgstr ""
+"Выберите набор инструментов "
+"обработки изображений по умолчанию"
+
+#: imageapi.module:101,97,97,101,88,101,101
+msgid ""
+"This setting lets you choose which toolkit Drupal uses resizing, "
+"cropping and other image manipulations."
+msgstr ""
+"Позволяет Вам выбирать, какой набор "
+"инструментов Друпал использует для "
+"изменение размеров, подрезания, а "
+"также для других манипуляций с "
+"изображениями."
+
+#: imageapi.install:36,43,36,43
+msgid "ImageAPI PHP"
+msgstr "ImageAPI PHP"
+
+#: imageapi.install:44,44
+msgid "ImageAPI requires at least PHP %version."
+msgstr ""
+"Для ImageAPI требуется версия PHP версия не "
+"менее %version."
+
+#: imageapi.module:313
+msgid "Could not set permissons on destination file: %file"
+msgstr ""
+"Невозможно установить права на файл "
+"назначения: %file"
+
+#: imageapi_imagemagick.module:169,163,162,162,163,161,169,163,163,163
+msgid "The specified ImageMagick path %file does not exist."
+msgstr ""
+"Определенный ImageMagick путь %file не "
+"существует."
+
+#: imageapi_imagemagick.info:0,0,0,0,0,0,0,0,0
+msgid "ImageAPI ImageMagick"
+msgstr "ImageAPI ImageMagick"
+
+#: imageapi_imagemagick.info:0,0,0,0,0,0,0,0,0
+msgid "Command Line ImageMagick support."
+msgstr "Поддержка коммандной строки ImageMagick."
+
+#: imageapi_imagemagick.module:75,74,73,73,74,74,75,74,74,74
+msgid "Version information"
+msgstr "Информация о версии"
+
+#: imageapi_imagemagick.module:77,76,75,75,76,76,77,76,76,76
+msgid ""
+"The ImageMagick <kbd>convert</kbd> binary was located and return this "
+"version information."
+msgstr ""
+"Бинарный файл <kbd>convert</kbd> библиотеки "
+"ImageMagick был обнаружен и вернул данную "
+"информацию о версии."
+
+#: imageapi_imagemagick.module:172,166,165,165,166,164,172,166,166,166
+msgid "The specified ImageMagick path %file is not executable."
+msgstr ""
+"Определенный ImageMagick файл %file не "
+"является исполнимым."
+
+#: imageapi_imagemagick.module:183,177,176,176,177,183,177,177,177
+msgid "imageapi imagemagick"
+msgstr "imageapi imagemagick"
+
+#: imageapi.install:23,25,25,23,23,23
+msgid "ImageAPI Toolkit"
+msgstr "Инструментарий ImageAPI"
+
+#: imageapi_gd.install:38,38
+msgid "ImageCache PHP Memory Limit"
+msgstr "ImageCache Лимит Памяти для PHP"
+
+#: imageapi_gd.install:35,35,27,27,35,36,35,35,37,37,37
+msgid "PHP GD was not compiled with %format support."
+msgstr ""
+"PHP GD не был скомпилирован с поддержкой "
+"формата %format."
+
+#: imageapi_gd.install:44,44,50,50,44,46,44,44,46,46,46
+msgid "GD Image Rotation"
+msgstr "GD Вращение Изображения"
+
+#: imageapi_gd.install:54,45,45,54,51,63,51,63,45,54,47,55,54,45,54,45,47,56,47,56,47,56
+msgid "Low Quality / Poor Performance"
+msgstr ""
+"Низкое качество / Плохая "
+"производительность"
+
+#: imageapi_gd.install:47,47,53,53,47,49,47,47
+msgid ""
+"The installed version of PHP GD does not support image rotations. It "
+"was probably compiled using the official GD libraries from "
+"http://www.libgd.org instead of the GD library bundled with PHP. You "
+"should recompile PHP --with-gd using the bundled GD library. See: "
+"@url. An implementation of imagerotate in PHP will used in the "
+"interim."
+msgstr ""
+"Установленная версия PHP GD не "
+"поддерживает вращение изображений. "
+"Возможно она была скомпилирована с "
+"использованием официальной "
+"библиотеки GD с сайта http://www.libgd.org, а не "
+"библиотеки GD, идущей в комплекте с PHP. "
+"Вы должны перекомпилировать PHP с "
+"параметром --with-gd, использовав таким "
+"образом встроенную библиотеку GD. "
+"Подробнее: @url. Использование функции "
+"imagerotate в PHP является временным "
+"решением"
+
+#: imageapi_gd.install:53,53,62,62,53,54,53,53,55,55,55
+msgid "GD Image Filtering"
+msgstr "GD Фильтрование Изображений"
+
+#: imageapi_gd.install:57
+msgid ""
+"The installed version of PHP GD does not support image "
+"filtering(desaturate, blur, negate, etc). It was probably compiled "
+"using the official GD libraries from http://www.libgd.org instead of "
+"the GD library bundled with PHP. You should recompile PHP --with-gd "
+"using the bundled GD library. See @url. An implementation of "
+"imagefilter in PHP will used in the interim."
+msgstr ""
+
+#: imageapi_imagemagick.module:167
+msgid ""
+"PHP's <a href=\"!open-basedir\">open_basedir</a> security resriction "
+"is set to %open-basedir, which may be interfering with attempts to "
+"locate ImageMagick."
+msgstr ""
+
+#: imageapi.install:37,37
+msgid ""
+"ImageAPI recommends at least PHP %version. Older versions of PHP are "
+"not supported but may function."
+msgstr ""
+"ImageAPI рекомендует версию PHP не менее "
+"%version. Более старые версии PHP не "
+"поддерживаются, но могут работать."
+
+#: imageapi_imagemagick.module:54,55,56,56,55,54,55,55,55
+msgid ""
+"Checking this option will display the ImageMagick commands and output "
+"to users with the <em>administer site configuration</em> permission."
+msgstr ""
+"Выбор данной опции будет отображать "
+"команды ImageMagick и выводить их "
+"пользователям с правом доступа "
+"<em>управление настройками сайта</em>."
+
+#: imageapi_imagemagick.module:169,168,168,169,169,169,169
+msgid ""
+"PHP's <a href=\"!open-basedir\">open_basedir</a> security restriction "
+"is set to %open-basedir, which may be interfering with attempts to "
+"locate ImageMagick."
+msgstr ""
+"Параметр конфигурации параметров "
+"безопасности PHP <a "
+"href=\"!open-basedir\">open_basedir</a> установлен в "
+"%open-basedir, что может помешать найти "
+"исполняемые файлы ImageMagick."
+
+#: imageapi_gd.install:56,56,65,65,56,56,56
+msgid ""
+"The installed version of PHP GD does not support image "
+"filtering(desaturate, blur, negate, etc). It was probably compiled "
+"using the official GD libraries from http://www.libgd.org instead of "
+"the GD library bundled with PHP. You should recompile PHP --with-gd "
+"using the bundled GD library. See @url. An implementation of "
+"imagefilter in PHP will be used in the interim."
+msgstr ""
+"Установленная версия PHP GD не "
+"поддерживает фильтры изображений "
+"(обесцвечивание, размытие, негатив и "
+"т.д.). Возможно она была скомпилирована "
+"с использованием официальной "
+"библиотеки GD с сайта http://www.libgd.org, а не "
+"библиотеки GD, идущей в комплекте с PHP. "
+"Вы должны перекомпилировать PHP с "
+"параметром --with-gd, использовав таким "
+"образом встроенную библиотеку GD. "
+"Подробнее: @url. Использование функции "
+"imagefilter в PHP является временным "
+"решением"
+
+#: imageapi.module:65,65,65,65
+msgid "ImageAPI toolkit missing settings form"
+msgstr "Не найдена форма настроек ImageAPI"
+
+#: imageapi.module:23,23,23,23
+msgid "administer imageapi"
+msgstr "управление imageapi"
+
+#: imageapi_gd.install:41,41
+msgid ""
+"It is highly recommended that you set you PHP memory_limit to 96M to "
+"use imageapi_gd. A 1600x1200 images consumes ~45M of memory when "
+"decompressed and ImageAPI is often operating on two decompressed "
+"images at once."
+msgstr ""
+
+#: imageapi.install:24,26,26,24,24,24
+msgid "No ImageAPI toolkits available"
+msgstr ""
+"Нет доступных инструментариев для "
+"ImageAPI (например GD2 или ImageMagick)"
+
+#: imageapi.install:28,28
+msgid ""
+"ImageAPI requires a Toolkit such as ImageAPI GD or ImageAPI "
+"ImageMagick to function. Goto !modules and enable one of them."
+msgstr ""
+"Для работы ImageAPI необходимы модули, "
+"такие как ImageAPI GD или ImageAPI ImageMagick. "
+"Перейдите в раздел !modules и активируйте "
+"один из них."
+
+#: imageapi_gd.install:67,64,67,67,67,69,69,69
+msgid "ImageAPI GD Memory Limit"
+msgstr "ImageAPI GD лимит памяти"
+
+#: imageapi_gd.install:70,67,70,70,70,72,72,72
+msgid ""
+"It is highly recommended that you set you PHP memory_limit to 96M to "
+"use ImageAPI GD. A 1600x1200 images consumes ~45M of memory when "
+"decompressed and there are instances where ImageAPI GD is operating on "
+"two decompressed images at once."
+msgstr ""
+"Настоятельно рекомендуем вам "
+"установить PHP memory_limit 96М для "
+"использования ImageAPI GD. 1600x1200 "
+"изображения потребляет ~ 45M памяти при "
+"распаковке и есть случаи, когда ImageAPI GD "
+"работает с двумя распакованными "
+"изображениями одновременно."
+
+#: imageapi_imagemagick.module:183,177,177,183,177,177,177
+msgid "!errors"
+msgstr "!errors"
+
+#: imageapi.install:26,26,26,26
+msgid ""
+"ImageAPI requires a Toolkit such as ImageAPI GD or ImageAPI "
+"ImageMagick to function. Go to !modules and enable one of them."
+msgstr ""
+"ImageAPI требует для своей работы набор "
+"инструментов для работы с "
+"изображениями, такие как ImageAPI GD или "
+"ImageAPI ImageMagick. Перейдите на страницу "
+"!modules и включите один из них."
+
+#: imageapi_imagemagick.module:28,24,25,25,24,28,24,24,24
+msgid ""
+"Ranges from 0 to 100. Higher values mean better image quality, but "
+"bigger files."
+msgstr ""
+"Диапазоны от 0 до 100. Большее значение "
+"означает лучшее качество изображения, "
+"но увеличивает размер файла"
+
+#: imageapi_imagemagick.module:96,95,94,94,95,96,95,95,95
+msgid "Compression Quality must be a value between 0 and 100."
+msgstr ""
+"Качество сжатия должно быть между 0 и "
+"100."
+
+#: imageapi.module:411,406,406,411,412,412,412
+msgid "Could not set permissions on destination file: %file"
+msgstr ""
+"Не удается установить разрешение "
+"конечного файла: %file"
+
+#: imageapi_imagemagick.module:15,15
+msgid "ImageMagick toolkit"
+msgstr "ImageMagick инструментарий"
+
+#: imageapi_imagemagick.module:175,175
+msgid ""
+"PHP's <a href='!open-basedir'>open_basedir</a> security restriction is "
+"set to %open-basedir, which may be interfering with attempts to locate "
+"ImageMagick."
+msgstr ""
+
+#: imageapi_gd.info:0,0
+msgid ""
+"Provides additional operations for PHP's built-in GD2 image processing "
+"support."
+msgstr ""
+"Предоставляет дополнительные "
+"операции для встроенной  в PHP "
+"поддержки GD2 обработки изображений."
+
+#: imageapi_gd.install:47,47,49,49,49
+msgid ""
+"The installed version of PHP GD does not support image rotations. It "
+"was probably compiled using the official GD libraries from <a "
+"href=\"http://www.libgd.org\">http://www.libgd.org</a> instead of the "
+"GD library bundled with PHP. You should recompile PHP --with-gd using "
+"the bundled GD library. See <a "
+"href=\"http://www.php.net/manual/en/image.setup.php\">PHP Manual</a> "
+"for more information. A slower implementation of imagerotate() written "
+"in PHP will used in the interim."
+msgstr ""
+
+#: imageapi_gd.install:56,56,58,58,58
+msgid ""
+"The installed version of PHP GD does not support image "
+"filtering(desaturate, blur, negate, etc). It was probably compiled "
+"using the official GD libraries from <a "
+"href=\"http://www.libgd.org\">http://www.libgd.org</a> instead of the "
+"GD library bundled with PHP. You should recompile PHP --with-gd using "
+"the bundled GD library. See <a "
+"href=\"http://www.php.net/manual/en/image.setup.php\">PHP Manual</a> "
+"for more information. A slower implementation of imagefilter() written "
+"in PHP will be used in the interim."
+msgstr ""
+
+#: imageapi_imagemagick.module:233,227,227,227
+msgid "ImageMagick reported error code !code."
+msgstr ""
+
+#: imageapi_imagemagick.module:237,231,231,231
+msgid ""
+"ImageMagick reported error code !code.\n"
+"Message:\n"
+"!error"
+msgstr ""
+

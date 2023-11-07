@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Union</title>
+	<link rel="stylesheet" href="static/css/coin-slider-styles.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+	<link rel="SHORTCUT ICON" href="favicon.ico"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="static/js/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="static/js/coin-slider.min.js"></script>
+	<script type="text/javascript" src="static/js/menu-lights.js"></script>
+</head>
+
+<body class="index">
+
+ 
+	<div class="center">
+		<div class="header">
+			<a href="index.html"><img class="logo" alt="logo" src="static/images/logo.png" /></a>
+			 <div class="nav">
+			 	<div class="clear"></div>
+					 <div class="nav_right">
+						<ul>
+							<li class="first  current" id="nav1">
+								<a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</li>
+							<li id="nav2" onmouseover="light_on('nav2');" onmouseout="light_off('nav2');">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li id="nav3" onmouseover="light_on('nav3');" onmouseout="light_off('nav3');">
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li id="nav4" onmouseover="light_on('nav4');" onmouseout="light_off('nav4');">
+								<a href="contacts.html">Контакты</a>
+							</li>
+							<li class="last">
+								<form action="">
+								<input onblur="if(this.value == '') { this.value='Поиск по сайту...'}" onfocus="if (this.value == 'Поиск по сайту...') {this.value=''}" class="search" type="text" value="Поиск по сайту..." />
+								<input class="search_button" type="submit" value="" />
+								</form>
+							</li>
+						</ul>
+					</div> 
+              </div> 
+		</div>
+		<div class="mainbody">
+			
+			<div class="mainbody_top">
+				<div class="shadow">
+						<div id='coin-slider'>
+							<a href="static/pic-slider/img01.jpg" target="_blank">
+								<img src='static/pic-slider/img01.jpg' >
+								<span>
+									Мы проводим запись аудио-книг; постановку радиоспектаклей любой сложности, с любым количеством актеров. Осуществляем звуковое, шумовое и музыкальное оформление (саунд-дизайн) игр, фильмов, любых видов анимации
+								</span>
+							</a>
+						   <a href="static/pic-slider/img02.jpg" target="_blank">
+								<img src='static/pic-slider/img02.jpg' >
+								<span>
+									Description for img02
+								</span>
+							</a>
+							 <a href="static/pic-slider/img03.jpg" target="_blank">
+								<img src='static/pic-slider/img03.jpg' >
+								<span>
+									Description for img03
+								</span>
+							</a>
+							 <a href="static/pic-slider/img04.jpg" target="_blank">
+								<img src='static/pic-slider/img04.jpg' >
+								<span>
+									Description for img04
+								</span>
+							</a>
+						</div>
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$('#coin-slider').coinslider({ width: 695, height: 315, navigation: true, opacity: 0.7, delay: 4000, hoverPause: true,	sDelay: 50, effect: 'straight' });
+							});
+						</script>	
+					<div class="clear"></div> 
+				</div>
+			</div>
+			
+			<div class="mainbody_bottom">
+				<div class="left">
+					<h2>УСЛУГИ ЗВУКОЗАПИСИ</h2>
+					<p>Мы занимаемся звукозаписью, созданием всевозможных рекламных роликов, озвучиванием и комплексным переводом видеофильмов и презентаций.</p>
+					<p>Немалую часть в деятельности нашей компании занимает работа с IVR, всевозможными звуковыми семплами для систем автоинформирования. У нас имеется наработанная годами база голосов дикторов, которые  Вы можете прослушать и выбрать для озвучивания Ваших фильмов,  роликов или презентаций.</p>
+					<p>Не стоит забываать про музыкальную часть нашей деятельности.</p>
+					<p>На данный момент на нашей студии записано множество музыкальных альбомов и синглов.</p>
+					<p>Мы всегда открыты для взаимовыгодно сотрудничества!</p>  
+					<a href="send_message.html" class="ask_button">Задать вопрос</a>
+				</div>
+				<div class="right">
+					<h2>УСЛУГИ ТИПОГРАФИИ</h2>
+					<p>Типография «Union» предлагает вам полный спектр полиграфических услуг: печать открыток, календарей, афиш, нанесение логотипов и изображений, оперативная полиграфия. Кроме того, наша типография изготовит фирменные сувениры с логотипом Вашей фирмы. </p>
+					<p>В распоряжении нашей типографии самое современное оборудование для изготовления полиграфии, опытные специалисты и, конечно, только качественные расходные материалы. Благодаря использованию новых современных систем управления и модернизации производственной базы, внедрению эффективных средств автоматизации процесса печати и контроля, наша типография стабильно удерживает лидирующие позиции на рынке полиграфии Беларуси. Но главный секрет успеха – это индивидуальная работа с каждым клиентом. </p>
+					<a href="send_message.html" class="ask_button">Задать вопрос</a>
+				</div>
+				<div class="clear"></div>		 
+			</div>						 
+		</div>
+		
+		<div class="footer">
+		   <div class="nav">
+			 			<ul>
+							<li class="first">
+								<a href="sound.html">Звукозапись</a>
+							</li>
+							<li>
+								<a href="print.html">Полиграфия</a>
+							</li>
+							<li>
+								<a href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+					
+              </div>  
+		</div>
+	</div>		
+
+</body>
+</html>

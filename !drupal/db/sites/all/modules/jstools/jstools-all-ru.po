@@ -1,0 +1,835 @@
+# Russian translation of jstools (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  system.inc,v 1.1 2007/01/26 22:15:18 nedjo
+#  activesearch.module,v 1.1.2.10 2008/04/14 15:26:44 nedjo
+#  activesearch.module,v 1.1.2.9 2008/03/29 13:37:28 nedjo
+#  activesearch.module,v 1.1.2.11 2008/11/07 01:04:51 nedjo
+#  taxonomy.inc,v 1.2 2007/01/26 22:17:49 nedjo
+#  node.inc,v 1.1 2007/01/26 22:15:18 nedjo
+#  comment.inc,v 1.2 2007/01/26 23:09:29 nedjo
+#  user.inc,v 1.1.2.5 2008/03/29 13:37:27 nedjo
+#  jstools/tabs/docs/tabsexample.module: n/a
+#  dynamicload.module,v 1.17.2.10 2008/11/07 01:04:51 nedjo
+#  collapsiblock.module,v 1.9.2.8 2008/04/14 16:10:32 nedjo
+#  collapsiblock.module,v 1.9.2.7 2008/03/29 13:37:28 nedjo
+#  jstools.info,v 1.5.2.1 2008/08/17 21:40:51 sun
+#  tabs.module,v 1.9.2.15 2008/03/29 13:37:28 nedjo
+#  tabs.module,v 1.9.2.18 2008/11/07 01:04:51 nedjo
+#  jstools.info,v 1.2.2.3 2007/08/08 21:26:07 nedjo
+#  jstools.info,v 1.5 2008/04/03 18:00:04 nedjo
+#  tabs.info,v 1.1.2.4 2008/03/29 13:37:28 nedjo
+#  jstools/jscalendar/jscalendar.info: n/a
+#  collapsiblock.info,v 1.1.2.5 2008/04/14 16:10:32 nedjo
+#  ajaxsubmit.info,v 1.1.2.6 2008/04/14 16:10:31 nedjo
+#  activesearch.info,v 1.1.2.4 2008/03/29 13:37:28 nedjo
+#  activemenu.info,v 1.1.2.5 2008/04/14 16:10:31 nedjo
+#  activeedit.info,v 1.1.2.5 2008/04/14 16:10:31 nedjo
+#  activeedit.info,v 1.1.2.4 2008/03/29 13:37:27 nedjo
+#  activemenu.info,v 1.1.2.4 2008/03/29 13:37:27 nedjo
+#  ajaxsubmit.info,v 1.1.2.5 2008/03/29 13:37:28 nedjo
+#  collapsiblock.info,v 1.1.2.4 2008/03/29 13:37:28 nedjo
+#  activeedit_theme_assist.info,v 1.2 2007/06/18 22:53:46 dww
+#  dynamicload.info,v 1.2.2.4 2008/03/29 13:37:28 nedjo
+#  tabsexample.info,v 1.2 2007/06/18 22:53:47 dww
+#  activeedit.module,v 1.4.2.5 2008/04/14 16:10:31 nedjo
+#  activeedit.module,v 1.4.2.4 2008/03/29 13:37:27 nedjo
+#  activemenu.module,v 1.8.2.13 2008/04/14 16:10:31 nedjo
+#  activemenu.module,v 1.8.2.12 2008/03/29 13:37:27 nedjo
+#  ajaxsubmit.module,v 1.10.2.5 2008/04/14 16:10:31 nedjo
+#  ajaxsubmit.module,v 1.10.2.4 2008/03/29 13:37:28 nedjo
+#  jscalendar.module,v 1.14.2.5 2008/03/29 13:37:28 nedjo
+#  jscalendar.module,v 1.14.2.7 2008/06/19 22:35:37 nedjo
+#  jstools.module,v 1.14 2008/04/03 18:01:02 nedjo
+#  jstools.module,v 1.7.2.7 2007/08/08 21:26:07 nedjo
+#  jstools.module,v 1.7.2.8 2008/06/19 21:30:25 nedjo
+#  book.inc,v 1.1.2.6 2008/03/29 13:37:28 nedjo
+#  activeedit_theme_assist.module,v 1.1 2007/05/14 23:18:28 nedjo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: jstools (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:17+0000\n"
+"PO-Revision-Date: 2010-07-12 13:12+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: activeedit/modules/system.inc:11,11,11,11
+msgid "Save configuration"
+msgstr "Сохранить конфигурацию"
+
+#: activesearch/activesearch.module:68,66,68,68,75,75,68,66,68,68,75,75
+msgid "none"
+msgstr "нет"
+
+#: activeedit/modules/taxonomy.inc:13,13,13,13; activeedit/modules/node.inc:159,122,109,109,122,159,109,122,159,109,122,159
+msgid "Submit"
+msgstr "Отправить"
+
+#: activeedit/modules/comment.inc:102,102,102,102
+msgid "Add new comment"
+msgstr "Добавить комментарий"
+
+#: activeedit/modules/comment.inc:115,104,68,55,55,68,104,115,55,68,104,115,55,68,104,115
+msgid "Post comment"
+msgstr "Отправить комментарий"
+
+#: activesearch/activesearch.module:73,71,73,73,80,80
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: activeedit/modules/system.inc:92,89,89,92,89,92,89,92
+msgid "Home"
+msgstr "Главная"
+
+#: activeedit/modules/user.inc:9,9,9,9
+msgid "Create new account"
+msgstr "Регистрация"
+
+#: activeedit/modules/system.inc:69,69,69,69
+msgid "footer"
+msgstr "подвал"
+
+#: activesearch/activesearch.module:221,219,221,221,230,230
+msgid "All"
+msgstr "Все"
+
+#: tabs/docs/tabsexample.module:33,46,33,46
+msgid "One"
+msgstr "Один"
+
+#: dynamicload/dynamicload.module:113,120
+msgid "Paths"
+msgstr "Пути"
+
+#: collapsiblock/collapsiblock.module:72,37,37,72,37,72,37,72
+msgid "None."
+msgstr "Нет."
+
+#: jstools.info:0
+msgid "User interface"
+msgstr "Интерфейс пользователя"
+
+#: activesearch/activesearch.module:68,66,68,68,75,75
+msgid "categories"
+msgstr "категории"
+
+#: tabs/tabs.module:67,60,46,39,39,46,60,67,39,46,60,67,53,74,39,46,53,67,74; activesearch/activesearch.module:69,69; dynamicload/dynamicload.module:102
+msgid "disabled"
+msgstr "отключено"
+
+#: tabs/tabs.module:67,60,46,39,39,46,60,67,39,46,60,67,53,74,39,46,53,67,74; activesearch/activesearch.module:69,69; dynamicload/dynamicload.module:102
+msgid "enabled"
+msgstr "включено"
+
+#: activesearch/activesearch.module:68,66,68,68,75,75
+msgid "content types"
+msgstr "типы содержимого"
+
+#: tabs/tabs.module:164,164,73,176,73,176,80,185,80,185
+msgid "next"
+msgstr "вперед"
+
+#: activeedit/modules/comment.inc:113,113,113,113
+msgid "reply"
+msgstr "ответить"
+
+#: activeedit/modules/comment.inc:100,66,66,100,66,100,66,100
+msgid "comment"
+msgstr "комментарий"
+
+#: activeedit/modules/user.inc:7,7,7,7
+msgid "users"
+msgstr "пользователи"
+
+#: jstools.info:0,0,0,0
+msgid "Provides common methods used by Javascript Tools modules."
+msgstr ""
+
+#: jstools.info:0,0,0,0,0,0; tabs/tabs.info:0,0,0,0; jscalendar/jscalendar.info:0,0,0,0; collapsiblock/collapsiblock.info:0,0,0,0; ajaxsubmit/ajaxsubmit.info:0,0,0,0; activesearch/activesearch.info:0,0,0,0; activemenu/activemenu.info:0,0,0,0; activeedit/activeedit.info:0,0,0,0; activeedit/activeedit_theme_assist/activeedit_theme_assist.info:0,0; dynamicload/dynamicload.info:0; tabs/docs/tabsexample.info:0,0
+msgid "Javascript tools"
+msgstr "Javascript утилиты"
+
+#: activeedit/activeedit.module:0,0,0,0
+msgid "activeedit"
+msgstr ""
+
+#: activeedit/activeedit.info:0,0,0,0
+msgid "Provides AJAX-based in place editing."
+msgstr ""
+
+#: activeedit/modules/comment.inc:111,111,111,111
+msgid "comment reply"
+msgstr "ответ комментария"
+
+#: activeedit/modules/node.inc:120,120,120,120
+msgid "post body"
+msgstr "текст сообщения"
+
+#: activeedit/modules/node.inc:158,158,158,158
+msgid "publishing options"
+msgstr ""
+
+#: activeedit/modules/system.inc:13,13,13,13
+msgid "logo file"
+msgstr ""
+
+#: activeedit/modules/system.inc:27,27,27,27
+msgid "site name"
+msgstr "название сайта"
+
+#: activeedit/modules/system.inc:41,41,41,41
+msgid "site slogan"
+msgstr "слоган сайта"
+
+#: activeedit/modules/system.inc:55,55,55,55
+msgid "site mission"
+msgstr "миссия сайта"
+
+#: activemenu/activemenu.module:0,20,20,0,20,0,20,0
+msgid "activemenu"
+msgstr ""
+
+#: activemenu/activemenu.info:0,0,0,0
+msgid "Adds AJAX-based tree menu to navigation menu."
+msgstr ""
+
+#: activesearch/activesearch.module:13,13,13,13
+msgid "Configuration for active searching"
+msgstr ""
+
+#: tabs/tabs.info:0,0,0,0; tabs/tabs.module:17,17,17,17; activesearch/activesearch.module:66,64,66,66,73,73
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: activesearch/activesearch.module:69,67,69,69,76,76
+msgid "Select the types of tabs you would like for displaying search results."
+msgstr ""
+
+#: activesearch/activesearch.module:76,74,76,76,83,83
+msgid ""
+"If you wish to present ajax search results by content type, select the "
+"content types to use here."
+msgstr ""
+
+#: activesearch/activesearch.module:153,151,153,153,160,160
+msgid "No matches found."
+msgstr "Соответствий не найдено."
+
+#: activesearch/activesearch.module:40,40,40,40
+msgid "search via ajax"
+msgstr "найти через ajax"
+
+#: activesearch/activesearch.module:0,0,0,0
+msgid "activesearch"
+msgstr ""
+
+#: activesearch/activesearch.info:0,0,0,0
+msgid "Adds AJAX to standard Drupal search."
+msgstr "Добавляет AJAX в стандартный поиск Drupal."
+
+#: ajaxsubmit/ajaxsubmit.module:94,94,94,94
+msgid "Configuration for AJAX submit"
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.module:0,100,100,0,100,0,100,0
+msgid "ajaxsubmit"
+msgstr "ajaxsubmit"
+
+#: ajaxsubmit/ajaxsubmit.module:107,107,107,107
+msgid "ajaxsubmit progress"
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.module:128,128,128,128
+msgid "Forms"
+msgstr "Формы"
+
+#: ajaxsubmit/ajaxsubmit.module:129,129,129,129
+msgid "Select the forms to apply the AJAX Submit behavior to."
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.module:175,175,175,175
+msgid "Submit complete"
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.module:175,175,175,175
+msgid "Submit in progress"
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.info:0,0,0,0
+msgid "Makes designated forms submit via AJAX."
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:18,18,18,18
+msgid "Configuration for collapsible blocks"
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:36,36,36,36
+msgid "Default block collapse behavior"
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:72,37,37,72,37,72,37,72
+msgid "Collapsible, expanded by default."
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:72,37,37,72,37,72,37,72
+msgid "Collapsible, collapsed by default."
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:65,65,65,65
+msgid "Collapsible"
+msgstr "Сворачиваемая"
+
+#: collapsiblock/collapsiblock.module:71,71,71,71
+msgid "Block collapse behavior"
+msgstr ""
+
+#: collapsiblock/collapsiblock.module:0,0,0,0
+msgid "collapsiblock"
+msgstr ""
+
+#: collapsiblock/collapsiblock.info:0,0,0,0
+msgid "Makes blocks collapsible."
+msgstr ""
+
+#: jscalendar/jscalendar.module:31,31,31,31
+msgid "Configurations for the popup calendar"
+msgstr ""
+"Конфигурации для всплывающего "
+"календаря"
+
+#: jscalendar/jscalendar.module:77,77,78,78,78
+msgid "JSCalendar style"
+msgstr ""
+
+#: jscalendar/jscalendar.module:78,78,79,79,79
+msgid "Choose the JSCalendar style."
+msgstr ""
+
+#: jscalendar/jscalendar.module:0,0,0,0
+msgid "jscalendar"
+msgstr ""
+
+#: jscalendar/jscalendar.info:0,0,0,0
+msgid ""
+"Enables popup calendars for selecting dates using the jscalendar "
+"library."
+msgstr ""
+
+#: tabs/tabs.module:18,18,18,18
+msgid "Configuration for tabs"
+msgstr "Конфигурирование вкладок"
+
+#: tabs/tabs.module:36,36,36,43,43
+msgid "Slide effect"
+msgstr "Слайд-эффект"
+
+#: tabs/tabs.module:37,37,37,44,44
+msgid "Apply slide effect when changing tabs."
+msgstr ""
+"Применить слайд-эффект при смене "
+"вкладок."
+
+#: tabs/tabs.module:43,43,43,50,50
+msgid "Fade effect"
+msgstr "Эффект затемнения"
+
+#: tabs/tabs.module:44,44,44,51,51
+msgid "Apply fade effect when changing tabs."
+msgstr ""
+"Применить эффект затемнения при смене "
+"вкладок."
+
+#: tabs/tabs.module:50,50,50,57,57
+msgid "Effect speed"
+msgstr "Скорость эффекта"
+
+#: tabs/tabs.module:51,51,51,58,58
+msgid "Speed at which to apply effects."
+msgstr ""
+"Скорость, при которой применяются "
+"эффекты."
+
+#: tabs/tabs.module:53,53,53,60,60
+msgid "slow"
+msgstr "медленно"
+
+#: tabs/tabs.module:53,53,53,60,60
+msgid "fast"
+msgstr "быстро"
+
+#: tabs/tabs.module:57,57,57,64,64
+msgid "Fixed height"
+msgstr ""
+
+#: tabs/tabs.module:58,58,58,65,65
+msgid ""
+"Set all tabs to have the height of the tallest tab. If not enabled, "
+"content will adjust to fit when tabs are changed. Note: fixed height "
+"is not fully compatible with slide and fade effects."
+msgstr ""
+
+#: tabs/tabs.module:0,0,0,0
+msgid "tabs"
+msgstr "вкладки"
+
+#: tabs/tabs.info:0,0,0,0
+msgid "A helper module for creating tabbed pages."
+msgstr ""
+"Модуль-помощник для создания страниц "
+"со вкладками."
+
+#: jstools.info:0,0,0
+msgid "User Interface"
+msgstr "Интерфейс пользователя"
+
+#: jstools.module:0,0,0,0,0,0
+msgid "jstools"
+msgstr ""
+
+#: activeedit/activeedit.module:8,8,8,8
+msgid "edit via ajax"
+msgstr "редактировать через ajax"
+
+#: activeedit/activeedit.info:0,0,0,0
+msgid "Activeedit"
+msgstr ""
+
+#: activeedit/modules/comment.inc:53,53,53,53
+msgid "comment subject"
+msgstr "тема комментария"
+
+#: activeedit/modules/node.inc:107,107,107,107
+msgid "post title"
+msgstr "название сообщения"
+
+#: activeedit/modules/taxonomy.inc:11,11,11,11
+msgid "post categories"
+msgstr "категории сообщений"
+
+#: activemenu/activemenu.info:0,0,0,0
+msgid "Activemenu"
+msgstr ""
+
+#: activemenu/modules/book.inc:24,24,24,24
+msgid "activemenu book"
+msgstr ""
+
+#: activesearch/activesearch.module:12,12,12,12
+msgid "Active search"
+msgstr ""
+
+#: activesearch/activesearch.info:0,0,0,0
+msgid "Active Search"
+msgstr ""
+
+#: ajaxsubmit/ajaxsubmit.info:0,0,0,0; ajaxsubmit/ajaxsubmit.module:93,93,93,93
+msgid "AJAX submit"
+msgstr ""
+
+#: collapsiblock/collapsiblock.info:0,0,0,0; collapsiblock/collapsiblock.module:17,17,17,17
+msgid "Collapsiblock"
+msgstr ""
+
+#: jscalendar/jscalendar.info:0,0,0,0; jscalendar/jscalendar.module:30,30,30,30
+msgid "JS Calendar"
+msgstr ""
+
+#: tabs/tabs.module:164,164,79,176,79,176,86,185,86,185
+msgid "previous"
+msgstr "предыдущая"
+
+#: dynamicload/dynamicload.module:402,409
+msgid "Access denied."
+msgstr "В доступе отказано."
+
+#: tabs/tabs.module:64,64,64,71,71
+msgid "Navigation buttons"
+msgstr "Кнопки навигации"
+
+#: tabs/tabs.module:65,65,65,72,72
+msgid ""
+"Enable to add \"next\" and \"previous\" buttons to the bottom of all "
+"tab sets."
+msgstr ""
+"Добавить кнопки \"следующая\" и "
+"\"предыдущая\" в нижнюю часть всех "
+"наборов вкладок."
+
+#: tabs/docs/tabsexample.module:12,12
+msgid "tabs example"
+msgstr "пример вкладок"
+
+#: tabs/docs/tabsexample.module:34,47,34,47
+msgid "First tab content."
+msgstr "Содержимое первой вкладки."
+
+#: tabs/docs/tabsexample.module:38,51,38,51
+msgid "Two"
+msgstr "Два"
+
+#: tabs/docs/tabsexample.module:39,52,39,52
+msgid "Second tab content."
+msgstr "Содержимое второй вкладки."
+
+#: tabs/docs/tabsexample.module:56,56
+msgid "Three"
+msgstr "Три"
+
+#: tabs/docs/tabsexample.module:57,57
+msgid "Third tab content."
+msgstr "Содержимое третьей вкладки."
+
+#: tabs/docs/tabsexample.module:0,0
+msgid "tabsexample"
+msgstr "пример вкладок"
+
+#: tabs/docs/tabsexample.info:0,0
+msgid "Tabs Example"
+msgstr "Пример вкладок"
+
+#: tabs/docs/tabsexample.info:0,0
+msgid ""
+"An example tabs implementation. Access the sample tabs at "
+"/tabsexample."
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:12,12
+msgid "Activeedit theme assist"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:13,13
+msgid "Helper page for theming Active Edit"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:35,35
+msgid "Selector for @title"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:46,46
+msgid "Sample theme override"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:49,49
+msgid ""
+"This is a sample theme override, showing all the available elements "
+"and their default selectors. To convert this into theme override file, "
+"save it as themename.inc, where themename is the name of your theme, "
+"in the Active Edit module's theme directory. Then edit the file to "
+"reflect the selectors for your theme. If the selectors are the same as "
+"the defaults, you can delete their lines."
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.module:0,0
+msgid "activeedit_theme_assist"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.info:0,0
+msgid "Activeedit Theme Assist"
+msgstr ""
+
+#: activeedit/activeedit_theme_assist/activeedit_theme_assist.info:0,0
+msgid "Helper module for theming Active Edit selectors."
+msgstr ""
+
+#: dynamicload/dynamicload.module:25
+msgid ""
+"<p>Full dynamic loading is <em>experimental</em> and may break sites "
+"at this point. The options on this page are not recommended for use on "
+"production sites. Work is ongoing to identify and fix remaining "
+"issues.</p>\n"
+"    <p>Configure dynamic loading of individual blocks on the <a "
+"href=\"@config\">block configuration</a> pages.</p>"
+msgstr ""
+
+#: dynamicload/dynamicload.module:41
+msgid "Dynamicload page"
+msgstr ""
+
+#: dynamicload/dynamicload.module:48
+msgid "Dynamicload block"
+msgstr ""
+
+#: dynamicload/dynamicload.module:55; dynamicload/dynamicload.info:0
+msgid "Dynamicload"
+msgstr ""
+
+#: dynamicload/dynamicload.module:56
+msgid "Configuration for dynamic loading"
+msgstr ""
+
+#: dynamicload/dynamicload.module:99,106
+msgid "Process all links for dynamic loading"
+msgstr ""
+
+#: dynamicload/dynamicload.module:100,107
+msgid ""
+"Check this option to make all links on the page dynamically load into "
+"the main content area. Links processed through block configuraiton "
+"will be skipped. You can also configure by paths, below."
+msgstr ""
+
+#: dynamicload/dynamicload.module:106,113
+msgid "Path processing"
+msgstr ""
+
+#: dynamicload/dynamicload.module:107,114
+msgid "Apply dynamic loading to all links except those to the listed pages."
+msgstr ""
+
+#: dynamicload/dynamicload.module:107,114
+msgid "Apply dynamic loading only on links to the listed pages."
+msgstr ""
+
+#: dynamicload/dynamicload.module:115,122
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a "
+"wildcard. Example paths are %blog for the blog page and %blog-wildcard "
+"for every personal blog and %admin for all admin pages. Put the "
+"wildcard at the both ends of a path fragment to match any path "
+"containing that fragment. The front page is automatically skipped."
+msgstr ""
+
+#: dynamicload/dynamicload.module:121,128
+msgid ""
+" If Path processing is set to \"Apply dynamic loading to all links "
+"except those to the listed pages\" above, the following paths will be "
+"used automatically and so don't need to be entered here: %paths."
+msgstr ""
+
+#: dynamicload/dynamicload.module:125,132
+msgid "Load region data"
+msgstr "Загрузить данные региона"
+
+#: dynamicload/dynamicload.module:126,133
+msgid ""
+"If you wish to refresh block regions with page loads, select the "
+"regions here. Only selected regions will be loaded."
+msgstr ""
+
+#: dynamicload/dynamicload.module:231,238
+msgid "Main content area"
+msgstr "Область главного содержимого"
+
+#: dynamicload/dynamicload.module:236,243
+msgid "Block: !info"
+msgstr "Блок: !info"
+
+#: dynamicload/dynamicload.module:244,251
+msgid "Region: !name"
+msgstr "Регион: !name"
+
+#: dynamicload/dynamicload.module:251,258
+msgid "Dynamic loading"
+msgstr "Динамическая загрузка"
+
+#: dynamicload/dynamicload.module:257,264
+msgid "Apply dynamic loading"
+msgstr "Применить динамическую загрузку"
+
+#: dynamicload/dynamicload.module:258,265
+msgid ""
+"Check if you want links on this block to be loaded dynamically rather "
+"than through a regular page refresh. If you enable this functionality "
+"for a block, make sure that you thoroughly test the result, as not all "
+"pages will perform as expected when loaded dynamically."
+msgstr ""
+
+#: dynamicload/dynamicload.module:263,270
+msgid "Target area"
+msgstr ""
+
+#: dynamicload/dynamicload.module:266,273
+msgid ""
+"Select the page area for this block's links to load into. Only enabled "
+"blocks are available."
+msgstr ""
+
+#: dynamicload/dynamicload.module:269,276
+msgid "replace existing content"
+msgstr "заменить существующее содержимое"
+
+#: dynamicload/dynamicload.module:270,277
+msgid "append: add at end of existing content"
+msgstr ""
+"добавить: добавить в конец "
+"существующего содержимого"
+
+#: dynamicload/dynamicload.module:271,278
+msgid "prepend: add at beginning of existing content"
+msgstr ""
+"переменная: добавить в начало "
+"существующего содержимого"
+
+#: dynamicload/dynamicload.module:272,279
+msgid "before: add before target element"
+msgstr ""
+"перед: добавить перед целевым "
+"элементом"
+
+#: dynamicload/dynamicload.module:273,280
+msgid "after: add after target element"
+msgstr ""
+"после: добавить после целевого "
+"элемента"
+
+#: dynamicload/dynamicload.module:277,284
+msgid "Appending method"
+msgstr "Метод добавления"
+
+#: dynamicload/dynamicload.module:280,287
+msgid ""
+"Select the way you want newly loaded content to be written to the "
+"target area."
+msgstr ""
+
+#: dynamicload/dynamicload.module:284,291
+msgid "Automatically refresh this block"
+msgstr ""
+
+#: dynamicload/dynamicload.module:289,296
+msgid "Block refresh interval"
+msgstr ""
+
+#: dynamicload/dynamicload.module:290,297
+msgid "Select the interval at which this block should refresh."
+msgstr ""
+
+#: dynamicload/dynamicload.module:292,299
+msgid "five seconds"
+msgstr "пять секунд"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "ten seconds"
+msgstr "десять секунд"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "thirty seconds"
+msgstr "тридцать секунд"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "one minute"
+msgstr "одна минута"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "two minutes"
+msgstr "две минуты"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "three minutes"
+msgstr "три минуты"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "five minutes"
+msgstr "пять минут"
+
+#: dynamicload/dynamicload.module:292,299
+msgid "ten minutes"
+msgstr "десять минут"
+
+#: dynamicload/dynamicload.module:296,303
+msgid "Scroll in new items"
+msgstr ""
+
+#: dynamicload/dynamicload.module:297,304
+msgid ""
+"Check if you want new items for this block to scroll in ticker-style "
+"as they arrive (with the oldest item scrolling out). If this option is "
+"not checked, the whole block will refresh. Note: only works for items "
+"that come in as a list (using an HTML ul element).)"
+msgstr ""
+
+#: dynamicload/dynamicload.module:309,316
+msgid "Dynamic loading block data updated."
+msgstr ""
+"Динамическая загрузка блока данных "
+"обновлена."
+
+#: dynamicload/dynamicload.module:313,320
+msgid "Dynamic loading block data saved."
+msgstr ""
+"Динамическая загрузка блока данных "
+"сохранена."
+
+#: dynamicload/dynamicload.module:396,403
+msgid "Item was not found."
+msgstr "Пункт не был найден."
+
+#: dynamicload/dynamicload.module:408,415
+msgid "Site offline."
+msgstr ""
+
+#: dynamicload/dynamicload.module:445,452
+msgid "No request found."
+msgstr ""
+
+#: dynamicload/dynamicload.module:0
+msgid "dynamicload"
+msgstr ""
+
+#: dynamicload/dynamicload.info:0
+msgid "Enables AJAX-based loading of selected page elements."
+msgstr ""
+
+#: jstools.info:0,0,0
+msgid "Provides common JavaScript methods used by other modules."
+msgstr ""
+"Предоставляет единые методы JavaScript, "
+"используемые другими модулями."
+
+#: tabs/tabs.module:71,71,78,78
+msgid "Next button caption"
+msgstr "Заголовок следующей кнопки"
+
+#: tabs/tabs.module:72,72,79,79
+msgid "The text to be displayed in the 'next' button."
+msgstr ""
+"Текст, который будет отображаться на "
+"кнопке 'следующая'."
+
+#: tabs/tabs.module:77,77,84,84
+msgid "Previous button caption"
+msgstr "Заголовок предыдущей кнопки"
+
+#: tabs/tabs.module:78,78,85,85
+msgid "The text to be displayed in the 'previous' button."
+msgstr ""
+"Текст, который будет отображаться на "
+"кнопке 'предыдущая'."
+
+#: activesearch/activesearch.module:66,66; dynamicload/dynamicload.module:99; tabs/tabs.module:36,36
+msgid "History plugin"
+msgstr "Плагин истории"
+
+#: activesearch/activesearch.module:67,67
+msgid ""
+"Load the history_remote plugin, which ties search submission to "
+"browser history. Active Search will be missing some functionality if "
+"this is disabled. However, the plugin can cause errors in combination "
+"with certain other Javascript functionality. Disable to avoid such "
+"errors. Note that disabling this setting will affect other modules if "
+"you enable them: Tabs and Dynamicload."
+msgstr ""
+
+#: dynamicload/dynamicload.module:100
+msgid ""
+"Load the history_remote plugin, which ties dynamic loading to browser "
+"history. Dynamicload will be missing some functionality if this is "
+"disabled. However, the plugin can cause errors in combination with "
+"certain other Javascript functionality. Disable to avoid such errors. "
+"Note that disabling this setting will affect other modules if you "
+"enable them: Active Search and Tabs."
+msgstr ""
+
+#: tabs/tabs.module:37,37
+msgid ""
+"Load the history-remote plugin, which ties tab switching to browser "
+"back and forward buttons. The plugin can cause errors in combination "
+"with certain other Javascript functionality. Disable to avoid such "
+"errors. Note that disabling this setting will affect other modules if "
+"you use them: Active Search and Dynamicload."
+msgstr ""
+

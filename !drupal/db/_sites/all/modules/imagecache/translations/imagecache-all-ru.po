@@ -1,0 +1,1422 @@
+# Russian translation of imagecache (all releases)
+# Copyright (c) 2010 by the Russian translation team
+# Generated from files:
+#  imagecache_ui.module,v 1.32 2009/05/03 16:31:43 drewish
+#  imagecache_ui.pages.inc,v 1.6.2.1 2010/05/03 14:42:53 drewish
+#  imagecache_ui.pages.inc,v 1.2 2009/04/14 00:01:21 drewish
+#  imagecache_ui.pages.inc,v 1.6 2009/05/03 17:27:46 drewish
+#  imagecache_ui.module,v 1.11.2.4 2009/08/19 18:15:54 drewish
+#  imagecache_ui.module,v 1.11.2.3 2009/04/14 00:03:37 drewish
+#  imagecache_ui.module,v 1.19 2008/08/07 16:54:26 drewish
+#  imagecache_ui.module,v 1.30 2009/03/31 03:11:26 drewish
+#  imagecache.module,v 1.19.2.38 2008/07/09 03:18:20 dopry
+#  imagecache_actions.inc,v 1.12.2.4 2009/08/19 21:05:23 drewish
+#  imagecache_actions.inc,v 1.15 2008/07/09 02:59:35 dopry
+#  imagecache_actions.inc,v 1.24.2.3 2009/08/19 21:05:31 drewish
+#  imagecache_actions.inc,v 1.21 2009/04/17 02:57:25 drewish
+#  imagecache_actions.inc,v 1.12.2.2 2009/04/17 03:03:22 drewish
+#  imagecache/imagecache_image.module: n/a
+#  imagecache.module,v 1.68.2.20 2010/05/26 21:20:25 drewish
+#  imagecache.module,v 1.85 2008/08/07 16:54:26 drewish
+#  imagecache.module,v 1.112.2.9 2010/05/26 21:08:58 drewish
+#  imagecache.module,v 1.100 2009/04/14 00:01:21 drewish
+#  imagecache.module,v 1.68.2.12 2009/04/14 00:03:37 drewish
+#  imagecache.module,v 1.68.2.19 2009/08/19 21:05:23 drewish
+#  imagecache.module,v 1.112.2.5 2009/08/19 20:59:07 drewish
+#  imagecache.install,v 1.11.2.8 2009/08/19 18:15:54 drewish
+#  imagecache.install,v 1.11.2.7 2009/04/13 21:58:22 drewish
+#  imagecache.install,v 1.3.2.3 2008/03/31 21:01:23 dopry
+#  imagecache.info,v 1.4.2.3 2009/08/19 21:26:50 drewish
+#  imagecache.info,v 1.5 2008/05/30 15:46:59 dopry
+#  imagecache.info,v 1.6.2.2 2009/08/19 21:26:48 drewish
+#  imagecache.info,v 1.4 2008/04/15 15:12:23 dopry
+#  imagecache.info,v 1.4.2.2 2009/08/19 21:02:50 drewish
+#  imagecache.info,v 1.6.2.1 2009/08/19 21:02:51 drewish
+#  imagecache.info,v 1.1.2.3 2008/03/31 21:01:23 dopry
+#  imagecache.install,v 1.18 2008/08/07 16:54:26 drewish
+#  imagecache.install,v 1.27 2009/05/01 15:02:29 drewish
+#  imagecache.install,v 1.25 2009/01/06 19:48:59 drewish
+#  imagecache_ui.info,v 1.3 2008/04/15 15:12:23 dopry
+#  imagecache_image.info,v 1.1.2.1 2008/07/07 02:56:49 dopry
+#  imagecache_ui.info,v 1.4 2008/05/30 15:46:59 dopry
+#  imagecache_ui.info,v 1.5 2008/08/08 17:05:12 drewish
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: imagecache (all releases)\n"
+"POT-Creation-Date: 2010-11-30 13:13+0000\n"
+"PO-Revision-Date: 2010-09-28 06:00+0000\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: imagecache_ui.module:167; imagecache_ui.pages.inc:17,17,17
+msgid "Default"
+msgstr "По умолчанию"
+
+#: imagecache_ui.module:176,183; imagecache_ui.pages.inc:26,33,26,33,26,33
+msgid "Export"
+msgstr "Экспорт"
+
+#: imagecache_ui.module:117,117,117,117
+msgid "edit"
+msgstr "изменить"
+
+#: imagecache_ui.module:28,24,24,33,34,34,28,28,34,34,28
+msgid "List"
+msgstr "Список"
+
+#: imagecache_ui.module:364,381,400,399,500,383,383,383,383; imagecache_ui.pages.inc:307,369,369,307
+msgid "Settings"
+msgstr "Настройки"
+
+#: imagecache_ui.module:168; imagecache_ui.pages.inc:18,18,18
+msgid "View"
+msgstr "Просмотр"
+
+#: imagecache_ui.module:290,307,307,306,404,290,290,290; imagecache_ui.pages.inc:221,257,257,221
+msgid "Configure"
+msgstr "Настроить"
+
+#: imagecache_ui.module:482,364,509,381,400,528,399,527,514,657,501,383,383,501,383,501,383,501; imagecache_ui.pages.inc:321,383,507,383,507,321; imagecache.module:620
+msgid "Weight"
+msgstr "Вес"
+
+#: imagecache_ui.module:454,209,181,481,229,203,203,229,500,206,232,499,248,274,629,473,181,209,473,181,209,473,181,209,473; imagecache_ui.pages.inc:446,85,58,100,127,479,100,127,479,58,85,446
+msgid "Cancel"
+msgstr "Отменить"
+
+#: imagecache_ui.module:387,386,487,370,370,370,370; imagecache_ui.pages.inc:264,340,340,264
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: imagecache.module:95
+msgid "Not installed"
+msgstr "Не установлено"
+
+#: imagecache_ui.module:453,208,180,480,228,202,202,228,499,205,231,498,247,273,628,472,180,208,472,180,208,472,180,208,472; imagecache_ui.pages.inc:445,84,57,99,126,478,99,126,478,57,84,445
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить."
+
+#: imagecache_actions.inc:210,20,216,20,20,216,245,49,20,216,25,221,20,210
+msgid "Yes"
+msgstr "Да"
+
+#: imagecache_actions.inc:210,20,216,20,20,216,245,49,20,216,25,221,20,210
+msgid "No"
+msgstr "Нет"
+
+#: imagecache.module:65
+msgid "Clean URLs"
+msgstr "Чистые ссылки"
+
+#: imagecache_ui.module:248,111,266,134,134,266,265,158,362,111,248,111,248,111,248; imagecache_ui.pages.inc:180,8,215,8,215,8,180
+msgid "Actions"
+msgstr "Действия"
+
+#: imagecache_ui.module:179; imagecache_ui.pages.inc:29,29,29
+msgid "Normal"
+msgstr "Обычное"
+
+#: imagecache_ui.module:172; imagecache_ui.pages.inc:22,22,22
+msgid "Override"
+msgstr "Переопределить"
+
+#: imagecache_image.module:54,54,54,54
+msgid "Label"
+msgstr "Метка"
+
+#: imagecache_actions.inc:258,264,264,300,271,264,271,276,264,305,307,305,307,307,305
+msgid "Amount"
+msgstr "Сумма"
+
+#: imagecache.module:709,755,856,720,782,803,888,729,817,817,818,729,732,642,656; imagecache_actions.inc:122,78,128,78,78,128,157,107,7,78,128,83,133,78,122,157,113,18,108,158,18,113,157,7,108,158,7,108,158,18,113,157
+msgid "Width"
+msgstr "Ширина"
+
+#: imagecache.module:715,761,862,726,788,809,894,735,823,823,824,735,738,648,662; imagecache_actions.inc:128,84,134,84,84,134,163,113,13,84,134,89,139,84,128,163,119,24,114,164,24,119,163,13,114,164,13,114,164,24,119,163
+msgid "Height"
+msgstr "Высота"
+
+#: imagecache.module:43
+msgid "Configure rulesets and actions for imagecache."
+msgstr ""
+"Настроить наборы правил и действий "
+"для imagecache."
+
+#: imagecache.module:182
+msgid "Imagecache resize action ID %id failed."
+msgstr ""
+"Действие Imagecache (уменьшить размер) ID %id "
+"не произошло."
+
+#: imagecache.module:195
+msgid "Imagecache scale action ID %id failed."
+msgstr ""
+"Действие Imagecache (масштабировать) ID %id не "
+"произошло."
+
+#: imagecache.module:199
+msgid "Imagecache crop action ID %id failed."
+msgstr ""
+"Действие Imagecache (обрезать) ID %id не "
+"произошло."
+
+#: imagecache.module:375
+msgid "Imagecache presets"
+msgstr "Наборы Правил Imagecache"
+
+#: imagecache.module:388,425
+msgid "Preset namespace"
+msgstr "Имя Набора Правил"
+
+#: imagecache.module:390
+msgid ""
+"String that will be used as an identifier in the url for this set of "
+"handlers. Final urls will look like "
+"http://example.com/files/imagecache/%namespace/&lt;path to orig&gt;"
+msgstr ""
+"Строка, которая будет использоваться "
+"как определитель в адресе для данного "
+"набора правил. Адреса будут типа "
+"http://example.com/files/imagecache/%namespace/&lt;путь к "
+"оригиналу&gt;"
+
+#: imagecache.module:394
+msgid "Image handlers"
+msgstr "Средства работы с изображениями"
+
+#: imagecache.module:403,457
+msgid "Update preset"
+msgstr "Обновить набор правил"
+
+#: imagecache.module:408,480
+msgid "Delete preset"
+msgstr "Удалить набор правил"
+
+#: imagecache.module:413,483
+msgid "Flush preset images"
+msgstr "Сбросить изображения набора"
+
+#: imagecache.module:419
+msgid "New preset"
+msgstr "Новый набор правил"
+
+#: imagecache.module:427
+msgid ""
+"The namespace of an imagecache preset. It represents a series of "
+"actions to be performed when imagecache dynamically generates an "
+"image. This will also be used in the url for images. Please no spaces."
+msgstr ""
+"Имя набора правил. Набор представляет "
+"собой серию действий, которые нужно "
+"совершить, когда imagecache динамически "
+"создает изображение. Это имя также "
+"будет использоваться в адресе для "
+"изображения. Пожалуйста, без пробелов."
+
+#: imagecache.module:432,454
+msgid "Create preset"
+msgstr "Новый набор правил"
+
+#: imagecache_ui.module:160,184; imagecache.module:443
+msgid ""
+"Please only use alphanumic characters, underscores (_), and hyphens "
+"(-) for preset names."
+msgstr ""
+"Для названий наборов правил, "
+"пожалуйста, используйте только "
+"латинские буквы, цифры, символы "
+"подчеркивания (_) и дефиса (-)."
+
+#: imagecache.module:536
+msgid "Updated preset \"%name\" (ID: @id)"
+msgstr "Набор правил \"%name\" (ID: @id) обновлен."
+
+#: imagecache_ui.module:188,210,188,188,188; imagecache.module:546
+msgid "Preset \"%name\" (ID: @id) deleted."
+msgstr "Набор Правил \"%name\" (ID: @id) удален."
+
+#: imagecache.module:558
+msgid "Flushed Preset Images (ID: @id)"
+msgstr "Изображения набора сброшены (ID: @id)"
+
+#: imagecache_actions.inc:64,64,64,93,64,69,64,99,94,99,94,94,99; imagecache.module:627
+msgid ""
+"<strong>Inside dimensions</strong>: Final dimensions will be less than "
+"or equal to the entered width and height. Useful for ensuring a "
+"maximum height and/or width."
+msgstr ""
+"<strong>Внутренние "
+"размеры</strong>:Финальные размеры будут "
+"меньше или равны введенным ширине и "
+"высоте. Полезно для определения "
+"максимальной высоты и/или ширины."
+
+#: imagecache_actions.inc:65,65,65,94,65,70,65,100,95,100,95,95,100; imagecache.module:628
+msgid ""
+"<strong>Outside dimensions</strong>: Final dimensions will be greater "
+"than or equal to the entered width and height. Ideal for cropping the "
+"result to a square."
+msgstr ""
+"<strong>Внешние размеры</strong>: Финальные "
+"размеры будут больше или равны "
+"введенным ширине и высоте. Полезно для "
+"определения максимальной высоты и/или "
+"ширины. Идеально для обрезки "
+"результата в квадрат."
+
+#: imagecache_actions.inc:70,70,70,99,70,75,70,105,100,105,100,100,105; imagecache.module:633
+msgid "Scale to fit"
+msgstr "Масштабировать до"
+
+#: imagecache_actions.inc:93,71,93,71,71,93,122,100,71,93,76,98,71,93,128,106,101,123,106,128,101,123,101,123,106,128; imagecache.module:634
+msgid "Inside dimensions"
+msgstr "Внутренние размеры"
+
+#: imagecache_actions.inc:93,71,93,71,71,93,122,100,71,93,76,98,71,93,128,106,101,123,106,128,101,123,101,123,106,128; imagecache.module:634
+msgid "Outside dimensions"
+msgstr "Внешние размеры"
+
+#: imagecache.module:711,757,858,722,784,805,890,731,819,819,820,731,734,644,658; imagecache_actions.inc:124,80,130,80,80,130,159,109,9,80,130,85,135,80,124,159,115,20,110,160,20,115,159,9,110,160,9,110,160,20,115,159
+msgid "Enter a width in pixels or as a percentage. i.e. 500 or 80%."
+msgstr ""
+"Введите ширину в пикселях или "
+"процентах. Например: 500 или 80%"
+
+#: imagecache.module:717,763,864,728,790,811,896,737,825,825,826,737,740,650,664; imagecache_actions.inc:130,86,136,86,86,136,165,115,15,86,136,91,141,86,130,165,121,26,116,166,26,121,165,15,116,166,15,116,166,26,121,165
+msgid "Enter a height in pixels or as a percentage. i.e. 500 or 80%."
+msgstr ""
+"Введите высоту в пикселях или "
+"процентах. Например: 500 или 80%"
+
+#: imagecache_actions.inc:134,140,140,169,140,145,134,169,170,169,170,170,169; imagecache.module:668
+msgid "X offset"
+msgstr "Смещение по горизонтали"
+
+#: imagecache_actions.inc:136,142,142,171,142,147,136,171,172,171,172,172,171; imagecache.module:670
+msgid ""
+"Enter an offset in pixels or use a keyword: <em>left</em>, "
+"<em>center</em>, or <em>right</em>."
+msgstr ""
+"Введите сдвиг в пикселях или "
+"используйте ключевое слово: "
+"<em>left</em>(слева), <em>center</em>(центр), или  "
+"<em>right</em>(справа)."
+
+#: imagecache_actions.inc:140,146,146,175,146,151,140,175,176,175,176,176,175; imagecache.module:674
+msgid "Y offset"
+msgstr "Смещение по вертикали"
+
+#: imagecache_actions.inc:142,148,148,177,148,153,142,177,178,177,178,178,177; imagecache.module:676
+msgid ""
+"Enter an offset in pixels or use a keyword: <em>top</em>, "
+"<em>center</em>, or <em>bottom</em>."
+msgstr ""
+"Введите сдвиг в пикселях или "
+"используйте ключевое слово: "
+"<em>top</em>(верх), <em>center</em>(центр) или "
+"<em>bottom</em>(низ)."
+
+#: imagecache.module:684
+msgid "Remove this action"
+msgstr "Удалить это действие"
+
+#: imagecache.module:689
+msgid ""
+"<strong>Scale</strong>: Resize an image maintaining the original "
+"aspect-ratio (only one value necessary)."
+msgstr ""
+"<strong>Масштабировать (Scale)</strong>: "
+"Изменить изображение с сохранением "
+"первоначальных пропорций (только одно "
+"значение необходимо)."
+
+#: imagecache.module:690
+msgid ""
+"<strong>Resize</strong>: Resize an image to an exact set of "
+"dimensions, ignoring aspect ratio."
+msgstr ""
+"<strong>Изменить размер (Resize)</strong>: "
+"Изменить изображение точно до "
+"заданных размеров, игнорируя "
+"пропорции."
+
+#: imagecache.module:691
+msgid ""
+"<strong>Crop</strong>: Crop an image to the rectangle specified by the "
+"given offsets and dimensions."
+msgstr ""
+"<strong>Обрезать (Crop)</strong>: Обрезать "
+"изображение до прямоугольника с "
+"указанными сдвигами и размерами."
+
+#: imagecache.module:696
+msgid "select..."
+msgstr "выбор..."
+
+#: imagecache.module:696
+msgid "Scale"
+msgstr "Масштабировать"
+
+#: imagecache.module:696
+msgid "Resize"
+msgstr "Изменить размеры"
+
+#: imagecache.module:696
+msgid "Crop"
+msgstr "Обрезать"
+
+#: imagecache.module:697
+msgid "Add a new action"
+msgstr "Добавить новое действие"
+
+#: imagecache.module:717
+msgid ""
+"Make sure you have a working image toolkit installed and enabled, for "
+"more information see: %settings."
+msgstr ""
+"Удостоверьтесь, что средство "
+"обработки изображений, установлено и "
+"включено, дополнительная информация: "
+"%settings."
+
+#: imagecache.module:717
+msgid "Image toolkit settings"
+msgstr "Настройка обработки изображений"
+
+#: imagecache.module:66
+msgid "Not enabled"
+msgstr "Не включено"
+
+#: imagecache.module:68
+msgid ""
+"Imagecache will not operate properly if <a href=\"!url\">Clean "
+"URLs</a> is not enabled on your site."
+msgstr ""
+"Imagecache не будет работать должным "
+"образом, если <a href=\\\"!url\\\">Чистые "
+"ссылки</a> не включены на вашем сайте."
+
+#: imagecache.module:75
+msgid "No image toolkits available"
+msgstr ""
+"Нет доступных инструментариев для "
+"обработки изображений"
+
+#: imagecache.module:77
+msgid ""
+"Imagecache requires an imagetoolkit such as <a "
+"href=\"http://php.net/gd\">GD2</a> or <a "
+"href=\"http://www.imagemagick.org\">Imagemagick</a> be installed on "
+"your server."
+msgstr ""
+"Для Imagecache требуются инструменты "
+"обработки изображений, такие как <a "
+"href=\\\"http://php.net/gd\\\">GD2</a> или <a "
+"href=\\\"http://www.imagemagick.org\\\">Imagemagick</a>, "
+"которые, должны быть установлены на "
+"вашем сервере."
+
+#: imagecache.module:83
+msgid "File Download Method"
+msgstr "Метод Закачки Файлов"
+
+#: imagecache.module:84
+msgid "Private Downloads"
+msgstr "Приватная Закачка"
+
+#: imagecache.module:86
+msgid ""
+"Imagecache will not operate properly using Private Files. Please "
+"enable <a href=\"!url\">Public File Transfer</a>."
+msgstr ""
+"Imagecache не будет работать коректно, "
+"когда используется приватный метод "
+"загрузки. Пожайлуста включите <a "
+"href=\\\"!url\\\">Публичный метод загрузки "
+"файлов</a>."
+
+#: imagecache.module:94
+msgid "GD !format Support"
+msgstr "GD !format Поддерживается"
+
+#: imagecache.module:97
+msgid ""
+"PHP was not compiled with %format support. Imagecache will not be able "
+"to process %format images."
+msgstr ""
+"PHP был собран без поддержки %format "
+"формата. Imagecache не будет в состоянии "
+"обработать изображения в формате %format."
+
+#: imagecache.module:42,42,42,57,57,42,42,57,57,42,25
+msgid "administer imagecache"
+msgstr "управлять Imagecache"
+
+#: imagecache.module:42,42,42,57,57,42,42,57,57,42,25
+msgid "flush imagecache"
+msgstr "очистить кэш изображений"
+
+#: imagecache.module:0,700,661,479,472,450,372,358,341,313,746,698,513,506,484,406,394,377,847,799,579,572,545,457,432,408,400,672,711,377,394,419,491,518,525,725,773,0,796,595,589,568,462,437,420,405,398,415,440,512,539,546,746,794,879,322,350,367,381,459,481,488,681,720,412,429,454,526,553,560,760,808,412,429,454,526,553,560,760,808,413,430,455,527,554,561,761,809,322,350,367,381,459,481,488,681,720,325,353,370,384,462,484,491,684,723,686,493,486,464,556,570,591,597,798,325,353,370,384,464,486,493,686,405,413,420,437,462,556,570,591,597,798,405,413,420,437,462,556,570,591,597,798,326,354,371,385,465,487,494,687,411,426,443,468,562,584,605,611,812,326,354,371,385,465,487,494,687,113,121,138,152,161,182,195,199,207; imagecache_actions.inc:286,230,175,154,108,50,29,29,50,108,160,181,236,292,328,272,210,189,137,79,58,22,29,50,108,160,181,243,299,236,292,243,299,34,55,113,165,186,248,304,29,50,108,154,175,236,292,335,277,215,194,143,85,64,9,59,80,138,195,216,279,337,9,64,85,143,194,215,277,335,22,59,80,138,195,216,279,337,22,59,80,138,195,216,279,337,9,64,85,143,194,215,277,335
+msgid "imagecache"
+msgstr "imagecache"
+
+#: imagecache.install:106,104,104,104,104,44
+msgid ""
+"Imagecache module installation was unsuccessfull. Necessary database "
+"tables should be created by hand."
+msgstr ""
+"Установка модуля Imagecache не удалась. "
+"Необходимые таблица в БД следует "
+"создать вручную."
+
+#: imagecache.info:0,0,0,0,0,0,0,0,0
+msgid "Dynamic image manipulator and cache."
+msgstr ""
+"Динамическое манипулирование "
+"изображениями и кэширование."
+
+#: imagecache_ui.module:364,381,400,399,500,383,383,383,383; imagecache_ui.pages.inc:307,369,369,307
+msgid "Action"
+msgstr "Действие"
+
+#: imagecache.install:57,58,57,57,58,58
+msgid "The primary identifier for a node."
+msgstr "Основной идентификатор материала."
+
+#: imagecache_ui.module:454,293,181,481,310,203,141,141,203,310,500,206,309,499,181,248,408,629,473,181,293,473,181,293,473,181,293,473; imagecache_ui.pages.inc:446,225,58,31,100,261,479,31,100,261,479,31,58,225,446
+msgid "Delete"
+msgstr "Удалить"
+
+#: imagecache_ui.module:140,140,173,180; imagecache_ui.pages.inc:23,30,23,30,23,30
+msgid "Edit"
+msgstr "Редактировать"
+
+#: imagecache_image.module:54,54,54,54
+msgid "Link"
+msgstr "Ссылка"
+
+#: imagecache_ui.module:118,118,118,118
+msgid "remove"
+msgstr "удалить"
+
+#: imagecache_ui.module:174; imagecache_ui.pages.inc:24,24,24
+msgid "Revert"
+msgstr "Удалить"
+
+#: imagecache_actions.inc:202,208,208,237,208,213,202,242,243,242,243,243,242
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: imagecache.module:74
+msgid "Image Toolkit"
+msgstr "Обработка Изображений"
+
+#: imagecache_image.module:54,54,54,54
+msgid "Imagecache Preset"
+msgstr "Правило Imagecache"
+
+#: imagecache.module:42
+msgid "Image cache"
+msgstr "Image cache"
+
+#: imagecache.install:103,101,101,101,101,42
+msgid "Imagecache module installed succesfully."
+msgstr "Модуль Imagecache успешно установлен."
+
+#: imagecache_ui.module:20,18,20,20,20
+msgid "Imagecache"
+msgstr "Imagecache"
+
+#: imagecache_ui.module:111,134,134,158,111,111,111; imagecache_ui.pages.inc:8,8,8
+msgid "Preset Name"
+msgstr "Имя Набора Правил"
+
+#: imagecache.install:16,17,17,17,17
+msgid "Missing"
+msgstr "Отсутствует"
+
+#: imagecache_actions.inc:264,270,270,306,277,270,277,282,270,311,313,311,313,313,311
+msgid "Threshold"
+msgstr "Пороговое значение"
+
+#: imagecache_ui.module:236,132,254,156,156,254,198,339,348,132,236,132,236,132,236; imagecache_ui.pages.inc:160,151,49,192,201,49,192,201,151,160
+msgid "Preset Namespace"
+msgstr "Имя Набора Правил"
+
+#: imagecache_ui.module:353,370,370,369,470,353,353,353; imagecache_ui.pages.inc:323,323
+msgid "Update Preset"
+msgstr "Обновить Набор Правил"
+
+#: imagecache_actions.inc:196,202,202,231,202,207,196,236,237,236,237,237,236
+msgid "Randomize"
+msgstr "Случайно"
+
+#: imagecache.install:15,16,16,16,16
+msgid "ImageAPI"
+msgstr "ImageAPI"
+
+#: imagecache_ui.info:0,0,0,0,0,0,0,0; imagecache_image.info:0,0,0,0; imagecache.info:0,0,0,0,0,0,0,0,0; imagecache_ui.module:18,27,27,27,27
+msgid "ImageCache"
+msgstr "ImageCache"
+
+#: imagecache_ui.module:158; imagecache_ui.pages.inc:8,8,8
+msgid "Storage"
+msgstr "Хранилище"
+
+#: imagecache.module:113
+msgid "Preset(%p) not found"
+msgstr "Набор Правил(%p) не найден"
+
+#: imagecache.module:121
+msgid "Source(%s) not found."
+msgstr "Источник(%s) не найден."
+
+#: imagecache.module:138
+msgid "Cannot create/fix dir(%d)."
+msgstr "Не могу создать/определить папку(%d)."
+
+#: imagecache.module:152
+msgid "tmp file(%t) already exists."
+msgstr "tmp file(%t) уже существует."
+
+#: imagecache.module:161
+msgid "Could not copy src(%s) to tmp(%t)."
+msgstr "Не удалось скопировать src(%s) to tmp(%t)."
+
+#: imagecache.module:207
+msgid "Could not move tmp(%t) to dst(%d)."
+msgstr "Не удалось переместить tmp(%t) to dst(%d)."
+
+#: imagecache_actions.inc:12,12,12,41,12,17,12,49,44,49,44,44,49
+msgid "Allow Upscaling"
+msgstr "Разрешить увеличение размера"
+
+#: imagecache_actions.inc:13,13,13,42,13,18,13,50,45,50,45,45,50
+msgid "Let scale make images larger than their original size"
+msgstr "Увеличивать маленькие изображения"
+
+#: imagecache_actions.inc:29,29,29,58,29,34,29,64,59,64,59,59,64
+msgid "imagecache_scale_image failed. image: %image, data: %data."
+msgstr ""
+"Ошибка при imagecache_scale_image. изображение: "
+"%image, время: %data."
+
+#: imagecache_actions.inc:50,50,50,79,50,55,50,85,80,85,80,80,85
+msgid "imagecache_scale_and_crop failed. image: %image, data: %data."
+msgstr ""
+"Ошибка при imagecache_scale_and_crop. изображение: "
+"%image, время: %data."
+
+#: imagecache_actions.inc:108,108,108,137,108,113,108,143,138,143,138,138,143
+msgid "imagecache_deprecated_scale failed. image: %image, data: %data."
+msgstr ""
+"Ошибка при imagecache_deprecated_scale. "
+"изображение: %image, время: %data."
+
+#: imagecache_actions.inc:154,160,160,189,160,165,154,194,195,194,195,195,194
+msgid "imagecache_crop failed. image: %image, data: %data."
+msgstr ""
+"обрезка с помощью imagecache не удалась. "
+"изображение:  %image, данные: %data."
+
+#: imagecache_actions.inc:175,181,181,210,181,186,175,215,216,215,216,216,215
+msgid "imagecache_desaturate failed. image: %image, data: %data."
+msgstr ""
+"Ошибка при imagecache_desaturate. изображение: "
+"%image, время: %data."
+
+#: imagecache_actions.inc:190,196,196,225,196,201,190,230,231,230,231,231,230
+msgid "Rotation angle"
+msgstr "Угол поворота"
+
+#: imagecache_actions.inc:191,197,197,226,197,202,191,231,232,231,232,232,231
+msgid ""
+"The number of degrees the image should be rotated. Positive numbers "
+"are clockwise, negative are counter-clockwise."
+msgstr ""
+"Количество градусов, на которое "
+"должно быть повернуто изображение. "
+"Положительные значения - по часовой "
+"стрелке, отрицательные - против "
+"часовой стрелки."
+
+#: imagecache_actions.inc:197,203,203,232,203,208,197,237,238,237,238,238,237
+msgid ""
+"Randomize the rotation angle for each image. The angle specified above "
+"is used as a maximum."
+msgstr ""
+"Произвольный угол поворота для "
+"каждого изображения. Угол, "
+"определенный выше используется как "
+"максимум."
+
+#: imagecache_actions.inc:203,209,209
+msgid ""
+"The background color to use for exposed areas of the image. Use "
+"web-style hex colors (#FFFFFF for white, #000000 for black)."
+msgstr ""
+"Фоновый цвет для незаполненных "
+"областей изображения. Используйте "
+"web-цвета в десятичном формате (#FFFFFF для "
+"белого, #000000 для черного)."
+
+#: imagecache_actions.inc:209,215
+msgid "degrees: "
+msgstr "градусы: "
+
+#: imagecache_actions.inc:210,216
+msgid "randomize: "
+msgstr "выборочно: "
+
+#: imagecache_actions.inc:211,217
+msgid "background: "
+msgstr "фон: "
+
+#: imagecache_actions.inc:230,236,236,272,243,236,243,248,236,277,279,277,279,279,277
+msgid "imagecache_rotate_image failed. image: %image, data: %data."
+msgstr ""
+"Ошибка при imagecache_rotate_image. изображение: "
+"%image, время: %data."
+
+#: imagecache.module:313,322,322,325,325,326,326
+msgid ""
+"Failed generating a preview image from %image using imagecache preset "
+"%preset."
+msgstr ""
+"Ошибка при создании предварительного "
+"просмотра изображения %image с "
+"использованием набора правил imagecache "
+"$preset."
+
+#: imagecache.module:341,377,350,350,353,353,354,354
+msgid "Imagecache already generating: %dst, Lock file: %tmp."
+msgstr ""
+"Imagecache уже генерирует: %dst, Временный "
+"файл: %tmp."
+
+#: imagecache.module:358,394,432,394,437,415,367,429,429,430,367,370,370,437,437,371,443,371
+msgid ""
+"Failed generating an image from %image using imagecache preset "
+"%preset."
+msgstr ""
+"Ошибка при создании изображения %image с "
+"использованием набора правил imagecache "
+"%preset."
+
+#: imagecache.module:372,406,457,419,462,440,381,454,454,455,381,384,384,462,462,385,468,385
+msgid "non-existant action %action"
+msgstr "не-существующее действие %action"
+
+#: imagecache.module:450,484,545,491,554,512,459,526,526,527,459,462,464,556,464,556,556,465,562,465
+msgid "Failed to create imagecache directory: %dir"
+msgstr "Ошибка при создании imagecache папки: %dir"
+
+#: imagecache.module:472,506,572,518,589,539,481,553,553,554,481,484,486,591,486,591,591,487,605,487
+msgid "action(id:%id): %action failed for %src"
+msgstr ""
+"действие(id:%id): %action закончилось "
+"ошибкой для %src"
+
+#: imagecache.module:479,513,488,488,491,493,493,494,494
+msgid ""
+"Cached image file already exists. There is an issue with your Rewrite "
+"configuration."
+msgstr ""
+"Файл кэша изображения уже существует. "
+"С Вашей конфигурацией Перезаписи "
+"возникла проблема."
+
+#: imagecache.module:519,530,539,539,542,544,544,545,545
+msgid "@preset as link to node"
+msgstr "@preset как ссылка на материал"
+
+#: imagecache.module:523,534,543,543,546,548,548,549,549
+msgid "@preset as link to image"
+msgstr "@preset как ссылка на изображение"
+
+#: imagecache.module:527,538,547,547,550,552,552,553,553
+msgid "path to @preset derivative"
+msgstr "путь к производной @preset"
+
+#: imagecache.module:531,542,551,551,554,556,556,557,557
+msgid "url to @preset derivative"
+msgstr "ссылка на производную @preset"
+
+#: imagecache.module:700,746,847,711,773,794,879,720,808,808,809,720,723; imagecache_actions.inc:22,9,9,22,22,9
+msgid "imagecache_resize_image failed. image: %image, data: %data."
+msgstr ""
+"изменение размеров изображений с "
+"помощью imagecache не удалось. изображение: "
+" %image, данные: %data."
+
+#: imagecache.module:44,44,44,59,59,44,44,59,59,44
+msgid "view imagecache "
+msgstr "просмотр imagecache "
+
+#: imagecache.module:44,44,44,59,59,44,44,59,59,44
+msgid "presetname"
+msgstr "presetname"
+
+#: imagecache_ui.module:11,11,11,11,11
+msgid "Manage imagecache preset."
+msgstr "Управление наборами правил imagecache."
+
+#: imagecache_ui.module:21,19,19,28,29,29,21,21,29,29,21
+msgid "Administer imagecache presets and actions."
+msgstr ""
+"Управление наборами правил и "
+"действиями imagecache."
+
+#: imagecache_ui.module:34,34,34,34
+msgid "Add New Preset"
+msgstr "Добавить новый Набор Правил"
+
+#: imagecache_ui.module:50,50,50,50
+msgid "Delete Preset: !presetname"
+msgstr "Удалить Набор Правил: !presetname"
+
+#: imagecache_ui.module:57,57,57,57
+msgid "Flush Preset: !presetname"
+msgstr "Сбросить Набор Правил: !presetname"
+
+#: imagecache_ui.module:65,65,65,65
+msgid "!presetname"
+msgstr "!presetname"
+
+#: imagecache_ui.module:76,76,76,76
+msgid "Add !action to !presetname"
+msgstr "Добавить !action для !presetname"
+
+#: imagecache_ui.module:88,88,88,88
+msgid "!action for preset !presetname"
+msgstr "!action для набора правил !presetname"
+
+#: imagecache_ui.module:96,96,96,96
+msgid "Delete !action for preset !presetname"
+msgstr "Удалить !action для набора правил !presetname"
+
+#: imagecache_ui.module:119,119,119,119
+msgid "flush"
+msgstr "сбросить"
+
+#: imagecache_ui.module:238,134,256
+msgid ""
+"The namespace is used in URL's for images to tell imagecache how to "
+"process an image. Please only use alphanumic characters, underscores "
+"(_), and hyphens (-) for preset names."
+msgstr ""
+"Имена используются в URL-ах "
+"изображений, чтобы указать imagecache, как "
+"обрабатывать сами изображения. "
+"Пожалуйста используйте только "
+"латинские буквы, цифры, символы "
+"подчеркивания (_) и дефиса (-)."
+
+#: imagecache_ui.module:139,163,163,205,139,139,139; imagecache_ui.pages.inc:56,56
+msgid "Create New Preset"
+msgstr "Создать новый Набор Правил"
+
+#: imagecache_ui.module:147,171,147,147,147
+msgid "Preset \"%name\" (ID: @id) Created."
+msgstr "Набор Правил \"%name\" (ID: @id) создан."
+
+#: imagecache_ui.module:155,179,179,180,222,155,155,155; imagecache_ui.pages.inc:66,66
+msgid "The namespace you have chosen is already in use."
+msgstr ""
+"имя, которое вы выбрали уже "
+"используется."
+
+#: imagecache_ui.module:228,196,168,246,216,190,190,216,193,219,235,261,290,168,196,228,168,196,228,168,196,228; imagecache_ui.pages.inc:102,72,45,87,114,144,87,114,144,45,72,102
+msgid "The specified preset was not found"
+msgstr "Указанный набор правил не найден."
+
+#: imagecache_ui.module:176,198,198,201,243,176,176,176; imagecache_ui.pages.inc:53,95,95,53
+msgid "Are you sure you want to delete the preset %preset?"
+msgstr ""
+"Вы уверены, что хотите удалить набор "
+"правил %preset?"
+
+#: imagecache_ui.module:204,224,224,227,269,204,204,204; imagecache_ui.pages.inc:80,122,122,80
+msgid "Are you sure you want to flush the preset %preset?"
+msgstr ""
+"Вы уверены, что хотите сбросить набор "
+"правил %preset?"
+
+#: imagecache_ui.module:209,229,142,142,229,232,169,175,182,274,209,209,209; imagecache_ui.pages.inc:85,19,25,32,127,19,25,32,127,19,25,32,85
+msgid "Flush"
+msgstr "Сбросить"
+
+#: imagecache_ui.module:216,236,216,216,216
+msgid "Preset \"%name\" (ID: @id) flushed."
+msgstr "Набор Правил \"%name\" (ID: @id) сброшен."
+
+#: imagecache_ui.module:301,318,318,317,417,301,301,301; imagecache_ui.pages.inc:234,270,270,234
+msgid "New Actions"
+msgstr "Новое Действие"
+
+#: imagecache_ui.module:312,329,329,328,429,312,312,312; imagecache_ui.pages.inc:244,282,282,244
+msgid "Add !action"
+msgstr "Добавить !action"
+
+#: imagecache_ui.module:419,444,463,462,592,438,438,438,438; imagecache_ui.pages.inc:410,441,441,410
+msgid "Update Action"
+msgstr "Обновить Действие"
+
+#: imagecache_ui.module:449,476,495,494,624,468,468,468,468; imagecache_ui.pages.inc:441,474,474,441
+msgid ""
+"Are you sure you want to delete the !action action from preset "
+"!preset?"
+msgstr ""
+"Вы уверены, что хотите удалить !action "
+"действие из набора правил !preset?"
+
+#: imagecache_ui.module:462,489,508,507,637,481,481,481,481; imagecache_ui.pages.inc:453,486,486,453
+msgid "The action has been deleted."
+msgstr "Действие удалено."
+
+#: imagecache_ui.module:488,515,534,533,663,507,507,507,507; imagecache_ui.pages.inc:513,513
+msgid "Add Action"
+msgstr "Добавить Действие"
+
+#: imagecache_ui.module:0,0
+msgid "imagecache_ui"
+msgstr "imagecache_ui"
+
+#: imagecache.install:42,35,28,29,22,15,26,33,40,15,22,29,15,22,29,26,33,40,26,33,40,15,22,29,15,22,29,26,33,40
+msgid "ImageCache Directory"
+msgstr "Папка ImageCache"
+
+#: imagecache.install:29,16,27,16,16
+msgid "%p does not a directory or is not readable by the webserver."
+msgstr ""
+"%p не является директорией либо не "
+"может быть прочитан вебсервером."
+
+#: imagecache.install:53,36,40,23,34,51,23,40,23,40,34,51,34,51,23,40,23,40,34,51
+msgid "%p is not writeable by the webserver."
+msgstr "Вебсервер не имеет прав для записи в %p."
+
+#: imagecache.install:43,30,41,30,30,41,41,30,30,41
+msgid "An unknown error occured."
+msgstr "Возникла неизвестная ошибка."
+
+#: imagecache.install:44,31,42,31,31,42,42,31,31,42
+msgid ""
+"An unknown error occured trying to verify %p is a directory and is "
+"writable."
+msgstr ""
+"Возникла неизвестная ошибка при "
+"проверке, является ли %p директорией, и "
+"доступна ли для записи."
+
+#: imagecache.install:52,39,50,39,39,50,50,39,39,50
+msgid "ImageCache Temp Directory"
+msgstr "Временная папка ImageCache"
+
+#: imagecache_ui.info:0,0,0,0,0
+msgid "Imagecache UI"
+msgstr "Imagecache UI"
+
+#: imagecache_ui.info:0,0,0,0,0,0,0,0
+msgid "ImageCache User Interface."
+msgstr "ImageCache интерфейс пользователя."
+
+#: imagecache.module:237
+msgid "!rulename as image"
+msgstr "!rulename как изображение"
+
+#: imagecache.module:241
+msgid "!rulename as link"
+msgstr "!rulename как ссылку"
+
+#: imagecache.module:661,698,799,672,725,796,746,809,681,760,760,761,681,684,686,798,686,798,798,687,812,687
+msgid "Unknown file type(%path) stat: %stat "
+msgstr "Неизвестный тип файла (%path) статус: %stat "
+
+#: imagecache_ui.module:158,256,350; imagecache_ui.pages.inc:162,203,203,162
+msgid ""
+"The namespace is used in URL's for images to tell imagecache how to "
+"process an image. Please only use alphanumeric characters, underscores "
+"(_), and hyphens (-) for preset names."
+msgstr ""
+"Имена используются в URL-ах "
+"изображений, чтобы указать imagecache, как "
+"их обрабатывать. Пожалуйста "
+"используйте только латинские буквы, "
+"цифры, символы подчеркивания (_) и "
+"дефиса (-)."
+
+#: imagecache_ui.module:30,30,39,40,40,40,40
+msgid "Add new preset"
+msgstr "Добавить новый набор правил"
+
+#: imagecache.install:73,52,266,76,52,73,261,52,73,261,52,76,266,52,76,266
+msgid "The primary identifier for an imagecache_preset."
+msgstr ""
+"Первичный идентификатор для "
+"imagecache_preset."
+
+#: imagecache.install:68,277,70,68,272,68,272,70,277,70,277
+msgid "The primary identifier for an imagecache_action."
+msgstr ""
+"Первичный идентификатор для "
+"imagecache_action."
+
+#: imagecache.install:79,83,79,79,83,83
+msgid "The weight of the action in the preset."
+msgstr "Вес действия в наборе правил."
+
+#: imagecache.install:85,283,89,85,278,85,278,89,283,89,283
+msgid "The module that defined the action."
+msgstr "Модуль, который определил действие."
+
+#: imagecache.install:90,95,90,90,95,95
+msgid "The unique ID of the action to be executed."
+msgstr ""
+"Уникальный ID действия, которое будет "
+"выполнено."
+
+#: imagecache.install:95,101,95,95,101,101
+msgid "The configuration data for the action."
+msgstr "Данные конфигурации для действия."
+
+#: imagecache_actions.inc:241,247,247,283,254,247,254,259,247,288,290,288,290,290,288
+msgid ""
+"<strong>NOTE:</strong> The sigma parameter below is currently "
+"<em>only</em> used when the Imagemagick toolkit is active."
+msgstr ""
+"<strong>Примечание:</strong> Sigma параметр ниже "
+"в настоящее время используется "
+"<em>только</em>, когда Imagemagick активен."
+
+#: imagecache_actions.inc:246,252,252,288,259,252,259,264,252,293,295,293,295,295,293
+msgid "Radius"
+msgstr "Радиус"
+
+#: imagecache_actions.inc:247,253,253,289,260,253,260,265,253,294,296,294,296,296,294
+msgid ""
+"The radius of the gaussian, in pixels, not counting the center pixel. "
+"If you're using Imagemagick, you can set this to 0 to let Imagemagick "
+"select a suitable radius. Typically 0.5 to 1 for screen resolutions. "
+"(default 0.5)"
+msgstr ""
+"Радиус Гаусса, в пикселях, не считая "
+"центрального пиксела. Если вы "
+"используете ImageMagick, вы можете "
+"установить его в 0, чтобы Imagemagick выбрал "
+"подходящий радиус. Обычно от 0,5 до 1 для "
+"экранного разрешения. (по умолчанию 0.5)"
+
+#: imagecache_actions.inc:252,258,258,294,265,258,265,270,258,299,301,299,301,301,299
+msgid "Sigma"
+msgstr "Сигма"
+
+#: imagecache_actions.inc:253,259,259,295,266,259,266,271,259,300,302,300,302,302,300
+msgid ""
+"The standard deviation of the gaussian, in pixels. General rule of "
+"thumb: if radius < 1 then sigma = radius, else sigma = sqrt(radius). "
+"(default 0.5)"
+msgstr ""
+"Стандартное отклонение гауссовой, в "
+"пикселях. Главное правило: если радиус "
+"<1, то sigma = radius, иначе sigma = sqrt(radius). (по "
+"умолчанию 0.5)"
+
+#: imagecache_actions.inc:259,265,265,301,272,265,272,277,265,306,308,306,308,308,306
+msgid ""
+"The percentage of the difference between the original and the blur "
+"image that is added back into the original. Typically 50 to 200. "
+"(default 100)."
+msgstr ""
+"Процент от разницы между "
+"первоначальным и размытым "
+"изображением, которое добавлено в "
+"оригинале. Обычно от 50 до 200. (по "
+"умолчанию 100).\r\n"
+"search"
+
+#: imagecache_actions.inc:265,271,271,307,278,271,278,283,271,312,314,312,314,314,312
+msgid ""
+"The threshold, as a fraction of max RGB levels, needed to apply the "
+"difference amount.  Typically 0 to 0.2. (default 0.05)."
+msgstr ""
+"Порог, как долю от максимального "
+"уровня RGB, необходимых как разницу "
+"суммы. Обычно 0 до 0,2. (по умолчанию 0,05)."
+
+#: imagecache_actions.inc:271,277,277,277
+msgid "radius: "
+msgstr "радиус: "
+
+#: imagecache_actions.inc:272,278,278,278
+msgid "sigma: "
+msgstr "сигма: "
+
+#: imagecache_actions.inc:273,279,279,279
+msgid "amount: "
+msgstr "сумма: "
+
+#: imagecache_actions.inc:274,280,280,280
+msgid "threshold: "
+msgstr "порог: "
+
+#: imagecache_actions.inc:286,292,292,328,299,292,299,304,292,335,337,335,337,337,335
+msgid "imagecache_sharpen_image failed. image: %image, data: %data."
+msgstr ""
+"imagecache_sharpen_image неудачно. изображение: "
+"%image, данные: %data."
+
+#: imagecache_image.module:40,40
+msgid ""
+"<p>Note: 'Original' dimensions \n"
+"      will only be used to resize images when they are first uploaded. "
+"Existing \n"
+"      originals will not be modified. Choose an <a "
+"href=\"!imagecache_settings\">imagecache preset</a> \n"
+"      to use to generate this derivative image. </p>"
+msgstr ""
+"<p>Примечание: 'Оригинальные' размеры "
+"будут использованы лишь для изменения "
+"размеров изображений при первой "
+"загрузке. Существующие оригиналы не "
+"будут изменены. Выберите <a "
+"href=\"%21imagecache_settings\">пресет imagecache</a> \r\n"
+"      для генерации произвольного "
+"изображения. </p>"
+
+#: imagecache_image.module:0
+msgid "imagecache_image"
+msgstr "imagecache_image"
+
+#: imagecache_image.info:0,0,0,0
+msgid "ImageCache 4 Image"
+msgstr "ImageCache 4 изображения"
+
+#: imagecache_image.info:0,0,0,0
+msgid "Imagecache integration for Image module."
+msgstr "Интеграция Imagecache для модуля Image."
+
+#: imagecache.install:18,19,19,19,19
+msgid "Imagecache requires ImageAPI to function."
+msgstr ""
+"Для функционирования Imagecache требуется "
+"ImageAPI."
+
+#: imagecache.module:550,627,573,636,594,608,608,609,638,638,638,652
+msgid "@preset image"
+msgstr "@preset изображение"
+
+#: imagecache.module:554,631,577,640,598,612,612,613,642,642,642,656
+msgid "@preset image linked to node"
+msgstr ""
+"@preset изображение со ссылкой на "
+"материал"
+
+#: imagecache.module:558,635,581,644,602,616,616,617,646,646,646,660
+msgid "@preset image linked to image"
+msgstr ""
+"@preset изображение со ссылкой на "
+"исходное изображение"
+
+#: imagecache.module:562,639,585,648,606,620,620,621,650,650,650,664
+msgid "@preset file path"
+msgstr "@preset путь к файлу"
+
+#: imagecache.module:566,643,589,652,610,624,624,625,654,654,654,668
+msgid "@preset URL"
+msgstr "@preset ссылка"
+
+#: imagecache_actions.inc:215,244,215,209,220,209
+msgid "degrees:"
+msgstr "градусы:"
+
+#: imagecache_actions.inc:216,245,216,210,221,210
+msgid "randomize:"
+msgstr "случайно:"
+
+#: imagecache_actions.inc:217,246,217,211,222,211
+msgid "background:"
+msgstr "фон:"
+
+#: imagecache_actions.inc:277,313,284,284,289
+msgid "radius:"
+msgstr "радиус:"
+
+#: imagecache_actions.inc:278,314,285,285,290
+msgid "sigma:"
+msgstr "сигма:"
+
+#: imagecache_actions.inc:279,315,286,286,291
+msgid "amount:"
+msgstr "сумма:"
+
+#: imagecache_actions.inc:280,316,287,287,292
+msgid "threshold:"
+msgstr "порог:"
+
+#: imagecache.module:415,377,420,398,412,412,413,420,420,426
+msgid "ImageCache already generating: %dst, Lock file: %tmp."
+msgstr ""
+"ImageCache уже создал: %dst, Блокировать файл: "
+"%tmp."
+
+#: imagecache_ui.module:11,15,15,15,15
+msgid "Manage ImageCache presets."
+msgstr "Управление правилами ImageCache."
+
+#: imagecache_ui.module:171,213; imagecache_ui.pages.inc:80,80
+msgid "Preset %name (ID: @id) was created."
+msgstr "Пресет %name (ID: @id) был создан."
+
+#: imagecache_ui.module:210,213,255; imagecache_ui.pages.inc:65,107,107,65
+msgid "Preset %name (ID: @id) was deleted."
+msgstr "Пресет %name (ID: @id) был удалён."
+
+#: imagecache_ui.module:236,239,281; imagecache_ui.pages.inc:92,134,134,92
+msgid "Preset %name (ID: @id) was flushed."
+msgstr ""
+"Набор правил %name (ID: @id) был сброшен в "
+"начальные значения."
+
+#: imagecache_ui.module:246,249,324; imagecache_ui.pages.inc:177,177
+msgid "The specified preset was not found."
+msgstr "Указанный пресет не был найден."
+
+#: imagecache_ui.module:438,483,437,482,567,612; imagecache_ui.pages.inc:429,416,462,416,462,429
+msgid "Unknown Action."
+msgstr "Неизвестное действие."
+
+#: imagecache_ui.module:443,487,442,486,572,616; imagecache_ui.pages.inc:433,421,466,421,466,433
+msgid "Unknown Preset."
+msgstr "Неизвестный пресет."
+
+#: imagecache_ui.module:472,471,601; imagecache_ui.pages.inc:421,450,450,421
+msgid "The action was succesfully updated."
+msgstr "Действие было обновлено успешно."
+
+#: imagecache_ui.module:476,475,605; imagecache_ui.pages.inc:454,454
+msgid "Unknown Action: @action_id"
+msgstr "Неизвестное действие: @action_id"
+
+#: imagecache_ui.info:0,0,0,0
+msgid "ImageCache UI"
+msgstr "ImageCache UI"
+
+#: imagecache.module:579,525,546,560,560,561
+msgid ""
+"Cached image file %dst already exists. There may be an issue with your "
+"rewrite configuration."
+msgstr ""
+"Кэшированный графический файл %dst уже "
+"существует. Возможна проблема с вашей "
+"конфигурацией перезаписи."
+
+#: imagecache_ui.pages.inc:375,375
+msgid "Unknown preset."
+msgstr "Неизвестные установки."
+
+#: imagecache_ui.module:134,238,158,200,134,238,134,238,134,238; imagecache_ui.pages.inc:51,51
+msgid ""
+"The namespace is used in URLs for images to tell imagecache how to "
+"process an image. Please only use alphanumeric characters, underscores "
+"(_), and hyphens (-) for preset names."
+msgstr ""
+"В пространстве имен, использованном в "
+"качестве ссылок на изображения, "
+"указывается imagecache как обрабатывать "
+"изображение. Для названий пресетов "
+"используйте, пожалуйста, только "
+"буквенно-цифровые символы, знаки "
+"подчёркивания (_) и дефисы (-)."
+
+#: imagecache_ui.module:160,184,187,229,160,160,160; imagecache_ui.pages.inc:284,73,73,284
+msgid ""
+"Please only use alphanumeric characters, underscores (_), and hyphens "
+"(-) for preset names."
+msgstr ""
+"В названиях пресетов используйте, "
+"пожалуйста, только буквенно-цифровые "
+"символы, знаки подчёркивания (_) и "
+"дефисы (-)."
+
+#: imagecache_ui.module:17,17,17,17
+msgid ""
+"Place the following snippet in your module as part of "
+"<code>hook_imagecache_default_presets()</code>."
+msgstr ""
+"Поместите следующий сниппет в ваш "
+"модуль в качестве части "
+"<code>hook_imagecache_default_presets()</code>."
+
+#: imagecache_ui.pages.inc:169,323,323,169; imagecache_ui.module:470
+msgid "Override Defaults"
+msgstr "Переопределить значения по умолчанию"
+
+#: imagecache.install:27,27,16,27,16,16,27
+msgid "%p is not a directory or is not readable by the webserver."
+msgstr ""
+"%p не является каталогом и не имеет "
+"прав на чтение."
+
+#: imagecache_actions.inc:238,209,203,209,214,203,243,244,243,244,244,243
+msgid ""
+"The background color to use for exposed areas of the image. Use "
+"web-style hex colors (#FFFFFF for white, #000000 for black). An empty "
+"value will cause images that support transparency to have transparent "
+"backgrounds, otherwise it will be white."
+msgstr ""
+"Цвет фона, используемый для "
+"экспонированных областей "
+"изображения. Используйте шестеричное "
+"обозначение цветов в веб-формате (#FFFFFF "
+"для белого, #000000 для черного). Если "
+"значение не задано, то для "
+"изображений, поддерживающих "
+"прозрачность, будет использоваться "
+"прозрачный фон, для других "
+"изображений - белый."
+
+#: imagecache_actions.inc:246,217,211,217,222,211
+msgid "Transparent/white"
+msgstr "Прозрачный/белый"
+
+#: imagecache.module:400,405,405,405,411
+msgid "404: Unable to find %image "
+msgstr "404: невозможно найти %image "
+
+#: imagecache.module:408,413,413,413,419
+msgid "403: File is not an image %image "
+msgstr "403: файл не является изображением %image "
+
+#: imagecache_ui.pages.inc:169,169
+msgid "Save Preset"
+msgstr "Сохранить установки"
+
+#: imagecache_ui.pages.inc:277,277
+msgid "The preset name you have chosen is already in use."
+msgstr ""
+"Выбранное вами название установок уже "
+"используется."
+
+#: imagecache_ui.pages.inc:379,360,360,379
+msgid "Unknown action."
+msgstr "Неизвестное действие."
+
+#: imagecache_ui.pages.inc:383,383
+msgid "This %action action is not associated %preset preset."
+msgstr ""
+"Выбранное действие (%action) не связано с "
+"установками (%preset preset)."
+
+#: imagecache_ui.pages.inc:410,410
+msgid "Create Action"
+msgstr "Создать действие"
+
+#: imagecache_ui.pages.inc:418,418
+msgid "The action was succesfully created."
+msgstr "Действие было создано успешно."
+
+#: imagecache.module:568,570,570,570,584
+msgid ""
+"Cached image file %dst already exists but is being regenerated. There "
+"may be an issue with your rewrite configuration."
+msgstr ""
+"Кэшированный графический файл %dst уже "
+"существует, но в настоящее время "
+"регенерируется. Возможно проблема с "
+"вашей конфигурацией перезаписи."
+
+#: imagecache.module:595,597,597,597,611
+msgid "There was an error saving the new image file %dst."
+msgstr ""
+"Возникла ошибка в сохранении нового "
+"графического файла %dst."
+
+#: imagecache_actions.inc:36,33,36,33,33,36
+msgid "width @width"
+msgstr "ширина @width"
+
+#: imagecache_actions.inc:36,33,36,33,33,36
+msgid "height @height"
+msgstr "высота @height"
+
+#: imagecache_actions.inc:56,51,56,51,51,56
+msgid "upscaling allowed"
+msgstr "разрешен ресайзинг"
+
+#: imagecache_actions.inc:251,252,251,252,252,251
+msgid "random between -@degrees&deg and @degrees&deg"
+msgstr "случайно между -@degrees&deg и @degrees&deg"
+
+#: imagecache_actions.inc:253,254,253,254,254,253
+msgid "@degrees&deg"
+msgstr "@degrees&deg"
+
+#: imagecache_actions.inc:129,124,129,124,124,129
+msgid "width: @width, height: @height, fit: @fit"
+msgstr "ширина: @width, высота: @height, fit: @fit"
+
+#: imagecache_actions.inc:184,185,184,185,185,184
+msgid "width: @width, height: @height, xoffset: @xoffset, yoffset: @yoffset"
+msgstr ""
+"ширина: @width, высота: @height, xoffset: @xoffset, "
+"yoffset: @yoffset"
+
+#: imagecache_actions.inc:319,321,319,321,321,319
+msgid "radius: @radius, sigma: @sigma, amount: @amount, threshold: @threshold"
+msgstr ""
+"радиус: @radius, сигма: @sigma, выравнивание: "
+"@amount, порог: @threshold"
+
+#: imagecache_image.module:40,40,40
+msgid ""
+"<p>Note: 'Original' dimensions\n"
+"      will only be used to resize images when they are first uploaded. "
+"Existing\n"
+"      originals will not be modified. Choose an <a "
+"href=\"!imagecache_settings\">imagecache preset</a>\n"
+"      to use to generate this derivative image. </p>"
+msgstr ""
+"<p>Замечание: 'Original' размер\r\n"
+"      будут использования только для "
+"изменения размеров изображения "
+"только при первой загрузк. "
+"Существующие\r\n"
+"      оригиналы не будут изменены. "
+"Выберите <a href=\"!imagecache_settings\">imagecache "
+"пресет</a>\r\n"
+"      для генерации произвольных "
+"изображений. </p>"
+
+#: imagecache.module:1135
+msgid "ImageCache: Flush ALL presets for this node's filefield images"
+msgstr ""
+"ImageCache: Удалить ВСЕ пресеты этого "
+"сообщения filefield изображений"
+
+#: imagecache.module:1143
+msgid "ImageCache: Generate ALL presets for this node's filefield images"
+msgstr ""
+"ImageCache: Генерировать ВСЕ предустановки "
+"для filefield-изображений этого материала"
+
+#: imagecache.module:1151
+msgid ""
+"ImageCache: Generate configured preset(s) for this node's filefield "
+"images"
+msgstr ""
+"ImageCache: Генерировать настроенную "
+"предустановку(ки) для "
+"filefield-изображений этого материала"
+
+#: imagecache.module:1238
+msgid "Select which imagecache presets will be effected"
+msgstr ""
+"Выберите, какие из "
+"imagecache-предустановок будут "
+"применяться"
+

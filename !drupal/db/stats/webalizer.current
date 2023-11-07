@@ -1,0 +1,217 @@
+# Webalizer V2.23-08 Incremental Data - 01/08/2022 13:59:33
+2022 1 8 13 59 33
+83 83 2 41 4 1 1676740 3 2 0
+1 41 43 7 8
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+42 42 857021 1 2 1
+41 41 819719 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+42 42 857021 2
+41 41 819719 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+83
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/modules/system/system.css
+0 2 0 19922 0 0
+/sites/all/themes/zen/logo.png
+1 2 0 110530 0 0
+/sites/default/files/slider_pics/slider_1.jpg
+1 2 0 207168 0 0
+/sites/default/files/slider_pics/slider_4.jpg
+1 2 0 76160 0 0
+/misc/drupal.js
+0 2 0 19548 0 0
+/sites/default/files/images/high_edu.jpg
+1 2 0 42080 0 0
+/modules/poll/poll.css
+0 2 0 1228 0 0
+/sites/all/themes/zen/zen-internals/css/print.css
+0 2 0 2576 0 0
+/sites/all/themes/zen/zen-internals/images/back_top_2_2.jpg
+1 2 0 744 0 0
+/sites/all/modules/views_nivo_slider/js/jquery.nivo.slider.pack.js
+0 2 0 14030 0 0
+/sites/default/files/images/zemlja.jpg
+1 2 0 5876 0 0
+/sites/all/modules/views_nivo_slider/styles/default/arrows.png
+1 2 0 950 0 0
+/sites/all/themes/zen/zen-internals/images/back_top_2_3.jpg
+1 2 0 828 0 0
+/sites/all/modules/date/date.css
+0 2 0 7608 0 0
+/sites/default/files/images/yale_university.jpg
+1 2 0 104792 0 0
+/sites/all/themes/zen/favicon.ico
+0 2 0 8572 0 0
+/sites/all/modules/views_nivo_slider/styles/default/custom-nivo-slider.css
+0 2 0 1902 0 0
+/modules/node/node.css
+0 2 0 1366 0 0
+/sites/all/modules/views_nivo_slider/js/views_nivo_slider.js
+0 2 0 1388 0 0
+/sites/all/modules/fckeditor/fckeditor.css
+0 2 0 1118 0 0
+/sites/all/modules/views_nivo_slider/js/nivo-slider.css
+0 2 0 2676 0 0
+/sites/all/modules/cck/theme/content-module.css
+0 2 0 4794 0 0
+/sites/all/themes/zen/zen-internals/images/nav_separator.png
+1 2 0 364 0 0
+/sites/all/themes/zen/zen-internals/css/zen-liquid.css
+0 2 0 83520 0 0
+/sites/all/modules/views/css/views.css
+0 2 0 3534 0 0
+/sites/all/modules/google_analytics/googleanalytics.js
+0 2 0 4536 0 0
+/
+0 3 0 49238 2 0
+/sites/all/modules/jquery_update/replace/jquery.min.js
+0 2 0 114508 0 0
+/modules/system/defaults.css
+0 2 0 1390 0 0
+/sites/default/files/images/summer_edu.jpg
+1 2 0 20810 0 0
+/sites/default/files/slider_pics/slider_2.jpg
+1 2 0 243210 0 0
+/sites/default/files/images/language_edu.jpg
+1 2 0 48812 0 0
+/sites/all/themes/zen/zen-internals/images/back_footer_2.png
+1 2 0 848 0 0
+/sites/all/modules/filefield/filefield.css
+0 2 0 2472 0 0
+/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css
+0 2 0 332 0 0
+/sites/default/files/images/common_edu.jpg
+1 2 0 55124 0 0
+/modules/system/system-menus.css
+0 2 0 1740 0 0
+/modules/user/user.css
+0 2 0 2134 0 0
+/sites/all/themes/zen/zen-internals/images/back_top_2_1.jpg
+1 2 0 770 0 0
+/sites/default/files/slider_pics/slider_3.jpg
+1 2 0 239896 0 0
+/sites/default/files/images/University.jpg
+1 2 0 167646 0 0
+# End Of Table - urls
+# -sites- (monthly)
+50.201.183.98
+0 42 42 857021 1 1641558124
+/
+122.55.94.34
+0 41 41 819719 1 1641650371
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+122.55.94.34
+0 41 41 819719 1 1641650371
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://fareastusaeducom.ipage.com/sites/all/themes/zen/zen-internals/css/zen-liquid.css
+1 10
+- (Direct Request)
+0 3
+http://fareastusaeducom.ipage.com/
+1 68
+http://fareastusaeducom.ipage.com/sites/all/modules/views_nivo_slider/styles/default/custom-nivo-slider.css
+1 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 83
+Netscape 6 compatible
+2 83
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

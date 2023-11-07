@@ -1,0 +1,5 @@
+#sddm li a { padding:11px 23px 11px 22px;}
+#sddm li.first a:hover{padding-left:21px;}
+#sddm li.last a {
+    padding: 11px 25px;
+}

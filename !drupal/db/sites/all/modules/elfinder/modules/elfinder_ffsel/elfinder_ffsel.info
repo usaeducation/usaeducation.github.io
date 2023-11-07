@@ -1,0 +1,14 @@
+name = elFinder File Field Source
+description = File Field Sources elFinder connector
+package = User interface
+core = 6.x
+project status url = https://drupal-elfinder.sourceforge.io/release-history.php
+
+dependencies[] = filefield_sources
+dependencies[] = elfinder
+
+; Information added by Drupal.org packaging script on 2018-07-31
+version = "6.x-2.x-dev"
+core = "6.x"
+project = "elfinder"
+datestamp = "1533057784"
